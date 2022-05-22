@@ -1,0 +1,30 @@
+Clockwork Alpha
+Difficulty: Beginner through Expert\\Exploration themed levels\providing a balanced challenge\Author: Challenge Space Yard\
+csy
+shot-csy/Cross.png
+60000	102000	150000	1000	650	300
+map-csy/Cross.sol
+map-csy/Pinwheel.sol
+map-csy/GiantNtiny.sol
+map-csy/SpiralOut.sol
+map-csy/TelePuzzle.sol
+map-csy/SymmetryChallenge.sol
+map-csy/SpiralIn.sol
+map-csy/Intermediate.sol
+map-csy/CollectibleClock.sol
+map-csy/NarrowBends.sol
+map-csy/InvisibleRoad.sol
+map-csy/Crosses.sol
+map-csy/SwitchReaction.sol
+map-csy/Turbines.sol
+map-csy/RotationPuz.sol
+map-csy/JumpMastery.sol
+map-csy/GlassyIntersection.sol
+map-csy/DaisyChain.sol
+map-csy/TimePressure.sol
+map-csy/AmazingPath.sol
+map-csy/BentRoad.sol
+map-csy/WebTree.sol
+map-csy/ForkedRoad.sol
+map-csy/ClockPuz.sol
+map-csy/HyperSpeed.sol
