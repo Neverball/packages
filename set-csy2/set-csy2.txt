@@ -1,0 +1,30 @@
+Clockwork Beta
+Difficulty: Intermediate through Insane\\Levels providing a greater\challenge for the experienced players\Author: Challenge Space Yard\
+csy2
+shot-csy2/Curvesanity.png
+78000	111000	150000	1000	700	400
+map-csy2/Curvesanity.sol
+map-csy2/DodgeThwomps.sol
+map-csy2/SlopeSpiralRoad.sol
+map-csy2/Clockwork.sol
+map-csy2/Minesweeper.sol
+map-csy2/Jumpers.sol
+map-csy2/SpeedJumps.sol
+map-csy2/TrainsX.sol
+map-csy2/RoadBumps.sol
+map-csy2/Pinball.sol
+map-csy2/RocketRide.sol
+map-csy2/CrazyHills.sol
+map-csy2/Twister.sol
+map-csy2/WarpZone1.sol
+map-csy2/DragonSlayer.sol
+map-csy2/DDN.sol
+map-csy2/Impossible.sol
+map-csy2/Illusion.sol
+map-csy2/RiskyBanks.sol
+map-csy2/LayeredTop.sol
+map-csy2/Seesaw.sol
+map-csy2/Instability.sol
+map-csy2/FuriousHoops.sol
+map-csy2/WarpZone2.sol
+map-csy2/Koan.sol
