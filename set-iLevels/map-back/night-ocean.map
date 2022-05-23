@@ -6,7 +6,7 @@
 // entity 1
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "21.976601"
 "height" "4.395320 0 -1"
 "xrot" "-15.616864"
@@ -18,7 +18,7 @@
 // entity 2
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "14.166620"
 "height" "2.833324 0 -1"
 "xrot" "-16.663565"
@@ -30,7 +30,7 @@
 // entity 3
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "17.701014"
 "height" "3.540203 0 -1"
 "xrot" "-12.487197"
@@ -42,7 +42,7 @@
 // entity 4
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "12.124039"
 "height" "2.424808 0 -1"
 "xrot" "-12.414320"
@@ -54,7 +54,7 @@
 // entity 5
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "22.062651"
 "height" "4.412530 0 -1"
 "xrot" "-18.599377"
@@ -66,7 +66,7 @@
 // entity 6
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "24.983868"
 "height" "4.996774 0 -1"
 "xrot" "-21.650972"
@@ -78,7 +78,7 @@
 // entity 7
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "14.440475"
 "height" "2.888095 0 -1"
 "xrot" "-10.574863"
@@ -90,7 +90,7 @@
 // entity 8
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "14.387752"
 "height" "2.877550 0 -1"
 "xrot" "-14.123280"
@@ -102,7 +102,7 @@
 // entity 9
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "23.372942"
 "height" "4.674588 0 -1"
 "xrot" "-11.137047"
@@ -114,7 +114,7 @@
 // entity 10
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "11.046329"
 "height" "2.209266 0 -1"
 "xrot" "-10.822752"
@@ -126,7 +126,7 @@
 // entity 11
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "19.948404"
 "height" "3.989681 0 -1"
 "xrot" "-23.102152"
@@ -138,7 +138,7 @@
 // entity 12
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "16.865526"
 "height" "3.373105 0 -1"
 "xrot" "-23.899466"
@@ -150,7 +150,7 @@
 // entity 13
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "22.763796"
 "height" "4.552759 0 -1"
 "xrot" "-9.647750"
@@ -162,7 +162,7 @@
 // entity 14
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "17.688030"
 "height" "3.537606 0 -1"
 "xrot" "-15.941817"
@@ -174,7 +174,7 @@
 // entity 15
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "23.977526"
 "height" "4.795505 0 -1"
 "xrot" "-24.871532"
@@ -186,7 +186,7 @@
 // entity 16
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "19.599682"
 "height" "3.919936 0 -1"
 "xrot" "-17.680113"
@@ -198,7 +198,7 @@
 // entity 17
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "23.201128"
 "height" "4.640225 0 -1"
 "xrot" "-20.575630"
@@ -210,7 +210,7 @@
 // entity 18
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "15.255403"
 "height" "3.051080 0 -1"
 "xrot" "-18.929432"
@@ -222,7 +222,7 @@
 // entity 19
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "22.880144"
 "height" "4.576029 0 -1"
 "xrot" "-12.933408"
@@ -234,7 +234,7 @@
 // entity 20
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "20.263277"
 "height" "4.052655 0 -1"
 "xrot" "-15.549819"
@@ -246,7 +246,7 @@
 // entity 21
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "23.801924"
 "height" "4.760385 0 -1"
 "xrot" "-19.251623"
@@ -258,7 +258,7 @@
 // entity 22
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "19.293947"
 "height" "3.858789 0 -1"
 "xrot" "-12.357708"
@@ -270,7 +270,7 @@
 // entity 23
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "13.391600"
 "height" "2.678320 0 -1"
 "xrot" "-17.203241"
@@ -282,7 +282,7 @@
 // entity 24
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "12.544106"
 "height" "2.508821 0 -1"
 "xrot" "-13.313728"
@@ -294,7 +294,7 @@
 // entity 25
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "21.407129"
 "height" "4.281426 0 -1"
 "xrot" "-21.767469"
@@ -306,7 +306,7 @@
 // entity 26
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "21.246563"
 "height" "4.249312 0 -1"
 "xrot" "-11.918447"
@@ -318,7 +318,7 @@
 // entity 27
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "13.666191"
 "height" "2.733238 0 -1"
 "xrot" "-18.850321"
@@ -330,7 +330,7 @@
 // entity 28
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "12.461529"
 "height" "2.492306 0 -1"
 "xrot" "-21.786409"
@@ -342,7 +342,7 @@
 // entity 29
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "17.823450"
 "height" "3.564690 0 -1"
 "xrot" "-9.781719"
@@ -354,7 +354,7 @@
 // entity 30
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "19.848455"
 "height" "3.969691 0 -1"
 "xrot" "-10.903555"
@@ -366,7 +366,7 @@
 // entity 31
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "12.023536"
 "height" "2.404707 0 -1"
 "xrot" "-11.224761"
@@ -378,7 +378,7 @@
 // entity 32
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "16.921307"
 "height" "3.384261 0 -1"
 "xrot" "-23.685551"
@@ -390,7 +390,7 @@
 // entity 33
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "12.367107"
 "height" "2.473422 0 -1"
 "xrot" "-11.260950"
@@ -402,7 +402,7 @@
 // entity 34
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "24.966986"
 "height" "4.993397 0 -1"
 "xrot" "-10.196307"
@@ -414,7 +414,7 @@
 // entity 35
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "23.846037"
 "height" "4.769207 0 -1"
 "xrot" "-23.596275"
@@ -426,7 +426,7 @@
 // entity 36
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "23.695400"
 "height" "4.739080 0 -1"
 "xrot" "-20.656401"
@@ -438,7 +438,7 @@
 // entity 37
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "16.788637"
 "height" "3.357728 0 -1"
 "xrot" "-13.362013"
@@ -450,7 +450,7 @@
 // entity 38
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "14.564427"
 "height" "2.912885 0 -1"
 "xrot" "-13.632621"
@@ -462,7 +462,7 @@
 // entity 39
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "19.433649"
 "height" "3.886730 0 -1"
 "xrot" "-10.285713"
@@ -474,7 +474,7 @@
 // entity 40
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "23.099070"
 "height" "4.619814 0 -1"
 "xrot" "-10.620394"
@@ -486,7 +486,7 @@
 // entity 41
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "24.753937"
 "height" "4.950788 0 -1"
 "xrot" "-11.364746"
@@ -498,7 +498,7 @@
 // entity 42
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "23.334230"
 "height" "4.666846 0 -1"
 "xrot" "-20.632570"
@@ -510,7 +510,7 @@
 // entity 43
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "13.437055"
 "height" "2.687411 0 -1"
 "xrot" "-18.479879"
@@ -522,7 +522,7 @@
 // entity 44
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "11.112414"
 "height" "2.222483 0 -1"
 "xrot" "-16.785900"
@@ -534,7 +534,7 @@
 // entity 45
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "24.571985"
 "height" "4.914397 0 -1"
 "xrot" "-12.253078"
@@ -546,7 +546,7 @@
 // entity 46
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "17.072252"
 "height" "3.414450 0 -1"
 "xrot" "-11.587379"
@@ -558,7 +558,7 @@
 // entity 47
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "22.715267"
 "height" "4.543054 0 -1"
 "xrot" "-14.729956"
@@ -570,7 +570,7 @@
 // entity 48
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "22.498650"
 "height" "4.499730 0 -1"
 "xrot" "-16.482327"
@@ -582,7 +582,7 @@
 // entity 49
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "14.574335"
 "height" "2.914867 0 -1"
 "xrot" "-14.269844"
@@ -594,7 +594,7 @@
 // entity 50
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "16.209757"
 "height" "3.241951 0 -1"
 "xrot" "-12.563168"
@@ -606,7 +606,7 @@
 // entity 51
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "12.769337"
 "height" "2.553867 0 -1"
 "xrot" "-12.393928"
@@ -618,7 +618,7 @@
 // entity 52
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "21.106577"
 "height" "4.221315 0 -1"
 "xrot" "-11.482353"
@@ -630,7 +630,7 @@
 // entity 53
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "13.858982"
 "height" "2.771796 0 -1"
 "xrot" "-11.915402"
@@ -642,7 +642,7 @@
 // entity 54
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "20.291874"
 "height" "4.058375 0 -1"
 "xrot" "-18.197371"
@@ -654,7 +654,7 @@
 // entity 55
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "18.898172"
 "height" "3.779634 0 -1"
 "xrot" "-16.180487"
@@ -666,7 +666,7 @@
 // entity 56
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "14.944632"
 "height" "2.988926 0 -1"
 "xrot" "-11.087217"
@@ -678,7 +678,7 @@
 // entity 57
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "14.972186"
 "height" "2.994437 0 -1"
 "xrot" "-26.401957"
@@ -690,7 +690,7 @@
 // entity 58
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "21.473072"
 "height" "4.294614 0 -1"
 "xrot" "-9.725593"
@@ -702,7 +702,7 @@
 // entity 59
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "21.614103"
 "height" "4.322821 0 -1"
 "xrot" "-11.905354"
@@ -714,7 +714,7 @@
 // entity 60
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "21.904852"
 "height" "4.380970 0 -1"
 "xrot" "-10.401687"
@@ -726,7 +726,7 @@
 // entity 61
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "23.109684"
 "height" "4.621937 0 -1"
 "xrot" "-10.089858"
@@ -738,7 +738,7 @@
 // entity 62
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "22.968685"
 "height" "4.593737 0 -1"
 "xrot" "-20.667095"
@@ -750,7 +750,7 @@
 // entity 63
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "14.365799"
 "height" "2.873160 0 -1"
 "xrot" "-10.499522"
@@ -762,7 +762,7 @@
 // entity 64
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "19.046633"
 "height" "3.809327 0 -1"
 "xrot" "-11.511298"
@@ -774,7 +774,7 @@
 // entity 65
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "13.329483"
 "height" "2.665897 0 -1"
 "xrot" "-11.541479"
@@ -786,7 +786,7 @@
 // entity 66
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "14.872105"
 "height" "2.974421 0 -1"
 "xrot" "-21.390436"
@@ -798,7 +798,7 @@
 // entity 67
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "22.271914"
 "height" "4.454383 0 -1"
 "xrot" "-12.560211"
@@ -810,7 +810,7 @@
 // entity 68
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "19.133244"
 "height" "3.826649 0 -1"
 "xrot" "-15.617792"
@@ -822,7 +822,7 @@
 // entity 69
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "19.708111"
 "height" "3.941622 0 -1"
 "xrot" "-23.588339"
@@ -834,7 +834,7 @@
 // entity 70
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "16.409916"
 "height" "3.281983 0 -1"
 "xrot" "-16.736177"
@@ -846,7 +846,7 @@
 // entity 71
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "21.426666"
 "height" "4.285333 0 -1"
 "xrot" "-18.087061"
@@ -858,7 +858,7 @@
 // entity 72
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "17.765720"
 "height" "3.553144 0 -1"
 "xrot" "-10.246239"
@@ -870,7 +870,7 @@
 // entity 73
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "15.915826"
 "height" "3.183165 0 -1"
 "xrot" "-15.105319"
@@ -882,7 +882,7 @@
 // entity 74
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "24.772669"
 "height" "4.954534 0 -1"
 "xrot" "-11.494803"
@@ -894,7 +894,7 @@
 // entity 75
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "10.081128"
 "height" "2.016226 0 -1"
 "xrot" "-21.456598"
@@ -906,7 +906,7 @@
 // entity 76
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "22.983023"
 "height" "4.596604 0 -1"
 "xrot" "-17.483864"
@@ -918,7 +918,7 @@
 // entity 77
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "20.618637"
 "height" "4.123727 0 -1"
 "xrot" "-14.756858"
@@ -930,7 +930,7 @@
 // entity 78
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "11.493389"
 "height" "2.298678 0 -1"
 "xrot" "-10.377357"
@@ -942,7 +942,7 @@
 // entity 79
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "11.975533"
 "height" "2.395107 0 -1"
 "xrot" "-12.191571"
@@ -954,7 +954,7 @@
 // entity 80
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "20.381147"
 "height" "4.076230 0 -1"
 "xrot" "-14.629901"
@@ -966,7 +966,7 @@
 // entity 81
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "17.948488"
 "height" "3.589698 0 -1"
 "xrot" "-12.921976"
@@ -978,7 +978,7 @@
 // entity 82
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "17.148769"
 "height" "3.429754 0 -1"
 "xrot" "-17.267071"
@@ -990,7 +990,7 @@
 // entity 83
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "18.942944"
 "height" "3.788589 0 -1"
 "xrot" "-13.697354"
@@ -1002,7 +1002,7 @@
 // entity 84
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "23.855917"
 "height" "4.771183 0 -1"
 "xrot" "-23.678755"
@@ -1014,7 +1014,7 @@
 // entity 85
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "14.362430"
 "height" "2.872486 0 -1"
 "xrot" "-19.013660"
@@ -1026,7 +1026,7 @@
 // entity 86
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "19.887190"
 "height" "3.977438 0 -1"
 "xrot" "-16.495102"
@@ -1038,7 +1038,7 @@
 // entity 87
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "22.541555"
 "height" "4.508311 0 -1"
 "xrot" "-11.066153"
@@ -1050,7 +1050,7 @@
 // entity 88
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "11.645990"
 "height" "2.329198 0 -1"
 "xrot" "-19.705273"
@@ -1062,7 +1062,7 @@
 // entity 89
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "16.017815"
 "height" "3.203563 0 -1"
 "xrot" "-11.585592"
@@ -1074,7 +1074,7 @@
 // entity 90
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "17.992689"
 "height" "3.598538 0 -1"
 "xrot" "-18.880648"
@@ -1086,7 +1086,7 @@
 // entity 91
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "15.732507"
 "height" "3.146501 0 -1"
 "xrot" "-25.912045"
@@ -1098,7 +1098,7 @@
 // entity 92
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "18.284746"
 "height" "3.656949 0 -1"
 "xrot" "-18.198536"
@@ -1110,7 +1110,7 @@
 // entity 93
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "14.679257"
 "height" "2.935852 0 -1"
 "xrot" "-10.806125"
@@ -1122,7 +1122,7 @@
 // entity 94
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "19.276701"
 "height" "3.855340 0 -1"
 "xrot" "-13.605278"
@@ -1134,7 +1134,7 @@
 // entity 95
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "20.783009"
 "height" "4.156602 0 -1"
 "xrot" "-15.512479"
@@ -1146,7 +1146,7 @@
 // entity 96
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "10.953409"
 "height" "2.190682 0 -1"
 "xrot" "-20.952904"
@@ -1158,7 +1158,7 @@
 // entity 97
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "18.517466"
 "height" "3.703493 0 -1"
 "xrot" "-12.594303"
@@ -1170,7 +1170,7 @@
 // entity 98
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "19.830523"
 "height" "3.966105 0 -1"
 "xrot" "-17.247841"
@@ -1182,7 +1182,7 @@
 // entity 99
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "23.185141"
 "height" "4.637028 0 -1"
 "xrot" "-16.548788"
@@ -1194,7 +1194,7 @@
 // entity 100
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "12.357088"
 "height" "2.471418 0 -1"
 "xrot" "-10.231918"
@@ -1206,7 +1206,7 @@
 // entity 101
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "12.866674"
 "height" "2.573335 0 -1"
 "xrot" "-12.004991"
@@ -1218,7 +1218,7 @@
 // entity 102
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "21.084391"
 "height" "4.216878 0 -1"
 "xrot" "-10.349599"
@@ -1230,7 +1230,7 @@
 // entity 103
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "24.001301"
 "height" "4.800260 0 -1"
 "xrot" "-9.939856"
@@ -1242,7 +1242,7 @@
 // entity 104
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "22.212082"
 "height" "4.442416 0 -1"
 "xrot" "-9.854857"
@@ -1254,7 +1254,7 @@
 // entity 105
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "14.868121"
 "height" "2.973624 0 -1"
 "xrot" "-9.491524"
@@ -1266,7 +1266,7 @@
 // entity 106
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "21.631323"
 "height" "4.326264 0 -1"
 "xrot" "-12.392547"
@@ -1278,7 +1278,7 @@
 // entity 107
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "12.504319"
 "height" "2.500864 0 -1"
 "xrot" "-12.755163"
@@ -1290,7 +1290,7 @@
 // entity 108
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "16.187239"
 "height" "3.237448 0 -1"
 "xrot" "-10.319378"
@@ -1302,7 +1302,7 @@
 // entity 109
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "12.225129"
 "height" "2.445026 0 -1"
 "xrot" "-12.310431"
@@ -1314,7 +1314,7 @@
 // entity 110
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "22.489136"
 "height" "4.497827 0 -1"
 "xrot" "-11.759618"
@@ -1326,7 +1326,7 @@
 // entity 111
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "10.727495"
 "height" "2.145499 0 -1"
 "xrot" "-14.174949"
@@ -1338,7 +1338,7 @@
 // entity 112
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "12.159730"
 "height" "2.431946 0 -1"
 "xrot" "-12.393756"
@@ -1350,7 +1350,7 @@
 // entity 113
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "20.763950"
 "height" "4.152790 0 -1"
 "xrot" "-15.413795"
@@ -1362,7 +1362,7 @@
 // entity 114
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "17.160421"
 "height" "3.432084 0 -1"
 "xrot" "-13.002167"
@@ -1374,7 +1374,7 @@
 // entity 115
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "18.959196"
 "height" "3.791839 0 -1"
 "xrot" "-23.525543"
@@ -1386,7 +1386,7 @@
 // entity 116
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "21.069078"
 "height" "4.213816 0 -1"
 "xrot" "-12.472511"
@@ -1398,7 +1398,7 @@
 // entity 117
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "24.233662"
 "height" "4.846732 0 -1"
 "xrot" "-10.487023"
@@ -1410,7 +1410,7 @@
 // entity 118
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "13.287041"
 "height" "2.657408 0 -1"
 "xrot" "-16.694780"
@@ -1422,7 +1422,7 @@
 // entity 119
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "24.509153"
 "height" "4.901831 0 -1"
 "xrot" "-14.507328"
@@ -1434,7 +1434,7 @@
 // entity 120
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "23.571722"
 "height" "4.714345 0 -1"
 "xrot" "-11.049571"
@@ -1446,7 +1446,7 @@
 // entity 121
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "16.035681"
 "height" "3.207136 0 -1"
 "xrot" "-9.693859"
@@ -1458,7 +1458,7 @@
 // entity 122
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "17.169413"
 "height" "3.433882 0 -1"
 "xrot" "-12.559441"
@@ -1470,7 +1470,7 @@
 // entity 123
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "19.098133"
 "height" "3.819627 0 -1"
 "xrot" "-10.008977"
@@ -1482,7 +1482,7 @@
 // entity 124
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "19.697803"
 "height" "3.939561 0 -1"
 "xrot" "-15.970414"
@@ -1494,7 +1494,7 @@
 // entity 125
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "18.413076"
 "height" "3.682615 0 -1"
 "xrot" "-12.845592"
@@ -1506,7 +1506,7 @@
 // entity 126
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "10.136102"
 "height" "2.027220 0 -1"
 "xrot" "-25.723764"
@@ -1518,7 +1518,7 @@
 // entity 127
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "23.999088"
 "height" "4.799818 0 -1"
 "xrot" "-11.130448"
@@ -1530,7 +1530,7 @@
 // entity 128
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "19.585138"
 "height" "3.917028 0 -1"
 "xrot" "-14.203721"
@@ -1542,7 +1542,7 @@
 // entity 129
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "15.490419"
 "height" "3.098084 0 -1"
 "xrot" "-17.500200"
@@ -1554,7 +1554,7 @@
 // entity 130
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "24.199608"
 "height" "4.839921 0 -1"
 "xrot" "-14.370013"
@@ -1566,7 +1566,7 @@
 // entity 131
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "23.868093"
 "height" "4.773619 0 -1"
 "xrot" "-12.548311"
@@ -1578,7 +1578,7 @@
 // entity 132
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "19.391876"
 "height" "3.878375 0 -1"
 "xrot" "-20.541964"
@@ -1590,7 +1590,7 @@
 // entity 133
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "10.207994"
 "height" "2.041599 0 -1"
 "xrot" "-18.963650"
@@ -1602,7 +1602,7 @@
 // entity 134
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "23.728310"
 "height" "4.745662 0 -1"
 "xrot" "-14.569730"
@@ -1614,7 +1614,7 @@
 // entity 135
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "17.446465"
 "height" "3.489293 0 -1"
 "xrot" "-23.661510"
@@ -1626,7 +1626,7 @@
 // entity 136
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "18.492468"
 "height" "3.698493 0 -1"
 "xrot" "-18.571857"
@@ -1638,7 +1638,7 @@
 // entity 137
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "21.300739"
 "height" "4.260148 0 -1"
 "xrot" "-15.017971"
@@ -1650,7 +1650,7 @@
 // entity 138
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "13.014203"
 "height" "2.602841 0 -1"
 "xrot" "-25.018856"
@@ -1662,7 +1662,7 @@
 // entity 139
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "19.700678"
 "height" "3.940135 0 -1"
 "xrot" "-16.808119"
@@ -1674,7 +1674,7 @@
 // entity 140
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "20.480696"
 "height" "4.096139 0 -1"
 "xrot" "-11.164584"
@@ -1686,7 +1686,7 @@
 // entity 141
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "14.468998"
 "height" "2.893800 0 -1"
 "xrot" "-17.094019"
@@ -1698,7 +1698,7 @@
 // entity 142
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "11.521812"
 "height" "2.304363 0 -1"
 "xrot" "-12.905106"
@@ -1710,7 +1710,7 @@
 // entity 143
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "10.870784"
 "height" "2.174157 0 -1"
 "xrot" "-21.453657"
@@ -1722,7 +1722,7 @@
 // entity 144
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "17.035749"
 "height" "3.407150 0 -1"
 "xrot" "-24.209749"
@@ -1734,7 +1734,7 @@
 // entity 145
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "17.145321"
 "height" "3.429064 0 -1"
 "xrot" "-20.494892"
@@ -1746,7 +1746,7 @@
 // entity 146
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "20.940966"
 "height" "4.188193 0 -1"
 "xrot" "-13.687397"
@@ -1758,7 +1758,7 @@
 // entity 147
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "10.249759"
 "height" "2.049952 0 -1"
 "xrot" "-12.436889"
@@ -1770,7 +1770,7 @@
 // entity 148
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "16.014780"
 "height" "3.202956 0 -1"
 "xrot" "-19.506746"
@@ -1782,7 +1782,7 @@
 // entity 149
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "14.035336"
 "height" "2.807067 0 -1"
 "xrot" "-12.315304"
@@ -1794,7 +1794,7 @@
 // entity 150
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "13.871675"
 "height" "2.774335 0 -1"
 "xrot" "-19.284088"
@@ -1806,7 +1806,7 @@
 // entity 151
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "19.011440"
 "height" "3.802288 0 -1"
 "xrot" "-10.528668"
@@ -1818,7 +1818,7 @@
 // entity 152
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "13.753155"
 "height" "2.750631 0 -1"
 "xrot" "-13.683450"
@@ -1830,7 +1830,7 @@
 // entity 153
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "19.171164"
 "height" "3.834233 0 -1"
 "xrot" "-13.844944"
@@ -1842,7 +1842,7 @@
 // entity 154
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "15.159391"
 "height" "3.031878 0 -1"
 "xrot" "-9.723500"
@@ -1854,7 +1854,7 @@
 // entity 155
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "17.308813"
 "height" "3.461763 0 -1"
 "xrot" "-25.511591"
@@ -1866,7 +1866,7 @@
 // entity 156
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "17.012064"
 "height" "3.402413 0 -1"
 "xrot" "-10.723289"
@@ -1878,7 +1878,7 @@
 // entity 157
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "10.650921"
 "height" "2.130184 0 -1"
 "xrot" "-14.260131"
@@ -1890,7 +1890,7 @@
 // entity 158
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "11.392876"
 "height" "2.278575 0 -1"
 "xrot" "-11.661012"
@@ -1902,7 +1902,7 @@
 // entity 159
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "21.359226"
 "height" "4.271845 0 -1"
 "xrot" "-20.572237"
@@ -1914,7 +1914,7 @@
 // entity 160
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "21.155907"
 "height" "4.231181 0 -1"
 "xrot" "-13.049548"
@@ -1926,7 +1926,7 @@
 // entity 161
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "11.522204"
 "height" "2.304441 0 -1"
 "xrot" "-10.987466"
@@ -1938,7 +1938,7 @@
 // entity 162
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "21.200954"
 "height" "4.240191 0 -1"
 "xrot" "-10.806467"
@@ -1950,7 +1950,7 @@
 // entity 163
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "11.450221"
 "height" "2.290044 0 -1"
 "xrot" "-9.864368"
@@ -1962,7 +1962,7 @@
 // entity 164
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "16.847713"
 "height" "3.369543 0 -1"
 "xrot" "-16.545343"
@@ -1974,7 +1974,7 @@
 // entity 165
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "11.949640"
 "height" "2.389928 0 -1"
 "xrot" "-16.878019"
@@ -1986,7 +1986,7 @@
 // entity 166
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "11.716886"
 "height" "2.343377 0 -1"
 "xrot" "-21.429598"
@@ -1998,7 +1998,7 @@
 // entity 167
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "17.933273"
 "height" "3.586655 0 -1"
 "xrot" "-19.376015"
@@ -2010,7 +2010,7 @@
 // entity 168
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "10.573973"
 "height" "2.114794 0 -1"
 "xrot" "-11.151671"
@@ -2022,7 +2022,7 @@
 // entity 169
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "12.402429"
 "height" "2.480486 0 -1"
 "xrot" "-19.358315"
@@ -2034,7 +2034,7 @@
 // entity 170
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "11.893329"
 "height" "2.378666 0 -1"
 "xrot" "-26.318085"
@@ -2046,7 +2046,7 @@
 // entity 171
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "20.270151"
 "height" "4.054030 0 -1"
 "xrot" "-11.049348"
@@ -2058,7 +2058,7 @@
 // entity 172
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "17.906124"
 "height" "3.581225 0 -1"
 "xrot" "-23.955915"
@@ -2070,7 +2070,7 @@
 // entity 173
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "18.942869"
 "height" "3.788574 0 -1"
 "xrot" "-22.301270"
@@ -2082,7 +2082,7 @@
 // entity 174
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "22.336388"
 "height" "4.467278 0 -1"
 "xrot" "-13.523916"
@@ -2094,7 +2094,7 @@
 // entity 175
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "15.613012"
 "height" "3.122602 0 -1"
 "xrot" "-19.105675"
@@ -2106,7 +2106,7 @@
 // entity 176
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "21.209156"
 "height" "4.241831 0 -1"
 "xrot" "-10.820855"
@@ -2118,7 +2118,7 @@
 // entity 177
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "19.528059"
 "height" "3.905612 0 -1"
 "xrot" "-10.634243"
@@ -2130,7 +2130,7 @@
 // entity 178
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "20.077612"
 "height" "4.015522 0 -1"
 "xrot" "-14.003944"
@@ -2142,7 +2142,7 @@
 // entity 179
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "12.159124"
 "height" "2.431825 0 -1"
 "xrot" "-12.807570"
@@ -2154,7 +2154,7 @@
 // entity 180
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "12.760380"
 "height" "2.552076 0 -1"
 "xrot" "-10.535112"
@@ -2166,7 +2166,7 @@
 // entity 181
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "11.533499"
 "height" "2.306700 0 -1"
 "xrot" "-22.432301"
@@ -2178,7 +2178,7 @@
 // entity 182
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "19.864645"
 "height" "3.972929 0 -1"
 "xrot" "-19.660988"
@@ -2190,7 +2190,7 @@
 // entity 183
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "24.045238"
 "height" "4.809048 0 -1"
 "xrot" "-13.943627"
@@ -2202,7 +2202,7 @@
 // entity 184
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "23.101208"
 "height" "4.620242 0 -1"
 "xrot" "-13.258490"
@@ -2214,7 +2214,7 @@
 // entity 185
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "22.194954"
 "height" "4.438991 0 -1"
 "xrot" "-12.481966"
@@ -2226,7 +2226,7 @@
 // entity 186
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "21.456457"
 "height" "4.291291 0 -1"
 "xrot" "-12.913152"
@@ -2238,7 +2238,7 @@
 // entity 187
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "12.590832"
 "height" "2.518166 0 -1"
 "xrot" "-23.434843"
@@ -2250,7 +2250,7 @@
 // entity 188
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "19.712833"
 "height" "3.942567 0 -1"
 "xrot" "-14.847548"
@@ -2262,7 +2262,7 @@
 // entity 189
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "11.562613"
 "height" "2.312522 0 -1"
 "xrot" "-10.345784"
@@ -2274,7 +2274,7 @@
 // entity 190
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "15.913581"
 "height" "3.182716 0 -1"
 "xrot" "-15.544241"
@@ -2286,7 +2286,7 @@
 // entity 191
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "16.482986"
 "height" "3.296597 0 -1"
 "xrot" "-23.747526"
@@ -2298,7 +2298,7 @@
 // entity 192
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "14.386477"
 "height" "2.877295 0 -1"
 "xrot" "-14.587097"
@@ -2310,7 +2310,7 @@
 // entity 193
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "11.891199"
 "height" "2.378240 0 -1"
 "xrot" "-13.071687"
@@ -2322,7 +2322,7 @@
 // entity 194
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "22.882990"
 "height" "4.576598 0 -1"
 "xrot" "-14.229362"
@@ -2334,7 +2334,7 @@
 // entity 195
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "23.511578"
 "height" "4.702315 0 -1"
 "xrot" "-20.061628"
@@ -2346,7 +2346,7 @@
 // entity 196
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "12.631197"
 "height" "2.526239 0 -1"
 "xrot" "-12.259701"
@@ -2358,7 +2358,7 @@
 // entity 197
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "22.918976"
 "height" "4.583795 0 -1"
 "xrot" "-11.093235"
@@ -2370,7 +2370,7 @@
 // entity 198
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "16.987522"
 "height" "3.397504 0 -1"
 "xrot" "-13.565387"
@@ -2382,7 +2382,7 @@
 // entity 199
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "12.902390"
 "height" "2.580478 0 -1"
 "xrot" "-11.655854"
@@ -2394,7 +2394,7 @@
 // entity 200
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "15.207945"
 "height" "3.041589 0 -1"
 "xrot" "-12.024912"
@@ -2406,7 +2406,7 @@
 // entity 201
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "16.901012"
 "height" "3.380203 0 -1"
 "xrot" "-12.365196"
@@ -2418,7 +2418,7 @@
 // entity 202
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "20.400555"
 "height" "4.080111 0 -1"
 "xrot" "-18.016136"
@@ -2430,7 +2430,7 @@
 // entity 203
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "15.239861"
 "height" "3.047972 0 -1"
 "xrot" "-12.232933"
@@ -2442,7 +2442,7 @@
 // entity 204
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "11.414798"
 "height" "2.282959 0 -1"
 "xrot" "-16.508615"
@@ -2454,7 +2454,7 @@
 // entity 205
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "14.264199"
 "height" "2.852840 0 -1"
 "xrot" "-9.545776"
@@ -2466,7 +2466,7 @@
 // entity 206
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "20.246475"
 "height" "4.049295 0 -1"
 "xrot" "-14.908773"
@@ -2478,7 +2478,7 @@
 // entity 207
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "11.550854"
 "height" "2.310171 0 -1"
 "xrot" "-21.326611"
@@ -2490,7 +2490,7 @@
 // entity 208
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "12.389866"
 "height" "2.477973 0 -1"
 "xrot" "-22.310881"
@@ -2502,7 +2502,7 @@
 // entity 209
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "17.985128"
 "height" "3.597026 0 -1"
 "xrot" "-15.595282"
@@ -2514,7 +2514,7 @@
 // entity 210
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "10.307625"
 "height" "2.061525 0 -1"
 "xrot" "-9.724831"
@@ -2526,7 +2526,7 @@
 // entity 211
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "16.287159"
 "height" "3.257432 0 -1"
 "xrot" "-10.128066"
@@ -2538,7 +2538,7 @@
 // entity 212
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "11.104568"
 "height" "2.220913 0 -1"
 "xrot" "-11.065027"
@@ -2550,7 +2550,7 @@
 // entity 213
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "22.532990"
 "height" "4.506598 0 -1"
 "xrot" "-14.597500"
@@ -2562,7 +2562,7 @@
 // entity 214
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "11.069830"
 "height" "2.213966 0 -1"
 "xrot" "-10.859218"
@@ -2574,7 +2574,7 @@
 // entity 215
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "23.962814"
 "height" "4.792563 0 -1"
 "xrot" "-15.782557"
@@ -2586,7 +2586,7 @@
 // entity 216
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "12.876578"
 "height" "2.575316 0 -1"
 "xrot" "-10.118328"
@@ -2598,7 +2598,7 @@
 // entity 217
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "24.525921"
 "height" "4.905184 0 -1"
 "xrot" "-22.975815"
@@ -2610,7 +2610,7 @@
 // entity 218
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "19.412767"
 "height" "3.882554 0 -1"
 "xrot" "-19.963104"
@@ -2622,7 +2622,7 @@
 // entity 219
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "15.257579"
 "height" "3.051516 0 -1"
 "xrot" "-24.984900"
@@ -2634,7 +2634,7 @@
 // entity 220
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "24.365641"
 "height" "4.873128 0 -1"
 "xrot" "-13.358922"
@@ -2646,7 +2646,7 @@
 // entity 221
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "24.940622"
 "height" "4.988124 0 -1"
 "xrot" "-15.002142"
@@ -2658,7 +2658,7 @@
 // entity 222
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "22.015358"
 "height" "4.403071 0 -1"
 "xrot" "-22.644127"
@@ -2670,7 +2670,7 @@
 // entity 223
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "10.104313"
 "height" "2.020863 0 -1"
 "xrot" "-11.491696"
@@ -2682,7 +2682,7 @@
 // entity 224
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "12.650505"
 "height" "2.530101 0 -1"
 "xrot" "-26.039486"
@@ -2694,7 +2694,7 @@
 // entity 225
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "23.050791"
 "height" "4.610158 0 -1"
 "xrot" "-9.948036"
@@ -2706,7 +2706,7 @@
 // entity 226
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "13.344669"
 "height" "2.668934 0 -1"
 "xrot" "-20.884943"
@@ -2718,7 +2718,7 @@
 // entity 227
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "16.918747"
 "height" "3.383749 0 -1"
 "xrot" "-10.410158"
@@ -2730,7 +2730,7 @@
 // entity 228
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "12.612036"
 "height" "2.522407 0 -1"
 "xrot" "-15.746014"
@@ -2742,7 +2742,7 @@
 // entity 229
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "19.418198"
 "height" "3.883640 0 -1"
 "xrot" "-16.206093"
@@ -2754,7 +2754,7 @@
 // entity 230
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "17.527531"
 "height" "3.505506 0 -1"
 "xrot" "-13.805570"
@@ -2766,7 +2766,7 @@
 // entity 231
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "20.405380"
 "height" "4.081076 0 -1"
 "xrot" "-12.264096"
@@ -2778,7 +2778,7 @@
 // entity 232
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "20.859629"
 "height" "4.171926 0 -1"
 "xrot" "-18.633753"
@@ -2790,7 +2790,7 @@
 // entity 233
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "15.010237"
 "height" "3.002047 0 -1"
 "xrot" "-20.277445"
@@ -2802,7 +2802,7 @@
 // entity 234
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "12.071706"
 "height" "2.414341 0 -1"
 "xrot" "-18.584446"
@@ -2814,7 +2814,7 @@
 // entity 235
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "11.944951"
 "height" "2.388990 0 -1"
 "xrot" "-15.769470"
@@ -2826,7 +2826,7 @@
 // entity 236
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "17.856180"
 "height" "3.571236 0 -1"
 "xrot" "-11.352805"
@@ -2838,7 +2838,7 @@
 // entity 237
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "22.661695"
 "height" "4.532339 0 -1"
 "xrot" "-13.494781"
@@ -2850,7 +2850,7 @@
 // entity 238
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "11.387406"
 "height" "2.277481 0 -1"
 "xrot" "-11.403540"
@@ -2862,7 +2862,7 @@
 // entity 239
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "13.996300"
 "height" "2.799260 0 -1"
 "xrot" "-10.263028"
@@ -2874,7 +2874,7 @@
 // entity 240
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "14.538702"
 "height" "2.907740 0 -1"
 "xrot" "-14.767010"
@@ -2886,7 +2886,7 @@
 // entity 241
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "19.806396"
 "height" "3.961279 0 -1"
 "xrot" "-13.838822"
@@ -2898,7 +2898,7 @@
 // entity 242
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "17.732977"
 "height" "3.546595 0 -1"
 "xrot" "-10.896115"
@@ -2910,7 +2910,7 @@
 // entity 243
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "18.005674"
 "height" "3.601135 0 -1"
 "xrot" "-11.397197"
@@ -2922,7 +2922,7 @@
 // entity 244
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "18.647190"
 "height" "3.729438 0 -1"
 "xrot" "-9.776554"
@@ -2934,7 +2934,7 @@
 // entity 245
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "16.409430"
 "height" "3.281886 0 -1"
 "xrot" "-13.801245"
@@ -2946,7 +2946,7 @@
 // entity 246
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "18.956703"
 "height" "3.791341 0 -1"
 "xrot" "-11.717977"
@@ -2958,7 +2958,7 @@
 // entity 247
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "21.863796"
 "height" "4.372759 0 -1"
 "xrot" "-14.409081"
@@ -2970,7 +2970,7 @@
 // entity 248
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "18.353615"
 "height" "3.670723 0 -1"
 "xrot" "-11.086097"
@@ -2982,7 +2982,7 @@
 // entity 249
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "11.682348"
 "height" "2.336470 0 -1"
 "xrot" "-19.822052"
@@ -2994,7 +2994,7 @@
 // entity 250
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "24.094740"
 "height" "4.818948 0 -1"
 "xrot" "-19.352766"
@@ -3006,7 +3006,7 @@
 // entity 251
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "19.684662"
 "height" "3.936932 0 -1"
 "xrot" "-11.517728"
@@ -3018,7 +3018,7 @@
 // entity 252
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "14.840422"
 "height" "2.968084 0 -1"
 "xrot" "-11.013782"
@@ -3030,7 +3030,7 @@
 // entity 253
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "15.850756"
 "height" "3.170151 0 -1"
 "xrot" "-21.282490"
@@ -3042,7 +3042,7 @@
 // entity 254
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "23.604465"
 "height" "4.720893 0 -1"
 "xrot" "-13.303433"
@@ -3054,7 +3054,7 @@
 // entity 255
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "10.474798"
 "height" "2.094960 0 -1"
 "xrot" "-20.892962"
@@ -3066,7 +3066,7 @@
 // entity 256
 {
 "classname" "info_null"
-"image" "png/wave"
+"image" "png/night-wave"
 "width" "20.698000"
 "height" "4.139600 0 -1"
 "xrot" "-12.290189"
