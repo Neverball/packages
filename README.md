@@ -4,6 +4,10 @@
 
 This repository serves as a source from which Neverball addon packages are built. Use the in-game addon manager to install them.
 
+## Something missing?
+
+If you know of any addons (levelsets, courses, ball skins, etc.) that are missing from here, please [drop a message](https://github.com/Neverball/packages/issues/new).
+
 ## Removals
 
 If you don't want to see your addon here or you think you have a legitimate reason to remove somebody else's addon from here, do get in touch.
