@@ -40,6 +40,8 @@ jobs:
         run: "(cd neverball && make -j2 sols)"
       - name: Build packages
         run: "(cd neverball && make -f mk/packages.mk -j2 PACKAGES_DIR=$(pwd)/../ OUTPUT_DIR=$(pwd)/../build/)"
+      - name: Build MP3s
+        run: "(cd neverball && make -f mk/packages.mk -j2 mp3s PACKAGES_DIR=$(pwd)/../ OUTPUT_DIR=$(pwd)/../build/)"
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
