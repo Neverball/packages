@@ -38,8 +38,6 @@ jobs:
           path: neverball
       - name: Install ffmpeg
         run: sudo apt-get install -y ffmpeg
-      - name: Build MP3s
-        run: "(cd neverball && make -f mk/packages.mk -j2 mp3s PACKAGES_DIR=$(pwd)/../ OUTPUT_DIR=$(pwd)/../build/)"
       - name: Build base SOLs
         run: "(cd neverball && make -j2 sols)"
       - name: Build packages
