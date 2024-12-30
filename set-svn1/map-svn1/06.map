@@ -1,0 +1,177 @@
+// Game: Neverball
+// Format: Quake3
+// entity 0
+{
+"classname" "worldspawn"
+"message" "A ramp? Yeah, there is a ramp."
+"back" "map-back/ocean.sol"
+"grad" "back/ocean.png"
+"song" "bgm/track2.ogg"
+"goal" "5"
+"time" "6000"
+"time_hs" "5"
+"goal_hs" "5"
+"coin_hs" "5"
+"version" "0.1"
+"author" "SVNMaster"
+"shot" "shot-svnone/06.jpg"
+// brush 0
+{
+( -120 -40 56 ) ( -120 64 56 ) ( -120 -40 64 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -88 -120 56 ) ( -88 -120 64 ) ( -8 -120 56 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -120 -48 56 ) ( -40 -48 56 ) ( -120 56 56 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -40 56 64 ) ( -40 -48 64 ) ( -120 56 64 ) mtrl/goal 0 0 0 0.5 0.5 0 0 0
+( -40 -8 64 ) ( -120 -8 64 ) ( -40 -8 56 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -8 48 64 ) ( -8 48 56 ) ( -8 -56 64 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+}
+// brush 1
+{
+( -128 -128 56 ) ( -128 0 56 ) ( -128 -128 64 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -128 -128 56 ) ( -128 -128 64 ) ( 0 -128 56 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -128 -136 48 ) ( 0 -136 48 ) ( -128 -8 48 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( 0 0 64 ) ( 0 -128 64 ) ( -128 0 64 ) mtrl/wood-light 0 0 0 0.5 0.5 0 0 0
+( 0 0 64 ) ( -128 0 64 ) ( 0 0 56 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( 0 0 64 ) ( 0 0 56 ) ( 0 -128 64 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+}
+// brush 2
+{
+( -88 -400 48 ) ( -88 -128 48 ) ( -88 -400 64 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -96 -512 48 ) ( -96 -512 64 ) ( -48 -512 48 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -88 -400 48 ) ( -40 -400 48 ) ( -88 -128 48 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -40 -128 64 ) ( -40 -400 64 ) ( -88 -128 64 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -40 -128 64 ) ( -88 -128 64 ) ( -40 -128 48 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -40 -128 64 ) ( -40 -128 48 ) ( -40 -400 64 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+}
+// brush 3
+{
+( -88 -512 64 ) ( -88 -448 64 ) ( -88 -512 80 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -88 -512 64 ) ( -88 -512 80 ) ( -40 -512 64 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -88 -512 64 ) ( -40 -512 64 ) ( -88 -448 64 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -88 -448 64 ) ( -40 -448 64 ) ( -40 -512 80 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -40 -448 80 ) ( -40 -448 64 ) ( -40 -512 80 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+}
+// brush 4
+{
+( -88 -704 64 ) ( -88 -640 64 ) ( -88 -704 80 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -48 -704 64 ) ( -96 -704 64 ) ( -88 -640 80 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -88 -704 64 ) ( -40 -704 64 ) ( -88 -640 64 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -40 -640 80 ) ( -88 -640 80 ) ( -40 -640 64 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -40 -640 80 ) ( -40 -640 64 ) ( -40 -704 80 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+}
+// brush 5
+{
+( -88 -704 48 ) ( -88 -640 48 ) ( -88 -704 64 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -88 -704 48 ) ( -88 -704 64 ) ( -40 -704 48 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -88 -704 48 ) ( -40 -704 48 ) ( -88 -640 48 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -40 -640 64 ) ( -40 -704 64 ) ( -88 -640 64 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -40 -640 64 ) ( -88 -640 64 ) ( -40 -640 48 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -40 -640 64 ) ( -40 -640 48 ) ( -40 -704 64 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+}
+// brush 6
+{
+( -88 -768 48 ) ( -88 -704 48 ) ( -88 -768 64 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -128 -1152 48 ) ( -128 -1152 64 ) ( -80 -1152 48 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -88 -768 48 ) ( -40 -768 48 ) ( -88 -704 48 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -40 -704 64 ) ( -40 -768 64 ) ( -88 -704 64 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -40 -704 64 ) ( -88 -704 64 ) ( -40 -704 48 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -40 -824 64 ) ( -40 -824 48 ) ( -40 -888 64 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+}
+// brush 7
+{
+( -128 -1280 48 ) ( -128 -1152 48 ) ( -128 -1280 64 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -128 -1280 48 ) ( -128 -1280 64 ) ( 0 -1280 48 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -128 -1280 48 ) ( 0 -1280 48 ) ( -128 -1152 48 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( 0 -1152 64 ) ( 0 -1280 64 ) ( -128 -1152 64 ) mtrl/wood-light 0 0 0 0.5 0.5 0 0 0
+( 0 -1152 64 ) ( -128 -1152 64 ) ( 0 -1152 48 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( 0 -1152 64 ) ( 0 -1152 48 ) ( 0 -1280 64 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+}
+// brush 8
+{
+( -120 -1272 48 ) ( -120 -1160 48 ) ( -120 -1272 64 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -120 -1272 48 ) ( -120 -1272 64 ) ( -8 -1272 48 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -120 -1272 56 ) ( -8 -1272 56 ) ( -120 -1160 56 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -8 -1160 64 ) ( -8 -1272 64 ) ( -120 -1160 64 ) mtrl/arrow-dark 0 0 0 0.5 0.5 0 0 0
+( -8 -1160 64 ) ( -120 -1160 64 ) ( -8 -1160 48 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -8 -1160 64 ) ( -8 -1160 48 ) ( -8 -1272 64 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+}
+}
+// entity 1
+{
+"classname" "light"
+"origin" "-64.000000 -192.000000 80.000000"
+"light" "1"
+}
+// entity 2
+{
+"classname" "light"
+"origin" "-64.000000 -1088.000000 80.000000"
+"light" "1"
+}
+// entity 3
+{
+"classname" "light"
+"origin" "-64.000000 -1024.000000 80.000000"
+"light" "1"
+}
+// entity 4
+{
+"classname" "light"
+"origin" "-64.000000 -960.000000 80.000000"
+"light" "1"
+}
+// entity 5
+{
+"classname" "light"
+"origin" "-64.000000 -896.000000 80.000000"
+"light" "1"
+}
+// entity 6
+{
+"classname" "light"
+"origin" "-64.000000 -832.000000 80.000000"
+"light" "1"
+}
+// entity 7
+{
+"classname" "light"
+"origin" "-64.000000 -768.000000 80.000000"
+"light" "1"
+}
+// entity 8
+{
+"classname" "light"
+"origin" "-64.000000 -384.000000 80.000000"
+"light" "1"
+}
+// entity 9
+{
+"classname" "light"
+"origin" "-64.000000 -320.000000 80.000000"
+"light" "1"
+}
+// entity 10
+{
+"classname" "light"
+"origin" "-64.000000 -256.000000 80.000000"
+"light" "1"
+}
+// entity 11
+{
+"classname" "info_player_start"
+"origin" "-64.000000 -1216.000000 88.000000"
+}
+// entity 12
+{
+"classname" "info_player_deathmatch"
+"origin" "-64.000000 -64.000000 88.000000"
+}
+// entity 13
+{
+"classname" "info_player_intermission"
+"origin" "-432 -1920 680"
+}
+// entity 14
+{
+"classname" "target_position"
+"origin" "-72 -936 72"
+}

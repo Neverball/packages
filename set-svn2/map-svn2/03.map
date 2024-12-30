@@ -1,0 +1,475 @@
+// Game: Neverball
+// Format: Quake3
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures;textures\editor;textures\mtrl"
+"author" "SVNMaster Tech"
+"grad" "back/sea_land.png"
+"song" "bgm/track1.ogg"
+"goal" "25"
+"coin_hs" "20"
+"goal_hs" "20"
+"shot" "shot-svntwo/03.jpg"
+// brush 0
+{
+( -128 1408 16 ) ( -128 1280 16 ) ( -128 1280 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -128 1280 16 ) ( 0 1280 16 ) ( 0 1280 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 0 1280 0 ) ( 0 1408 0 ) ( -128 1408 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -128 1408 16 ) ( 0 1408 16 ) ( 0 1280 16 ) mtrl/turf-green-goal 0 0 0 0.5 0.5
+( 0 1408 0 ) ( 0 1408 16 ) ( -128 1408 16 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 0 1280 16 ) ( 0 1408 16 ) ( 0 1408 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+}
+// brush 1
+{
+( -128 0 16 ) ( -128 -128 16 ) ( -128 -128 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -128 -128 16 ) ( 0 -128 16 ) ( 0 -128 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 0 -128 0 ) ( 0 0 0 ) ( -128 0 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -128 0 16 ) ( 0 0 16 ) ( 0 -128 16 ) mtrl/turf-green 0 0 0 0.5 0.5
+( 0 0 0 ) ( 0 0 16 ) ( -128 0 16 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 0 -128 16 ) ( 0 0 16 ) ( 0 0 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+}
+// brush 2
+{
+( -128 -256 16 ) ( -128 -384 16 ) ( -128 -384 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -128 -384 16 ) ( 0 -384 16 ) ( 0 -384 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 0 -384 0 ) ( 0 -256 0 ) ( -128 -256 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -128 -256 16 ) ( 0 -256 16 ) ( 0 -384 16 ) mtrl/turf-green 0 0 0 0.5 0.5
+( 0 -256 0 ) ( 0 -256 16 ) ( -128 -256 16 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 0 -384 16 ) ( 0 -256 16 ) ( 0 -256 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+}
+// brush 3
+{
+( -128 -384 16 ) ( -128 -512 16 ) ( -128 -512 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -128 -512 16 ) ( 0 -512 16 ) ( 0 -512 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 0 -512 0 ) ( 0 -384 0 ) ( -128 -384 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -128 -384 16 ) ( 0 -384 16 ) ( 0 -512 16 ) mtrl/turf-green 0 0 0 0.5 0.5
+( 0 -384 0 ) ( 0 -384 16 ) ( -128 -384 16 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 0 -512 16 ) ( 0 -384 16 ) ( 0 -384 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+}
+// brush 4
+{
+( -256 0 40 ) ( -256 -384 40 ) ( -256 -384 32 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -128 -384 0 ) ( -128 0 0 ) ( -256 0 32 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -256 -384 40 ) ( -128 -384 16 ) ( -128 -384 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -128 0 0 ) ( -128 0 16 ) ( -256 0 40 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -256 0 40 ) ( -128 0 16 ) ( -128 -384 16 ) mtrl/coin-green-small 0 0 0 0.5 0.5
+( -128 -384 16 ) ( -128 0 16 ) ( -128 0 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+}
+// brush 5
+{
+( -128 128 16 ) ( -128 0 16 ) ( -128 0 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -128 0 16 ) ( 0 0 16 ) ( 0 0 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 0 0 0 ) ( 0 128 0 ) ( -128 128 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -128 128 16 ) ( 0 128 16 ) ( 0 0 16 ) mtrl/turf-green 0 0 0 0.5 0.5
+( 0 128 0 ) ( 0 128 16 ) ( -128 128 16 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 0 0 16 ) ( 0 128 16 ) ( 0 128 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+}
+// brush 6
+{
+( -256 640 40 ) ( -256 256 40 ) ( -256 256 32 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -128 256 0 ) ( -128 640 0 ) ( -256 640 32 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -256 256 40 ) ( -128 256 16 ) ( -128 256 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -128 640 0 ) ( -128 640 16 ) ( -256 640 40 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -256 640 40 ) ( -128 640 16 ) ( -128 256 16 ) mtrl/coin-green-small 0 0 0 0.5 0.5
+( -128 256 16 ) ( -128 640 16 ) ( -128 640 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+}
+// brush 7
+{
+( -128 384 16 ) ( -128 256 16 ) ( -128 256 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -128 256 16 ) ( 0 256 16 ) ( 0 256 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 0 256 0 ) ( 0 384 0 ) ( -128 384 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -128 384 16 ) ( 0 384 16 ) ( 0 256 16 ) mtrl/turf-green 0 0 0 0.5 0.5
+( 0 384 0 ) ( 0 384 16 ) ( -128 384 16 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 0 256 16 ) ( 0 384 16 ) ( 0 384 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+}
+// brush 8
+{
+( -128 640 16 ) ( -128 512 16 ) ( -128 512 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -128 512 16 ) ( 0 512 16 ) ( 0 512 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 0 512 0 ) ( 0 640 0 ) ( -128 640 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -128 640 16 ) ( 0 640 16 ) ( 0 512 16 ) mtrl/turf-green 0 0 0 0.5 0.5
+( 0 640 0 ) ( 0 640 16 ) ( -128 640 16 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 0 512 16 ) ( 0 640 16 ) ( 0 640 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+}
+// brush 9
+{
+( -128 256 16 ) ( -128 128 16 ) ( -128 128 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -128 128 16 ) ( 0 128 16 ) ( 0 128 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 0 128 0 ) ( 0 256 0 ) ( -128 256 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -128 256 16 ) ( 0 256 16 ) ( 0 128 16 ) mtrl/turf-green 0 0 0 0.5 0.5
+( 0 256 0 ) ( 0 256 16 ) ( -128 256 16 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 0 128 16 ) ( 0 256 16 ) ( 0 256 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+}
+// brush 10
+{
+( -128 896 16 ) ( -128 768 16 ) ( -128 768 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -128 768 16 ) ( 0 768 16 ) ( 0 768 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 0 768 0 ) ( 0 896 0 ) ( -128 896 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -128 896 16 ) ( 0 896 16 ) ( 0 768 16 ) mtrl/turf-green 0 0 0 0.5 0.5
+( 0 896 0 ) ( 0 896 16 ) ( -128 896 16 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 0 768 16 ) ( 0 896 16 ) ( 0 896 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+}
+// brush 11
+{
+( -128 1280 16 ) ( -128 1152 16 ) ( -128 1152 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -128 1152 16 ) ( 0 1152 16 ) ( 0 1152 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 0 1152 0 ) ( 0 1280 0 ) ( -128 1280 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -128 1280 16 ) ( 0 1280 16 ) ( 0 1152 16 ) mtrl/turf-green 0 0 0 0.5 0.5
+( 0 1280 0 ) ( 0 1280 16 ) ( -128 1280 16 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 0 1152 16 ) ( 0 1280 16 ) ( 0 1280 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+}
+// brush 12
+{
+( -128 1024 16 ) ( -128 896 16 ) ( -128 896 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -128 896 16 ) ( 0 896 16 ) ( 0 896 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 0 896 0 ) ( 0 1024 0 ) ( -128 1024 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -128 1024 16 ) ( 0 1024 16 ) ( 0 896 16 ) mtrl/turf-green 0 0 0 0.5 0.5
+( 0 1024 0 ) ( 0 1024 16 ) ( -128 1024 16 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 0 896 16 ) ( 0 1024 16 ) ( 0 1024 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+}
+// brush 13
+{
+( 0 1280 16 ) ( 0 896 16 ) ( 0 896 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 128 896 40 ) ( 0 896 16 ) ( 0 1280 16 ) mtrl/coin-green-small 0 0 0 0.5 0.5
+( 0 896 0 ) ( 0 896 16 ) ( 128 896 40 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 128 1280 40 ) ( 0 1280 16 ) ( 0 1280 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 0 1280 0 ) ( 0 896 0 ) ( 128 896 32 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 128 896 40 ) ( 128 1280 40 ) ( 128 1280 32 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+}
+// brush 14
+{
+( -128 768 16 ) ( -128 640 16 ) ( -128 640 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -128 640 16 ) ( 0 640 16 ) ( 0 640 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 0 640 0 ) ( 0 768 0 ) ( -128 768 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -128 768 16 ) ( 0 768 16 ) ( 0 640 16 ) mtrl/turf-green 0 0 0 0.5 0.5
+( 0 768 0 ) ( 0 768 16 ) ( -128 768 16 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 0 640 16 ) ( 0 768 16 ) ( 0 768 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+}
+// brush 15
+{
+( -128 -384 16 ) ( -128 -512 16 ) ( -128 -512 0 ) mtrl/invisible 0 0 0 0.5 0.5
+( -128 -512 16 ) ( 0 -512 16 ) ( 0 -512 0 ) mtrl/invisible 0 0 0 0.5 0.5
+( 0 -512 0 ) ( 0 -384 0 ) ( -128 -384 0 ) mtrl/invisible 0 0 0 0.5 0.5
+( -128 -384 16 ) ( 0 -384 16 ) ( 0 -512 16 ) mtrl/arrow-green-light 0 0 0 0.5 0.5
+( 0 -384 0 ) ( 0 -384 16 ) ( -128 -384 16 ) mtrl/invisible 0 0 0 0.5 0.5
+( 0 -512 16 ) ( 0 -384 16 ) ( 0 -384 0 ) mtrl/invisible 0 0 0 0.5 0.5
+}
+// brush 16
+{
+( 0 640 16 ) ( 0 256 16 ) ( 0 256 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 128 256 40 ) ( 0 256 16 ) ( 0 640 16 ) mtrl/coin-green-small 0 0 0 0.5 0.5
+( 0 256 0 ) ( 0 256 16 ) ( 128 256 40 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 128 640 40 ) ( 0 640 16 ) ( 0 640 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 0 640 0 ) ( 0 256 0 ) ( 128 256 32 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 128 256 40 ) ( 128 640 40 ) ( 128 640 32 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+}
+}
+// entity 1
+{
+"classname" "info_player_deathmatch"
+"origin" "-64 1344 40"
+}
+// entity 2
+{
+"classname" "light"
+"origin" "-160 -352 40"
+"light" "1"
+}
+// entity 3
+{
+"classname" "light"
+"origin" "-224 -352 48"
+"light" "1"
+}
+// entity 4
+{
+"classname" "light"
+"origin" "-160 -288 40"
+"light" "1"
+}
+// entity 5
+{
+"classname" "light"
+"origin" "-224 -288 48"
+"light" "1"
+}
+// entity 6
+{
+"classname" "light"
+"origin" "-224 -224 48"
+"light" "1"
+}
+// entity 7
+{
+"classname" "light"
+"origin" "-160 -224 40"
+"light" "1"
+}
+// entity 8
+{
+"classname" "light"
+"origin" "-160 -160 40"
+"light" "1"
+}
+// entity 9
+{
+"classname" "light"
+"origin" "-224 -160 48"
+"light" "1"
+}
+// entity 10
+{
+"classname" "light"
+"origin" "-224 -96 48"
+"light" "1"
+}
+// entity 11
+{
+"classname" "light"
+"origin" "-160 -96 40"
+"light" "1"
+}
+// entity 12
+{
+"classname" "light"
+"origin" "-160 -32 40"
+"light" "1"
+}
+// entity 13
+{
+"classname" "light"
+"origin" "-224 -32 48"
+"light" "1"
+}
+// entity 14
+{
+"classname" "light"
+"origin" "-160 288 40"
+"light" "1"
+}
+// entity 15
+{
+"classname" "light"
+"origin" "-224 288 48"
+"light" "5"
+}
+// entity 16
+{
+"classname" "light"
+"origin" "-160 352 40"
+"light" "1"
+}
+// entity 17
+{
+"classname" "light"
+"origin" "-224 352 48"
+"light" "5"
+}
+// entity 18
+{
+"classname" "light"
+"origin" "-224 416 48"
+"light" "1"
+}
+// entity 19
+{
+"classname" "light"
+"origin" "-160 416 40"
+"light" "5"
+}
+// entity 20
+{
+"classname" "light"
+"origin" "-160 480 40"
+"light" "5"
+}
+// entity 21
+{
+"classname" "light"
+"origin" "-224 480 48"
+"light" "1"
+}
+// entity 22
+{
+"classname" "light"
+"origin" "-224 544 48"
+"light" "5"
+}
+// entity 23
+{
+"classname" "light"
+"origin" "-160 544 40"
+"light" "1"
+}
+// entity 24
+{
+"classname" "light"
+"origin" "-160 608 40"
+"light" "1"
+}
+// entity 25
+{
+"classname" "light"
+"origin" "-224 608 48"
+"light" "5"
+}
+// entity 26
+{
+"classname" "light"
+"origin" "32 928 40"
+"light" "1"
+}
+// entity 27
+{
+"classname" "light"
+"origin" "32 992 40"
+"light" "1"
+}
+// entity 28
+{
+"classname" "light"
+"origin" "32 1056 40"
+"light" "10"
+}
+// entity 29
+{
+"classname" "light"
+"origin" "32 1120 40"
+"light" "10"
+}
+// entity 30
+{
+"classname" "light"
+"origin" "32 1184 40"
+"light" "1"
+}
+// entity 31
+{
+"classname" "light"
+"origin" "32 1248 40"
+"light" "1"
+}
+// entity 32
+{
+"classname" "light"
+"origin" "96 1248 48"
+"light" "5"
+}
+// entity 33
+{
+"classname" "light"
+"origin" "96 1184 48"
+"light" "5"
+}
+// entity 34
+{
+"classname" "light"
+"origin" "96 1120 48"
+"light" "1"
+}
+// entity 35
+{
+"classname" "light"
+"origin" "96 1056 48"
+"light" "1"
+}
+// entity 36
+{
+"classname" "light"
+"origin" "96 992 48"
+"light" "5"
+}
+// entity 37
+{
+"classname" "light"
+"origin" "96 928 48"
+"light" "5"
+}
+// entity 38
+{
+"classname" "light"
+"origin" "32 288 40"
+"light" "1"
+}
+// entity 39
+{
+"classname" "light"
+"origin" "32 352 40"
+"light" "1"
+}
+// entity 40
+{
+"classname" "light"
+"origin" "32 416 40"
+"light" "5"
+}
+// entity 41
+{
+"classname" "light"
+"origin" "32 480 40"
+"light" "5"
+}
+// entity 42
+{
+"classname" "light"
+"origin" "32 544 40"
+"light" "1"
+}
+// entity 43
+{
+"classname" "light"
+"origin" "32 608 40"
+"light" "1"
+}
+// entity 44
+{
+"classname" "light"
+"origin" "96 608 48"
+"light" "5"
+}
+// entity 45
+{
+"classname" "light"
+"origin" "96 544 48"
+"light" "5"
+}
+// entity 46
+{
+"classname" "light"
+"origin" "96 480 48"
+"light" "1"
+}
+// entity 47
+{
+"classname" "light"
+"origin" "96 416 48"
+"light" "1"
+}
+// entity 48
+{
+"classname" "light"
+"origin" "96 352 48"
+"light" "5"
+}
+// entity 49
+{
+"classname" "light"
+"origin" "96 288 48"
+"light" "5"
+}
+// entity 50
+{
+"classname" "info_player_start"
+"origin" "-64 -448 40"
+}
+// entity 51
+{
+"classname" "target_position"
+"origin" "-64 40 24"
+}
+// entity 52
+{
+"classname" "info_player_intermission"
+"origin" "-64 -928 488"
+}

@@ -1,0 +1,311 @@
+// Game: Neverball
+// Format: Quake3
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures;textures\editor;textures\mtrl"
+"author" "SVNMaster Tech"
+"back" "map-back/jupiter.sol"
+"coin_hs" "20"
+"goal" "20"
+"goal_hs" "20"
+"grad" "back/space.png"
+"shot" "shot-svnfive/07.jpg"
+"song" "bgm/track4.ogg"
+"time" "6000"
+"version" "1"
+// brush 0
+{
+( -384 2176 16 ) ( -384 2048 16 ) ( -384 2048 0 ) mtrl/invisible 0 0 0 0.5 0.5 134217728 0 0
+( -384 2048 16 ) ( -256 2048 16 ) ( -256 2048 0 ) mtrl/invisible 0 0 0 0.5 0.5 134217728 0 0
+( -256 2048 0 ) ( -256 2176 0 ) ( -384 2176 0 ) mtrl/invisible 0 0 0 0.5 0.5 134217728 0 0
+( -384 2176 16 ) ( -256 2176 16 ) ( -256 2048 16 ) mtrl/goal 0 0 0 0.5 0.5 134217728 0 0
+( -256 2176 0 ) ( -256 2176 16 ) ( -384 2176 16 ) mtrl/invisible 0 0 0 0.5 0.5 134217728 0 0
+( -256 2048 16 ) ( -256 2176 16 ) ( -256 2176 0 ) mtrl/invisible 0 0 0 0.5 0.5 134217728 0 0
+}
+}
+// entity 1
+{
+"classname" "light"
+"origin" "-64 -64 32"
+"light" "1"
+}
+// entity 2
+{
+"classname" "light"
+"origin" "-64 64 32"
+"light" "1"
+}
+// entity 3
+{
+"classname" "light"
+"origin" "-64 192 32"
+"light" "1"
+}
+// entity 4
+{
+"classname" "light"
+"origin" "-64 320 32"
+"light" "1"
+}
+// entity 5
+{
+"classname" "light"
+"origin" "-64 448 32"
+"light" "1"
+}
+// entity 6
+{
+"classname" "light"
+"origin" "64 448 32"
+"light" "1"
+}
+// entity 7
+{
+"classname" "light"
+"origin" "192 448 32"
+"light" "1"
+}
+// entity 8
+{
+"classname" "light"
+"origin" "320 448 32"
+"light" "1"
+}
+// entity 9
+{
+"classname" "light"
+"origin" "320 576 32"
+"light" "1"
+}
+// entity 10
+{
+"classname" "light"
+"origin" "320 704 32"
+"light" "1"
+}
+// entity 11
+{
+"classname" "light"
+"origin" "320 832 32"
+"light" "1"
+}
+// entity 12
+{
+"classname" "light"
+"origin" "320 960 32"
+"light" "1"
+}
+// entity 13
+{
+"classname" "light"
+"origin" "192 960 32"
+"light" "1"
+}
+// entity 14
+{
+"classname" "light"
+"origin" "64 960 32"
+"light" "1"
+}
+// entity 15
+{
+"classname" "light"
+"origin" "-64 960 32"
+"light" "1"
+}
+// entity 16
+{
+"classname" "light"
+"origin" "-192 960 32"
+"light" "1"
+}
+// entity 17
+{
+"classname" "light"
+"origin" "-320 960 32"
+"light" "1"
+}
+// entity 18
+{
+"classname" "light"
+"origin" "-448 960 32"
+"light" "1"
+}
+// entity 19
+{
+"classname" "light"
+"origin" "-576 960 32"
+"light" "1"
+}
+// entity 20
+{
+"classname" "light"
+"origin" "-704 960 32"
+"light" "1"
+}
+// entity 21
+{
+"classname" "light"
+"origin" "-704 1088 32"
+"light" "1"
+}
+// entity 22
+{
+"classname" "light"
+"origin" "-704 1216 32"
+"light" "1"
+}
+// entity 23
+{
+"classname" "light"
+"origin" "-704 1344 32"
+"light" "1"
+}
+// entity 24
+{
+"classname" "light"
+"origin" "-704 1472 32"
+"light" "1"
+}
+// entity 25
+{
+"classname" "light"
+"origin" "-576 1472 32"
+"light" "1"
+}
+// entity 26
+{
+"classname" "light"
+"origin" "-448 1472 32"
+"light" "1"
+}
+// entity 27
+{
+"classname" "light"
+"origin" "-320 1472 32"
+"light" "1"
+}
+// entity 28
+{
+"classname" "light"
+"origin" "-320 1600 32"
+"light" "1"
+}
+// entity 29
+{
+"classname" "light"
+"origin" "-320 1728 32"
+"light" "1"
+}
+// entity 30
+{
+"classname" "light"
+"origin" "-320 1856 32"
+"light" "1"
+}
+// entity 31
+{
+"classname" "light"
+"origin" "-320 1984 32"
+"light" "1"
+}
+// entity 32
+{
+"classname" "info_player_start"
+"origin" "-64 -192 40"
+}
+// entity 33
+{
+"classname" "info_player_deathmatch"
+"origin" "-320 2112 40"
+}
+// entity 34
+{
+"classname" "path_corner"
+"origin" "-64 -192 0"
+"speed" "5"
+"targetname" "f1"
+"target" "f2"
+}
+// entity 35
+{
+"classname" "path_corner"
+"origin" "-64 448 0"
+"speed" "5"
+"targetname" "f2"
+"target" "f3"
+}
+// entity 36
+{
+"classname" "path_corner"
+"origin" "320 448 0"
+"speed" "5"
+"targetname" "f3"
+"target" "f4"
+}
+// entity 37
+{
+"classname" "path_corner"
+"origin" "320 960 0"
+"speed" "5"
+"targetname" "f4"
+"target" "f5"
+}
+// entity 38
+{
+"classname" "path_corner"
+"origin" "-704 960 0"
+"speed" "5"
+"targetname" "f5"
+"target" "f6"
+}
+// entity 39
+{
+"classname" "path_corner"
+"origin" "-704 1472 0"
+"speed" "5"
+"targetname" "f6"
+"target" "f7"
+}
+// entity 40
+{
+"classname" "path_corner"
+"origin" "-320 1472 0"
+"speed" "5"
+"targetname" "f7"
+"target" "f8"
+}
+// entity 41
+{
+"classname" "path_corner"
+"origin" "-320 2112 0"
+"speed" "5"
+"targetname" "f8"
+}
+// entity 42
+{
+"classname" "target_position"
+"origin" "-192 960 0"
+"targetname" "b1"
+}
+// entity 43
+{
+"classname" "info_player_intermission"
+"origin" "-1312 -560 3096"
+"target" "b1"
+}
+// entity 44
+{
+"classname" "func_train"
+"target" "f1"
+// brush 0
+{
+( -128 -128 16 ) ( -128 -256 16 ) ( -128 -256 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -128 -256 16 ) ( 0 -256 16 ) ( 0 -256 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 0 -256 0 ) ( 0 -128 0 ) ( -128 -128 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( -128 -128 16 ) ( 0 -128 16 ) ( 0 -256 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( 0 -128 0 ) ( 0 -128 16 ) ( -128 -128 16 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+( 0 -256 16 ) ( 0 -128 16 ) ( 0 -128 0 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5
+}
+}

@@ -1,0 +1,1360 @@
+// Game: Neverball
+// Format: Quake3
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures;textures\editor;textures\mtrl"
+"author" "SVNMaster Tech"
+"back" "map-back/jupiter.sol"
+"bonus" "1"
+"coin_hs" "10"
+"goal" "10"
+"grad" "back/space.png"
+"message" "Busreisen Hoegenauer \(https://hoegenauer-reisen.de)"
+"song" "bgm/title.ogg"
+"version" "1"
+"time" "12000"
+"goal_hs" "10"
+"time_hs" "5"
+"shot" "shot-svnone/V.jpg"
+// brush 0
+{
+( -1360 -32 16 ) ( -1360 -160 16 ) ( -1360 -160 0 ) mtrl/invisible 0 0 0 0.5 0.5
+( -1360 -160 16 ) ( -1232 -160 16 ) ( -1232 -160 0 ) mtrl/invisible 0 0 0 0.5 0.5
+( -1360 -160 0 ) ( -1232 -160 0 ) ( -1232 -32 0 ) mtrl/invisible 0 0 0 0.5 0.5
+( -1232 -32 16 ) ( -1232 -160 16 ) ( -1360 -160 16 ) mtrl/goal -96 -64 0 0.5 0.5
+( -1232 -32 16 ) ( -1360 -32 16 ) ( -1360 -32 0 ) mtrl/invisible 0 0 0 0.5 0.5
+( -1232 -160 0 ) ( -1232 -160 16 ) ( -1232 -32 16 ) mtrl/invisible 0 0 0 0.5 0.5
+}
+// brush 1
+{
+( -1360 -32 16 ) ( -1360 -160 16 ) ( -1360 -160 0 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( -1360 -160 16 ) ( -1232 -160 16 ) ( -1232 -160 0 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( -1360 -160 0 ) ( -1232 -160 0 ) ( -1232 -32 0 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( -1232 -32 16 ) ( -1232 -160 16 ) ( -1360 -160 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( -1232 -32 16 ) ( -1360 -32 16 ) ( -1360 -32 0 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( -1232 -160 0 ) ( -1232 -160 16 ) ( -1232 -32 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+}
+// brush 2
+{
+( -1232 -64 16 ) ( -1232 -128 16 ) ( -1232 -128 0 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( -1232 -128 16 ) ( -1056 -128 16 ) ( -1056 -128 0 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( -1232 -128 0 ) ( -1056 -128 0 ) ( -1056 -64 0 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( -1056 -64 16 ) ( -1056 -128 16 ) ( -1232 -128 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( -1056 -64 16 ) ( -1232 -64 16 ) ( -1232 -64 0 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( -1056 -128 0 ) ( -1056 -128 16 ) ( -1056 -64 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+}
+// brush 3
+{
+( -1056 160 16 ) ( -1056 -160 16 ) ( -1056 -160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -1056 -160 16 ) ( -992 -160 16 ) ( -992 -160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -1056 -160 0 ) ( -992 -160 0 ) ( -992 160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -992 160 16 ) ( -992 -160 16 ) ( -1056 -160 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -992 160 16 ) ( -1056 160 16 ) ( -1056 160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -992 -160 0 ) ( -992 -160 16 ) ( -992 160 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 4
+{
+( -992 32 0 ) ( -992 32 1 ) ( -992 31 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -928 -32 16 ) ( -928 -32 17 ) ( -927 -32 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -992 32 0 ) ( -992 31 0 ) ( -991 32 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -928 -32 16 ) ( -927 -32 16 ) ( -928 -33 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -992 32 0 ) ( -991 32 0 ) ( -992 32 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -928 -32 16 ) ( -928 -33 16 ) ( -928 -32 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 5
+{
+( -928 160 16 ) ( -928 -160 16 ) ( -928 -160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -928 -160 16 ) ( -864 -160 16 ) ( -864 -160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -928 -160 0 ) ( -864 -160 0 ) ( -864 160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -864 160 16 ) ( -864 -160 16 ) ( -928 -160 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -864 160 16 ) ( -928 160 16 ) ( -928 160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -864 -160 0 ) ( -864 -160 16 ) ( -864 160 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 6
+{
+( -864 32 0 ) ( -864 32 1 ) ( -864 31 0 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( -816 -32 16 ) ( -816 -32 17 ) ( -815 -32 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( -864 32 0 ) ( -864 31 0 ) ( -863 32 0 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( -816 -32 16 ) ( -815 -32 16 ) ( -816 -33 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( -864 32 0 ) ( -863 32 0 ) ( -864 32 1 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( -816 -32 16 ) ( -816 -33 16 ) ( -816 -32 17 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+}
+// brush 7
+{
+( -816 32 0 ) ( -816 32 1 ) ( -816 31 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -752 -32 16 ) ( -752 -32 17 ) ( -751 -32 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -816 32 0 ) ( -816 31 0 ) ( -815 32 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -752 -32 16 ) ( -751 -32 16 ) ( -752 -33 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -816 32 0 ) ( -815 32 0 ) ( -816 32 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -752 -32 16 ) ( -752 -33 16 ) ( -752 -32 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 8
+{
+( -816 -32 0 ) ( -816 -32 1 ) ( -816 -33 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -752 -96 16 ) ( -752 -96 17 ) ( -751 -96 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -816 -32 0 ) ( -816 -33 0 ) ( -815 -32 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -752 -96 16 ) ( -751 -96 16 ) ( -752 -97 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -816 -32 0 ) ( -815 -32 0 ) ( -816 -32 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -752 -96 16 ) ( -752 -97 16 ) ( -752 -96 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 9
+{
+( -816 -96 16 ) ( -752 -160 16 ) ( -752 -160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -816 -96 0 ) ( -752 -160 0 ) ( -752 -96 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -752 -96 16 ) ( -752 -160 16 ) ( -816 -96 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -752 -96 16 ) ( -816 -96 16 ) ( -816 -96 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -752 -160 0 ) ( -752 -160 16 ) ( -752 -96 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 10
+{
+( -816 96 0 ) ( -816 96 1 ) ( -816 95 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -752 32 16 ) ( -752 32 17 ) ( -751 32 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -816 96 0 ) ( -816 95 0 ) ( -815 96 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -752 32 16 ) ( -751 32 16 ) ( -752 31 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -816 96 0 ) ( -815 96 0 ) ( -816 96 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -752 32 16 ) ( -752 31 16 ) ( -752 32 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 11
+{
+( -816 96 0 ) ( -752 160 0 ) ( -752 160 16 ) mtrl/turf-orange-pumpkin -64 0 0 0.5 0.5
+( -816 96 16 ) ( -752 96 16 ) ( -752 96 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -816 96 0 ) ( -752 96 0 ) ( -752 160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -752 160 16 ) ( -752 96 16 ) ( -816 96 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -752 96 0 ) ( -752 96 16 ) ( -752 160 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 12
+{
+( -752 -96 0 ) ( -752 -96 1 ) ( -752 -97 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -688 -160 16 ) ( -688 -160 17 ) ( -687 -160 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -752 -96 0 ) ( -752 -97 0 ) ( -751 -96 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -688 -160 16 ) ( -687 -160 16 ) ( -688 -161 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -752 -96 0 ) ( -751 -96 0 ) ( -752 -96 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -688 -160 16 ) ( -688 -161 16 ) ( -688 -160 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 13
+{
+( -688 -96 16 ) ( -688 -160 16 ) ( -688 -160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -688 -96 0 ) ( -688 -160 0 ) ( -624 -96 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -624 -96 16 ) ( -688 -160 16 ) ( -688 -96 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -624 -96 16 ) ( -688 -96 16 ) ( -688 -96 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -624 -96 16 ) ( -624 -96 0 ) ( -688 -160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 14
+{
+( -688 96 0 ) ( -688 96 1 ) ( -688 95 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -624 -96 16 ) ( -624 -96 17 ) ( -623 -96 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -688 96 0 ) ( -688 95 0 ) ( -687 96 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -624 -96 16 ) ( -623 -96 16 ) ( -624 -97 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -688 96 0 ) ( -687 96 0 ) ( -688 96 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -624 -96 16 ) ( -624 -97 16 ) ( -624 -96 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 15
+{
+( -752 160 0 ) ( -752 160 1 ) ( -752 159 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -688 96 16 ) ( -688 96 17 ) ( -687 96 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -752 160 0 ) ( -752 159 0 ) ( -751 160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -688 96 16 ) ( -687 96 16 ) ( -688 95 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -752 160 0 ) ( -751 160 0 ) ( -752 160 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -688 96 16 ) ( -688 95 16 ) ( -688 96 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 16
+{
+( -688 96 0 ) ( -688 160 0 ) ( -688 160 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -688 96 16 ) ( -624 96 16 ) ( -624 96 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -688 96 0 ) ( -624 96 0 ) ( -688 160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -688 160 16 ) ( -624 96 16 ) ( -688 96 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -624 96 0 ) ( -624 96 16 ) ( -688 160 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 17
+{
+( -800 224 16 ) ( -800 192 16 ) ( -800 192 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.25 0.5
+( -800 192 16 ) ( -752 192 16 ) ( -752 192 0 ) mtrl/turf-orange-pumpkin -32 0 0 0.5 0.5
+( -800 192 0 ) ( -752 192 0 ) ( -752 224 0 ) mtrl/turf-orange-pumpkin 0 64 0 0.5 0.375
+( -752 224 16 ) ( -752 192 16 ) ( -800 192 16 ) mtrl/turf-orange-pumpkin 0 64 0 0.5 0.375
+( -752 224 16 ) ( -800 224 16 ) ( -800 224 0 ) mtrl/turf-orange-pumpkin -64 0 0 0.375 0.5
+( -752 192 0 ) ( -752 192 16 ) ( -752 224 16 ) mtrl/turf-orange-pumpkin 128 0 0 0.33333334 0.5
+}
+// brush 18
+{
+( -688 224 16 ) ( -688 192 16 ) ( -688 192 0 ) mtrl/turf-orange-pumpkin 128 0 0 0.2 0.5
+( -688 192 16 ) ( -640 192 16 ) ( -640 192 0 ) mtrl/turf-orange-pumpkin -106.66666 0 0 0.375 0.5
+( -688 192 0 ) ( -640 192 0 ) ( -640 224 0 ) mtrl/turf-orange-pumpkin 128 106.66666 0 0.2 0.375
+( -640 224 16 ) ( -640 192 16 ) ( -688 192 16 ) mtrl/turf-orange-pumpkin 128 106.66666 0 0.2 0.375
+( -640 224 16 ) ( -688 224 16 ) ( -688 224 0 ) mtrl/turf-orange-pumpkin -106.66666 0 0 0.375 0.5
+( -640 192 0 ) ( -640 192 16 ) ( -640 224 16 ) mtrl/turf-orange-pumpkin 128 0 0 0.2 0.5
+}
+// brush 19
+{
+( -624 32 0 ) ( -624 32 1 ) ( -624 31 0 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( -576 -32 16 ) ( -576 -32 17 ) ( -575 -32 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( -624 32 0 ) ( -624 31 0 ) ( -623 32 0 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( -576 -32 16 ) ( -575 -32 16 ) ( -576 -33 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( -624 32 0 ) ( -623 32 0 ) ( -624 32 1 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( -576 -32 16 ) ( -576 -33 16 ) ( -576 -32 17 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+}
+// brush 20
+{
+( -448 -96 16 ) ( -448 -160 16 ) ( -448 -160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -448 -96 0 ) ( -448 -160 0 ) ( -384 -96 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -384 -96 16 ) ( -448 -160 16 ) ( -448 -96 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -384 -96 16 ) ( -448 -96 16 ) ( -448 -96 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -384 -96 16 ) ( -384 -96 0 ) ( -448 -160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 21
+{
+( -512 -96 0 ) ( -512 -96 1 ) ( -512 -97 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -448 -160 16 ) ( -448 -160 17 ) ( -447 -160 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -512 -96 0 ) ( -512 -97 0 ) ( -511 -96 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -448 -160 16 ) ( -447 -160 16 ) ( -448 -161 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -512 -96 0 ) ( -511 -96 0 ) ( -512 -96 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -448 -160 16 ) ( -448 -161 16 ) ( -448 -160 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 22
+{
+( -576 -96 16 ) ( -512 -160 16 ) ( -512 -160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -576 -96 0 ) ( -512 -160 0 ) ( -512 -96 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -512 -96 16 ) ( -512 -160 16 ) ( -576 -96 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -512 -96 16 ) ( -576 -96 16 ) ( -576 -96 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -512 -160 0 ) ( -512 -160 16 ) ( -512 -96 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 23
+{
+( -576 -32 0 ) ( -576 -32 1 ) ( -576 -33 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -512 -96 16 ) ( -512 -96 17 ) ( -511 -96 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -576 -32 0 ) ( -576 -33 0 ) ( -575 -32 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -512 -96 16 ) ( -511 -96 16 ) ( -512 -97 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -576 -32 0 ) ( -575 -32 0 ) ( -576 -32 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -512 -96 16 ) ( -512 -97 16 ) ( -512 -96 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 24
+{
+( -576 32 0 ) ( -576 32 1 ) ( -576 31 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -512 -32 16 ) ( -512 -32 17 ) ( -511 -32 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -576 32 0 ) ( -576 31 0 ) ( -575 32 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -512 -32 16 ) ( -511 -32 16 ) ( -512 -33 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -576 32 0 ) ( -575 32 0 ) ( -576 32 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -512 -32 16 ) ( -512 -33 16 ) ( -512 -32 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 25
+{
+( -576 96 0 ) ( -576 96 1 ) ( -576 95 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -512 32 16 ) ( -512 32 17 ) ( -511 32 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -576 96 0 ) ( -576 95 0 ) ( -575 96 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -512 32 16 ) ( -511 32 16 ) ( -512 31 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -576 96 0 ) ( -575 96 0 ) ( -576 96 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -512 32 16 ) ( -512 31 16 ) ( -512 32 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 26
+{
+( -512 160 0 ) ( -512 160 1 ) ( -512 159 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -448 96 16 ) ( -448 96 17 ) ( -447 96 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -512 160 0 ) ( -512 159 0 ) ( -511 160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -448 96 16 ) ( -447 96 16 ) ( -448 95 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -512 160 0 ) ( -511 160 0 ) ( -512 160 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -448 96 16 ) ( -448 95 16 ) ( -448 96 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 27
+{
+( -576 96 0 ) ( -512 160 0 ) ( -512 160 16 ) mtrl/turf-orange-pumpkin -64 0 0 0.5 0.5
+( -576 96 16 ) ( -512 96 16 ) ( -512 96 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -576 96 0 ) ( -512 96 0 ) ( -512 160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -512 160 16 ) ( -512 96 16 ) ( -576 96 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -512 96 0 ) ( -512 96 16 ) ( -512 160 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 28
+{
+( -448 96 0 ) ( -448 160 0 ) ( -448 160 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -448 96 16 ) ( -384 96 16 ) ( -384 96 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -448 96 0 ) ( -384 96 0 ) ( -448 160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -448 160 16 ) ( -384 96 16 ) ( -448 96 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -384 96 0 ) ( -384 96 16 ) ( -448 160 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 29
+{
+( -448 32 0 ) ( -448 32 1 ) ( -448 31 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -384 -96 16 ) ( -384 -96 17 ) ( -383 -96 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -448 32 0 ) ( -448 31 0 ) ( -447 32 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -384 -96 16 ) ( -383 -96 16 ) ( -384 -97 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -448 32 0 ) ( -447 32 0 ) ( -448 32 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -384 -96 16 ) ( -384 -97 16 ) ( -384 -96 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 30
+{
+( -464 32 0 ) ( -464 32 1 ) ( -464 31 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -448 -32 16 ) ( -448 -32 17 ) ( -447 -32 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -464 32 0 ) ( -464 31 0 ) ( -463 32 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -448 -32 16 ) ( -447 -32 16 ) ( -448 -33 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -464 32 0 ) ( -463 32 0 ) ( -464 32 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -448 -32 16 ) ( -448 -33 16 ) ( -448 -32 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 31
+{
+( -448 160 16 ) ( -384 96 16 ) ( -384 96 0 ) mtrl/turf-shiny -160 0 0 0.5 0.5
+( -384 96 16 ) ( -336 96 16 ) ( -336 96 0 ) mtrl/turf-shiny -85.33325 0 0 0.21428573 0.5
+( -384 96 0 ) ( -336 96 0 ) ( -336 160 0 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( -336 160 16 ) ( -336 96 16 ) ( -384 96 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( -336 160 16 ) ( -448 160 16 ) ( -448 160 0 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( -336 96 0 ) ( -336 96 16 ) ( -336 160 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+}
+// brush 32
+{
+( -336 160 0 ) ( -336 160 1 ) ( -336 159 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -272 -160 16 ) ( -272 -160 17 ) ( -271 -160 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -336 160 0 ) ( -336 159 0 ) ( -335 160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -272 -160 16 ) ( -271 -160 16 ) ( -272 -161 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -336 160 0 ) ( -335 160 0 ) ( -336 160 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -272 -160 16 ) ( -272 -161 16 ) ( -272 -160 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 33
+{
+( -272 -96 0 ) ( -272 -96 1 ) ( -272 -97 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -144 -160 16 ) ( -144 -160 17 ) ( -143 -160 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -272 -96 0 ) ( -272 -97 0 ) ( -271 -96 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -144 -160 16 ) ( -143 -160 16 ) ( -144 -161 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -272 -96 0 ) ( -271 -96 0 ) ( -272 -96 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -144 -160 16 ) ( -144 -161 16 ) ( -144 -160 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 34
+{
+( -272 32 0 ) ( -272 32 1 ) ( -272 31 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -208 -32 16 ) ( -208 -32 17 ) ( -207 -32 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -272 32 0 ) ( -272 31 0 ) ( -271 32 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -208 -32 16 ) ( -207 -32 16 ) ( -208 -33 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -272 32 0 ) ( -271 32 0 ) ( -272 32 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -208 -32 16 ) ( -208 -33 16 ) ( -208 -32 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 35
+{
+( -272 160 0 ) ( -272 160 1 ) ( -272 159 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -144 96 16 ) ( -144 96 17 ) ( -143 96 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -272 160 0 ) ( -272 159 0 ) ( -271 160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -144 96 16 ) ( -143 96 16 ) ( -144 95 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -272 160 0 ) ( -271 160 0 ) ( -272 160 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -144 96 16 ) ( -144 95 16 ) ( -144 96 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 36
+{
+( -144 -96 0 ) ( -144 -96 1 ) ( -144 -97 0 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( -96 -160 16 ) ( -96 -160 17 ) ( -95 -160 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( -144 -96 0 ) ( -144 -97 0 ) ( -143 -96 0 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( -96 -160 16 ) ( -95 -160 16 ) ( -96 -161 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( -144 -96 0 ) ( -143 -96 0 ) ( -144 -96 1 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( -96 -160 16 ) ( -96 -161 16 ) ( -96 -160 17 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+}
+// brush 37
+{
+( -96 160 16 ) ( -96 -160 16 ) ( -96 -160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -96 -160 16 ) ( -32 -160 16 ) ( -32 -160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -96 -160 0 ) ( -32 -160 0 ) ( -32 160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -32 160 16 ) ( -32 -160 16 ) ( -96 -160 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -32 160 16 ) ( -96 160 16 ) ( -96 160 0 ) mtrl/turf-orange-pumpkin -255.99951 0 0 0.5 0.5
+( -32 -160 0 ) ( -32 -160 16 ) ( -32 160 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 38
+{
+( 32 160 16 ) ( 32 -160 16 ) ( 32 -160 0 ) mtrl/turf-orange-pumpkin 0 0 0 2.5 0.5
+( 32 -160 16 ) ( 96 -160 16 ) ( 96 -160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 32 -160 0 ) ( 96 -160 0 ) ( 96 160 0 ) mtrl/turf-orange-pumpkin -1.3967285 -0.018203735 0 2.5 0.5039733
+( 96 160 16 ) ( 96 -160 16 ) ( 32 -160 16 ) mtrl/turf-orange-pumpkin -1.3967285 -0.018203735 0 2.5 0.5039733
+( 96 160 16 ) ( 32 160 16 ) ( 32 160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 96 -160 0 ) ( 96 -160 16 ) ( 96 160 16 ) mtrl/turf-orange-pumpkin 0 0 0 2.5 0.5
+}
+// brush 39
+{
+( -32 32 0 ) ( -32 112 0 ) ( -32 112 16 ) mtrl/turf-orange-pumpkin -121.6001 0 0 0.35714287 0.5
+( -32 32 16 ) ( 32 -112 16 ) ( 32 -112 0 ) mtrl/turf-orange-pumpkin 16.762177 0 0 1.125 0.5
+( -32 32 0 ) ( 32 -112 0 ) ( 32 -32 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 32 -32 16 ) ( 32 -112 16 ) ( -32 32 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 32 -32 0 ) ( 32 -32 16 ) ( -32 112 16 ) mtrl/turf-orange-pumpkin -163.55542 0 0 1.125 0.5
+( 32 -112 0 ) ( 32 -112 16 ) ( 32 -32 16 ) mtrl/turf-orange-pumpkin -35.20009 0 0 0.35714287 0.5
+}
+// brush 40
+{
+( 96 -96 0 ) ( 96 -96 1 ) ( 96 -97 0 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( 144 -160 16 ) ( 144 -160 17 ) ( 145 -160 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( 96 -96 0 ) ( 96 -97 0 ) ( 97 -96 0 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( 144 -160 16 ) ( 145 -160 16 ) ( 144 -161 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( 96 -96 0 ) ( 97 -96 0 ) ( 96 -96 1 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( 144 -160 16 ) ( 144 -161 16 ) ( 144 -160 17 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+}
+// brush 41
+{
+( 144 96 16 ) ( 144 -160 16 ) ( 144 -160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.39999998 0.5
+( 144 96 0 ) ( 208 160 0 ) ( 208 160 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 144 -160 16 ) ( 208 -160 16 ) ( 208 -160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 144 -160 0 ) ( 208 -160 0 ) ( 208 160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 208 160 16 ) ( 208 -160 16 ) ( 144 -160 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 208 -160 0 ) ( 208 -160 16 ) ( 208 160 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 42
+{
+( 208 160 0 ) ( 208 160 1 ) ( 208 159 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 272 96 16 ) ( 272 96 17 ) ( 273 96 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 208 160 0 ) ( 208 159 0 ) ( 209 160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 272 96 16 ) ( 273 96 16 ) ( 272 95 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 208 160 0 ) ( 209 160 0 ) ( 208 160 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 272 96 16 ) ( 272 95 16 ) ( 272 96 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 43
+{
+( 208 32 0 ) ( 208 32 1 ) ( 208 31 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 272 -32 16 ) ( 272 -32 17 ) ( 273 -32 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 208 32 0 ) ( 208 31 0 ) ( 209 32 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 272 -32 16 ) ( 273 -32 16 ) ( 272 -33 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 208 32 0 ) ( 209 32 0 ) ( 208 32 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 272 -32 16 ) ( 272 -33 16 ) ( 272 -32 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 44
+{
+( 272 160 16 ) ( 272 -160 16 ) ( 272 -160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 272 -160 16 ) ( 336 -160 16 ) ( 336 -160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 272 -160 0 ) ( 336 -160 0 ) ( 336 96 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 336 96 16 ) ( 336 -160 16 ) ( 272 -160 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 336 96 16 ) ( 272 160 16 ) ( 272 160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 336 -160 0 ) ( 336 -160 16 ) ( 336 96 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.39999998 0.5
+}
+// brush 45
+{
+( 336 32 0 ) ( 336 32 1 ) ( 336 31 0 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( 384 -32 16 ) ( 384 -32 17 ) ( 385 -32 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( 336 32 0 ) ( 336 31 0 ) ( 337 32 0 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( 384 -32 16 ) ( 385 -32 16 ) ( 384 -33 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( 336 32 0 ) ( 337 32 0 ) ( 336 32 1 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( 384 -32 16 ) ( 384 -33 16 ) ( 384 -32 17 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+}
+// brush 46
+{
+( 384 160 16 ) ( 384 -96 16 ) ( 384 -96 0 ) mtrl/turf-orange-pumpkin -159.99995 0 0 0.66666675 0.5
+( 384 -96 16 ) ( 448 -160 16 ) ( 448 -160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 384 -96 0 ) ( 448 -160 0 ) ( 448 160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.8333335 0.5
+( 448 160 16 ) ( 448 -160 16 ) ( 384 -96 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.8333335 0.5
+( 448 160 16 ) ( 384 160 16 ) ( 384 160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 448 -160 0 ) ( 448 -160 16 ) ( 448 160 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.8333335 0.5
+}
+// brush 47
+{
+( 448 -96 0 ) ( 448 -96 1 ) ( 448 -97 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 512 -160 16 ) ( 512 -160 17 ) ( 513 -160 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 448 -96 0 ) ( 448 -97 0 ) ( 449 -96 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 512 -160 16 ) ( 513 -160 16 ) ( 512 -161 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 448 -96 0 ) ( 449 -96 0 ) ( 448 -96 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 512 -160 16 ) ( 512 -161 16 ) ( 512 -160 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 48
+{
+( 512 160 16 ) ( 512 -160 16 ) ( 512 -160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 512 160 0 ) ( 512 -160 0 ) ( 576 -96 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 576 -96 16 ) ( 512 -160 16 ) ( 512 160 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 576 160 16 ) ( 512 160 16 ) ( 512 160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 512 -160 0 ) ( 512 -160 16 ) ( 576 -96 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 576 -96 0 ) ( 576 -96 16 ) ( 576 160 16 ) mtrl/turf-orange-pumpkin 160 0 0 0.39999998 0.5
+}
+// brush 49
+{
+( 576 160 0 ) ( 576 160 1 ) ( 576 159 0 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( 624 96 16 ) ( 624 96 17 ) ( 625 96 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( 576 160 0 ) ( 576 159 0 ) ( 577 160 0 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( 624 96 16 ) ( 625 96 16 ) ( 624 95 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( 576 160 0 ) ( 577 160 0 ) ( 576 160 1 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( 624 96 16 ) ( 624 95 16 ) ( 624 96 17 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+}
+// brush 50
+{
+( -272 -96 0 ) ( -272 -96 1 ) ( -272 -97 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -144 -160 16 ) ( -144 -160 17 ) ( -143 -160 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -272 -96 0 ) ( -272 -97 0 ) ( -271 -96 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -144 -160 16 ) ( -143 -160 16 ) ( -144 -161 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -272 -96 0 ) ( -271 -96 0 ) ( -272 -96 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -144 -160 16 ) ( -144 -161 16 ) ( -144 -160 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 51
+{
+( -336 160 0 ) ( -336 160 1 ) ( -336 159 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -272 -160 16 ) ( -272 -160 17 ) ( -271 -160 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -336 160 0 ) ( -336 159 0 ) ( -335 160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -272 -160 16 ) ( -271 -160 16 ) ( -272 -161 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -336 160 0 ) ( -335 160 0 ) ( -336 160 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -272 -160 16 ) ( -272 -161 16 ) ( -272 -160 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 52
+{
+( -272 32 0 ) ( -272 32 1 ) ( -272 31 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -208 -32 16 ) ( -208 -32 17 ) ( -207 -32 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -272 32 0 ) ( -272 31 0 ) ( -271 32 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -208 -32 16 ) ( -207 -32 16 ) ( -208 -33 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -272 32 0 ) ( -271 32 0 ) ( -272 32 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -208 -32 16 ) ( -208 -33 16 ) ( -208 -32 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 53
+{
+( -272 160 0 ) ( -272 160 1 ) ( -272 159 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -144 96 16 ) ( -144 96 17 ) ( -143 96 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -272 160 0 ) ( -272 159 0 ) ( -271 160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -144 96 16 ) ( -143 96 16 ) ( -144 95 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -272 160 0 ) ( -271 160 0 ) ( -272 160 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( -144 96 16 ) ( -144 95 16 ) ( -144 96 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 54
+{
+( 688 -96 0 ) ( 688 -96 1 ) ( 688 -97 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 816 -160 16 ) ( 816 -160 17 ) ( 817 -160 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 688 -96 0 ) ( 688 -97 0 ) ( 689 -96 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 816 -160 16 ) ( 817 -160 16 ) ( 816 -161 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 688 -96 0 ) ( 689 -96 0 ) ( 688 -96 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 816 -160 16 ) ( 816 -161 16 ) ( 816 -160 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 55
+{
+( 624 160 0 ) ( 624 160 1 ) ( 624 159 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 688 -160 16 ) ( 688 -160 17 ) ( 689 -160 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 624 160 0 ) ( 624 159 0 ) ( 625 160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 688 -160 16 ) ( 689 -160 16 ) ( 688 -161 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 624 160 0 ) ( 625 160 0 ) ( 624 160 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 688 -160 16 ) ( 688 -161 16 ) ( 688 -160 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 56
+{
+( 688 32 0 ) ( 688 32 1 ) ( 688 31 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 752 -32 16 ) ( 752 -32 17 ) ( 753 -32 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 688 32 0 ) ( 688 31 0 ) ( 689 32 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 752 -32 16 ) ( 753 -32 16 ) ( 752 -33 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 688 32 0 ) ( 689 32 0 ) ( 688 32 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 752 -32 16 ) ( 752 -33 16 ) ( 752 -32 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 57
+{
+( 688 160 0 ) ( 688 160 1 ) ( 688 159 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 816 96 16 ) ( 816 96 17 ) ( 817 96 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 688 160 0 ) ( 688 159 0 ) ( 689 160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 816 96 16 ) ( 817 96 16 ) ( 816 95 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 688 160 0 ) ( 689 160 0 ) ( 688 160 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 816 96 16 ) ( 816 95 16 ) ( 816 96 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 58
+{
+( 816 160 0 ) ( 816 160 1 ) ( 816 159 0 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( 864 96 16 ) ( 864 96 17 ) ( 865 96 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( 816 160 0 ) ( 816 159 0 ) ( 817 160 0 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( 864 96 16 ) ( 865 96 16 ) ( 864 95 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( 816 160 0 ) ( 817 160 0 ) ( 816 160 1 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( 864 96 16 ) ( 864 95 16 ) ( 864 96 17 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+}
+// brush 59
+{
+( 864 160 0 ) ( 864 160 1 ) ( 864 159 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 928 -160 16 ) ( 928 -160 17 ) ( 929 -160 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 864 160 0 ) ( 864 159 0 ) ( 865 160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 928 -160 16 ) ( 929 -160 16 ) ( 928 -161 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 864 160 0 ) ( 865 160 0 ) ( 864 160 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 928 -160 16 ) ( 928 -161 16 ) ( 928 -160 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 60
+{
+( 928 160 16 ) ( 928 96 16 ) ( 928 96 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 928 96 16 ) ( 1056 96 16 ) ( 1056 96 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 928 96 0 ) ( 1056 96 0 ) ( 992 160 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 992 160 16 ) ( 1056 96 16 ) ( 928 96 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 992 160 16 ) ( 928 160 16 ) ( 928 160 0 ) mtrl/turf-orange-pumpkin -224 0 0 0.25 0.5
+( 1056 96 0 ) ( 1056 96 16 ) ( 992 160 16 ) mtrl/turf-orange-pumpkin -224 0 0 0.5 0.5
+}
+// brush 61
+{
+( 992 96 0 ) ( 992 96 1 ) ( 992 95 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 1056 32 16 ) ( 1056 32 17 ) ( 1057 32 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 992 96 0 ) ( 992 95 0 ) ( 993 96 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 1056 32 16 ) ( 1057 32 16 ) ( 1056 31 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 992 96 0 ) ( 993 96 0 ) ( 992 96 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 1056 32 16 ) ( 1056 31 16 ) ( 1056 32 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 62
+{
+( 928 32 0 ) ( 928 32 1 ) ( 928 31 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 992 -32 16 ) ( 992 -32 17 ) ( 993 -32 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 928 32 0 ) ( 928 31 0 ) ( 929 32 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 992 -32 16 ) ( 993 -32 16 ) ( 992 -33 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 928 32 0 ) ( 929 32 0 ) ( 928 32 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 992 -32 16 ) ( 992 -33 16 ) ( 992 -32 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 63
+{
+( 992 -32 0 ) ( 992 -32 1 ) ( 992 -33 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 1056 -160 16 ) ( 1056 -160 17 ) ( 1057 -160 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 992 -32 0 ) ( 992 -33 0 ) ( 993 -32 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 1056 -160 16 ) ( 1057 -160 16 ) ( 1056 -161 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 992 -32 0 ) ( 993 -32 0 ) ( 992 -32 1 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 1056 -160 16 ) ( 1056 -161 16 ) ( 1056 -160 17 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+}
+// brush 64
+{
+( 992 0 16 ) ( 992 -32 16 ) ( 992 -32 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 992 -32 16 ) ( 1056 -32 16 ) ( 1056 -32 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 992 -32 0 ) ( 1056 -32 0 ) ( 1024 0 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 1024 0 16 ) ( 1056 -32 16 ) ( 992 -32 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 1024 0 16 ) ( 992 0 16 ) ( 992 0 0 ) mtrl/turf-orange-pumpkin -96 0 0 0.25 0.5
+( 1056 -32 0 ) ( 1056 -32 16 ) ( 1024 0 16 ) mtrl/turf-orange-pumpkin -224 0 0 0.5 0.5
+}
+// brush 65
+{
+( 992 32 16 ) ( 992 0 16 ) ( 992 0 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 992 0 16 ) ( 1024 0 16 ) ( 1024 0 0 ) mtrl/turf-orange-pumpkin -96 0 0 0.25 0.5
+( 992 0 0 ) ( 1024 0 0 ) ( 1056 32 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 1056 32 16 ) ( 1024 0 16 ) ( 992 0 16 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 1056 32 16 ) ( 992 32 16 ) ( 992 32 0 ) mtrl/turf-orange-pumpkin 0 0 0 0.5 0.5
+( 1024 0 0 ) ( 1024 0 16 ) ( 1056 32 16 ) mtrl/turf-orange-pumpkin 96 0 180 0.5 -0.5
+}
+// brush 66
+{
+( 560 176 16 ) ( 560 160 16 ) ( 560 160 0 ) mtrl/turf-shiny -18.285736 0 0 0.875 0.5
+( 560 160 16 ) ( 576 160 16 ) ( 576 160 0 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( 560 160 0 ) ( 576 160 0 ) ( 576 176 0 ) mtrl/turf-shiny 128 0 0 0.125 0.5
+( 576 176 16 ) ( 576 160 16 ) ( 560 160 16 ) mtrl/turf-shiny 128 0 0 0.125 0.5
+( 576 176 16 ) ( 560 176 16 ) ( 560 176 0 ) mtrl/turf-shiny 0 0 0 0.5 0.5
+( 576 160 0 ) ( 576 160 16 ) ( 576 176 16 ) mtrl/turf-shiny -18.285736 0 0 0.875 0.5
+}
+// brush 67
+{
+( 560 256 16 ) ( 560 176 16 ) ( 560 176 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 560 176 16 ) ( 576 176 16 ) ( 576 176 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 560 176 0 ) ( 576 176 0 ) ( 576 256 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 576 256 16 ) ( 576 176 16 ) ( 560 176 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 576 256 16 ) ( 560 256 16 ) ( 560 256 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 576 176 0 ) ( 576 176 16 ) ( 576 256 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+}
+// brush 68
+{
+( 480 192 16 ) ( 480 176 16 ) ( 480 176 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 480 176 16 ) ( 512 176 16 ) ( 512 176 0 ) mtrl/turf-shiny-light 208 0 0 1 0.5
+( 480 176 0 ) ( 512 176 0 ) ( 512 192 0 ) mtrl/turf-shiny-light 0 -208 0 0.5 1
+( 512 192 16 ) ( 512 176 16 ) ( 480 176 16 ) mtrl/turf-shiny-light 0 -208 0 0.5 1
+( 512 192 16 ) ( 480 192 16 ) ( 480 192 0 ) mtrl/turf-shiny-light 208 0 0 1 0.5
+( 512 176 0 ) ( 512 176 16 ) ( 512 192 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+}
+// brush 69
+{
+( 352 192 16 ) ( 352 176 16 ) ( 352 176 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 352 176 16 ) ( 384 176 16 ) ( 384 176 0 ) mtrl/turf-shiny-light 128 0 0 1 0.5
+( 352 176 0 ) ( 384 176 0 ) ( 384 192 0 ) mtrl/turf-shiny-light 0 -128 0 0.5 1
+( 384 192 16 ) ( 384 176 16 ) ( 352 176 16 ) mtrl/turf-shiny-light 0 -128 0 0.5 1
+( 384 192 16 ) ( 352 192 16 ) ( 352 192 0 ) mtrl/turf-shiny-light 128 0 0 1 0.5
+( 384 176 0 ) ( 384 176 16 ) ( 384 192 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+}
+// brush 70
+{
+( 224 192 16 ) ( 224 176 16 ) ( 224 176 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 224 176 16 ) ( 256 176 16 ) ( 256 176 0 ) mtrl/turf-shiny-light 176 0 0 1 0.5
+( 224 176 0 ) ( 256 176 0 ) ( 256 192 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 256 192 16 ) ( 256 176 16 ) ( 224 176 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 256 192 16 ) ( 224 192 16 ) ( 224 192 0 ) mtrl/turf-shiny-light 176 0 0 1 0.5
+( 256 176 0 ) ( 256 176 16 ) ( 256 192 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+}
+// brush 71
+{
+( -608 272 16 ) ( -608 176 16 ) ( -608 176 0 ) mtrl/turf-shiny-light -48.000008 0 0 3 0.5
+( -608 176 16 ) ( -592 176 16 ) ( -592 176 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -608 176 0 ) ( -592 176 0 ) ( -592 272 0 ) mtrl/turf-shiny-light -48.000008 0 0 3 0.5
+( -592 272 16 ) ( -592 176 16 ) ( -608 176 16 ) mtrl/turf-shiny-light -48.000008 0 0 3 0.5
+( -592 272 16 ) ( -608 272 16 ) ( -608 272 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -592 176 0 ) ( -592 176 16 ) ( -592 272 16 ) mtrl/turf-shiny-light -48.000008 0 0 3 0.5
+}
+// brush 72
+{
+( -592 288 16 ) ( -592 272 16 ) ( -592 272 0 ) mtrl/turf-shiny-light 153.59998 0 0 0.5 0.5
+( -592 272 16 ) ( -576 272 16 ) ( -576 272 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -592 272 0 ) ( -576 272 0 ) ( -576 288 0 ) mtrl/turf-shiny-light 153.59998 0 0 0.5 0.5
+( -576 288 16 ) ( -576 272 16 ) ( -592 272 16 ) mtrl/turf-shiny-light 153.59998 0 0 0.5 0.5
+( -576 288 16 ) ( -592 288 16 ) ( -592 288 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -576 272 0 ) ( -576 272 16 ) ( -576 288 16 ) mtrl/turf-shiny-light 153.59998 0 0 0.5 0.5
+}
+// brush 73
+{
+( -608 272 0 ) ( -592 288 0 ) ( -592 288 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -608 272 16 ) ( -592 272 16 ) ( -592 272 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -608 272 0 ) ( -592 272 0 ) ( -592 288 0 ) mtrl/turf-shiny-light 153.59998 0 0 0.5 0.5
+( -592 288 16 ) ( -592 272 16 ) ( -608 272 16 ) mtrl/turf-shiny-light 153.59998 0 0 0.5 0.5
+( -592 272 0 ) ( -592 272 16 ) ( -592 288 16 ) mtrl/turf-shiny-light 153.59998 0 0 0.5 0.5
+}
+// brush 74
+{
+( -592 256 16 ) ( -592 240 16 ) ( -592 240 0 ) mtrl/turf-shiny-light 96 0 0 0.5 0.5
+( -592 240 16 ) ( -576 240 16 ) ( -576 240 0 ) mtrl/turf-shiny-light -32 0 0 0.5 0.5
+( -592 240 0 ) ( -576 240 0 ) ( -576 256 0 ) mtrl/turf-shiny-light 96 32 0 0.5 0.5
+( -576 256 16 ) ( -576 240 16 ) ( -592 240 16 ) mtrl/turf-shiny-light 96 32 0 0.5 0.5
+( -576 256 16 ) ( -592 256 16 ) ( -592 256 0 ) mtrl/turf-shiny-light -32 0 0 0.5 0.5
+( -576 240 0 ) ( -576 240 16 ) ( -576 256 16 ) mtrl/turf-shiny-light 96 0 0 0.5 0.5
+}
+// brush 75
+{
+( -544 208 16 ) ( -544 192 16 ) ( -544 192 0 ) mtrl/turf-shiny-light 32 0 0 0.5 0.5
+( -544 192 16 ) ( -528 176 16 ) ( -528 176 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -544 208 0 ) ( -528 224 0 ) ( -528 224 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -544 192 0 ) ( -528 176 0 ) ( -528 224 0 ) mtrl/turf-shiny-light 188.44446 0 0 1.125 0.559017
+( -528 224 16 ) ( -528 176 16 ) ( -544 192 16 ) mtrl/turf-shiny-light 178.66666 0 0 1.5 0.5153882
+( -528 176 0 ) ( -528 176 16 ) ( -528 224 16 ) mtrl/turf-shiny-light 63.999992 0 0 1.5 0.5
+}
+// brush 76
+{
+( -528 224 16 ) ( -528 208 16 ) ( -528 208 0 ) mtrl/turf-shiny-light 76.79999 0 0 0.5 0.5
+( -528 208 16 ) ( -512 208 16 ) ( -512 208 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -528 208 0 ) ( -512 208 0 ) ( -512 224 0 ) mtrl/turf-shiny-light 76.79999 0 0 0.5 0.5
+( -512 224 16 ) ( -512 208 16 ) ( -528 208 16 ) mtrl/turf-shiny-light 76.79999 0 0 0.5 0.5
+( -512 224 16 ) ( -528 224 16 ) ( -528 224 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -512 208 0 ) ( -512 208 16 ) ( -512 224 16 ) mtrl/turf-shiny-light 76.79999 0 0 0.5 0.5
+}
+// brush 77
+{
+( -528 192 16 ) ( -528 176 16 ) ( -528 176 0 ) mtrl/turf-shiny-light 76.79999 0 0 0.5 0.5
+( -528 176 16 ) ( -512 176 16 ) ( -512 176 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -528 176 0 ) ( -512 176 0 ) ( -512 192 0 ) mtrl/turf-shiny-light 76.79999 0 0 0.5 0.5
+( -512 192 16 ) ( -512 176 16 ) ( -528 176 16 ) mtrl/turf-shiny-light 76.79999 0 0 0.5 0.5
+( -512 192 16 ) ( -528 192 16 ) ( -528 192 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -512 176 0 ) ( -512 176 16 ) ( -512 192 16 ) mtrl/turf-shiny-light 76.79999 0 0 0.5 0.5
+}
+// brush 78
+{
+( -512 256 16 ) ( -512 176 16 ) ( -512 176 0 ) mtrl/turf-shiny-light -25.600006 0 0 2.5 0.5
+( -512 176 16 ) ( -496 176 16 ) ( -496 176 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -512 176 0 ) ( -496 176 0 ) ( -496 240 0 ) mtrl/turf-shiny-light 188.44446 0 0 1.125 0.8838835
+( -496 240 16 ) ( -496 176 16 ) ( -512 176 16 ) mtrl/turf-shiny-light 178.66666 0 0 1.5 0.55998665
+( -496 240 16 ) ( -512 256 16 ) ( -512 256 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -496 176 0 ) ( -496 176 16 ) ( -496 240 16 ) mtrl/turf-shiny-light 8 0 0 2 0.5
+}
+// brush 79
+{
+( -528 256 16 ) ( -544 240 16 ) ( -544 240 0 ) mtrl/turf-shiny-light 32 0 180 0.5 -0.5
+( -544 240 16 ) ( -512 240 16 ) ( -512 240 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -544 240 0 ) ( -512 240 0 ) ( -512 256 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -512 256 16 ) ( -512 240 16 ) ( -544 240 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -512 256 16 ) ( -528 256 16 ) ( -528 256 0 ) mtrl/turf-shiny-light -128 0 0 0.25 0.5
+( -512 240 0 ) ( -512 240 16 ) ( -512 256 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+}
+// brush 80
+{
+( -464 288 16 ) ( -464 176 16 ) ( -464 176 0 ) mtrl/turf-shiny-light -64.00001 0 0 3.5 0.5
+( -464 176 16 ) ( -448 176 16 ) ( -448 176 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -464 176 0 ) ( -448 176 0 ) ( -448 288 0 ) mtrl/turf-shiny-light -64.00001 0 0 3.5 0.5
+( -448 288 16 ) ( -448 176 16 ) ( -464 176 16 ) mtrl/turf-shiny-light -64.00001 0 0 3.5 0.5
+( -448 288 16 ) ( -464 288 16 ) ( -464 288 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -448 176 0 ) ( -448 176 16 ) ( -448 288 16 ) mtrl/turf-shiny-light -64.00001 0 0 3.5 0.5
+}
+// brush 81
+{
+( -448 256 16 ) ( -448 240 16 ) ( -448 240 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -448 240 16 ) ( -416 240 16 ) ( -416 240 0 ) mtrl/turf-shiny-light 240 0 0 1 0.5
+( -448 240 0 ) ( -416 240 0 ) ( -432 256 0 ) mtrl/turf-shiny-light 0 -240 0 0.5 1
+( -432 256 16 ) ( -416 240 16 ) ( -448 240 16 ) mtrl/turf-shiny-light 0 -240 0 0.5 1
+( -432 256 16 ) ( -448 256 16 ) ( -448 256 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -416 240 0 ) ( -416 240 16 ) ( -432 256 16 ) mtrl/turf-shiny-light -64 0 0 0.5 0.5
+}
+// brush 82
+{
+( -432 240 16 ) ( -432 176 16 ) ( -432 176 0 ) mtrl/turf-shiny-light 7.9999905 0 0 2 0.5
+( -432 176 16 ) ( -416 176 16 ) ( -416 176 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -432 176 0 ) ( -416 176 0 ) ( -416 240 0 ) mtrl/turf-shiny-light 7.9999905 0 0 2 0.5
+( -416 240 16 ) ( -416 176 16 ) ( -432 176 16 ) mtrl/turf-shiny-light 7.9999905 0 0 2 0.5
+( -416 240 16 ) ( -432 240 16 ) ( -432 240 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -416 176 0 ) ( -416 176 16 ) ( -416 240 16 ) mtrl/turf-shiny-light 7.9999905 0 0 2 0.5
+}
+// brush 83
+{
+( -384 256 0 ) ( -384 256 1 ) ( -384 255 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -368 176 16 ) ( -368 176 17 ) ( -367 176 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -384 256 0 ) ( -384 255 0 ) ( -383 256 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -368 176 16 ) ( -367 176 16 ) ( -368 175 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -384 256 0 ) ( -383 256 0 ) ( -384 256 1 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -368 176 16 ) ( -368 175 16 ) ( -368 176 17 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+}
+// brush 84
+{
+( -368 256 16 ) ( -368 240 16 ) ( -368 240 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -368 240 16 ) ( -352 240 16 ) ( -352 240 0 ) mtrl/turf-shiny-light -96 0 0 0.25 0.5
+( -368 240 0 ) ( -352 240 0 ) ( -336 256 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -336 256 16 ) ( -352 240 16 ) ( -368 240 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -336 256 16 ) ( -368 256 16 ) ( -368 256 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -336 256 16 ) ( -336 256 0 ) ( -352 240 0 ) mtrl/turf-shiny-light 96 0 180 0.5 -0.5
+}
+// brush 85
+{
+( -304 240 16 ) ( -304 192 16 ) ( -304 192 0 ) mtrl/turf-shiny-light 234.66667 0 0 0.375 0.5
+( -304 192 16 ) ( -288 176 16 ) ( -288 176 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -304 240 0 ) ( -288 256 0 ) ( -288 256 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -304 192 0 ) ( -288 176 0 ) ( -288 256 0 ) mtrl/turf-shiny-light -166.4 0 0 0.625 0.5
+( -288 256 16 ) ( -288 176 16 ) ( -304 192 16 ) mtrl/turf-shiny-light -166.4 0 0 0.625 0.5
+( -288 176 0 ) ( -288 176 16 ) ( -288 256 16 ) mtrl/turf-shiny-light -166.4 0 0 0.625 0.5
+}
+// brush 86
+{
+( -288 192 16 ) ( -288 176 16 ) ( -288 176 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -288 176 16 ) ( -272 176 16 ) ( -272 176 0 ) mtrl/turf-shiny-light -224 0 0 0.25 0.5
+( -288 176 0 ) ( -272 176 0 ) ( -256 192 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -256 192 16 ) ( -272 176 16 ) ( -288 176 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -256 192 16 ) ( -288 192 16 ) ( -288 192 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -272 176 0 ) ( -272 176 16 ) ( -256 192 16 ) mtrl/turf-shiny-light 96 0 180 0.5 -0.5
+}
+// brush 87
+{
+( -288 256 16 ) ( -288 240 16 ) ( -288 240 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -288 240 16 ) ( -256 240 16 ) ( -256 240 0 ) mtrl/turf-shiny-light 112 0 0 1 0.5
+( -288 240 0 ) ( -256 240 0 ) ( -272 256 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -272 256 16 ) ( -256 240 16 ) ( -288 240 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -272 256 16 ) ( -288 256 16 ) ( -288 256 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -272 256 16 ) ( -272 256 0 ) ( -256 240 0 ) mtrl/turf-shiny-light -64 0 0 0.5 0.5
+}
+// brush 88
+{
+( -272 240 0 ) ( -272 240 1 ) ( -272 239 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -256 224 16 ) ( -256 224 17 ) ( -255 224 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -272 240 0 ) ( -272 239 0 ) ( -271 240 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -256 224 16 ) ( -255 224 16 ) ( -256 223 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -272 240 0 ) ( -271 240 0 ) ( -272 240 1 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -256 224 16 ) ( -256 223 16 ) ( -256 224 17 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+}
+// brush 89
+{
+( -288 224 16 ) ( -288 208 16 ) ( -288 208 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -288 208 16 ) ( -272 208 16 ) ( -272 208 0 ) mtrl/turf-shiny-light -224 0 0 0.25 0.5
+( -288 208 0 ) ( -272 208 0 ) ( -256 224 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -256 224 16 ) ( -272 208 16 ) ( -288 208 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -256 224 16 ) ( -288 224 16 ) ( -288 224 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -272 208 0 ) ( -272 208 16 ) ( -256 224 16 ) mtrl/turf-shiny-light 32 0 180 0.5 -0.5
+}
+// brush 90
+{
+( -224 256 0 ) ( -224 256 1 ) ( -224 255 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -208 176 16 ) ( -208 176 17 ) ( -207 176 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -224 256 0 ) ( -224 255 0 ) ( -223 256 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -208 176 16 ) ( -207 176 16 ) ( -208 175 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -224 256 0 ) ( -223 256 0 ) ( -224 256 1 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -208 176 16 ) ( -208 175 16 ) ( -208 176 17 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+}
+// brush 91
+{
+( -208 256 16 ) ( -208 240 16 ) ( -208 240 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -208 240 16 ) ( -176 240 16 ) ( -176 240 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -208 240 0 ) ( -176 240 0 ) ( -192 256 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -192 256 16 ) ( -176 240 16 ) ( -208 240 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -192 256 16 ) ( -208 256 16 ) ( -208 256 0 ) mtrl/turf-shiny-light -96 0 0 0.25 0.5
+( -176 240 0 ) ( -176 240 16 ) ( -192 256 16 ) mtrl/turf-shiny-light -192 0 0 0.5 0.5
+}
+// brush 92
+{
+( -192 240 0 ) ( -192 240 1 ) ( -192 239 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -176 176 16 ) ( -176 176 17 ) ( -175 176 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -192 240 0 ) ( -192 239 0 ) ( -191 240 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -176 176 16 ) ( -175 176 16 ) ( -176 175 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -192 240 0 ) ( -191 240 0 ) ( -192 240 1 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -176 176 16 ) ( -176 175 16 ) ( -176 176 17 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+}
+// brush 93
+{
+( -48 256 0 ) ( -48 256 1 ) ( -48 255 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -32 176 16 ) ( -32 176 17 ) ( -31 176 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -48 256 0 ) ( -48 255 0 ) ( -47 256 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -32 176 16 ) ( -31 176 16 ) ( -32 175 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -48 256 0 ) ( -47 256 0 ) ( -48 256 1 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -32 176 16 ) ( -32 175 16 ) ( -32 176 17 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+}
+// brush 94
+{
+( -32 256 16 ) ( -32 240 16 ) ( -32 240 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -32 240 16 ) ( 32 240 16 ) ( 32 240 0 ) mtrl/turf-shiny-light 16 0 0 1 0.5
+( -32 240 0 ) ( 32 240 0 ) ( 16 256 0 ) mtrl/turf-shiny-light 0 -106.66666 0 0.5 1.5
+( 16 256 16 ) ( 32 240 16 ) ( -32 240 16 ) mtrl/turf-shiny-light 0 -16 0 0.5 1
+( 16 256 16 ) ( -32 256 16 ) ( -32 256 0 ) mtrl/turf-shiny-light 181.33331 0 0 0.75 0.5
+( 32 240 0 ) ( 32 240 16 ) ( 16 256 16 ) mtrl/turf-shiny-light -192 0 0 0.5 0.5
+}
+// brush 95
+{
+( -16 240 0 ) ( -16 240 1 ) ( -16 239 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 0 176 16 ) ( 0 176 17 ) ( 1 176 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -16 240 0 ) ( -16 239 0 ) ( -15 240 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 0 176 16 ) ( 1 176 16 ) ( 0 175 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( -16 240 0 ) ( -15 240 0 ) ( -16 240 1 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 0 176 16 ) ( 0 175 16 ) ( 0 176 17 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+}
+// brush 96
+{
+( 16 240 0 ) ( 16 240 1 ) ( 16 239 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 32 176 16 ) ( 32 176 17 ) ( 33 176 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 16 240 0 ) ( 16 239 0 ) ( 17 240 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 32 176 16 ) ( 33 176 16 ) ( 32 175 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 16 240 0 ) ( 17 240 0 ) ( 16 240 1 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 32 176 16 ) ( 32 175 16 ) ( 32 176 17 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+}
+// brush 97
+{
+( 64 256 16 ) ( 64 176 16 ) ( 64 176 0 ) mtrl/turf-shiny-light -12.799988 0 0 0.8333334 0.5
+( 64 176 16 ) ( 80 176 16 ) ( 80 176 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 64 176 0 ) ( 80 176 0 ) ( 80 256 0 ) mtrl/turf-shiny-light -12.799988 0 0 0.8333334 0.5
+( 80 256 16 ) ( 80 176 16 ) ( 64 176 16 ) mtrl/turf-shiny-light -12.799988 0 0 0.8333334 0.5
+( 80 256 16 ) ( 64 256 16 ) ( 64 256 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 80 176 0 ) ( 80 176 16 ) ( 80 256 16 ) mtrl/turf-shiny-light -12.799988 0 0 0.8333334 0.5
+}
+// brush 98
+{
+( 64 288 0 ) ( 64 288 1 ) ( 64 287 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 80 272 16 ) ( 80 272 17 ) ( 81 272 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 64 288 0 ) ( 64 287 0 ) ( 65 288 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 80 272 16 ) ( 81 272 16 ) ( 80 271 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 64 288 0 ) ( 65 288 0 ) ( 64 288 1 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 80 272 16 ) ( 80 271 16 ) ( 80 272 17 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+}
+// brush 99
+{
+( 112 288 16 ) ( 112 192 16 ) ( 112 192 0 ) mtrl/turf-shiny-light 149.33333 0 0 0.42857143 0.5
+( 112 192 16 ) ( 128 176 16 ) ( 128 176 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 112 192 0 ) ( 128 176 0 ) ( 128 288 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 128 288 16 ) ( 128 176 16 ) ( 112 192 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 128 288 16 ) ( 112 288 16 ) ( 112 288 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 128 176 0 ) ( 128 176 16 ) ( 128 288 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+}
+// brush 100
+{
+( 128 192 16 ) ( 128 176 16 ) ( 128 176 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 128 176 16 ) ( 144 176 16 ) ( 144 176 0 ) mtrl/turf-shiny-light -32 0 0 0.25 0.5
+( 128 176 0 ) ( 144 176 0 ) ( 160 192 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 160 192 16 ) ( 144 176 16 ) ( 128 176 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 160 192 16 ) ( 128 192 16 ) ( 128 192 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 144 176 0 ) ( 144 176 16 ) ( 160 192 16 ) mtrl/turf-shiny-light 160 0 180 0.5 -0.5
+}
+// brush 101
+{
+( 128 256 0 ) ( 128 256 1 ) ( 128 255 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 160 240 16 ) ( 160 240 17 ) ( 161 240 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 128 256 0 ) ( 128 255 0 ) ( 129 256 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 160 240 16 ) ( 161 240 16 ) ( 160 239 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 128 256 0 ) ( 129 256 0 ) ( 128 256 1 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 160 240 16 ) ( 160 239 16 ) ( 160 240 17 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+}
+// brush 102
+{
+( 576 224 16 ) ( 576 208 16 ) ( 576 208 0 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+( 576 208 16 ) ( 1376 208 16 ) ( 1376 208 0 ) mtrl/turf-shiny-light 151.68005 0 0 25 0.5
+( 576 208 0 ) ( 1376 208 0 ) ( 1376 224 0 ) mtrl/turf-shiny-light 62.039215 -151.39612 0 0.5 25.06027
+( 1376 224 16 ) ( 1376 208 16 ) ( 576 208 16 ) mtrl/turf-shiny-light 62.039215 -151.39612 0 0.5 25.06027
+( 1376 224 16 ) ( 576 224 16 ) ( 576 224 0 ) mtrl/turf-shiny-light 151.68005 0 0 25 0.5
+( 1376 208 0 ) ( 1376 208 16 ) ( 1376 224 16 ) mtrl/turf-shiny-light 0 0 0 0.5 0.5
+}
+// brush 103
+{
+( 1376 224 16 ) ( 1376 80 16 ) ( 1376 80 0 ) mtrl/turf-shiny-light -170.66667 0 0 4.5 0.5
+( 1376 224 0 ) ( 1376 80 0 ) ( 1392 96 0 ) mtrl/turf-shiny-light -108.62745 115.91406 0 4.5 0.5012053
+( 1392 96 16 ) ( 1376 80 16 ) ( 1376 224 16 ) mtrl/turf-shiny-light -108.62745 115.91406 0 4.5 0.5012053
+( 1376 80 0 ) ( 1376 80 16 ) ( 1392 96 16 ) mtrl/turf-shiny-light -128 0 0 0.5 0.5
+( 1392 208 16 ) ( 1376 224 16 ) ( 1376 224 0 ) mtrl/turf-shiny-light -128 0 0 0.5 0.5
+( 1392 96 0 ) ( 1392 96 16 ) ( 1392 208 16 ) mtrl/turf-shiny-light -150.85715 0 0 3.5 0.5
+}
+// brush 104
+{
+( 1136 96 16 ) ( 1120 80 16 ) ( 1120 80 0 ) mtrl/turf-shiny-light 156.44434 0 180 0.5 -0.5
+( 1120 80 16 ) ( 1376 80 16 ) ( 1376 80 0 ) mtrl/turf-shiny-light 153.99991 0 0 8 0.5
+( 1120 80 0 ) ( 1376 80 0 ) ( 1376 96 0 ) mtrl/turf-shiny-light -64.344635 -151.7335 0 0.5625 8.101908
+( 1376 96 16 ) ( 1376 80 16 ) ( 1120 80 16 ) mtrl/turf-shiny-light -64.344635 -151.7335 0 0.5625 8.101908
+( 1376 96 16 ) ( 1136 96 16 ) ( 1136 96 0 ) mtrl/turf-shiny-light 132.26657 0 0 7.5 0.5
+( 1376 80 0 ) ( 1376 80 16 ) ( 1376 96 16 ) mtrl/turf-shiny-light 36.57141 0 0 0.5 0.5
+}
+// brush 105
+{
+( 1120 80 16 ) ( 1120 0 16 ) ( 1120 0 0 ) mtrl/turf-shiny-light -131.55566 0 0 2.5 0.5
+( 1120 0 16 ) ( 1136 -16 16 ) ( 1136 -16 0 ) mtrl/turf-shiny-light -160 0 0 0.5 0.5
+( 1120 0 0 ) ( 1136 -16 0 ) ( 1136 80 0 ) mtrl/turf-shiny-light -125.61715 -28.435806 0 3.375 0.6117559
+( 1136 80 16 ) ( 1136 -16 16 ) ( 1120 0 16 ) mtrl/turf-shiny-light -125.61715 -28.435806 0 3.375 0.6117559
+( 1136 80 16 ) ( 1120 80 16 ) ( 1120 80 0 ) mtrl/turf-shiny-light -160 0 0 0.5 0.5
+( 1136 -16 0 ) ( 1136 -16 16 ) ( 1136 80 16 ) mtrl/turf-shiny-light -75.42859 0 0 3 0.5
+}
+// brush 106
+{
+( 1136 0 16 ) ( 1136 -16 16 ) ( 1136 -16 0 ) mtrl/turf-shiny-light -163.55566 0 0 0.5 0.5
+( 1136 -16 16 ) ( 1344 -16 16 ) ( 1344 -16 0 ) mtrl/turf-shiny-light 83.69221 0 0 6.5 0.5
+( 1136 -16 0 ) ( 1344 -16 0 ) ( 1328 0 0 ) mtrl/turf-shiny-light -64.344635 -106.76783 0 0.5625 7.021653
+( 1328 0 16 ) ( 1344 -16 16 ) ( 1136 -16 16 ) mtrl/turf-shiny-light -64.344635 -106.76783 0 0.5625 7.021653
+( 1328 0 16 ) ( 1136 0 16 ) ( 1136 0 0 ) mtrl/turf-shiny-light 53.333233 0 0 6 0.5
+( 1344 -16 0 ) ( 1344 -16 16 ) ( 1328 0 16 ) mtrl/turf-shiny-light -27.42871 0 0 0.5 0.5
+}
+// brush 107
+{
+( 1328 -16 16 ) ( 1328 -96 16 ) ( 1328 -96 0 ) mtrl/turf-shiny-light -137.95575 0 0 2.5 0.5
+( 1328 -16 0 ) ( 1328 -96 0 ) ( 1344 -80 0 ) mtrl/turf-shiny-light -135.29668 46.227024 9.609937 2.860376 1.768118
+( 1344 -80 16 ) ( 1328 -96 16 ) ( 1328 -16 16 ) mtrl/turf-shiny-light -141.45148 112.97035 10.389723 2.8627958 1.2780735
+( 1344 -16 16 ) ( 1328 -16 16 ) ( 1328 -16 0 ) mtrl/turf-shiny-light -61.333496 0 0 0.5 0.5
+( 1328 -96 0 ) ( 1328 -96 16 ) ( 1344 -80 16 ) mtrl/turf-shiny-light -61.538574 0 0 0.5 0.5
+( 1344 -80 0 ) ( 1344 -80 16 ) ( 1344 -16 16 ) mtrl/turf-shiny-light -179.42874 0 0 2 0.5
+}
+// brush 108
+{
+( 1264 -144 16 ) ( 1264 -160 16 ) ( 1264 -160 0 ) mtrl/turf-shiny-light 118.04425 0 0 0.5 0.5
+( 1328 -80 16 ) ( 1264 -144 16 ) ( 1264 -144 0 ) mtrl/turf-shiny-light -61.33313 0 0 2 0.5
+( 1264 -144 0 ) ( 1264 -160 0 ) ( 1328 -96 0 ) mtrl/turf-shiny-light -165.35742 44.836437 99.055725 1.9341524 7.2900105
+( 1328 -96 16 ) ( 1264 -160 16 ) ( 1264 -144 16 ) mtrl/turf-shiny-light -231.38364 134.27206 112.24998 2.2312822 3.3826618
+( 1264 -160 0 ) ( 1264 -160 16 ) ( 1328 -96 16 ) mtrl/turf-shiny-light -61.53833 0 0 2 0.5
+( 1328 -96 16 ) ( 1328 -80 16 ) ( 1328 -80 0 ) mtrl/turf-shiny-light -59.42874 0 0 0.5 0.5
+}
+// brush 109
+{
+( 1056 -96 16 ) ( 1056 -160 16 ) ( 1056 -160 0 ) mtrl/turf-shiny-light -163.55566 0 0 2 0.5
+( 1056 -160 16 ) ( 1136 -160 16 ) ( 1136 -160 0 ) mtrl/turf-shiny-light 32.492184 0 0 2.5 0.5
+( 1056 -160 0 ) ( 1136 -160 0 ) ( 1136 -96 0 ) mtrl/turf-shiny-light -13.500153 -35.237152 0 2.25 3.1543117
+( 1136 -96 16 ) ( 1136 -160 16 ) ( 1056 -160 16 ) mtrl/turf-shiny-light -13.500153 -35.237152 0 2.25 3.1543117
+( 1136 -96 16 ) ( 1056 -96 16 ) ( 1056 -96 0 ) mtrl/turf-shiny-light 31.466553 0 0 2.5 0.5
+( 1136 -160 0 ) ( 1136 -160 16 ) ( 1136 -96 16 ) mtrl/turf-shiny-light 100.57129 0 0 2 0.5
+}
+// brush 110
+{
+( 1136 -32 16 ) ( 1136 -160 16 ) ( 1136 -160 0 ) mtrl/invisible 0 0 0 0.5 0.5
+( 1136 -160 16 ) ( 1264 -160 16 ) ( 1264 -160 0 ) mtrl/invisible 0 0 0 0.5 0.5
+( 1136 -160 0 ) ( 1264 -160 0 ) ( 1264 -32 0 ) mtrl/invisible 0 0 0 0.5 0.5
+( 1264 -32 16 ) ( 1264 -160 16 ) ( 1136 -160 16 ) mtrl/goal 32 192 0 0.5 0.5
+( 1264 -32 16 ) ( 1136 -32 16 ) ( 1136 -32 0 ) mtrl/invisible 0 0 0 0.5 0.5
+( 1264 -160 0 ) ( 1264 -160 16 ) ( 1264 -32 16 ) mtrl/invisible 0 0 0 0.5 0.5
+}
+// brush 111
+{
+( 1136 -32 16 ) ( 1136 -160 16 ) ( 1136 -160 0 ) mtrl/turf-shiny -163.55566 0 0 4 0.5
+( 1136 -160 16 ) ( 1264 -160 16 ) ( 1264 -160 0 ) mtrl/turf-shiny -156.3078 0 0 4 0.5
+( 1136 -160 0 ) ( 1264 -160 0 ) ( 1264 -32 0 ) mtrl/turf-shiny 96.95295 -36.209217 0 4.5 5.1644454
+( 1264 -32 16 ) ( 1264 -160 16 ) ( 1136 -160 16 ) mtrl/turf-shiny 96.95295 -36.209217 0 4.5 5.1644454
+( 1264 -32 16 ) ( 1136 -32 16 ) ( 1136 -32 0 ) mtrl/turf-shiny -157.33344 0 0 4 0.5
+( 1264 -160 0 ) ( 1264 -160 16 ) ( 1264 -32 16 ) mtrl/turf-shiny 100.57129 0 0 4 0.5
+}
+}
+// entity 1
+{
+"classname" "info_player_deathmatch"
+"origin" "-1296 -96 40"
+"angle" "270"
+}
+// entity 2
+{
+"classname" "info_player_deathmatch"
+"origin" "1200 -96 40"
+"angle" "270"
+}
+// entity 3
+{
+"classname" "info_player_start"
+"origin" "0 0 40"
+"angle" "90"
+}
+// entity 4
+{
+"classname" "light"
+"origin" "-1048 152 32"
+"light" "1"
+}
+// entity 5
+{
+"classname" "light"
+"origin" "-1000 152 32"
+"light" "1"
+}
+// entity 6
+{
+"classname" "light"
+"origin" "-920 152 32"
+"light" "1"
+}
+// entity 7
+{
+"classname" "light"
+"origin" "-872 152 32"
+"light" "1"
+}
+// entity 8
+{
+"classname" "light"
+"origin" "-1048 -152 32"
+"light" "1"
+}
+// entity 9
+{
+"classname" "light"
+"origin" "-1000 -152 32"
+"light" "1"
+}
+// entity 10
+{
+"classname" "light"
+"origin" "-920 -152 32"
+"light" "1"
+}
+// entity 11
+{
+"classname" "light"
+"origin" "-872 -152 32"
+"light" "1"
+}
+// entity 12
+{
+"classname" "light"
+"origin" "-744 -152 32"
+"light" "1"
+}
+// entity 13
+{
+"classname" "light"
+"origin" "-696 -152 32"
+"light" "1"
+}
+// entity 14
+{
+"classname" "light"
+"origin" "-744 152 32"
+"light" "1"
+}
+// entity 15
+{
+"classname" "light"
+"origin" "-696 152 32"
+"light" "1"
+}
+// entity 16
+{
+"classname" "light"
+"origin" "-664 216 32"
+"light" "5"
+}
+// entity 17
+{
+"classname" "light"
+"origin" "-776 216 32"
+"light" "5"
+}
+// entity 18
+{
+"classname" "light"
+"origin" "-456 -152 32"
+"light" "1"
+}
+// entity 19
+{
+"classname" "light"
+"origin" "-504 -152 32"
+"light" "1"
+}
+// entity 20
+{
+"classname" "light"
+"origin" "-456 24 32"
+"light" "1"
+}
+// entity 21
+{
+"classname" "light"
+"origin" "-456 -24 32"
+"light" "1"
+}
+// entity 22
+{
+"classname" "light"
+"origin" "-216 -24 32"
+"light" "5"
+}
+// entity 23
+{
+"classname" "light"
+"origin" "-216 24 32"
+"light" "5"
+}
+// entity 24
+{
+"classname" "light"
+"origin" "-152 104 32"
+"light" "1"
+}
+// entity 25
+{
+"classname" "light"
+"origin" "-152 152 32"
+"light" "1"
+}
+// entity 26
+{
+"classname" "light"
+"origin" "88 152 32"
+"light" "1"
+}
+// entity 27
+{
+"classname" "light"
+"origin" "40 152 32"
+"light" "1"
+}
+// entity 28
+{
+"classname" "light"
+"origin" "-40 152 32"
+"light" "1"
+}
+// entity 29
+{
+"classname" "light"
+"origin" "-88 152 32"
+"light" "1"
+}
+// entity 30
+{
+"classname" "light"
+"origin" "328 -152 32"
+"light" "1"
+}
+// entity 31
+{
+"classname" "light"
+"origin" "280 -152 32"
+"light" "1"
+}
+// entity 32
+{
+"classname" "light"
+"origin" "264 152 32"
+"light" "1"
+}
+// entity 33
+{
+"classname" "light"
+"origin" "216 152 32"
+"light" "1"
+}
+// entity 34
+{
+"classname" "light"
+"origin" "440 152 32"
+"light" "1"
+}
+// entity 35
+{
+"classname" "light"
+"origin" "392 152 32"
+"light" "1"
+}
+// entity 36
+{
+"classname" "light"
+"origin" "568 152 32"
+"light" "1"
+}
+// entity 37
+{
+"classname" "light"
+"origin" "520 152 32"
+"light" "1"
+}
+// entity 38
+{
+"classname" "light"
+"origin" "504 -152 32"
+"light" "1"
+}
+// entity 39
+{
+"classname" "light"
+"origin" "456 -152 32"
+"light" "1"
+}
+// entity 40
+{
+"classname" "light"
+"origin" "744 -24 32"
+"light" "10"
+}
+// entity 41
+{
+"classname" "light"
+"origin" "744 24 32"
+"light" "10"
+}
+// entity 42
+{
+"classname" "light"
+"origin" "808 -152 32"
+"light" "1"
+}
+// entity 43
+{
+"classname" "light"
+"origin" "808 -104 32"
+"light" "1"
+}
+// entity 44
+{
+"classname" "light"
+"origin" "920 -152 32"
+"light" "1"
+}
+// entity 45
+{
+"classname" "light"
+"origin" "872 -152 32"
+"light" "1"
+}
+// entity 46
+{
+"classname" "light"
+"origin" "664 216 32"
+"light" "10"
+}
+// entity 47
+{
+"classname" "light"
+"origin" "728 216 32"
+"light" "10"
+}
+// entity 48
+{
+"classname" "light"
+"origin" "792 216 32"
+"light" "10"
+}
+// entity 49
+{
+"classname" "light"
+"origin" "856 216 32"
+"light" "10"
+}
+// entity 50
+{
+"classname" "light"
+"origin" "920 216 32"
+"light" "10"
+}
+// entity 51
+{
+"classname" "light"
+"origin" "984 216 32"
+"light" "10"
+}
+// entity 52
+{
+"classname" "light"
+"origin" "1048 216 32"
+"light" "10"
+}
+// entity 53
+{
+"classname" "light"
+"origin" "1112 216 32"
+"light" "10"
+}
+// entity 54
+{
+"classname" "light"
+"origin" "1176 216 32"
+"light" "10"
+}
+// entity 55
+{
+"classname" "light"
+"origin" "1240 216 32"
+"light" "10"
+}
+// entity 56
+{
+"classname" "info_player_intermission"
+"origin" "0 -256 3056"
+"angle" "90"
+}
+// entity 57
+{
+"classname" "target_position"
+"origin" "0 -0 24"
+}
