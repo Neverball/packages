@@ -36,10 +36,8 @@ jobs:
         with:
           repository: Neverball/neverball
           path: neverball
-      - name: Install base deps
-        run: sudo apt-get install -y libsdl2-dev libpng-dev
-      - name: Install ffmpeg
-        run: sudo apt-get install -y ffmpeg
+      - name: Install deps
+        run: sudo apt-get install -y libsdl2-dev libpng-dev libjpeg-dev ffmpeg
       - name: Build base SOLs
         run: "(cd neverball && make -j2 ENABLE_FETCH=0 sols)"
       - name: Build packages
