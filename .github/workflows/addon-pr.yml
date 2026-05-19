@@ -1,0 +1,62 @@
+name: Open addon PR
+
+on:
+  repository_dispatch:
+    types: [addon-submission]
+
+jobs:
+  create-pr:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Download submitted zip
+        run: curl -fL "${{ github.event.client_payload.zip_url }}" -o submitted.zip
+
+      - name: Extract submitted zip
+        run: unzip submitted.zip -d addon/
+
+      - name: Download asset manifest
+        run: curl -fL "${{ github.event.client_payload.assets_url }}" -o neverball-assets.json
+
+      - name: Validate and build per-set zips
+        run: npx neverball-checker neverball-assets.json addon/ --zip
+
+      - name: Extract per-set zips into repo
+        run: |
+          for zipfile in set-*.zip; do
+            slug="${zipfile%.zip}"
+            rm -rf "$slug"
+            mkdir "$slug"
+            unzip "$zipfile" -d "$slug/"
+            rm "$zipfile"
+          done
+
+      - name: Create branch and open PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ADDON_NAME: ${{ github.event.client_payload.addon_name }}
+          ADDON_ID: ${{ github.event.client_payload.addon_id }}
+        run: |
+          BRANCH="addon/${ADDON_ID}-${{ github.run_id }}"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git checkout -b "$BRANCH"
+          git add set-*/
+          git commit -m "Add community addon: ${ADDON_NAME}"
+          git push origin "$BRANCH"
+          gh pr create \
+            --title "Add community addon: ${ADDON_NAME}" \
+            --body "Submitted via the addon tool. Triggered by repository dispatch." \
+            --base main \
+            --head "$BRANCH"

@@ -1,0 +1,7 @@
+{
+  "name": "neverball-packages",
+  "private": true,
+  "dependencies": {
+    "neverball-checker": "github:parasti/neverball-checker#main"
+  }
+}
