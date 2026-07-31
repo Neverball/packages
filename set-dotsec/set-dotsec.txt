@@ -8,3 +8,4 @@ map-dotsec/straight.sol
 map-dotsec/half_pipe.sol
 map-dotsec/real.sol
 map-dotsec/glass_run.sol
+map-dotsec/entonnoir.sol

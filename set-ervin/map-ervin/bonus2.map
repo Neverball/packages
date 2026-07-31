@@ -1,0 +1,1582 @@
+
+// entity 0
+{
+"classname" "worldspawn"
+"back" "map-back/ocean.sol"
+"grad" "back/ocean.png"
+"song" "bgm/track2.ogg"
+"bonus" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+// brush 0
+{
+( 64 64 8472 ) ( 64 -64 8472 ) ( -64 64 8472 ) mtrl/turf-red 128 128 0 0.5 0.5 0 0 0
+( 64 64 8472 ) ( -64 64 8472 ) ( 64 64 7896 ) mtrl/turf-shiny 128 0 0 0.5 0.09375 0 0 0
+( 64 64 8472 ) ( 64 64 7896 ) ( 64 -64 8472 ) mtrl/turf-shiny 128 0 0 0.5 0.09375 0 0 0
+( -336 -128 8464 ) ( -208 -128 8464 ) ( -336 0 8464 ) mtrl/turf-shiny 128 128 0 0.5 0.5 0 0 0
+( -64 -64 7896 ) ( -64 -64 8472 ) ( 64 -64 7896 ) mtrl/turf-shiny 128 0 0 0.5 0.09375 0 0 0
+( -64 -64 7896 ) ( -64 64 7896 ) ( -64 -64 8472 ) mtrl/turf-shiny 128 0 0 0.5 0.09375 0 0 0
+}
+// brush 1
+{
+( 184 192 -3112 ) ( 184 -192 -3112 ) ( -200 192 -3112 ) mtrl/teleporter 127.9999923706 129.5802612305 90 2.5 2.53125 0 0 0
+( 176 384 -3112 ) ( -208 384 -3112 ) ( 176 384 -3120 ) mtrl/turf-shiny 1.51953125 132.7407531738 90 0.0312495232 2.53125 0 0 0
+( 384 184 -3112 ) ( 384 184 -3120 ) ( 384 -200 -3112 ) mtrl/turf-shiny 1.51953125 127.9999923706 90 0.0312495232 2.4999997616 0 0 0
+( -200 -192 -3120 ) ( 184 -192 -3120 ) ( -200 192 -3120 ) mtrl/turf-shiny 127.9999923706 129.5802612305 90 2.5 2.53125 0 0 0
+( -200 -384 -3120 ) ( -200 -384 -3112 ) ( 184 -384 -3120 ) mtrl/turf-shiny 1.51953125 129.5802612305 90 0.0312495232 2.53125 0 0 0
+( -384 -200 -3120 ) ( -384 184 -3120 ) ( -384 -200 -3112 ) mtrl/turf-shiny 1.51953125 131.1999969482 90 0.0312495232 2.4999997616 0 0 0
+}
+}
+// entity 1
+{
+"classname" "info_player_start"
+"origin" "0 0 8496"
+"back" "map-back/ocean.sol"
+"grad" "back/ocean.png"
+"song" "bgm/track2.ogg"
+"bonus" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 2
+{
+"classname" "target_teleporter"
+"origin" "0 0 -3112"
+"radius" "3.75"
+"target" "t1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 3
+{
+"classname" "target_position"
+"origin" "0 0 8488"
+"targetname" "t1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 4
+{
+"classname" "light"
+"origin" "0 0 8536"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 5
+{
+"classname" "light"
+"origin" "0 0 8600"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 6
+{
+"classname" "light"
+"origin" "0 0 8664"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 7
+{
+"classname" "light"
+"origin" "0 0 8720"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 8
+{
+"classname" "light"
+"origin" "0 0 8776"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 9
+{
+"classname" "light"
+"origin" "0 0 8832"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 10
+{
+"classname" "light"
+"origin" "0 0 8880"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 11
+{
+"classname" "light"
+"origin" "0 0 8928"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 12
+{
+"classname" "light"
+"origin" "0 0 8976"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 13
+{
+"classname" "light"
+"origin" "0 0 9024"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 14
+{
+"classname" "light"
+"origin" "0 0 9072"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 15
+{
+"classname" "light"
+"origin" "0 0 9120"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 16
+{
+"classname" "light"
+"origin" "0 0 9168"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 17
+{
+"classname" "light"
+"origin" "0 0 9216"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 18
+{
+"classname" "light"
+"origin" "0 0 9264"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 19
+{
+"classname" "light"
+"origin" "0 0 9312"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 20
+{
+"classname" "light"
+"origin" "0 0 9360"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 21
+{
+"classname" "light"
+"origin" "0 0 9408"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 22
+{
+"classname" "light"
+"origin" "0 0 9456"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 23
+{
+"classname" "light"
+"origin" "0 0 9504"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 24
+{
+"classname" "light"
+"origin" "0 0 9552"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 25
+{
+"classname" "light"
+"origin" "0 0 9600"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 26
+{
+"classname" "light"
+"origin" "0 0 9648"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 27
+{
+"classname" "light"
+"origin" "0 0 9696"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 28
+{
+"classname" "light"
+"origin" "0 0 9744"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 29
+{
+"classname" "light"
+"origin" "0 0 9792"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 30
+{
+"classname" "light"
+"origin" "0 0 9888"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 31
+{
+"classname" "light"
+"origin" "0 0 9840"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 32
+{
+"classname" "light"
+"origin" "0 0 9936"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 33
+{
+"classname" "light"
+"origin" "0 0 9984"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 34
+{
+"classname" "light"
+"origin" "0 0 10032"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 35
+{
+"classname" "light"
+"origin" "0 0 10080"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 36
+{
+"classname" "light"
+"origin" "0 0 10128"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 37
+{
+"classname" "light"
+"origin" "0 0 10176"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 38
+{
+"classname" "light"
+"origin" "0 0 10224"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 39
+{
+"classname" "light"
+"origin" "0 0 10272"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 40
+{
+"classname" "light"
+"origin" "0 0 10320"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 41
+{
+"classname" "light"
+"origin" "0 0 10368"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 42
+{
+"classname" "light"
+"origin" "0 0 10416"
+"light" "1"
+"time" "9000"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 43
+{
+"classname" "light"
+"origin" "0 0 10464"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 44
+{
+"classname" "light"
+"origin" "0 0 10512"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 45
+{
+"classname" "light"
+"origin" "0 0 10560"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 46
+{
+"classname" "light"
+"origin" "0 0 10608"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 47
+{
+"classname" "light"
+"origin" "0 0 10656"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 48
+{
+"classname" "light"
+"origin" "0 0 10656"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 49
+{
+"classname" "light"
+"origin" "0 0 10704"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 50
+{
+"classname" "light"
+"origin" "0 0 10800"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 51
+{
+"classname" "light"
+"origin" "0 0 10752"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 52
+{
+"classname" "light"
+"origin" "0 0 10848"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 53
+{
+"classname" "light"
+"origin" "0 0 10896"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 54
+{
+"classname" "light"
+"origin" "0 0 10944"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 55
+{
+"classname" "info_player_deathmatch"
+"origin" "0 0 -3088"
+"radius" "0.6"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 56
+{
+"classname" "light"
+"light" "1"
+"origin" "0 0 10992"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 57
+{
+"classname" "light"
+"origin" "0 0 11040"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 58
+{
+"classname" "light"
+"origin" "0 0 11088"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 59
+{
+"classname" "light"
+"origin" "0 0 11136"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 60
+{
+"classname" "light"
+"origin" "0 0 11184"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 61
+{
+"classname" "light"
+"origin" "0 0 11232"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 62
+{
+"classname" "light"
+"origin" "0 0 11280"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 63
+{
+"classname" "light"
+"origin" "0 0 11328"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 64
+{
+"classname" "light"
+"origin" "0 0 11376"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 65
+{
+"classname" "light"
+"origin" "0 0 11424"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 66
+{
+"classname" "light"
+"origin" "0 0 11472"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 67
+{
+"classname" "light"
+"origin" "0 0 11520"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 68
+{
+"classname" "light"
+"origin" "0 0 11568"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 69
+{
+"classname" "light"
+"origin" "0 0 11616"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 70
+{
+"classname" "light"
+"origin" "0 0 11664"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 71
+{
+"classname" "light"
+"origin" "0 0 11712"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 72
+{
+"classname" "light"
+"origin" "0 0 11760"
+"light" "5"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 73
+{
+"classname" "light"
+"origin" "0 0 11808"
+"light" "5"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 74
+{
+"classname" "light"
+"origin" "0 0 11856"
+"light" "5"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 75
+{
+"classname" "light"
+"origin" "0 0 11904"
+"light" "5"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 76
+{
+"classname" "light"
+"origin" "0 0 11952"
+"light" "5"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 77
+{
+"classname" "light"
+"origin" "0 0 12000"
+"light" "5"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 78
+{
+"classname" "light"
+"origin" "0 0 12048"
+"light" "5"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 79
+{
+"classname" "light"
+"origin" "0 0 12096"
+"light" "5"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 80
+{
+"classname" "light"
+"origin" "0 0 12144"
+"light" "5"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 81
+{
+"classname" "light"
+"origin" "0 0 12192"
+"light" "5"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 82
+{
+"classname" "light"
+"origin" "-56 0 12192"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 83
+{
+"classname" "light"
+"origin" "56 0 12192"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 84
+{
+"classname" "light"
+"origin" "-56 0 12240"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 85
+{
+"classname" "light"
+"origin" "-56 0 12288"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 86
+{
+"classname" "light"
+"origin" "-56 0 12336"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 87
+{
+"classname" "light"
+"origin" "-56 0 12384"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 88
+{
+"classname" "light"
+"origin" "56 0 12384"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 89
+{
+"classname" "light"
+"origin" "56 0 12336"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 90
+{
+"classname" "light"
+"origin" "56 0 12288"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 91
+{
+"classname" "light"
+"origin" "56 0 12240"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 92
+{
+"classname" "light"
+"origin" "0 0 12240"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 93
+{
+"classname" "light"
+"origin" "0 0 12288"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 94
+{
+"classname" "light"
+"origin" "0 0 12336"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 95
+{
+"classname" "light"
+"origin" "0 0 12384"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 96
+{
+"classname" "light"
+"origin" "0 0 12432"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 97
+{
+"classname" "light"
+"origin" "56 0 12432"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 98
+{
+"classname" "light"
+"origin" "-56 0 12432"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 99
+{
+"classname" "light"
+"origin" "-56 0 12480"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 100
+{
+"classname" "light"
+"origin" "-56 0 12528"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 101
+{
+"classname" "light"
+"origin" "-56 0 12576"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 102
+{
+"classname" "light"
+"origin" "-56 0 12624"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 103
+{
+"classname" "light"
+"origin" "56 0 12480"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 104
+{
+"classname" "light"
+"origin" "56 0 12528"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 105
+{
+"classname" "light"
+"origin" "56 0 12576"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 106
+{
+"classname" "light"
+"origin" "56 0 12624"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 107
+{
+"classname" "light"
+"origin" "0 0 12624"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 108
+{
+"classname" "light"
+"origin" "0 0 12576"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 109
+{
+"classname" "light"
+"origin" "0 0 12528"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 110
+{
+"classname" "light"
+"origin" "0 0 12480"
+"light" "1"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 111
+{
+"classname" "light"
+"origin" "0 0 12672"
+"light" "5"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 112
+{
+"classname" "light"
+"origin" "0 0 12712"
+"light" "5"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 113
+{
+"classname" "light"
+"origin" "0 0 12752"
+"light" "5"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 114
+{
+"classname" "light"
+"origin" "0 0 12792"
+"light" "5"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 115
+{
+"classname" "light"
+"origin" "0 0 12832"
+"light" "5"
+"goal" "40"
+"time_hs" "700 710 725"
+"coin_hs" "170 140 100"
+"goal_hs" "2000 2800 4000"
+"bonus" "1"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}
+// entity 116
+{
+"classname" "info_player_intermission"
+"origin" "312 632 9312"
+"bonus" "0"
+"shot" "shot-ervin/bonus2.jpg"
+"message" "You'll be welcomed very well down there."
+}

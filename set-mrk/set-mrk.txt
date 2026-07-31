@@ -1,0 +1,10 @@
+Mr. K's levels
+Difficulty: Intermediate\\Levels which challenge your faith in what you see.\ \
+mrk
+shot-mrk/leap.jpg
+
+map-mrk/letsstart.sol
+map-mrk/elevator.sol
+map-mrk/blackhole.sol
+map-mrk/invispath.sol
+map-mrk/leap.sol

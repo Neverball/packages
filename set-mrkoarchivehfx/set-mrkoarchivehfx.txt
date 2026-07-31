@@ -1,0 +1,30 @@
+Mrko's archive
+The *possible* levels from Mrko's archive maps.\Many of these levels feel surprisingly empty...\Good luck beating this set in Challenge Mode.\Not because you'll run out of lives,\but because the last level might test your patience.
+ma1
+shot-mrkoarchive/gofg.jpg
+
+map-mrkoarchivehfx/Map1.sol
+map-mrkoarchivehfx/textureglitch1.sol
+map-mrkoarchivehfx/Detailtest.sol
+map-mrkoarchivehfx/autosave.autosave.sol
+map-mrkoarchivehfx/collectjewelsmrko.sol
+map-mrkoarchivehfx/gofg.sol
+map-mrkoarchivehfx/firstgtkradiantmap.sol
+map-mrkoarchivehfx/unnamed.autosave.sol
+map-mrkoarchivehfx/MrkoCool.sol
+map-mrkoarchivehfx/MrkoJump.sol
+map-mrkoarchivehfx/mrkoputt.autosave.sol
+map-mrkoarchivehfx/invisible.sol
+map-mrkoarchivehfx/MrkosBirthdaySuprise.sol
+map-mrkoarchivehfx/toolazy.sol
+map-mrkoarchivehfx/unnamed.sol
+map-mrkoarchivehfx/map3.sol
+map-mrkoarchivehfx/twist-demo-ps.sol
+map-mrkoarchivehfx/mrkos map1.sol
+map-mrkoarchivehfx/Mrko.sol
+map-mrkoarchivehfx/MBG1.sol
+map-mrkoarchivehfx/troll level.sol
+map-mrkoarchivehfx/reverse.sol
+map-mrkoarchivehfx/MrkoTEST.autosave.sol
+map-mrkoarchivehfx/unnamed_longlevelaltshot.sol
+map-mrkoarchivehfx/thwomp2.sol

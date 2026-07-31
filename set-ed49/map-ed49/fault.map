@@ -1,0 +1,282 @@
+
+// entity 0
+{
+"classname" "worldspawn"
+"levelname" "Fault"
+"version" "1"
+"author" "Connor"
+"shot" "shot-ed49/fault.jpg"
+"back" "map-back/clouds.sol"
+"grad" "back/land.png"
+"song" "bgm/track1.ogg"
+"time" "6000"
+"goal" "25"
+"time_hs" "0 0"
+"coin_hs" "76 48"
+"message" "NOW you are near a fault line.\"
+}
+// entity 1
+{
+"classname" "path_corner"
+"origin" "0 708 4"
+"targetname" "path_corner1"
+"target" "path_corner2"
+"speed" "0.0625"
+}
+// entity 2
+{
+"classname" "path_corner"
+"origin" "4 708 4"
+"targetname" "path_corner2"
+"target" "path_corner1"
+"speed" "0.0625"
+}
+// entity 3
+{
+"classname" "func_train"
+"target" "path_corner3"
+// brush 0
+{
+( 48 424 8 ) ( 48 336 8 ) ( -40 424 8 ) mtrl/turf-green-check 0 0 0 0.5 0.5 0 0 0
+( 48 448 8 ) ( -40 448 8 ) ( 48 448 0 ) mtrl/edge2-green-check 0 0 0 0.5 0.5 0 0 0
+( 40 424 8 ) ( 40 424 0 ) ( 40 336 8 ) mtrl/edge2-green-check 0 0 0 0.5 0.5 0 0 0
+( -40 336 0 ) ( 48 336 0 ) ( -40 424 0 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( -40 328 0 ) ( -40 328 8 ) ( 48 328 0 ) mtrl/edge2-green-check 0 0 0 0.5 0.5 0 0 0
+( -40 336 0 ) ( -40 424 0 ) ( -40 336 8 ) mtrl/edge2-green-check 0 0 0 0.5 0.5 0 0 0
+}
+// brush 1
+{
+( 56 192 8 ) ( 56 72 8 ) ( -56 192 8 ) mtrl/turf-green-check 0 0 0 0.5 0.5 0 0 0
+( 56 192 8 ) ( -56 192 8 ) ( 56 192 0 ) mtrl/edge2-green-check 0 0 0 0.5 0.5 0 0 0
+( 56 192 8 ) ( 56 192 0 ) ( 56 72 8 ) mtrl/edge2-green-check 0 0 0 0.5 0.5 0 0 0
+( -56 72 0 ) ( 56 72 0 ) ( -56 192 0 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( -56 72 0 ) ( -56 72 8 ) ( 56 72 0 ) mtrl/edge2-green-check 0 0 0 0.5 0.5 0 0 0
+( -56 72 0 ) ( -56 192 0 ) ( -56 72 8 ) mtrl/edge2-green-check 0 0 0 0.5 0.5 0 0 0
+}
+// brush 2
+{
+( 48 328 8 ) ( 48 208 8 ) ( -48 328 8 ) mtrl/turf-green-check 0 0 0 0.5 0.5 0 0 0
+( 48 320 8 ) ( -48 320 8 ) ( 48 320 0 ) mtrl/edge2-green-check 0 0 0 0.5 0.5 0 0 0
+( 48 328 8 ) ( 48 328 0 ) ( 48 208 8 ) mtrl/edge2-green-check 0 0 0 0.5 0.5 0 0 0
+( -48 208 0 ) ( 48 208 0 ) ( -48 328 0 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( -48 200 0 ) ( -48 200 8 ) ( 48 200 0 ) mtrl/edge2-green-check 0 0 0 0.5 0.5 0 0 0
+( -48 208 0 ) ( -48 328 0 ) ( -48 208 8 ) mtrl/edge2-green-check 0 0 0 0.5 0.5 0 0 0
+}
+// brush 3
+{
+( 64 64 8 ) ( 64 -64 8 ) ( -64 64 8 ) mtrl/turf-green-light 0 0 0 0.5 0.5 0 0 0
+( 64 64 8 ) ( -64 64 8 ) ( 64 64 0 ) mtrl/edge2-green-check 0 0 0 0.5 0.5 0 0 0
+( 64 64 8 ) ( 64 64 0 ) ( 64 -64 8 ) mtrl/edge2-green-light 0 0 0 0.5 0.5 0 0 0
+( -64 -64 0 ) ( 64 -64 0 ) ( -64 64 0 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( -64 -64 0 ) ( -64 -64 8 ) ( 64 -64 0 ) mtrl/edge2-green-light 0 0 0 0.5 0.5 0 0 0
+( -64 -64 0 ) ( -64 64 0 ) ( -64 -64 8 ) mtrl/edge2-green-light 0 0 0 0.5 0.5 0 0 0
+}
+}
+// entity 4
+{
+"classname" "path_corner"
+"origin" "0 192 4"
+"targetname" "path_corner3"
+"target" "path_corner4"
+"speed" "0.0625"
+}
+// entity 5
+{
+"classname" "path_corner"
+"origin" "-4 192 4"
+"targetname" "path_corner4"
+"target" "path_corner3"
+"speed" "0.0625"
+}
+// entity 6
+{
+"classname" "func_train"
+"target" "path_corner1"
+// brush 0
+{
+( 64 1024 8 ) ( 64 840 8 ) ( -64 1024 8 ) mtrl/turf-green-dark 0 0 0 0.5 0.5 0 0 0
+( 72 960 8 ) ( -56 960 8 ) ( 72 960 0 ) mtrl/edge2-green-dark 0 0 0 0.5 0.5 0 0 0
+( 64 1024 8 ) ( 64 1024 0 ) ( 64 840 8 ) mtrl/edge2-green-dark 0 0 0 0.5 0.5 0 0 0
+( -64 840 0 ) ( 64 840 0 ) ( -64 1024 0 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( -64 840 0 ) ( -64 840 8 ) ( 64 840 0 ) mtrl/edge2-green-dark 0 0 0 0.5 0.5 0 0 0
+( -64 840 0 ) ( -64 1024 0 ) ( -64 840 8 ) mtrl/edge2-green-dark 0 0 0 0.5 0.5 0 0 0
+}
+// brush 1
+{
+( 16 768 8 ) ( 16 720 8 ) ( -8 768 8 ) mtrl/turf-green-check 0 0 0 0.5 0.5 0 0 0
+( 16 832 8 ) ( -8 832 8 ) ( 16 832 0 ) mtrl/edge2-green-check 0 0 0 0.5 0.5 0 0 0
+( 16 768 8 ) ( 16 768 0 ) ( 16 720 8 ) mtrl/edge2-green-check 0 0 0 0.5 0.5 0 0 0
+( -8 720 0 ) ( 16 720 0 ) ( -8 768 0 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( -8 712 0 ) ( -8 712 8 ) ( 16 712 0 ) mtrl/edge2-green-check 0 0 0 0.5 0.5 0 0 0
+( -16 720 0 ) ( -16 768 0 ) ( -16 720 8 ) mtrl/edge2-green-check 0 0 0 0.5 0.5 0 0 0
+}
+// brush 2
+{
+( 24 704 8 ) ( 24 584 8 ) ( -24 704 8 ) mtrl/turf-green-check 0 0 0 0.5 0.5 0 0 0
+( 24 704 8 ) ( -24 704 8 ) ( 24 704 0 ) mtrl/edge2-green-check 0 0 0 0.5 0.5 0 0 0
+( 24 704 8 ) ( 24 704 0 ) ( 24 584 8 ) mtrl/edge2-green-check 0 0 0 0.5 0.5 0 0 0
+( -24 584 0 ) ( 24 584 0 ) ( -24 704 0 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( -24 584 0 ) ( -24 584 8 ) ( 24 584 0 ) mtrl/edge2-green-check 0 0 0 0.5 0.5 0 0 0
+( -24 584 0 ) ( -24 704 0 ) ( -24 584 8 ) mtrl/edge2-green-check 0 0 0 0.5 0.5 0 0 0
+}
+// brush 3
+{
+( 64 960 8.125 ) ( 64 832 8.125 ) ( -64 960 8.125 ) mtrl/goal 128 128 0 0.5 0.5 134217728 0 0
+( 64 960 8.125 ) ( -64 960 8.125 ) ( 64 960 4.125 ) mtrl/invisible 128 8 0 0.5 0.015625 134217728 0 0
+( 64 960 8.125 ) ( 64 960 4.125 ) ( 64 832 8.125 ) mtrl/invisible 128 8 0 0.5 0.015625 134217728 0 0
+( -64 832 4.125 ) ( 64 832 4.125 ) ( -64 960 4.125 ) mtrl/invisible 128 128 0 0.5 0.5 134217728 0 0
+( -64 832 4.125 ) ( -64 832 8.125 ) ( 64 832 4.125 ) mtrl/invisible 128 8 0 0.5 0.015625 134217728 0 0
+( -64 832 4.125 ) ( -64 960 4.125 ) ( -64 832 8.125 ) mtrl/invisible 128 8 0 0.5 0.015625 134217728 0 0
+}
+// brush 4
+{
+( 32 576 8 ) ( 32 456 8 ) ( -32 576 8 ) mtrl/turf-green-check 0 0 0 0.5 0.5 0 0 0
+( 32 576 8 ) ( -32 576 8 ) ( 32 576 0 ) mtrl/edge2-green-check 0 0 0 0.5 0.5 0 0 0
+( 32 576 8 ) ( 32 576 0 ) ( 32 456 8 ) mtrl/edge2-green-check 0 0 0 0.5 0.5 0 0 0
+( -32 456 0 ) ( 32 456 0 ) ( -32 576 0 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( -32 456 0 ) ( -32 456 8 ) ( 32 456 0 ) mtrl/edge2-green-check 0 0 0 0.5 0.5 0 0 0
+( -32 456 0 ) ( -32 576 0 ) ( -32 456 8 ) mtrl/edge2-green-check 0 0 0 0.5 0.5 0 0 0
+}
+}
+// entity 7
+{
+"classname" "light"
+"origin" "32 160 24"
+"light" "1"
+}
+// entity 8
+{
+"classname" "light"
+"origin" "32 96 24"
+"light" "1"
+}
+// entity 9
+{
+"classname" "light"
+"origin" "-32 96 24"
+"light" "1"
+}
+// entity 10
+{
+"classname" "light"
+"origin" "-32 160 24"
+"light" "1"
+}
+// entity 11
+{
+"classname" "light"
+"origin" "-32 224 24"
+"light" "1"
+}
+// entity 12
+{
+"classname" "light"
+"origin" "32 224 24"
+"light" "1"
+}
+// entity 13
+{
+"classname" "light"
+"origin" "-32 288 24"
+"light" "1"
+}
+// entity 14
+{
+"classname" "light"
+"origin" "32 288 24"
+"light" "1"
+}
+// entity 15
+{
+"classname" "light"
+"origin" "-32 352 24"
+"light" "1"
+}
+// entity 16
+{
+"classname" "light"
+"origin" "32 352 24"
+"light" "1"
+}
+// entity 17
+{
+"classname" "light"
+"origin" "-32 416 24"
+"light" "1"
+}
+// entity 18
+{
+"classname" "light"
+"origin" "32 416 24"
+"light" "1"
+}
+// entity 19
+{
+"classname" "light"
+"origin" "-32 480 24"
+"light" "5"
+}
+// entity 20
+{
+"classname" "light"
+"origin" "32 480 24"
+"light" "5"
+}
+// entity 21
+{
+"classname" "light"
+"origin" "-32 544 24"
+"light" "5"
+}
+// entity 22
+{
+"classname" "light"
+"origin" "32 544 24"
+"light" "5"
+}
+// entity 23
+{
+"classname" "light"
+"origin" "-32 608 24"
+"light" "10"
+}
+// entity 24
+{
+"classname" "light"
+"origin" "32 608 24"
+"light" "10"
+}
+// entity 25
+{
+"classname" "light"
+"origin" "-32 672 24"
+"light" "10"
+}
+// entity 26
+{
+"classname" "light"
+"origin" "32 672 24"
+"light" "10"
+}
+// entity 27
+{
+"classname" "info_player_start"
+"origin" "0 0 32"
+}
+// entity 28
+{
+"classname" "info_player_deathmatch"
+"origin" "0 896 32"
+}
+// entity 29
+{
+"classname" "info_player_intermission"
+"origin" "336 -96 240"
+"target" "target_position1"
+}
+// entity 30
+{
+"classname" "target_position"
+"origin" "48 392 16"
+"targetname" "target_position1"
+}

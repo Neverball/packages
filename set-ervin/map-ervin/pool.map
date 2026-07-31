@@ -1,0 +1,689 @@
+
+// entity 0
+{
+"classname" "worldspawn"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "9000"
+"goal" "35"
+"song" "bgm/track3.ogg"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+// brush 0
+{
+( 192 0 8 ) ( 192 -256 8 ) ( -64 0 8 ) mtrl/turf-green-dark 128 0 0 0.5 0.5 0 0 0
+( 192 0 8 ) ( -64 0 8 ) ( 192 0 0 ) mtrl/turf-green-dark 128 0 0 0.5 0.5 0 0 0
+( 192 0 8 ) ( 192 0 0 ) ( 192 -256 8 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( -64 -256 0 ) ( 192 -256 0 ) ( -64 0 0 ) mtrl/turf-green-dark 128 0 0 0.5 0.5 0 0 0
+( -64 -256 0 ) ( -64 -256 8 ) ( 192 -256 0 ) mtrl/wood-check 128 0 0 0.5 0.5 0 0 0
+( -64 -256 0 ) ( -64 0 0 ) ( -64 -256 8 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+}
+// brush 1
+{
+( -64 768 8 ) ( -64 640 8 ) ( -320 768 8 ) mtrl/turf-green-dark 0 0 0 0.5 0.5 0 0 0
+( -64 768 8 ) ( -320 768 8 ) ( -64 768 0 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( 448 784 8 ) ( 448 784 0 ) ( 448 656 8 ) mtrl/turf-green-dark 224 0 0 0.5 0.5 0 0 0
+( -320 640 0 ) ( -64 640 0 ) ( -320 768 0 ) mtrl/turf-green-dark 0 0 0 0.5 0.5 0 0 0
+( -320 640 0 ) ( -320 640 8 ) ( -64 640 0 ) mtrl/turf-green-dark 0 0 0 0.5 0.5 0 0 0
+( -320 640 0 ) ( -320 768 0 ) ( -320 640 8 ) mtrl/turf-green-dark 0 0 0 0.5 0.5 0 0 0
+}
+// brush 2
+{
+( 448 640 8 ) ( 448 128 8 ) ( -320 640 8 ) mtrl/plank 170.6667175293 0 0 0.75 0.5 0 0 0
+( 448 640 8 ) ( -320 640 8 ) ( 448 640 0 ) mtrl/plank 170.6667175293 0 0 0.75 0.0078125 0 0 0
+( 448 640 8 ) ( 448 640 0 ) ( 448 128 8 ) mtrl/plank -0 0 0 0.5 0.0078125 0 0 0
+( -320 128 0 ) ( 448 128 0 ) ( -320 640 0 ) mtrl/plank 170.6666870117 0 0 0.75 0.5 0 0 0
+( -304 128 0 ) ( -304 128 8 ) ( 464 128 0 ) mtrl/plank 170.6666870117 0 0 0.75 0.0078125 0 0 0
+( -320 128 0 ) ( -320 640 0 ) ( -320 128 8 ) mtrl/plank -0 0 0 0.5 0.0078125 0 0 0
+}
+// brush 3
+{
+( -320 768 8 ) ( -320 640 8 ) ( -448 768 8 ) mtrl/coin-green-dark 0 0 0 0.5 0.5 0 0 0
+( -320 768 8 ) ( -448 768 8 ) ( -320 768 0 ) mtrl/wood-check 0 192 0 0.5 0.5 0 0 0
+( -320 768 8 ) ( -320 768 0 ) ( -320 640 8 ) mtrl/coin-green-dark 0 192 0 0.5 0.5 0 0 0
+( -448 640 0 ) ( -320 640 0 ) ( -448 768 0 ) mtrl/coin-green-dark 0 0 0 0.5 0.5 0 0 0
+( -448 640 0 ) ( -448 640 8 ) ( -320 640 0 ) mtrl/coin-green-dark 0 192 0 0.5 0.5 0 0 0
+( -448 640 0 ) ( -448 768 0 ) ( -448 640 8 ) mtrl/wood-check 0 192 0 0.5 0.5 0 0 0
+}
+// brush 4
+{
+( -320 128 8 ) ( -320 0 8 ) ( -448 128 8 ) mtrl/coin-green-dark 0 0 0 0.5 0.5 0 0 0
+( -320 128 8 ) ( -448 128 8 ) ( -320 128 0 ) mtrl/coin-green-dark 0 192 0 0.5 0.5 0 0 0
+( -320 120 8 ) ( -320 120 0 ) ( -320 -8 8 ) mtrl/coin-green-dark 16 192 0 0.5 0.5 0 0 0
+( -448 0 0 ) ( -320 0 0 ) ( -448 128 0 ) mtrl/coin-green-dark 0 0 0 0.5 0.5 0 0 0
+( -448 0 0 ) ( -448 0 8 ) ( -320 0 0 ) mtrl/wood-check 0 192 0 0.5 0.5 0 0 0
+( -448 0 0 ) ( -448 128 0 ) ( -448 0 8 ) mtrl/wood-check 0 192 0 0.5 0.5 0 0 0
+}
+// brush 5
+{
+( -248 752 8 ) ( -248 128 8 ) ( -448 752 8 ) mtrl/turf-green-dark 240 240 0 0.5 0.5 0 0 0
+( -320 752 8 ) ( -320 752 0 ) ( -320 128 8 ) mtrl/turf-green-dark 16 0 0 0.5 0.5 0 0 0
+( -448 128 0 ) ( -248 128 0 ) ( -448 752 0 ) mtrl/turf-green-dark 240 240 0 0.5 0.5 0 0 0
+( -448 128 0 ) ( -448 128 8 ) ( -248 128 0 ) mtrl/turf-green-dark 240 0 0 0.5 0.5 0 0 0
+( -448 128 0 ) ( -448 752 0 ) ( -448 128 8 ) mtrl/wood-check 16 0 0 0.5 0.5 0 0 0
+( -320 640 0 ) ( -448 640 8 ) ( -448 640 0 ) mtrl/coin-green-dark 0 192 0 0.5 0.5 0 0 0
+}
+// brush 6
+{
+( 304 128 8 ) ( 304 0 8 ) ( -440 128 8 ) mtrl/turf-green-dark 0 0 0 0.5 0.5 0 0 0
+( 304 128 8 ) ( -440 128 8 ) ( 304 128 0 ) mtrl/turf-green-dark 0 0 0 0.5 0.5 0 0 0
+( 448 120 8 ) ( 448 120 0 ) ( 448 -8 8 ) mtrl/turf-green-dark 16 0 0 0.5 0.5 0 0 0
+( -440 0 0 ) ( 304 0 0 ) ( -440 128 0 ) mtrl/turf-green-dark 0 0 0 0.5 0.5 0 0 0
+( -440 0 0 ) ( -440 0 8 ) ( 304 0 0 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( -320 -8 8 ) ( -320 120 0 ) ( -320 120 8 ) mtrl/coin-green-dark 16 192 0 0.5 0.5 0 0 0
+}
+// brush 7
+{
+( 576 128 8 ) ( 576 0 8 ) ( 448 128 8 ) mtrl/coin-green-dark 0 0 0 0.5 0.5 0 0 0
+( 576 128 8 ) ( 448 128 8 ) ( 576 128 0 ) mtrl/coin-green-dark 0 192 0 0.5 0.5 0 0 0
+( 576 120 8 ) ( 576 120 0 ) ( 576 -8 8 ) mtrl/wood-check 16 192 0 0.5 0.5 0 0 0
+( 448 0 0 ) ( 576 0 0 ) ( 448 128 0 ) mtrl/coin-green-dark 0 0 0 0.5 0.5 0 0 0
+( 448 0 0 ) ( 448 0 8 ) ( 576 0 0 ) mtrl/wood-check 0 192 0 0.5 0.5 0 0 0
+( 448 0 0 ) ( 448 128 0 ) ( 448 0 8 ) mtrl/coin-green-dark 0 192 0 0.5 0.5 0 0 0
+}
+// brush 8
+{
+( 576 768 8 ) ( 576 640 8 ) ( 448 768 8 ) mtrl/coin-green-dark 0 0 0 0.5 0.5 0 0 0
+( 576 768 8 ) ( 448 768 8 ) ( 576 768 0 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( 576 768 8 ) ( 576 768 0 ) ( 576 640 8 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( 448 640 0 ) ( 576 640 0 ) ( 448 768 0 ) mtrl/coin-green-dark 0 0 0 0.5 0.5 0 0 0
+( 456 640 0 ) ( 456 640 8 ) ( 584 640 0 ) mtrl/coin-green-dark 240 0 0 0.5 0.5 0 0 0
+( 448 640 0 ) ( 448 768 0 ) ( 448 640 8 ) mtrl/coin-green-dark 0 0 0 0.5 0.5 0 0 0
+}
+// brush 9
+{
+( 608 768 8 ) ( 608 160 8 ) ( 448 768 8 ) mtrl/turf-green-dark 0 0 0 0.5 0.5 0 0 0
+( 576 760 8 ) ( 576 760 0 ) ( 576 152 8 ) mtrl/wood-check 16 0 0 0.5 0.5 0 0 0
+( 448 160 0 ) ( 608 160 0 ) ( 448 768 0 ) mtrl/turf-green-dark 0 0 0 0.5 0.5 0 0 0
+( 448 160 0 ) ( 448 768 0 ) ( 448 160 8 ) mtrl/turf-green-dark 0 0 0 0.5 0.5 0 0 0
+( 576 128 0 ) ( 448 128 8 ) ( 576 128 8 ) mtrl/coin-green-dark 0 192 0 0.5 0.5 0 0 0
+( 576 640 0 ) ( 448 640 8 ) ( 448 640 0 ) mtrl/coin-green-dark 0 0 0 0.5 0.5 0 0 0
+}
+// brush 10
+{
+( -448 448 -46 ) ( -448 320 -46 ) ( -576 448 -46 ) mtrl/turf-green-dark 0 252 0 0.5 0.5 0 0 0
+( -448 448 -46 ) ( -576 448 -46 ) ( -448 448 -48 ) mtrl/wood-check 0 32 0 0.5 0.5 0 0 0
+( -320 440 -46 ) ( -320 440 -48 ) ( -320 312 -46 ) mtrl/turf-green-dark 20 32 0 0.5 0.5 0 0 0
+( -576 320 -56 ) ( -448 320 -56 ) ( -576 448 -56 ) mtrl/turf-green-dark 0 252 0 0.5 0.5 0 0 0
+( -576 320 -48 ) ( -576 320 -46 ) ( -448 320 -48 ) mtrl/wood-check 0 32 0 0.5 0.5 0 0 0
+( -576 320 -48 ) ( -576 448 -48 ) ( -576 320 -46 ) mtrl/wood-check 4 32 0 0.5 0.5 0 0 0
+}
+// brush 11
+{
+( 448 640 -48 ) ( 448 128 -48 ) ( -320 640 -48 ) mtrl/turf-green-dark 0 0 0 0.5 0.5 0 0 0
+( 448 640 -48 ) ( -320 640 -48 ) ( 448 640 -56 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( 448 640 -48 ) ( 448 640 -56 ) ( 448 128 -48 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( -320 128 -56 ) ( 448 128 -56 ) ( -320 640 -56 ) mtrl/turf-green-dark 0 0 0 0.5 0.5 0 0 0
+( -320 128 -56 ) ( -320 128 -48 ) ( 448 128 -56 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( -320 128 -56 ) ( -320 640 -56 ) ( -320 128 -48 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+}
+// brush 12
+{
+( 736 368 -48 ) ( 736 240 -48 ) ( 608 368 -48 ) mtrl/turf-green-dark 192 96 0 0.5 0.5 0 0 0
+( 704 448 192 ) ( 576 448 192 ) ( 704 448 -56 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( 704 448 192 ) ( 704 448 -56 ) ( 704 320 192 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( 576 320 -56 ) ( 704 320 -56 ) ( 576 448 -56 ) mtrl/turf-green-dark 0 0 0 0.5 0.5 0 0 0
+( 576 320 -56 ) ( 576 320 192 ) ( 704 320 -56 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( 448 312 -56 ) ( 448 440 -56 ) ( 448 312 192 ) mtrl/turf-green-dark 16 0 0 0.5 0.5 0 0 0
+}
+// brush 13
+{
+( -88 440 -48 ) ( -88 312 -48 ) ( -216 440 -48 ) mtrl/goal 0 128 0 0.5 0.5 0 0 0
+( 128 448 440 ) ( 0 448 440 ) ( 128 448 -56 ) mtrl/goal 0 0 0 0.5 0.5 0 0 0
+( 128 448 440 ) ( 128 448 -56 ) ( 128 320 440 ) mtrl/goal 0 0 0 0.5 0.5 0 0 0
+( 0 320 -56 ) ( 128 320 -56 ) ( 0 448 -56 ) mtrl/goal 0 0 0 0.5 0.5 0 0 0
+( 0 320 -56 ) ( 0 320 440 ) ( 128 320 -56 ) mtrl/goal 0 0 0 0.5 0.5 0 0 0
+( 0 296 -208 ) ( 0 424 -208 ) ( 0 296 288 ) mtrl/goal 48 208 0 0.5 0.5 0 0 0
+}
+// brush 14
+{
+( -384 240 8 ) ( -384 112 8 ) ( -512 240 8 ) mtrl/goal 0 128 0 0.5 0.5 0 0 0
+( 128 448 448 ) ( 0 448 448 ) ( 128 448 -48 ) mtrl/goal 0 0 0 0.5 0.03125 0 0 0
+( 128 448 448 ) ( 128 448 -48 ) ( 128 320 448 ) mtrl/goal 128 0 0 0.5 0.03125 0 0 0
+( -8 312 0 ) ( 120 312 0 ) ( -8 440 0 ) mtrl/plank 0 128 0 0.5 0.5 0 0 0
+( 0 320 -48 ) ( 0 320 448 ) ( 128 320 -48 ) mtrl/goal 0 0 0 0.5 0.03125 0 0 0
+( 0 320 -48 ) ( 0 448 -48 ) ( 0 320 448 ) mtrl/goal 128 0 0 0.5 0.03125 0 0 0
+}
+}
+// entity 1
+{
+"classname" "info_player_start"
+"origin" "64 -128 32"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "9000"
+"goal" "35"
+"song" "bgm/track3.ogg"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 2
+{
+"classname" "light"
+"origin" "-416 736 24"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "9000"
+"goal" "35"
+"song" "bgm/track3.ogg"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 3
+{
+"classname" "light"
+"origin" "-352 736 24"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "9000"
+"goal" "35"
+"song" "bgm/track3.ogg"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 4
+{
+"classname" "light"
+"origin" "-352 672 24"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "9000"
+"goal" "35"
+"song" "bgm/track3.ogg"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 5
+{
+"classname" "light"
+"origin" "-416 672 24"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "9000"
+"goal" "35"
+"song" "bgm/track3.ogg"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 6
+{
+"classname" "light"
+"origin" "480 736 24"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "9000"
+"goal" "35"
+"song" "bgm/track3.ogg"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 7
+{
+"classname" "light"
+"origin" "544 736 24"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "9000"
+"goal" "35"
+"song" "bgm/track3.ogg"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 8
+{
+"classname" "light"
+"origin" "480 672 24"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "9000"
+"goal" "35"
+"song" "bgm/track3.ogg"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 9
+{
+"classname" "light"
+"origin" "544 672 24"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "9000"
+"goal" "35"
+"song" "bgm/track3.ogg"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 10
+{
+"classname" "light"
+"origin" "480 96 24"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "9000"
+"goal" "35"
+"song" "bgm/track3.ogg"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 11
+{
+"classname" "light"
+"origin" "480 32 24"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "9000"
+"goal" "35"
+"song" "bgm/track3.ogg"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 12
+{
+"classname" "light"
+"origin" "544 32 24"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "9000"
+"goal" "35"
+"song" "bgm/track3.ogg"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 13
+{
+"classname" "light"
+"origin" "544 96 24"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "9000"
+"goal" "35"
+"song" "bgm/track3.ogg"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 14
+{
+"classname" "light"
+"origin" "-416 96 24"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "9000"
+"goal" "35"
+"song" "bgm/track3.ogg"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 15
+{
+"classname" "light"
+"origin" "-352 96 24"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "9000"
+"goal" "35"
+"song" "bgm/track3.ogg"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 16
+{
+"classname" "light"
+"origin" "-352 32 24"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "9000"
+"goal" "35"
+"song" "bgm/track3.ogg"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 17
+{
+"classname" "light"
+"origin" "-416 32 24"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "9000"
+"goal" "35"
+"song" "bgm/track3.ogg"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 18
+{
+"classname" "light"
+"origin" "-256 576 -26"
+"light" "5"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "9000"
+"goal" "35"
+"song" "bgm/track3.ogg"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 19
+{
+"classname" "light"
+"origin" "-256 192 -20"
+"light" "5"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "9000"
+"goal" "35"
+"song" "bgm/track3.ogg"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 20
+{
+"classname" "light"
+"origin" "384 192 -28"
+"light" "5"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "9000"
+"goal" "35"
+"song" "bgm/track3.ogg"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 21
+{
+"classname" "light"
+"origin" "384 576 -26"
+"light" "5"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "9000"
+"goal" "35"
+"song" "bgm/track3.ogg"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 22
+{
+"classname" "info_player_intermission"
+"origin" "770 -386 440"
+"time" "9000"
+"target" "t1"
+"goal" "35"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 23
+{
+"classname" "light"
+"origin" "-192 256 -24"
+"light" "1"
+"goal" "35"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 24
+{
+"classname" "light"
+"origin" "-192 512 -24"
+"light" "1"
+"goal" "35"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 25
+{
+"classname" "light"
+"origin" "320 512 -24"
+"light" "1"
+"goal" "35"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 26
+{
+"classname" "light"
+"origin" "320 256 -24"
+"light" "1"
+"goal" "35"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 27
+{
+"classname" "target_position"
+"origin" "64 384 40"
+"targetname" "t1"
+"goal" "35"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 28
+{
+"classname" "light"
+"origin" "-64 256 -24"
+"light" "1"
+"goal" "35"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 29
+{
+"classname" "light"
+"origin" "64 256 -24"
+"light" "1"
+"goal" "35"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 30
+{
+"classname" "light"
+"origin" "192 256 -24"
+"light" "1"
+"goal" "35"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 31
+{
+"classname" "light"
+"origin" "-64 512 -24"
+"light" "1"
+"goal" "35"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 32
+{
+"classname" "light"
+"origin" "64 512 -24"
+"light" "1"
+"goal" "35"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 33
+{
+"classname" "light"
+"origin" "192 512 -24"
+"light" "1"
+"goal" "35"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 34
+{
+"classname" "light"
+"origin" "64 616 -24"
+"light" "10"
+"goal" "35"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 35
+{
+"classname" "light"
+"origin" "64 152 -24"
+"light" "10"
+"goal" "35"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 36
+{
+"classname" "info_player_deathmatch"
+"origin" "64 384 -24"
+"goal" "35"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 37
+{
+"classname" "light"
+"origin" "-128 384 -24"
+"light" "5"
+"goal" "35"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}
+// entity 38
+{
+"classname" "light"
+"origin" "256 384 -24"
+"light" "5"
+"goal" "35"
+"time_hs" "250 300 400"
+"goal_hs" "2000 2700 3600"
+"coin_hs" "75 60 45"
+"shot" "shot-ervin/pool.jpg"
+"message" "You can't watch the coins on the lower platform, \ but there aren't any holes in it."
+}

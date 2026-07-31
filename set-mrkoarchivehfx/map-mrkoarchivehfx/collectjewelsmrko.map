@@ -1,0 +1,378 @@
+// entity 0
+{
+"classname" "worldspawn"
+"shot" "shot-mrkoarchivehfx/collectjewelsmrko.jpg"
+// brush 0
+{
+( 64 -16 -88 ) ( 64 -104 -88 ) ( 64 -16 8 ) mtrl/turf-green-check 0 0 -90 0.5 0.5 0 0 0
+( 184 880 -80 ) ( 184 880 16 ) ( 56 880 -80 ) mtrl/turf-green-check 16 240 -90 0.5 0.5 0 0 0
+( 64 0 -8 ) ( -64 0 -8 ) ( 64 -88 -8 ) mtrl/turf-green-check 32 0 90 0.5 -0.5 0 0 0
+( -992 -88 8 ) ( -992 -88 -88 ) ( -992 0 8 ) mtrl/turf-green-check 0 32 -90 0.5 0.5 0 0 0
+( -72 -200 8 ) ( 56 -200 8 ) ( -72 -200 -88 ) mtrl/turf-green-check 0 48 -90 0.5 0.5 0 0 0
+( -64 -80 8 ) ( -64 8 8 ) ( 64 -80 8 ) mtrl/turf-green-check 16 0 90 0.5 -0.5 0 0 0
+}
+}
+// entity 1
+{
+"classname" "light"
+"origin" "-904.000000 832.000000 16.000000"
+"light" "10"
+}
+// entity 2
+{
+"classname" "light"
+"origin" "-904.000000 816.000000 16.000000"
+"light" "10"
+}
+// entity 3
+{
+"classname" "light"
+"origin" "-904.000000 800.000000 16.000000"
+"light" "10"
+}
+// entity 4
+{
+"classname" "light"
+"origin" "-608.000000 432.000000 16.000000"
+"light" "10"
+}
+// entity 5
+{
+"classname" "light"
+"origin" "-856.000000 360.000000 16.000000"
+"light" "10"
+}
+// entity 6
+{
+"classname" "light"
+"origin" "-624.000000 744.000000 16.000000"
+"light" "10"
+}
+// entity 7
+{
+"classname" "light"
+"origin" "-656.000000 176.000000 16.000000"
+"light" "10"
+}
+// entity 8
+{
+"classname" "light"
+"origin" "-840.000000 560.000000 16.000000"
+"light" "10"
+}
+// entity 9
+{
+"classname" "light"
+"origin" "-432.000000 672.000000 16.000000"
+"light" "10"
+}
+// entity 10
+{
+"classname" "light"
+"origin" "-408.000000 472.000000 16.000000"
+"light" "10"
+}
+// entity 11
+{
+"classname" "light"
+"origin" "-400.000000 248.000000 16.000000"
+"light" "10"
+}
+// entity 12
+{
+"classname" "light"
+"origin" "-248.000000 760.000000 16.000000"
+"light" "10"
+}
+// entity 13
+{
+"classname" "light"
+"origin" "-240.000000 592.000000 16.000000"
+"light" "10"
+}
+// entity 14
+{
+"classname" "light"
+"origin" "-272.000000 400.000000 16.000000"
+"light" "10"
+}
+// entity 15
+{
+"classname" "light"
+"origin" "-912.000000 144.000000 16.000000"
+"light" "10"
+}
+// entity 16
+{
+"classname" "light"
+"origin" "-768.000000 -48.000000 16.000000"
+"light" "10"
+}
+// entity 17
+{
+"classname" "light"
+"origin" "-544.000000 16.000000 16.000000"
+"light" "10"
+}
+// entity 18
+{
+"classname" "light"
+"origin" "-304.000000 72.000000 16.000000"
+"light" "10"
+}
+// entity 19
+{
+"classname" "light"
+"origin" "-368.000000 -104.000000 16.000000"
+"light" "10"
+}
+// entity 20
+{
+"classname" "light"
+"origin" "-744.000000 456.000000 16.000000"
+"light" "10"
+}
+// entity 21
+{
+"classname" "light"
+"origin" "-600.000000 584.000000 16.000000"
+"light" "10"
+}
+// entity 22
+{
+"classname" "light"
+"origin" "-496.000000 440.000000 16.000000"
+"light" "10"
+}
+// entity 23
+{
+"classname" "light"
+"origin" "-544.000000 328.000000 16.000000"
+"light" "10"
+}
+// entity 24
+{
+"classname" "light"
+"origin" "-720.000000 264.000000 16.000000"
+"light" "10"
+}
+// entity 25
+{
+"classname" "light"
+"origin" "-664.000000 32.000000 16.000000"
+"light" "10"
+}
+// entity 26
+{
+"classname" "light"
+"origin" "-496.000000 200.000000 16.000000"
+"light" "10"
+}
+// entity 27
+{
+"classname" "light"
+"origin" "-248.000000 312.000000 16.000000"
+"light" "10"
+}
+// entity 28
+{
+"classname" "light"
+"origin" "-896.000000 432.000000 16.000000"
+"light" "10"
+}
+// entity 29
+{
+"classname" "light"
+"origin" "-680.000000 528.000000 16.000000"
+"light" "10"
+}
+// entity 30
+{
+"classname" "light"
+"origin" "-424.000000 376.000000 16.000000"
+"light" "10"
+}
+// entity 31
+{
+"classname" "light"
+"origin" "-616.000000 256.000000 16.000000"
+"light" "10"
+}
+// entity 32
+{
+"classname" "light"
+"origin" "-688.000000 344.000000 16.000000"
+"light" "10"
+}
+// entity 33
+{
+"classname" "light"
+"origin" "-808.000000 136.000000 16.000000"
+"light" "10"
+}
+// entity 34
+{
+"classname" "light"
+"origin" "-888.000000 272.000000 16.000000"
+"light" "10"
+}
+// entity 35
+{
+"classname" "light"
+"origin" "-176.000000 32.000000 16.000000"
+"light" "10"
+}
+// entity 36
+{
+"classname" "light"
+"origin" "-144.000000 280.000000 16.000000"
+"light" "10"
+}
+// entity 37
+{
+"classname" "light"
+"origin" "-152.000000 272.000000 16.000000"
+"light" "10"
+}
+// entity 38
+{
+"classname" "light"
+"origin" "-136.000000 272.000000 16.000000"
+"light" "10"
+}
+// entity 39
+{
+"classname" "light"
+"origin" "-128.000000 264.000000 16.000000"
+"light" "10"
+}
+// entity 40
+{
+"classname" "light"
+"origin" "-152.000000 256.000000 16.000000"
+"light" "10"
+}
+// entity 41
+{
+"classname" "light"
+"origin" "-152.000000 296.000000 16.000000"
+"light" "10"
+}
+// entity 42
+{
+"classname" "light"
+"origin" "-120.000000 296.000000 16.000000"
+"light" "10"
+}
+// entity 43
+{
+"classname" "light"
+"origin" "-144.000000 264.000000 16.000000"
+"light" "10"
+}
+// entity 44
+{
+"classname" "light"
+"origin" "-128.000000 288.000000 16.000000"
+"light" "10"
+}
+// entity 45
+{
+"classname" "light"
+"origin" "-136.000000 264.000000 16.000000"
+"light" "10"
+}
+// entity 46
+{
+"classname" "light"
+"origin" "-144.000000 272.000000 16.000000"
+"light" "10"
+}
+// entity 47
+{
+"classname" "light"
+"origin" "-992.000000 -200.000000 16.000000"
+"light" "10"
+}
+// entity 48
+{
+"classname" "light"
+"origin" "-544.000000 272.000000 16.000000"
+"light" "10"
+}
+// entity 49
+{
+"classname" "light"
+"origin" "-440.000000 312.000000 16.000000"
+"light" "10"
+}
+// entity 50
+{
+"classname" "light"
+"origin" "-400.000000 128.000000 16.000000"
+"light" "10"
+}
+// entity 51
+{
+"classname" "light"
+"origin" "-576.000000 128.000000 16.000000"
+"light" "10"
+}
+// entity 52
+{
+"classname" "light"
+"origin" "-424.000000 8.000000 16.000000"
+"light" "10"
+}
+// entity 53
+{
+"classname" "light"
+"origin" "-632.000000 -104.000000 16.000000"
+"light" "10"
+}
+// entity 54
+{
+"classname" "light"
+"origin" "-864.000000 -16.000000 16.000000"
+"light" "10"
+}
+// entity 55
+{
+"classname" "light"
+"origin" "-768.000000 624.000000 16.000000"
+"light" "10"
+}
+// entity 56
+{
+"classname" "light"
+"origin" "-464.000000 552.000000 16.000000"
+"light" "10"
+}
+// entity 57
+{
+"classname" "light"
+"origin" "-288.000000 504.000000 16.000000"
+"light" "10"
+}
+// entity 58
+{
+"classname" "info_player_deathmatch"
+"origin" "0.000000 832.000000 32.000000"
+}
+// entity 59
+{
+"classname" "info_player_start"
+"origin" "16.000000 -152.000000 32.000000"
+}
+// entity 60
+{
+"classname" "info_player_intermission"
+"origin" "-1072.000000 -824.000000 328.000000"
+"target" "cam0"
+}
+// entity 61
+{
+"classname" "target_position"
+"origin" "-624.000000 -88.000000 136.000000"
+"targetname" "cam0"
+}

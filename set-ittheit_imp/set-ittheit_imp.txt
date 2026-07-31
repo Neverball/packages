@@ -1,0 +1,7 @@
+It the it's levels (imp.)
+A couple levels which could be impossible\Author: It the it\
+ittheit_imp
+shot-ittheit_imp/splitdance.png
+
+map-ittheit_imp/splitdance.sol
+map-ittheit_imp/small_diams.sol

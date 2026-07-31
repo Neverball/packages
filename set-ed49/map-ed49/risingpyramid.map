@@ -1,0 +1,396 @@
+
+// entity 0
+{
+"classname" "worldspawn"
+"bonus" "1"
+"levelname" "Rising Pyramid"
+"version" "1"
+"author" "Connor"
+"shot" "shot-ed49/risingpyramid.jpg"
+"back" "map-back/clouds.sol"
+"grad" "back/land.png"
+"song" "bgm/track1.ogg"
+"time" "6100"
+"goal" "30"
+"time_hs" "0 0"
+"coin_hs" "63 48"
+"message" "15 seconds before you must be at\ the next step... and no return.\"
+// brush 0
+{
+( 64 64 2080.125 ) ( 64 -64 2080.125 ) ( -64 64 2080.125 ) mtrl/goal 128 128 0 0.5 0.5 134217728 0 0
+( 64 64 2080.125 ) ( -64 64 2080.125 ) ( 64 64 1952.125 ) mtrl/invisible 0 0 0 0.5 0.5 134217728 0 0
+( 64 64 2080.125 ) ( 64 64 1952.125 ) ( 64 -64 2080.125 ) mtrl/invisible 0 0 0 0.5 0.5 134217728 0 0
+( -72 -64 2072.125 ) ( 56 -64 2072.125 ) ( -72 64 2072.125 ) mtrl/invisible 0 0 0 0.5 0.5 134217728 0 0
+( -64 -64 1952.125 ) ( -64 -64 2080.125 ) ( 64 -64 1952.125 ) mtrl/invisible 0 0 0 0.5 0.5 134217728 0 0
+( -64 -64 1952.125 ) ( -64 64 1952.125 ) ( -64 -64 2080.125 ) mtrl/invisible 0 0 0 0.5 0.5 134217728 0 0
+}
+// brush 1
+{
+( 64 64 -96 ) ( 64 -64 -96 ) ( -64 64 -96 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 64 64 -96 ) ( -64 64 -96 ) ( 64 64 -224 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 64 64 -96 ) ( 64 64 -224 ) ( 64 -64 -96 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -64 -64 -224 ) ( 64 -64 -224 ) ( -64 64 -224 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -64 -64 -224 ) ( -64 -64 -96 ) ( 64 -64 -224 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -64 -64 -224 ) ( -64 64 -224 ) ( -64 -64 -96 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+}
+}
+// entity 1
+{
+"classname" "func_train"
+"target" "path_corner1"
+// brush 0
+{
+( 64 64 32 ) ( 64 -64 32 ) ( -64 64 32 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( 64 64 64 ) ( -64 64 64 ) ( 64 64 -64 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( 64 64 64 ) ( 64 64 -64 ) ( 64 -64 64 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( -64 -64 0 ) ( 64 -64 0 ) ( -64 64 0 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( -64 -64 -64 ) ( -64 -64 64 ) ( 64 -64 -64 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( -64 -56 -64 ) ( -64 72 -64 ) ( -64 -56 64 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 1
+{
+( 128 -64 0 ) ( 64 -64 0 ) ( 64 64 32 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( 128 64 64 ) ( 64 64 64 ) ( 128 64 0 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( 128 64 64 ) ( 128 64 0 ) ( 128 -64 64 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( 64 -64 0 ) ( 128 -64 0 ) ( 128 64 0 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 64 -64 0 ) ( 64 64 0 ) ( 64 -64 64 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+}
+}
+// entity 2
+{
+"classname" "func_train"
+"target" "path_corner2"
+// brush 0
+{
+( 128 128 0 ) ( 128 -128 0 ) ( -128 128 0 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( 128 128 0 ) ( -128 128 0 ) ( 128 128 -64 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( 128 128 0 ) ( 128 128 -64 ) ( 128 -128 0 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( -128 -128 -32 ) ( 128 -128 -32 ) ( -128 128 -32 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( -128 -128 -64 ) ( -128 -128 0 ) ( 128 -128 -64 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( -128 -128 -64 ) ( -128 128 -64 ) ( -128 -128 0 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 1
+{
+( 192 -128 -32 ) ( 128 -128 -32 ) ( 128 128 0 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( 192 128 32 ) ( 128 128 32 ) ( 192 128 -32 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( 192 128 32 ) ( 192 128 -32 ) ( 192 -128 32 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( 128 -128 -32 ) ( 192 -128 -32 ) ( 128 128 -32 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 128 -128 -32 ) ( 128 128 -32 ) ( 128 -128 32 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+}
+}
+// entity 3
+{
+"classname" "func_train"
+"target" "path_corner3"
+// brush 0
+{
+( 192 192 -32 ) ( 192 -192 -32 ) ( -192 192 -32 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( 192 192 -16 ) ( -192 192 -16 ) ( 192 192 -48 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( 192 192 -16 ) ( 192 192 -48 ) ( 192 -192 -16 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( -192 -192 -64 ) ( 192 -192 -64 ) ( -192 192 -64 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( -192 -192 -48 ) ( -192 -192 -16 ) ( 192 -192 -48 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( -192 -192 -48 ) ( -192 192 -48 ) ( -192 -192 -16 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 1
+{
+( 256 -192 -64 ) ( 192 -192 -64 ) ( 192 192 -32 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( 256 192 -32 ) ( 192 192 -32 ) ( 256 192 -64 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( 256 128 -32 ) ( 256 128 -64 ) ( 256 -192 -32 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( 192 -192 -64 ) ( 256 -192 -64 ) ( 192 128 -64 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 192 -192 -64 ) ( 192 128 -64 ) ( 192 -192 -32 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+}
+}
+// entity 4
+{
+"classname" "func_train"
+"target" "path_corner4"
+// brush 0
+{
+( 192 192 -64 ) ( 192 -256 -64 ) ( -192 192 -64 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( 192 256 -64 ) ( -192 256 -64 ) ( 192 256 -96 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( 256 192 -64 ) ( 256 192 -96 ) ( 256 -256 -64 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( -192 -256 -96 ) ( 192 -256 -96 ) ( -192 192 -96 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( -192 -256 -96 ) ( -192 -256 -64 ) ( 192 -256 -96 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( -256 -240 -96 ) ( -256 208 -96 ) ( -256 -240 -64 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+}
+}
+// entity 5
+{
+"classname" "path_corner"
+"origin" "0 0 -80"
+"targetname" "path_corner4"
+"target" "path_corner5"
+"speed" "15.0"
+"smooth" "0"
+}
+// entity 6
+{
+"classname" "path_corner"
+"origin" "32 0 -48"
+"targetname" "path_corner3"
+"target" "path_corner6"
+"speed" "30.0"
+"smooth" "0"
+}
+// entity 7
+{
+"classname" "path_corner"
+"origin" "32 0 -16"
+"targetname" "path_corner2"
+"target" "path_corner7"
+"speed" "45.0"
+"smooth" "0"
+}
+// entity 8
+{
+"classname" "path_corner"
+"origin" "32 0 16"
+"targetname" "path_corner1"
+"target" "path_corner8"
+"speed" "60.0"
+"smooth" "0"
+}
+// entity 9
+{
+"classname" "path_corner"
+"origin" "0 0 432"
+"targetname" "path_corner5"
+}
+// entity 10
+{
+"classname" "path_corner"
+"origin" "32 0 976"
+"targetname" "path_corner6"
+}
+// entity 11
+{
+"classname" "path_corner"
+"origin" "32 0 1520"
+"targetname" "path_corner7"
+}
+// entity 12
+{
+"classname" "path_corner"
+"origin" "32 0 2064"
+"targetname" "path_corner8"
+}
+// entity 13
+{
+"classname" "info_player_start"
+"origin" "224 224 -40"
+}
+// entity 14
+{
+"classname" "info_player_deathmatch"
+"origin" "0 0 2104"
+}
+// entity 15
+{
+"classname" "info_player_intermission"
+"origin" "-656 -16 592"
+"target" "target_position1"
+}
+// entity 16
+{
+"classname" "target_position"
+"origin" "-96 0 32"
+"targetname" "target_position1"
+}
+// entity 17
+{
+"classname" "light"
+"origin" "-224 224 48"
+"light" "1"
+}
+// entity 18
+{
+"classname" "light"
+"origin" "-160 224 32"
+"light" "1"
+}
+// entity 19
+{
+"classname" "light"
+"origin" "-224 160 64"
+"light" "1"
+}
+// entity 20
+{
+"classname" "light"
+"origin" "-224 -224 176"
+"light" "1"
+}
+// entity 21
+{
+"classname" "light"
+"origin" "-224 -160 160"
+"light" "1"
+}
+// entity 22
+{
+"classname" "light"
+"origin" "-160 -224 192"
+"light" "1"
+}
+// entity 23
+{
+"classname" "light"
+"origin" "224 -224 304"
+"light" "1"
+}
+// entity 24
+{
+"classname" "light"
+"origin" "152 -224 288"
+"light" "1"
+}
+// entity 25
+{
+"classname" "light"
+"origin" "224 -160 320"
+"light" "1"
+}
+// entity 26
+{
+"classname" "light"
+"origin" "-160 160 592"
+"light" "1"
+}
+// entity 27
+{
+"classname" "light"
+"origin" "-96 160 576"
+"light" "1"
+}
+// entity 28
+{
+"classname" "light"
+"origin" "-160 96 608"
+"light" "5"
+}
+// entity 29
+{
+"classname" "light"
+"origin" "-160 -96 704"
+"light" "1"
+}
+// entity 30
+{
+"classname" "light"
+"origin" "-160 -160 720"
+"light" "1"
+}
+// entity 31
+{
+"classname" "light"
+"origin" "-96 -160 736"
+"light" "5"
+}
+// entity 32
+{
+"classname" "light"
+"origin" "160 -160 848"
+"light" "1"
+}
+// entity 33
+{
+"classname" "light"
+"origin" "96 -160 832"
+"light" "1"
+}
+// entity 34
+{
+"classname" "light"
+"origin" "160 -96 864"
+"light" "5"
+}
+// entity 35
+{
+"classname" "light"
+"origin" "-32 96 976"
+"light" "5"
+}
+// entity 36
+{
+"classname" "light"
+"origin" "-96 96 992"
+"light" "1"
+}
+// entity 37
+{
+"classname" "light"
+"origin" "-96 32 1008"
+"light" "5"
+}
+// entity 38
+{
+"classname" "light"
+"origin" "-96 -32 1104"
+"light" "5"
+}
+// entity 39
+{
+"classname" "light"
+"origin" "-96 -96 1120"
+"light" "1"
+}
+// entity 40
+{
+"classname" "light"
+"origin" "-32 -96 1136"
+"light" "5"
+}
+// entity 41
+{
+"classname" "light"
+"origin" "32 -96 1232"
+"light" "5"
+}
+// entity 42
+{
+"classname" "light"
+"origin" "96 -96 1248"
+"light" "1"
+}
+// entity 43
+{
+"classname" "light"
+"origin" "96 -32 1264"
+"light" "5"
+}
+// entity 44
+{
+"classname" "light"
+"light" "5"
+"origin" "0 0 1680"
+}
+// entity 45
+{
+"classname" "light"
+"origin" "0 0 1744"
+"light" "1"
+}
+// entity 46
+{
+"classname" "light"
+"origin" "0 0 1808"
+"light" "1"
+}
+// entity 47
+{
+"classname" "light"
+"origin" "0 0 1872"
+"light" "1"
+}
+// entity 48
+{
+"classname" "light"
+"origin" "0 0 1936"
+"light" "1"
+}
+// entity 49
+{
+"classname" "light"
+"origin" "0 0 2000"
+"light" "1"
+}

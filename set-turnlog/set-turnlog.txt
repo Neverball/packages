@@ -1,0 +1,6 @@
+Turnlog
+Difficulty: Depends on you.\\A Single Level\Author: Mighty Burger
+turnlog
+shot-turnlog/turnlog.jpg
+
+map-turnlog/turnlog.sol

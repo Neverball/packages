@@ -1,0 +1,32 @@
+Mrko Misc I
+Mrko's *possible* miscellaneous levels.\\Some of these levels are a bit tricky,\would you be able to actually beat them?
+mm1
+shot-mrkomisc/entities.jpg
+
+map-mrkomisc/tutorialtest1.sol
+map-mrkomisc/example.sol
+map-mrkomisc/easy1extended.sol
+map-mrkomisc/round and round.sol
+map-mrkomisc/path.sol
+map-mrkomisc/asspunch.sol
+map-mrkomisc/Neverball.sol
+map-mrkomisc/SwitchWarning.sol
+map-mrkomisc/entities.sol
+map-mrkomisc/funwomp.autosave.sol
+map-mrkomisc/buzz.sol
+map-mrkomisc/detail.sol
+map-mrkomisc/dead.sol
+map-mrkomisc/Coolmap.sol
+map-mrkomisc/descents.sol
+map-mrkomisc/fuc.sol
+map-mrkomisc/mrkoputt1.sol
+map-mrkomisc/fuc2.sol
+map-mrkomisc/hard.sol
+map-mrkomisc/trains_original.sol
+map-mrkomisc/dmap01.sol
+map-mrkomisc/customtextest.sol
+map-mrkomisc/aaaaaaaaaaaaaaaa.sol
+map-mrkomisc/LARGE MAZE BY Mrko.autosave.sol
+map-mrkomisc/game.autosave.sol
+
+

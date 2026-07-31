@@ -1,0 +1,10 @@
+Neverball Past Levels
+Rarity assorted levels
+nb-rare
+shot-nb-rare/maze1-old.png
+
+map-nb-rare/marble.sol
+map-nb-rare/pyramid-old.sol
+map-nb-rare/maze1-old.sol
+map-nb-rare/turn-old.sol
+map-nb-rare/freefall-rare.sol

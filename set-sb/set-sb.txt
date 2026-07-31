@@ -1,0 +1,30 @@
+SwitchBall: The beginning
+Difficulty: Intermediate through Expert\\25 challenges that will make you discover a new world.\Levels 1, 2 and V by Penny Schloss\Author: MSB
+SB
+shot-sb/switchball-title1.png
+
+map-sb/switchball-platforms.sol
+map-sb/switchball-switches.sol
+map-sb/switchball-simplezize.sol
+map-sb/switchball-action-switches.sol
+map-sb/switchball-coins.sol
+map-sb/switchball-floor-atributes1.sol
+map-sb/switchball-balloon.sol
+map-sb/switchball-timer.sol
+map-sb/switchball-jumps.sol
+map-sb/switchball-bumps.sol
+map-sb/switchball-risers.sol
+map-sb/switchball-thwomp.sol
+map-sb/switchball-wall.sol
+map-sb/switchball-tilted.sol
+map-sb/switchball-quads.sol
+map-sb/switchball-loopings.sol
+map-sb/switchball-floor-atributes2.sol
+map-sb/switchball-bombman.sol
+map-sb/switchball-idoors.sol
+map-sb/switchball-complexzize.sol
+map-sb/switchball-floor-atributes3.sol
+map-sb/switchball-windmill.sol
+map-sb/switchball-not-platform.sol
+map-sb/switchball-chiz-title.sol
+map-sb/switchball-littlepark.sol

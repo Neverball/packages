@@ -1,0 +1,225 @@
+
+// entity 0
+{
+"classname" "worldspawn"
+"back" "map-back/clouds.sol"
+"grad" "back/land.png"
+"song" "bgm/track1.ogg"
+"author" "nik"
+"version" "1"
+"time" "8000"
+"goal" "15"
+"shot" "shot-nik1/upcoins.png"
+"message" "welcome in nikset1\click to begin"
+// brush 0
+{
+( 0 64 64 ) ( 0 -64 64 ) ( -64 64 64 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( 0 192 64 ) ( -64 192 64 ) ( 0 192 -64 ) mtrl/marble-grey 0 0 0 0.5 0.5 0 0 0
+( 0 80 184 ) ( 0 80 56 ) ( 0 -48 184 ) mtrl/marble-grey 224 240 0 0.5 0.5 0 0 0
+( -104 -48 56 ) ( -40 -48 56 ) ( -104 80 56 ) mtrl/marble-grey 80 32 0 0.5 0.5 0 0 0
+( -64 -64 -64 ) ( -64 -64 64 ) ( 0 -64 -64 ) mtrl/marble-grey 0 0 0 0.5 0.5 0 0 0
+( -64 -64 -64 ) ( -64 64 -64 ) ( -64 -64 64 ) mtrl/marble-grey 0 0 0 0.5 0.5 0 0 0
+}
+// brush 1
+{
+( 80 256 64 ) ( 80 192 64 ) ( 0 256 64 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( 80 256 64 ) ( 0 256 64 ) ( 80 256 56 ) mtrl/marble-grey 0 0 0 0.5 0.5 0 0 0
+( 256 272 64 ) ( 256 272 56 ) ( 256 208 64 ) mtrl/marble-grey 224 0 0 0.5 0.5 0 0 0
+( 0 192 56 ) ( 80 192 56 ) ( 0 256 56 ) mtrl/marble-grey 0 0 0 0.5 0.5 0 0 0
+( 0 192 56 ) ( 0 192 64 ) ( 80 192 56 ) mtrl/marble-grey 0 0 0 0.5 0.5 0 0 0
+( 0 192 56 ) ( 0 256 56 ) ( 0 192 64 ) mtrl/marble-grey 0 0 0 0.5 0.5 0 0 0
+}
+// brush 2
+{
+( 312 192 64 ) ( 312 8 64 ) ( 256 192 64 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( 312 192 64 ) ( 256 192 64 ) ( 312 192 56 ) mtrl/marble-grey 0 0 0 0.5 0.5 0 0 0
+( 320 120 64 ) ( 320 120 56 ) ( 320 -64 64 ) mtrl/marble-grey 144 0 0 0.5 0.5 0 0 0
+( 256 8 56 ) ( 312 8 56 ) ( 256 192 56 ) mtrl/marble-grey 0 0 0 0.5 0.5 0 0 0
+( 264 -64 56 ) ( 264 -64 64 ) ( 320 -64 56 ) mtrl/marble-grey 240 0 0 0.5 0.5 0 0 0
+( 256 8 56 ) ( 256 192 56 ) ( 256 8 64 ) mtrl/marble-grey 0 0 0 0.5 0.5 0 0 0
+}
+// brush 3
+{
+( 416 256 64 ) ( 416 192 64 ) ( 320 256 64 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( 416 256 64 ) ( 320 256 64 ) ( 416 256 56 ) mtrl/marble-grey 0 0 0 0.5 0.5 0 0 0
+( 576 264 64 ) ( 576 264 56 ) ( 576 200 64 ) mtrl/marble-grey 240 0 0 0.5 0.5 0 0 0
+( 320 192 56 ) ( 416 192 56 ) ( 320 256 56 ) mtrl/marble-grey 0 0 0 0.5 0.5 0 0 0
+( 320 192 56 ) ( 320 192 64 ) ( 416 192 56 ) mtrl/marble-grey 0 0 0 0.5 0.5 0 0 0
+( 320 192 56 ) ( 320 256 56 ) ( 320 192 64 ) mtrl/marble-grey 0 0 0 0.5 0.5 0 0 0
+}
+// brush 4
+{
+( 640 512 64 ) ( 640 256 64 ) ( 576 512 64 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( 640 512 64 ) ( 576 512 64 ) ( 640 512 56 ) mtrl/marble-grey 0 0 0 0.5 0.5 0 0 0
+( 640 512 64 ) ( 640 512 56 ) ( 640 256 64 ) mtrl/marble-grey 0 0 0 0.5 0.5 0 0 0
+( 576 256 56 ) ( 640 256 56 ) ( 576 512 56 ) mtrl/marble-grey 0 0 0 0.5 0.5 0 0 0
+( 576 256 56 ) ( 576 256 64 ) ( 640 256 56 ) mtrl/marble-grey 0 0 0 0.5 0.5 0 0 0
+( 576 256 56 ) ( 576 512 56 ) ( 576 256 64 ) mtrl/marble-grey 0 0 0 0.5 0.5 0 0 0
+}
+// brush 5
+{
+( 576 576 64 ) ( 576 512 64 ) ( 512 576 64 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( 576 576 64 ) ( 512 576 64 ) ( 576 576 56 ) mtrl/marble-grey 0 0 0 0.5 0.5 0 0 0
+( 576 576 64 ) ( 576 576 56 ) ( 576 512 64 ) mtrl/marble-grey 0 0 0 0.5 0.5 0 0 0
+( 512 512 56 ) ( 576 512 56 ) ( 512 576 56 ) mtrl/marble-grey 0 0 0 0.5 0.5 0 0 0
+( 512 512 56 ) ( 512 512 64 ) ( 576 512 56 ) mtrl/marble-grey 0 0 0 0.5 0.5 0 0 0
+( 320 488 56 ) ( 320 552 56 ) ( 320 488 64 ) mtrl/marble-grey 48 0 0 0.5 0.5 0 0 0
+}
+// brush 6
+{
+( 320 608 48 ) ( 320 480 48 ) ( 192 608 48 ) mtrl/turf-green-check2 0 192 0 0.5 0.5 0 0 0
+( 320 608 48 ) ( 192 608 48 ) ( 320 608 40 ) mtrl/marble-grey 0 224 0 0.5 0.5 0 0 0
+( 320 608 48 ) ( 320 608 40 ) ( 320 480 48 ) mtrl/marble-grey 64 224 0 0.5 0.5 0 0 0
+( 192 480 40 ) ( 320 480 40 ) ( 192 608 40 ) mtrl/marble-grey 0 192 0 0.5 0.5 0 0 0
+( 192 480 40 ) ( 192 480 48 ) ( 320 480 40 ) mtrl/marble-grey 0 224 0 0.5 0.5 0 0 0
+( 192 480 40 ) ( 192 608 40 ) ( 192 480 48 ) mtrl/marble-grey 64 224 0 0.5 0.5 0 0 0
+}
+// brush 7
+{
+( 351 559.625 48 ) ( 351 479.625 48 ) ( 298.5 559.625 48 ) mtrl/goal 128 192 0 0.5 0.5 0 0 0
+( 340.5 607.75 48 ) ( 288 607.75 48 ) ( 340.5 607.75 -80 ) mtrl/invisible 0 96 0 0.5 0.5 0 0 0
+( 320.375 503.375 48 ) ( 320.375 503.375 -80 ) ( 320.375 423.375 48 ) mtrl/invisible 64 96 0 0.5 0.5 0 0 0
+( 316.5 447.75 47.75 ) ( 369 447.75 47.75 ) ( 316.5 527.75 47.75 ) mtrl/invisible 0 64 0 0.5 0.5 0 0 0
+( 338.625 479.5 -80 ) ( 338.625 479.5 48 ) ( 391.125 479.5 -80 ) mtrl/invisible 0 96 0 0.5 0.5 0 0 0
+( 192.875 480 -80 ) ( 192.875 560 -80 ) ( 192.875 480 48 ) mtrl/invisible 64 96 0 0.5 0.5 0 0 0
+}
+// brush 8
+}
+// entity 1
+{
+"classname" "func_train"
+"target" "t1"
+// brush 0
+{
+( 0 256 192 ) ( 0 192 192 ) ( -64 256 192 ) mtrl/coin-blue 0 128 0 0.5 0.5 0 0 0
+( 0 256 192 ) ( -64 256 192 ) ( 0 256 184 ) mtrl/marble-grey 0 176 0 0.5 0.5 0 0 0
+( 0 256 192 ) ( 0 256 184 ) ( 0 192 192 ) mtrl/marble-grey 128 176 0 0.5 0.5 0 0 0
+( -64 192 184 ) ( 0 192 184 ) ( -64 256 184 ) mtrl/marble-grey 0 128 0 0.5 0.5 0 0 0
+( -64 192 184 ) ( -64 192 192 ) ( 0 192 184 ) mtrl/marble-grey 0 176 0 0.5 0.5 0 0 0
+( -64 192 184 ) ( -64 256 184 ) ( -64 192 192 ) mtrl/marble-grey 128 176 0 0.5 0.5 0 0 0
+}
+}
+// entity 2
+{
+"classname" "func_train"
+"target" "t2"
+// brush 0
+{
+( 320 256 64 ) ( 320 192 64 ) ( 256 256 64 ) mtrl/coin-blue 128 128 0 0.5 0.5 0 0 0
+( 320 256 64 ) ( 256 256 64 ) ( 320 256 56 ) mtrl/marble-grey 128 176 0 0.5 0.5 0 0 0
+( 320 256 64 ) ( 320 256 56 ) ( 320 192 64 ) mtrl/marble-grey 128 176 0 0.5 0.5 0 0 0
+( 256 192 56 ) ( 320 192 56 ) ( 256 256 56 ) mtrl/marble-grey 128 128 0 0.5 0.5 0 0 0
+( 256 192 56 ) ( 256 192 64 ) ( 320 192 56 ) mtrl/marble-grey 128 176 0 0.5 0.5 0 0 0
+( 256 192 56 ) ( 256 256 56 ) ( 256 192 64 ) mtrl/marble-grey 128 176 0 0.5 0.5 0 0 0
+}
+}
+// entity 3
+{
+"classname" "func_train"
+"target" "t1"
+// brush 0
+{
+( 320 -64 192 ) ( 320 -128 192 ) ( 256 -64 192 ) mtrl/coin-blue 128 -0 0 0.5 0.5 0 0 0
+( 320 -64 192 ) ( 256 -64 192 ) ( 320 -64 184 ) mtrl/marble-grey 128 176 0 0.5 0.5 0 0 0
+( 320 -64 192 ) ( 320 -64 184 ) ( 320 -128 192 ) mtrl/marble-grey 0 176 0 0.5 0.5 0 0 0
+( 256 -128 184 ) ( 320 -128 184 ) ( 256 -64 184 ) mtrl/marble-grey 128 -0 0 0.5 0.5 0 0 0
+( 256 -128 184 ) ( 256 -128 192 ) ( 320 -128 184 ) mtrl/marble-grey 128 176 0 0.5 0.5 0 0 0
+( 256 -128 184 ) ( 256 -64 184 ) ( 256 -128 192 ) mtrl/marble-grey 0 176 0 0.5 0.5 0 0 0
+}
+}
+// entity 4
+{
+"classname" "func_train"
+"target" "t1"
+// brush 0
+{
+( 640 256 192 ) ( 640 192 192 ) ( 576 256 192 ) mtrl/coin-blue -0 128 0 0.5 0.5 0 0 0
+( 640 256 192 ) ( 576 256 192 ) ( 640 256 184 ) mtrl/marble-grey -0 176 0 0.5 0.5 0 0 0
+( 640 256 192 ) ( 640 256 184 ) ( 640 192 192 ) mtrl/marble-grey 128 176 0 0.5 0.5 0 0 0
+( 576 192 184 ) ( 640 192 184 ) ( 576 256 184 ) mtrl/marble-grey -0 128 0 0.5 0.5 0 0 0
+( 576 192 184 ) ( 576 192 192 ) ( 640 192 184 ) mtrl/marble-grey -0 176 0 0.5 0.5 0 0 0
+( 576 192 184 ) ( 576 256 184 ) ( 576 192 192 ) mtrl/marble-grey 128 176 0 0.5 0.5 0 0 0
+}
+}
+// entity 5
+{
+"classname" "func_train"
+"target" "t2"
+// brush 0
+{
+( 640 576 64 ) ( 640 512 64 ) ( 576 576 64 ) mtrl/coin-blue 0 0 0 0.5 0.5 0 0 0
+( 640 576 64 ) ( 576 576 64 ) ( 640 576 56 ) mtrl/marble-grey 0 176 0 0.5 0.5 0 0 0
+( 640 576 64 ) ( 640 576 56 ) ( 640 512 64 ) mtrl/marble-grey 0 176 0 0.5 0.5 0 0 0
+( 576 512 56 ) ( 640 512 56 ) ( 576 576 56 ) mtrl/marble-grey 0 0 0 0.5 0.5 0 0 0
+( 576 512 56 ) ( 576 512 64 ) ( 640 512 56 ) mtrl/marble-grey 0 176 0 0.5 0.5 0 0 0
+( 576 512 56 ) ( 576 576 56 ) ( 576 512 64 ) mtrl/marble-grey 0 176 0 0.5 0.5 0 0 0
+}
+}
+// entity 6
+{
+"classname" "path_corner"
+"origin" "608 544 184"
+"targetname" "t1"
+"target" "t2"
+"speed" "2.5"
+}
+// entity 7
+{
+"classname" "path_corner"
+"origin" "608 544 56"
+"targetname" "t2"
+"target" "t1"
+"speed" "2.5"
+}
+// entity 8
+{
+"classname" "info_player_deathmatch"
+"origin" "256 544 72"
+}
+// entity 9
+{
+"classname" "info_player_start"
+"origin" "-32 -32 88"
+}
+// entity 10
+{
+"classname" "info_player_intermission"
+"origin" "-728 -536 768"
+"target" "t3"
+}
+// entity 11
+{
+"classname" "target_position"
+"origin" "288 224 72"
+"targetname" "t3"
+}
+// entity 12
+{
+"classname" "light"
+"origin" "-32 224 208"
+"light" "1"
+}
+// entity 13
+{
+"classname" "item_clock"
+"origin" "288 -96 208"
+"light" "15"
+}
+// entity 14
+{
+"classname" "light"
+"origin" "608 224 208"
+"light" "5"
+}
+// entity 15
+{
+"classname" "light"
+"origin" "608 544 208"
+"light" "10"
+}
+// entity 16
+{
+"classname" "light"
+"origin" "288 224 208"
+"light" "1"
+}

@@ -1,0 +1,16 @@
+It the it's Levels
+Difficulty: (so far) Medium through Hard\\Angled acceleration will often help immensely (see\help menu).          A work-in-progress set.\Release: #11
+ittheit
+shot-ittheit/watermaze.png
+
+map-ittheit/watermaze.sol
+map-ittheit/pyramidzone.sol
+map-ittheit/airacceleration.sol
+map-ittheit/invisland.sol
+map-ittheit/woodnglass2011.sol
+map-ittheit/melonbuild1.sol
+map-ittheit/bouncebox.sol
+map-ittheit/thwompcatapults.sol
+map-ittheit/ordinary.sol
+map-ittheit/lightwarp.sol
+map-ittheit/ttthwomps.sol

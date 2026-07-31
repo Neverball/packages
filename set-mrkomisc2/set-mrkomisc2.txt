@@ -1,0 +1,7 @@
+Mrko Misc II
+Mrko's *possible* miscellaneous levels.\\These were the only levels left\(there was no more space).
+mm2
+shot-mrkomisc/bigcurve.jpg
+
+map-mrkomisc/bigcurve.sol
+map-mrkomisc/funwomp.sol

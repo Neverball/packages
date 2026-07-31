@@ -1,0 +1,895 @@
+
+// entity 0
+{
+"classname" "worldspawn"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+// brush 0
+{
+( 128 64 40 ) ( 128 -192 40 ) ( -128 64 40 ) mtrl/turf-grey 0 128 0 0.5 0.5 0 0 0
+( 128 64 40 ) ( -128 64 40 ) ( 128 64 32 ) mtrl/turf-grey 0 0 0 0.5 0.015625 0 0 0
+( 128 64 40 ) ( 128 64 32 ) ( 128 -192 40 ) mtrl/turf-grey 128 0 0 0.5 0.015625 0 0 0
+( -128 -192 32 ) ( 128 -192 32 ) ( -128 64 32 ) mtrl/turf-grey 0 128 0 0.5 0.5 0 0 0
+( -128 -192 32 ) ( -128 -192 40 ) ( 128 -192 32 ) mtrl/turf-grey 0 0 0 0.5 0.015625 0 0 0
+( -128 -192 32 ) ( -128 64 32 ) ( -128 -192 40 ) mtrl/turf-grey 128 0 0 0.5 0.015625 0 0 0
+}
+// brush 1
+{
+( -128 0 40 ) ( -128 -128 40 ) ( -320 0 40 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( -128 0 40 ) ( -320 0 40 ) ( -128 0 32 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( -128 0 40 ) ( -128 0 32 ) ( -128 -128 40 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( -320 -128 32 ) ( -128 -128 32 ) ( -320 0 32 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( -320 -128 32 ) ( -320 -128 40 ) ( -128 -128 32 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( -320 -128 32 ) ( -320 0 32 ) ( -320 -128 40 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+}
+// brush 2
+{
+( 320 0 40 ) ( 320 -128 40 ) ( 128 0 40 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( 320 0 40 ) ( 128 0 40 ) ( 320 0 32 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( 320 0 40 ) ( 320 0 32 ) ( 320 -128 40 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( 128 -128 32 ) ( 320 -128 32 ) ( 128 0 32 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( 128 -128 32 ) ( 128 -128 40 ) ( 320 -128 32 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( 128 -128 32 ) ( 128 0 32 ) ( 128 -128 40 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+}
+// brush 3
+{
+( -320 64 40 ) ( -320 -192 40 ) ( -576 64 40 ) mtrl/turf-red 0 0 0 0.5 0.5 0 0 0
+( -320 64 40 ) ( -576 64 40 ) ( -320 64 32 ) mtrl/turf-red 0 0 0 0.5 0.5 0 0 0
+( -320 64 40 ) ( -320 64 32 ) ( -320 -192 40 ) mtrl/turf-red 0 0 0 0.5 0.5 0 0 0
+( -576 -192 32 ) ( -320 -192 32 ) ( -576 64 32 ) mtrl/turf-red 0 0 0 0.5 0.5 0 0 0
+( -576 -192 32 ) ( -576 -192 40 ) ( -320 -192 32 ) mtrl/turf-red 0 0 0 0.5 0.5 0 0 0
+( -576 -192 32 ) ( -576 64 32 ) ( -576 -192 40 ) mtrl/turf-red 0 0 0 0.5 0.5 0 0 0
+}
+// brush 4
+{
+( 576 64 40 ) ( 576 -192 40 ) ( 320 64 40 ) mtrl/turf-purple-check 0 0 0 0.5 0.5 0 0 0
+( 576 64 40 ) ( 320 64 40 ) ( 576 64 32 ) mtrl/turf-purple-check 0 0 0 0.5 0.5 0 0 0
+( 576 64 40 ) ( 576 64 32 ) ( 576 -192 40 ) mtrl/turf-purple-check 0 0 0 0.5 0.5 0 0 0
+( 320 -192 32 ) ( 576 -192 32 ) ( 320 64 32 ) mtrl/turf-purple-check 0 0 0 0.5 0.5 0 0 0
+( 320 -192 32 ) ( 320 -192 40 ) ( 576 -192 32 ) mtrl/turf-purple-check 0 0 0 0.5 0.5 0 0 0
+( 320 -192 32 ) ( 320 64 32 ) ( 320 -192 40 ) mtrl/turf-purple-check 0 0 0 0.5 0.5 0 0 0
+}
+// brush 5
+{
+( 64 -192 40 ) ( 64 -384 40 ) ( -64 -192 40 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( 64 -192 40 ) ( -64 -192 40 ) ( 64 -192 32 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( 64 -192 40 ) ( 64 -192 32 ) ( 64 -384 40 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( -64 -384 32 ) ( 64 -384 32 ) ( -64 -192 32 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( -64 -384 32 ) ( -64 -384 40 ) ( 64 -384 32 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( -64 -384 32 ) ( -64 -192 32 ) ( -64 -384 40 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+}
+// brush 6
+{
+( 128 -384 40 ) ( 128 -640 40 ) ( -128 -384 40 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+( 128 -384 40 ) ( -128 -384 40 ) ( 128 -384 32 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+( 128 -384 40 ) ( 128 -384 32 ) ( 128 -640 40 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+( -128 -640 32 ) ( 128 -640 32 ) ( -128 -384 32 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+( -128 -640 32 ) ( -128 -640 40 ) ( 128 -640 32 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+( -128 -640 32 ) ( -128 -384 32 ) ( -128 -640 40 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+}
+// brush 7
+{
+( -384 0 40 ) ( -384 -128 40 ) ( -512 0 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( -384 0 40 ) ( -512 0 40 ) ( -384 0 32 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( -384 0 40 ) ( -384 0 32 ) ( -384 -128 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( -512 -128 32 ) ( -384 -128 32 ) ( -512 0 32 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( -512 -128 32 ) ( -512 -128 40 ) ( -384 -128 32 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( -512 -128 32 ) ( -512 0 32 ) ( -512 -128 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+}
+// brush 8
+{
+( 512 0 40 ) ( 512 -128 40 ) ( 384 0 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( 512 0 40 ) ( 384 0 40 ) ( 512 0 32 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( 512 0 40 ) ( 512 0 32 ) ( 512 -128 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( 384 -128 32 ) ( 512 -128 32 ) ( 384 0 32 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( 384 -128 32 ) ( 384 -128 40 ) ( 512 -128 32 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( 384 -128 32 ) ( 384 0 32 ) ( 384 -128 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+}
+// brush 9
+{
+( 64 -448 40 ) ( 64 -576 40 ) ( -64 -448 40 ) mtrl/teleporter 128 128 0 0.5 0.5 0 0 0
+( 64 -448 40 ) ( -64 -448 40 ) ( 64 -448 32 ) mtrl/teleporter 128 0 0 0.5 0.03125 0 0 0
+( 64 -448 40 ) ( 64 -448 32 ) ( 64 -576 40 ) mtrl/teleporter 128 0 0 0.5 0.03125 0 0 0
+( -64 -576 32 ) ( 64 -576 32 ) ( -64 -448 32 ) mtrl/teleporter 128 128 0 0.5 0.5 0 0 0
+( -64 -576 32 ) ( -64 -576 40 ) ( 64 -576 32 ) mtrl/teleporter 128 0 0 0.5 0.03125 0 0 0
+( -64 -576 32 ) ( -64 -448 32 ) ( -64 -576 40 ) mtrl/teleporter 128 0 0 0.5 0.03125 0 0 0
+}
+// brush 10
+{
+( 128 576 40 ) ( 128 320 40 ) ( -128 576 40 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+( 128 576 40 ) ( -128 576 40 ) ( 128 576 32 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+( 128 576 40 ) ( 128 576 32 ) ( 128 320 40 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+( -128 320 32 ) ( 128 320 32 ) ( -128 576 32 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+( -128 320 32 ) ( -128 320 40 ) ( 128 320 32 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+( -128 320 32 ) ( -128 576 32 ) ( -128 320 40 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+}
+// brush 11
+{
+( 128 1088 40 ) ( 128 832 40 ) ( -128 1088 40 ) mtrl/turf-red 128 0 0 0.5 0.5 0 0 0
+( 128 1088 40 ) ( -128 1088 40 ) ( 128 1088 32 ) mtrl/turf-red 128 0 0 0.5 0.5 0 0 0
+( 128 1088 40 ) ( 128 1088 32 ) ( 128 832 40 ) mtrl/turf-red 0 0 0 0.5 0.5 0 0 0
+( -128 832 32 ) ( 128 832 32 ) ( -128 1088 32 ) mtrl/turf-red 128 0 0 0.5 0.5 0 0 0
+( -128 832 32 ) ( -128 832 40 ) ( 128 832 32 ) mtrl/turf-red 128 0 0 0.5 0.5 0 0 0
+( -128 832 32 ) ( -128 1088 32 ) ( -128 832 40 ) mtrl/turf-red 0 0 0 0.5 0.5 0 0 0
+}
+// brush 12
+{
+( -320 1088 40 ) ( -320 832 40 ) ( -576 1088 40 ) mtrl/turf-purple-check 128 0 0 0.5 0.5 0 0 0
+( -320 1088 40 ) ( -576 1088 40 ) ( -320 1088 32 ) mtrl/turf-purple-check 128 0 0 0.5 0.5 0 0 0
+( -320 1088 40 ) ( -320 1088 32 ) ( -320 832 40 ) mtrl/turf-purple-check 0 0 0 0.5 0.5 0 0 0
+( -576 832 32 ) ( -320 832 32 ) ( -576 1088 32 ) mtrl/turf-purple-check 128 0 0 0.5 0.5 0 0 0
+( -576 832 32 ) ( -576 832 40 ) ( -320 832 32 ) mtrl/turf-purple-check 128 0 0 0.5 0.5 0 0 0
+( -576 832 32 ) ( -576 1088 32 ) ( -576 832 40 ) mtrl/turf-purple-check 0 0 0 0.5 0.5 0 0 0
+}
+// brush 13
+{
+( 576 576 40 ) ( 576 320 40 ) ( 320 576 40 ) mtrl/turf-red 128 0 0 0.5 0.5 0 0 0
+( 576 576 40 ) ( 320 576 40 ) ( 576 576 32 ) mtrl/turf-red 128 0 0 0.5 0.5 0 0 0
+( 576 576 40 ) ( 576 576 32 ) ( 576 320 40 ) mtrl/turf-red 0 0 0 0.5 0.5 0 0 0
+( 320 320 32 ) ( 576 320 32 ) ( 320 576 32 ) mtrl/turf-red 128 0 0 0.5 0.5 0 0 0
+( 320 320 32 ) ( 320 320 40 ) ( 576 320 32 ) mtrl/turf-red 128 0 0 0.5 0.5 0 0 0
+( 320 320 32 ) ( 320 576 32 ) ( 320 320 40 ) mtrl/turf-red 0 0 0 0.5 0.5 0 0 0
+}
+// brush 14
+{
+( 576 1088 40 ) ( 576 832 40 ) ( 320 1088 40 ) mtrl/turf-purple-check 128 0 0 0.5 0.5 0 0 0
+( 576 1088 40 ) ( 320 1088 40 ) ( 576 1088 32 ) mtrl/turf-purple-check 128 0 0 0.5 0.5 0 0 0
+( 576 1088 40 ) ( 576 1088 32 ) ( 576 832 40 ) mtrl/turf-purple-check 0 0 0 0.5 0.5 0 0 0
+( 320 832 32 ) ( 576 832 32 ) ( 320 1088 32 ) mtrl/turf-purple-check 128 0 0 0.5 0.5 0 0 0
+( 320 832 32 ) ( 320 832 40 ) ( 576 832 32 ) mtrl/turf-purple-check 128 0 0 0.5 0.5 0 0 0
+( 320 832 32 ) ( 320 1088 32 ) ( 320 832 40 ) mtrl/turf-purple-check 0 0 0 0.5 0.5 0 0 0
+}
+// brush 15
+{
+( -320 576 40 ) ( -320 320 40 ) ( -576 576 40 ) mtrl/turf-green-small 128 0 0 0.5 0.5 0 0 0
+( -320 576 40 ) ( -576 576 40 ) ( -320 576 32 ) mtrl/turf-green-small 128 0 0 0.5 0.5 0 0 0
+( -320 576 40 ) ( -320 576 32 ) ( -320 320 40 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+( -576 320 32 ) ( -320 320 32 ) ( -576 576 32 ) mtrl/turf-green-small 128 0 0 0.5 0.5 0 0 0
+( -576 320 32 ) ( -576 320 40 ) ( -320 320 32 ) mtrl/turf-green-small 128 0 0 0.5 0.5 0 0 0
+( -576 320 32 ) ( -576 576 32 ) ( -576 320 40 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+}
+// brush 16
+{
+( -384 1024 40 ) ( -384 896 40 ) ( -512 1024 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( -384 1024 40 ) ( -512 1024 40 ) ( -384 1024 32 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( -384 1024 40 ) ( -384 1024 32 ) ( -384 896 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( -512 896 32 ) ( -384 896 32 ) ( -512 1024 32 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( -512 896 32 ) ( -512 896 40 ) ( -384 896 32 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( -512 896 32 ) ( -512 1024 32 ) ( -512 896 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+}
+// brush 17
+{
+( 64 1024 40 ) ( 64 896 40 ) ( -64 1024 40 ) mtrl/teleporter 128 0 0 0.5 0.5 0 0 0
+( 64 1024 40 ) ( -64 1024 40 ) ( 64 1024 32 ) mtrl/teleporter 128 0 0 0.5 0.03125 0 0 0
+( 64 1024 40 ) ( 64 1024 32 ) ( 64 896 40 ) mtrl/teleporter -0 0 0 0.5 0.03125 0 0 0
+( -64 896 32 ) ( 64 896 32 ) ( -64 1024 32 ) mtrl/teleporter 128 0 0 0.5 0.5 0 0 0
+( -64 896 32 ) ( -64 896 40 ) ( 64 896 32 ) mtrl/teleporter 128 0 0 0.5 0.03125 0 0 0
+( -64 896 32 ) ( -64 1024 32 ) ( -64 896 40 ) mtrl/teleporter -0 0 0 0.5 0.03125 0 0 0
+}
+// brush 18
+{
+( 512 1024 40 ) ( 512 896 40 ) ( 384 1024 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( 512 1024 40 ) ( 384 1024 40 ) ( 512 1024 32 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( 512 1024 40 ) ( 512 1024 32 ) ( 512 896 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( 384 896 32 ) ( 512 896 32 ) ( 384 1024 32 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( 384 896 32 ) ( 384 896 40 ) ( 512 896 32 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( 384 896 32 ) ( 384 1024 32 ) ( 384 896 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+}
+// brush 19
+{
+( 512 512 40 ) ( 512 384 40 ) ( 384 512 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( 512 512 40 ) ( 384 512 40 ) ( 512 512 32 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( 512 512 40 ) ( 512 512 32 ) ( 512 384 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( 384 384 32 ) ( 512 384 32 ) ( 384 512 32 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( 384 384 32 ) ( 384 384 40 ) ( 512 384 32 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( 384 384 32 ) ( 384 512 32 ) ( 384 384 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+}
+// brush 20
+{
+( 64 512 40 ) ( 64 384 40 ) ( -64 512 40 ) mtrl/teleporter 128 0 0 0.5 0.5 0 0 0
+( 64 512 40 ) ( -64 512 40 ) ( 64 512 32 ) mtrl/teleporter 128 0 0 0.5 0.03125 0 0 0
+( 64 512 40 ) ( 64 512 32 ) ( 64 384 40 ) mtrl/teleporter -0 0 0 0.5 0.03125 0 0 0
+( -64 384 32 ) ( 64 384 32 ) ( -64 512 32 ) mtrl/teleporter 128 0 0 0.5 0.5 0 0 0
+( -64 384 32 ) ( -64 384 40 ) ( 64 384 32 ) mtrl/teleporter 128 0 0 0.5 0.03125 0 0 0
+( -64 384 32 ) ( -64 512 32 ) ( -64 384 40 ) mtrl/teleporter -0 0 0 0.5 0.03125 0 0 0
+}
+// brush 21
+{
+( -384 512 40 ) ( -384 384 40 ) ( -512 512 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( -384 512 40 ) ( -512 512 40 ) ( -384 512 32 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( -384 512 40 ) ( -384 512 32 ) ( -384 384 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( -512 384 32 ) ( -384 384 32 ) ( -512 512 32 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( -512 384 32 ) ( -512 384 40 ) ( -384 384 32 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( -512 384 32 ) ( -512 512 32 ) ( -512 384 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+}
+// brush 22
+{
+( -320 1600 48 ) ( -320 1344 48 ) ( -576 1600 48 ) mtrl/turf-red 0 0 0 0.5 0.5 0 0 0
+( -320 1600 48 ) ( -576 1600 48 ) ( -320 1600 40 ) mtrl/turf-red 0 0 0 0.5 0.5 0 0 0
+( -320 1600 48 ) ( -320 1600 40 ) ( -320 1344 48 ) mtrl/turf-red 0 0 0 0.5 0.5 0 0 0
+( -576 1344 40 ) ( -320 1344 40 ) ( -576 1600 40 ) mtrl/turf-red 0 0 0 0.5 0.5 0 0 0
+( -576 1344 40 ) ( -576 1344 48 ) ( -320 1344 40 ) mtrl/turf-red 0 0 0 0.5 0.5 0 0 0
+( -576 1344 40 ) ( -576 1600 40 ) ( -576 1344 48 ) mtrl/turf-red 0 0 0 0.5 0.5 0 0 0
+}
+// brush 23
+{
+( 128 1600 48 ) ( 128 1344 48 ) ( -128 1600 48 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+( 128 1600 48 ) ( -128 1600 48 ) ( 128 1600 40 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+( 128 1600 48 ) ( 128 1600 40 ) ( 128 1344 48 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+( -128 1344 40 ) ( 128 1344 40 ) ( -128 1600 40 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+( -128 1344 40 ) ( -128 1344 48 ) ( 128 1344 40 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+( -128 1344 40 ) ( -128 1600 40 ) ( -128 1344 48 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+}
+// brush 24
+{
+( 576 1600 48 ) ( 576 1344 48 ) ( 320 1600 48 ) mtrl/turf-purple-check 0 0 0 0.5 0.5 0 0 0
+( 576 1600 48 ) ( 320 1600 48 ) ( 576 1600 40 ) mtrl/turf-purple-check 0 0 0 0.5 0.5 0 0 0
+( 576 1600 48 ) ( 576 1600 40 ) ( 576 1344 48 ) mtrl/turf-purple-check 0 0 0 0.5 0.5 0 0 0
+( 320 1344 40 ) ( 576 1344 40 ) ( 320 1600 40 ) mtrl/turf-purple-check 0 0 0 0.5 0.5 0 0 0
+( 320 1344 40 ) ( 320 1344 48 ) ( 576 1344 40 ) mtrl/turf-purple-check 0 0 0 0.5 0.5 0 0 0
+( 320 1344 40 ) ( 320 1600 40 ) ( 320 1344 48 ) mtrl/turf-purple-check 0 0 0 0.5 0.5 0 0 0
+}
+// brush 25
+{
+( -384 1536 48 ) ( -384 1408 48 ) ( -512 1536 48 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( -384 1536 48 ) ( -512 1536 48 ) ( -384 1536 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( -384 1536 48 ) ( -384 1536 40 ) ( -384 1408 48 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( -512 1408 40 ) ( -384 1408 40 ) ( -512 1536 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( -512 1408 40 ) ( -512 1408 48 ) ( -384 1408 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( -512 1408 40 ) ( -512 1536 40 ) ( -512 1408 48 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+}
+// brush 26
+{
+( 64 1536 48 ) ( 64 1408 48 ) ( -64 1536 48 ) mtrl/teleporter 128 0 0 0.5 0.5 0 0 0
+( 64 1536 48 ) ( -64 1536 48 ) ( 64 1536 40 ) mtrl/teleporter 128 0 0 0.5 0.03125 0 0 0
+( 64 1536 48 ) ( 64 1536 40 ) ( 64 1408 48 ) mtrl/teleporter -0 0 0 0.5 0.03125 0 0 0
+( -64 1408 40 ) ( 64 1408 40 ) ( -64 1536 40 ) mtrl/teleporter 128 0 0 0.5 0.5 0 0 0
+( -64 1408 40 ) ( -64 1408 48 ) ( 64 1408 40 ) mtrl/teleporter 128 0 0 0.5 0.03125 0 0 0
+( -64 1408 40 ) ( -64 1536 40 ) ( -64 1408 48 ) mtrl/teleporter -0 0 0 0.5 0.03125 0 0 0
+}
+// brush 27
+{
+( 512 1536 48 ) ( 512 1408 48 ) ( 384 1536 48 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( 512 1536 48 ) ( 384 1536 48 ) ( 512 1536 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( 512 1536 48 ) ( 512 1536 40 ) ( 512 1408 48 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( 384 1408 40 ) ( 512 1408 40 ) ( 384 1536 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( 384 1408 40 ) ( 384 1408 48 ) ( 512 1408 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( 384 1408 40 ) ( 384 1536 40 ) ( 384 1408 48 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+}
+// brush 28
+{
+( -320 2112 48 ) ( -320 1856 48 ) ( -576 2112 48 ) mtrl/turf-purple-check 0 0 0 0.5 0.5 0 0 0
+( -320 2112 48 ) ( -576 2112 48 ) ( -320 2112 40 ) mtrl/turf-purple-check 0 0 0 0.5 0.5 0 0 0
+( -320 2112 48 ) ( -320 2112 40 ) ( -320 1856 48 ) mtrl/turf-purple-check 0 0 0 0.5 0.5 0 0 0
+( -576 1856 40 ) ( -320 1856 40 ) ( -576 2112 40 ) mtrl/turf-purple-check 0 0 0 0.5 0.5 0 0 0
+( -576 1856 40 ) ( -576 1856 48 ) ( -320 1856 40 ) mtrl/turf-purple-check 0 0 0 0.5 0.5 0 0 0
+( -576 1856 40 ) ( -576 2112 40 ) ( -576 1856 48 ) mtrl/turf-purple-check 0 0 0 0.5 0.5 0 0 0
+}
+// brush 29
+{
+( 128 2112 48 ) ( 128 1856 48 ) ( -128 2112 48 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+( 128 2112 48 ) ( -128 2112 48 ) ( 128 2112 40 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+( 128 2112 48 ) ( 128 2112 40 ) ( 128 1856 48 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+( -128 1856 40 ) ( 128 1856 40 ) ( -128 2112 40 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+( -128 1856 40 ) ( -128 1856 48 ) ( 128 1856 40 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+( -128 1856 40 ) ( -128 2112 40 ) ( -128 1856 48 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+}
+// brush 30
+{
+( 576 2112 48 ) ( 576 1856 48 ) ( 320 2112 48 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+( 576 2112 48 ) ( 320 2112 48 ) ( 576 2112 40 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+( 576 2112 48 ) ( 576 2112 40 ) ( 576 1856 48 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+( 320 1856 40 ) ( 576 1856 40 ) ( 320 2112 40 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+( 320 1856 40 ) ( 320 1856 48 ) ( 576 1856 40 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+( 320 1856 40 ) ( 320 2112 40 ) ( 320 1856 48 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+}
+// brush 31
+{
+( -320 2624 48 ) ( -320 2368 48 ) ( -576 2624 48 ) mtrl/turf-red 0 128 0 0.5 0.5 0 0 0
+( -320 2624 48 ) ( -576 2624 48 ) ( -320 2624 40 ) mtrl/turf-red 0 0 0 0.5 0.5 0 0 0
+( -320 2624 48 ) ( -320 2624 40 ) ( -320 2368 48 ) mtrl/turf-red 128 0 0 0.5 0.5 0 0 0
+( -576 2368 40 ) ( -320 2368 40 ) ( -576 2624 40 ) mtrl/turf-red 0 128 0 0.5 0.5 0 0 0
+( -576 2368 40 ) ( -576 2368 48 ) ( -320 2368 40 ) mtrl/turf-red 0 0 0 0.5 0.5 0 0 0
+( -576 2368 40 ) ( -576 2624 40 ) ( -576 2368 48 ) mtrl/turf-red 128 0 0 0.5 0.5 0 0 0
+}
+// brush 32
+{
+( 576 2624 48 ) ( 576 2368 48 ) ( 320 2624 48 ) mtrl/turf-purple-check 0 128 0 0.5 0.5 0 0 0
+( 576 2624 48 ) ( 320 2624 48 ) ( 576 2624 40 ) mtrl/turf-purple-check 0 0 0 0.5 0.5 0 0 0
+( 576 2624 48 ) ( 576 2624 40 ) ( 576 2368 48 ) mtrl/turf-purple-check 128 0 0 0.5 0.5 0 0 0
+( 320 2368 40 ) ( 576 2368 40 ) ( 320 2624 40 ) mtrl/turf-purple-check 0 128 0 0.5 0.5 0 0 0
+( 320 2368 40 ) ( 320 2368 48 ) ( 576 2368 40 ) mtrl/turf-purple-check 0 0 0 0.5 0.5 0 0 0
+( 320 2368 40 ) ( 320 2624 40 ) ( 320 2368 48 ) mtrl/turf-purple-check 128 0 0 0.5 0.5 0 0 0
+}
+// brush 33
+{
+( 128 2624 48 ) ( 128 2368 48 ) ( -128 2624 48 ) mtrl/turf-green-small 0 128 0 0.5 0.5 0 0 0
+( 128 2624 48 ) ( -128 2624 48 ) ( 128 2624 40 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+( 128 2624 48 ) ( 128 2624 40 ) ( 128 2368 48 ) mtrl/turf-green-small 128 0 0 0.5 0.5 0 0 0
+( -128 2368 40 ) ( 128 2368 40 ) ( -128 2624 40 ) mtrl/turf-green-small 0 128 0 0.5 0.5 0 0 0
+( -128 2368 40 ) ( -128 2368 48 ) ( 128 2368 40 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
+( -128 2368 40 ) ( -128 2624 40 ) ( -128 2368 48 ) mtrl/turf-green-small 128 0 0 0.5 0.5 0 0 0
+}
+// brush 34
+{
+( -384 2048 48 ) ( -384 1920 48 ) ( -512 2048 48 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( -384 2048 48 ) ( -512 2048 48 ) ( -384 2048 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( -384 2048 48 ) ( -384 2048 40 ) ( -384 1920 48 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( -512 1920 40 ) ( -384 1920 40 ) ( -512 2048 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( -512 1920 40 ) ( -512 1920 48 ) ( -384 1920 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( -512 1920 40 ) ( -512 2048 40 ) ( -512 1920 48 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+}
+// brush 35
+{
+( 64 2048 48 ) ( 64 1920 48 ) ( -64 2048 48 ) mtrl/teleporter 128 0 0 0.5 0.5 0 0 0
+( 64 2048 48 ) ( -64 2048 48 ) ( 64 2048 40 ) mtrl/teleporter 128 0 0 0.5 0.03125 0 0 0
+( 64 2048 48 ) ( 64 2048 40 ) ( 64 1920 48 ) mtrl/teleporter -0 0 0 0.5 0.03125 0 0 0
+( -64 1920 40 ) ( 64 1920 40 ) ( -64 2048 40 ) mtrl/teleporter 128 0 0 0.5 0.5 0 0 0
+( -64 1920 40 ) ( -64 1920 48 ) ( 64 1920 40 ) mtrl/teleporter 128 0 0 0.5 0.03125 0 0 0
+( -64 1920 40 ) ( -64 2048 40 ) ( -64 1920 48 ) mtrl/teleporter -0 0 0 0.5 0.03125 0 0 0
+}
+// brush 36
+{
+( 512 2048 48 ) ( 512 1920 48 ) ( 384 2048 48 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( 512 2048 48 ) ( 384 2048 48 ) ( 512 2048 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( 512 2048 48 ) ( 512 2048 40 ) ( 512 1920 48 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( 384 1920 40 ) ( 512 1920 40 ) ( 384 2048 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( 384 1920 40 ) ( 384 1920 48 ) ( 512 1920 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( 384 1920 40 ) ( 384 2048 40 ) ( 384 1920 48 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+}
+// brush 37
+{
+( 512 2560 48 ) ( 512 2432 48 ) ( 384 2560 48 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( 512 2560 48 ) ( 384 2560 48 ) ( 512 2560 40 ) mtrl/teleporter 0 0 0 0.5 0.03125 0 0 0
+( 512 2560 48 ) ( 512 2560 40 ) ( 512 2432 48 ) mtrl/teleporter 0 0 0 0.5 0.03125 0 0 0
+( 384 2432 40 ) ( 512 2432 40 ) ( 384 2560 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( 384 2432 40 ) ( 384 2432 48 ) ( 512 2432 40 ) mtrl/teleporter 0 0 0 0.5 0.03125 0 0 0
+( 384 2432 40 ) ( 384 2560 40 ) ( 384 2432 48 ) mtrl/teleporter 0 0 0 0.5 0.03125 0 0 0
+}
+// brush 38
+{
+( 64 2560 48 ) ( 64 2432 48 ) ( -64 2560 48 ) mtrl/teleporter 128 0 0 0.5 0.5 0 0 0
+( 64 2560 48 ) ( -64 2560 48 ) ( 64 2560 40 ) mtrl/teleporter 128 0 0 0.5 0.03125 0 0 0
+( 64 2560 48 ) ( 64 2560 40 ) ( 64 2432 48 ) mtrl/teleporter 0 0 0 0.5 0.03125 0 0 0
+( -64 2432 40 ) ( 64 2432 40 ) ( -64 2560 40 ) mtrl/teleporter 128 0 0 0.5 0.5 0 0 0
+( -64 2432 40 ) ( -64 2432 48 ) ( 64 2432 40 ) mtrl/teleporter 128 0 0 0.5 0.03125 0 0 0
+( -64 2432 40 ) ( -64 2560 40 ) ( -64 2432 48 ) mtrl/teleporter 0 0 0 0.5 0.03125 0 0 0
+}
+// brush 39
+{
+( -384 2560 48 ) ( -384 2432 48 ) ( -512 2560 48 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( -384 2560 48 ) ( -512 2560 48 ) ( -384 2560 40 ) mtrl/teleporter 0 0 0 0.5 0.03125 0 0 0
+( -384 2560 48 ) ( -384 2560 40 ) ( -384 2432 48 ) mtrl/teleporter 0 0 0 0.5 0.03125 0 0 0
+( -512 2432 40 ) ( -384 2432 40 ) ( -512 2560 40 ) mtrl/teleporter 0 0 0 0.5 0.5 0 0 0
+( -512 2432 40 ) ( -512 2432 48 ) ( -384 2432 40 ) mtrl/teleporter 0 0 0 0.5 0.03125 0 0 0
+( -512 2432 40 ) ( -512 2560 40 ) ( -512 2432 48 ) mtrl/teleporter 0 0 0 0.5 0.03125 0 0 0
+}
+// brush 40
+{
+( -128 2048 48 ) ( -128 1920 48 ) ( -320 2048 48 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( -128 2048 48 ) ( -320 2048 48 ) ( -128 2048 40 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( -128 2048 48 ) ( -128 2048 40 ) ( -128 1920 48 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( -320 1920 40 ) ( -128 1920 40 ) ( -320 2048 40 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( -320 1920 40 ) ( -320 1920 48 ) ( -128 1920 40 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( -320 1920 40 ) ( -320 2048 40 ) ( -320 1920 48 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+}
+// brush 41
+{
+( 320 2048 48 ) ( 320 1920 48 ) ( 128 2048 48 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( 320 2048 48 ) ( 128 2048 48 ) ( 320 2048 40 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( 320 2048 48 ) ( 320 2048 40 ) ( 320 1920 48 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( 128 1920 40 ) ( 320 1920 40 ) ( 128 2048 40 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( 128 1920 40 ) ( 128 1920 48 ) ( 320 1920 40 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( 128 1920 40 ) ( 128 2048 40 ) ( 128 1920 48 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+}
+// brush 42
+{
+( -320 3128 56 ) ( -320 2880 56 ) ( -576 3128 56 ) mtrl/turf-grey 0 128 0 0.5 0.5 0 0 0
+( -320 3136 56 ) ( -576 3136 56 ) ( -320 3136 48 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( -320 3128 56 ) ( -320 3128 48 ) ( -320 2880 56 ) mtrl/turf-grey 128 0 0 0.5 0.5 0 0 0
+( -576 2880 48 ) ( -320 2880 48 ) ( -576 3128 48 ) mtrl/turf-grey 0 128 0 0.5 0.5 0 0 0
+( -576 2880 48 ) ( -576 2880 56 ) ( -320 2880 48 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( -576 2880 48 ) ( -576 3128 48 ) ( -576 2880 56 ) mtrl/turf-grey 128 0 0 0.5 0.5 0 0 0
+}
+// brush 43
+{
+( 576 3136 56 ) ( 576 2880 56 ) ( 320 3136 56 ) mtrl/turf-grey 0 128 0 0.5 0.5 0 0 0
+( 576 3136 56 ) ( 320 3136 56 ) ( 576 3136 48 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( 576 3136 56 ) ( 576 3136 48 ) ( 576 2880 56 ) mtrl/turf-grey 128 0 0 0.5 0.5 0 0 0
+( 320 2880 48 ) ( 576 2880 48 ) ( 320 3136 48 ) mtrl/turf-grey 0 128 0 0.5 0.5 0 0 0
+( 320 2880 48 ) ( 320 2880 56 ) ( 576 2880 48 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
+( 320 2880 48 ) ( 320 3136 48 ) ( 320 2880 56 ) mtrl/turf-grey 128 0 0 0.5 0.5 0 0 0
+}
+// brush 44
+{
+( -312 3136 56 ) ( -312 2880 56 ) ( -576 3136 56 ) mtrl/thwomp 64 64 0 1 1 0 0 0
+( -312 3136 56 ) ( -576 3136 56 ) ( -312 3136 48 ) mtrl/thwomp 64 0 0 1 0.03125 0 0 0
+( -320 3136 56 ) ( -320 3136 48 ) ( -320 2880 56 ) mtrl/thwomp 192 0 0 1 0.03125 0 0 0
+( -576 2880 48 ) ( -312 2880 48 ) ( -576 3136 48 ) mtrl/thwomp 64 64 0 1 1 0 0 0
+( -576 2880 48 ) ( -576 2880 56 ) ( -312 2880 48 ) mtrl/thwomp 64 0 0 1 0.03125 0 0 0
+( -576 2880 48 ) ( -576 3136 48 ) ( -576 2880 56 ) mtrl/thwomp 192 0 0 1 0.03125 0 0 0
+}
+// brush 45
+{
+( 576 3136 56 ) ( 576 2880 56 ) ( 320 3136 56 ) mtrl/thwomp 192 64 0 1 1 0 0 0
+( 576 3136 56 ) ( 320 3136 56 ) ( 576 3136 48 ) mtrl/thwomp 192 0 0 1 0.03125 0 0 0
+( 576 3136 56 ) ( 576 3136 48 ) ( 576 2880 56 ) mtrl/thwomp 192 0 0 1 0.03125 0 0 0
+( 320 2880 48 ) ( 576 2880 48 ) ( 320 3136 48 ) mtrl/thwomp 192 64 0 1 1 0 0 0
+( 320 2880 48 ) ( 320 2880 56 ) ( 576 2880 48 ) mtrl/thwomp 192 0 0 1 0.03125 0 0 0
+( 320 2880 48 ) ( 320 3136 48 ) ( 320 2880 56 ) mtrl/thwomp 192 0 0 1 0.03125 0 0 0
+}
+// brush 46
+{
+( 128 3392 56 ) ( 128 2880 56 ) ( -128 3392 56 ) mtrl/turf-orange 0 128 0 0.5 0.5 0 0 0
+( 128 3392 56 ) ( -128 3392 56 ) ( 128 3392 48 ) mtrl/turf-orange 0 0 0 0.5 0.5 0 0 0
+( 128 3392 56 ) ( 128 3392 48 ) ( 128 2880 56 ) mtrl/turf-orange 128 0 0 0.5 0.5 0 0 0
+( -128 2880 48 ) ( 128 2880 48 ) ( -128 3392 48 ) mtrl/turf-orange 0 128 0 0.5 0.5 0 0 0
+( -128 2880 48 ) ( -128 2880 56 ) ( 128 2880 48 ) mtrl/turf-orange 0 0 0 0.5 0.5 0 0 0
+( -128 2880 48 ) ( -128 3392 48 ) ( -128 2880 56 ) mtrl/turf-orange 128 0 0 0.5 0.5 0 0 0
+}
+// brush 47
+{
+( 64 3328 56 ) ( 64 3200 56 ) ( -64 3328 56 ) mtrl/goal 128 0 0 0.5 0.5 0 0 0
+( 64 3328 56 ) ( -64 3328 56 ) ( 64 3328 48 ) mtrl/goal 128 0 0 0.5 0.03125 0 0 0
+( 64 3328 56 ) ( 64 3328 48 ) ( 64 3200 56 ) mtrl/goal 0 0 0 0.5 0.03125 0 0 0
+( -64 3200 48 ) ( 64 3200 48 ) ( -64 3328 48 ) mtrl/goal 128 0 0 0.5 0.5 0 0 0
+( -64 3200 48 ) ( -64 3200 56 ) ( 64 3200 48 ) mtrl/goal 128 0 0 0.5 0.03125 0 0 0
+( -64 3200 48 ) ( -64 3328 48 ) ( -64 3200 56 ) mtrl/goal 0 0 0 0.5 0.03125 0 0 0
+}
+// brush 48
+{
+( -128 1024 40 ) ( -128 896 40 ) ( -320 1024 40 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( -128 1024 40 ) ( -320 1024 40 ) ( -128 1024 32 ) mtrl/wood 0 96 0 0.5 0.5 0 0 0
+( -128 1024 40 ) ( -128 1024 32 ) ( -128 896 40 ) mtrl/wood 0 96 0 0.5 0.5 0 0 0
+( -320 896 32 ) ( -128 896 32 ) ( -320 1024 32 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( -320 896 32 ) ( -320 896 40 ) ( -128 896 32 ) mtrl/wood 0 96 0 0.5 0.5 0 0 0
+( -320 896 32 ) ( -320 1024 32 ) ( -320 896 40 ) mtrl/wood 0 96 0 0.5 0.5 0 0 0
+}
+// brush 49
+{
+( 320 1024 40 ) ( 320 896 40 ) ( 128 1024 40 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( 320 1024 40 ) ( 128 1024 40 ) ( 320 1024 32 ) mtrl/wood 0 96 0 0.5 0.5 0 0 0
+( 320 1024 40 ) ( 320 1024 32 ) ( 320 896 40 ) mtrl/wood 0 96 0 0.5 0.5 0 0 0
+( 128 896 32 ) ( 320 896 32 ) ( 128 1024 32 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( 128 896 32 ) ( 128 896 40 ) ( 320 896 32 ) mtrl/wood 0 96 0 0.5 0.5 0 0 0
+( 128 896 32 ) ( 128 1024 32 ) ( 128 896 40 ) mtrl/wood 0 96 0 0.5 0.5 0 0 0
+}
+}
+// entity 1
+{
+"classname" "info_player_start"
+"origin" "0 -64 64"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 2
+{
+"classname" "target_teleporter"
+"origin" "-448 -64 40"
+"targetname" "red1"
+"target" "red2"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 3
+{
+"classname" "target_position"
+"origin" "0 896 40"
+"targetname" "red2"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 4
+{
+"classname" "target_teleporter"
+"origin" "448 -64 40"
+"targetname" "blue1"
+"target" "blue2"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 5
+{
+"classname" "target_position"
+"origin" "-448 896 40"
+"targetname" "blue2"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 6
+{
+"classname" "target_teleporter"
+"origin" "0 -512 40"
+"targetname" "green1"
+"target" "green2"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 7
+{
+"classname" "target_position"
+"origin" "-448 384 40"
+"targetname" "green2"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 8
+{
+"classname" "target_teleporter"
+"origin" "-448 960 40"
+"targetname" "blue3"
+"target" "blue4"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 9
+{
+"classname" "target_position"
+"origin" "448 896 40"
+"targetname" "blue4"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 10
+{
+"classname" "target_teleporter"
+"origin" "-448 448 40"
+"targetname" "green3"
+"target" "green4"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 11
+{
+"classname" "target_position"
+"origin" "0 384 40"
+"targetname" "green4"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 12
+{
+"classname" "target_teleporter"
+"origin" "0 960 40"
+"targetname" "red3"
+"target" "red4"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 13
+{
+"classname" "target_position"
+"origin" "-448 2432 40"
+"targetname" "red4"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 14
+{
+"classname" "target_teleporter"
+"origin" "448 960 40"
+"targetname" "blue5"
+"target" "blue6"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 15
+{
+"classname" "target_position"
+"origin" "-448 1920 40"
+"targetname" "blue6"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 16
+{
+"classname" "target_teleporter"
+"origin" "0 448 40"
+"targetname" "green5"
+"target" "green6"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 17
+{
+"classname" "target_position"
+"origin" "0 1408 40"
+"targetname" "green6"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 18
+{
+"classname" "target_teleporter"
+"origin" "-448 2496 48"
+"targetname" "red5"
+"target" "red6"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 19
+{
+"classname" "target_position"
+"origin" "-448 1408 48"
+"targetname" "red6"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 20
+{
+"classname" "target_position"
+"origin" "448 384 40"
+"targetname" "red8"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 21
+{
+"classname" "target_teleporter"
+"origin" "448 448 40"
+"targetname" "red9"
+"target" "red10"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 22
+{
+"classname" "target_teleporter"
+"origin" "0 1472 48"
+"targetname" "green7"
+"target" "green8"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 23
+{
+"classname" "target_position"
+"origin" "448 1920 48"
+"targetname" "green8"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 24
+{
+"classname" "target_teleporter"
+"origin" "448 1984 48"
+"targetname" "green9"
+"target" "green10"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 25
+{
+"classname" "target_position"
+"origin" "0 1920 48"
+"targetname" "green10"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 26
+{
+"classname" "target_teleporter"
+"origin" "0 1984 48"
+"targetname" "green11"
+"target" "green12"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 27
+{
+"classname" "target_position"
+"origin" "0 2432 48"
+"targetname" "green12"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 28
+{
+"classname" "target_teleporter"
+"origin" "0 2496 48"
+"targetname" "green13"
+"target" "green14"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 29
+{
+"classname" "target_position"
+"origin" "-448 3008 48"
+"targetname" "green14"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 30
+{
+"classname" "target_teleporter"
+"origin" "-448 1984 48"
+"targetname" "blue7"
+"target" "blue8"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 31
+{
+"classname" "target_position"
+"origin" "448 1408 48"
+"targetname" "blue8"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 32
+{
+"classname" "target_teleporter"
+"origin" "448 1472 48"
+"targetname" "blue9"
+"target" "blue10"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 33
+{
+"classname" "target_position"
+"origin" "448 2432 48"
+"targetname" "blue10"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 34
+{
+"classname" "target_teleporter"
+"origin" "448 2496 48"
+"targetname" "blue11"
+"target" "blue12"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 35
+{
+"classname" "target_position"
+"origin" "0 3008 48"
+"targetname" "blue12"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 36
+{
+"classname" "target_position"
+"origin" "448 3008 48"
+"targetname" "red10"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 37
+{
+"classname" "target_teleporter"
+"origin" "-448 1472 48"
+"targetname" "red7"
+"target" "red8"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 38
+{
+"classname" "info_player_deathmatch"
+"origin" "0 3264 80"
+"time" "6000"
+"time_hs" "1500 2000 2500"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 39
+{
+"classname" "info_player_intermission"
+"origin" "224 -240 960"
+"target" "camera"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}
+// entity 40
+{
+"classname" "target_position"
+"origin" "0 1064 48"
+"targetname" "camera"
+"shot" "shot-ervin/telecolors.jpg"
+"message" "Red to red, blue to blue and green to green..."
+}

@@ -1,0 +1,27 @@
+Switchball: The challenge
+Difficulty: Expert through Insane\\25 challenges that take you to another game.\Author: MSB
+sb2
+shot-sb/switchball-title2.png
+
+map-sb2/switchball2-colortrack.sol
+map-sb2/switchball2-jumpsnswitches.sol
+map-sb2/switchball2-spikekillers.sol
+map-sb2/switchball2-discs.sol
+map-sb2/switchball2-nothwomp.sol
+map-sb2/switchball2-leaps.sol
+map-sb2/switchball2-hotlava.sol
+map-sb2/switchball2-metamorphosis.sol
+map-sb2/switchball2-buzzer.sol
+map-sb2/switchball2-thwomp.sol
+map-sb2/switchball2-longpipe.sol
+map-sb2/switchball2-grinder.sol
+map-sb2/switchball2-telenarrow.sol
+map-sb2/switchball2-arrows.sol
+map-sb2/switchball2-spinnin-coin.sol
+map-sb2/switchball2-plinko.sol
+map-sb2/switchball2-trainrace.sol
+map-sb2/switchball2-ufo-dance.sol
+map-sb2/switchball2-arrows2.sol
+map-sb2/switchball2-fall-arenas.sol
+map-sb2/switchball2-drive.sol
+map-sb2/switchball2-sgiantshouse.sol

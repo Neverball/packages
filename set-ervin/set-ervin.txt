@@ -1,0 +1,29 @@
+Ervin's Set
+Difficulty: Intermediate through Advanced\\25 levels of random and tech challenges.
+ervin
+shot-ervin/real.jpg
+40000 65000 180000  1900 1500 0
+map-ervin/unnamed2.sol
+map-ervin/telecolors.sol
+map-ervin/ervin1.sol
+map-ervin/bonus1.sol
+map-ervin/ervin2.sol
+map-ervin/unnamed.sol
+map-ervin/brokenbridge.sol
+map-ervin/stairs.sol
+map-ervin/sphere.sol
+map-ervin/pool.sol
+map-ervin/plat2.sol
+map-ervin/yuri1.sol
+map-ervin/fall.sol
+map-ervin/bonus2.sol
+map-ervin/narrowparts.sol
+map-ervin/check.sol
+map-ervin/plat1.sol
+map-ervin/park.sol
+map-ervin/up_n_down.sol
+map-ervin/down.sol
+map-ervin/real.sol
+map-ervin/dosses.sol
+map-ervin/straight.sol
+map-ervin/house.sol

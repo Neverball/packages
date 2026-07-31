@@ -1,0 +1,121 @@
+
+// entity 0
+{
+"classname" "worldspawn"
+"message" "Lets start off easy.\"
+"song" "bgm/track3.ogg"
+"goal" "10"
+"coin_hs" "16 15"
+"time_hs" "350 400"
+"back" "map-back/clouds.sol"
+"grad" "back/ocean.png"
+"author" "Mr. K"
+"goal_hs" "200 4500"
+"version" "1"
+"time" "3000"
+"shot" "shot-mrk/letsstart.jpg"
+// brush 0
+{
+( 64 64 8 ) ( 64 -64 8 ) ( -64 64 8 ) mtrl/wood-check-glossy 0 0 0 1 1 0 0 0
+( 64 64 8 ) ( -64 64 8 ) ( 64 64 0 ) mtrl/wood-check-glossy 0 0 0 1 1 0 0 0
+( 64 64 8 ) ( 64 64 0 ) ( 64 -64 8 ) mtrl/wood-check-glossy 0 0 0 1 1 0 0 0
+( -64 -64 0 ) ( 64 -64 0 ) ( -64 64 0 ) mtrl/wood-check-glossy 0 0 0 1 1 0 0 0
+( -64 -64 0 ) ( -64 -64 8 ) ( 64 -64 0 ) mtrl/wood-check-glossy 0 0 0 1 1 0 0 0
+( -64 -64 0 ) ( -64 64 0 ) ( -64 -64 8 ) mtrl/wood-check-glossy 0 0 0 1 1 0 0 0
+}
+// brush 1
+{
+( 64 192 8 ) ( 64 64 8 ) ( -64 192 8 ) mtrl/wood-light-glossy 0 0 0 1 1 134217728 0 0
+( 168 800 8 ) ( 40 800 8 ) ( 168 800 0 ) mtrl/wood-light-glossy 0 0 0 1 1 134217728 0 0
+( 64 192 8 ) ( 64 192 0 ) ( 64 64 8 ) mtrl/wood-light-glossy 0 0 0 1 1 134217728 0 0
+( -64 64 0 ) ( 64 64 0 ) ( -64 192 0 ) mtrl/wood-light-glossy 0 0 0 1 1 134217728 0 0
+( -64 64 0 ) ( -64 64 8 ) ( 64 64 0 ) mtrl/wood-light-glossy 0 0 0 1 1 134217728 0 0
+( -64 64 0 ) ( -64 192 0 ) ( -64 64 8 ) mtrl/wood-light-glossy 0 0 0 1 1 134217728 0 0
+}
+// brush 2
+{
+( 64 928 8 ) ( 64 800 8 ) ( -64 928 8 ) mtrl/wood-check-glossy 0 0 0 1 1 0 0 0
+( 64 928 8 ) ( -64 928 8 ) ( 64 928 0 ) mtrl/wood-check-glossy 0 0 0 1 1 0 0 0
+( 64 928 8 ) ( 64 928 0 ) ( 64 800 8 ) mtrl/wood-check-glossy 0 0 0 1 1 0 0 0
+( -64 800 0 ) ( 64 800 0 ) ( -64 928 0 ) mtrl/wood-check-glossy 0 0 0 1 1 0 0 0
+( -64 800 0 ) ( -64 800 8 ) ( 64 800 0 ) mtrl/wood-check-glossy 0 0 0 1 1 0 0 0
+( -64 800 0 ) ( -64 928 0 ) ( -64 800 8 ) mtrl/wood-check-glossy 0 0 0 1 1 0 0 0
+}
+// brush 3
+{
+( 192 64 8 ) ( 192 -64 8 ) ( 64 64 8 ) mtrl/invisible 0 0 0 1 1 0 0 0
+( 280 928 8 ) ( 152 928 8 ) ( 280 928 0 ) mtrl/invisible 0 0 0 1 1 0 0 0
+( 192 64 8 ) ( 192 64 0 ) ( 192 -64 8 ) mtrl/invisible 0 0 0 1 1 0 0 0
+( 64 -64 0 ) ( 192 -64 0 ) ( 64 64 0 ) mtrl/invisible 0 0 0 1 1 0 0 0
+( 64 -64 0 ) ( 64 -64 8 ) ( 192 -64 0 ) mtrl/invisible 0 0 0 1 1 0 0 0
+( 64 -64 0 ) ( 64 64 0 ) ( 64 -64 8 ) mtrl/invisible 0 0 0 1 1 0 0 0
+}
+// brush 4
+{
+( 64 928 8 ) ( 64 800 8 ) ( -64 928 8 ) mtrl/goal 128 64 0 0.5 0.5 134217728 0 0
+( 64 928 8 ) ( -64 928 8 ) ( 64 928 0 ) mtrl/invisible 0 0 0 1 1 134217728 0 0
+( 64 928 8 ) ( 64 928 0 ) ( 64 800 8 ) mtrl/invisible 0 0 0 1 1 134217728 0 0
+( -64 800 0 ) ( 64 800 0 ) ( -64 928 0 ) mtrl/goal 0 0 0 1 1 134217728 0 0
+( -64 800 0 ) ( -64 800 8 ) ( 64 800 0 ) mtrl/invisible 0 0 0 1 1 134217728 0 0
+( -64 800 0 ) ( -64 928 0 ) ( -64 800 8 ) mtrl/invisible 0 0 0 1 1 134217728 0 0
+}
+}
+// entity 1
+{
+"classname" "info_player_start"
+"origin" "0 0 32"
+"radius" "0.25"
+}
+// entity 2
+{
+"classname" "info_player_deathmatch"
+"origin" "0 864 32"
+}
+// entity 3
+{
+"classname" "light"
+"origin" "64 640 24"
+"light" "10"
+}
+// entity 4
+{
+"classname" "light"
+"origin" "64 448 24"
+"light" "5"
+}
+// entity 5
+{
+"classname" "light"
+"origin" "64 256 24"
+"light" "1"
+}
+// entity 6
+{
+"classname" "light"
+"origin" "-64 640 24"
+"light" "10"
+}
+// entity 7
+{
+"classname" "light"
+"origin" "-64 448 24"
+"light" "5"
+}
+// entity 8
+{
+"classname" "light"
+"origin" "-64 256 24"
+"light" "1"
+}
+// entity 9
+{
+"classname" "info_player_intermission"
+"origin" "496 16 464"
+"target" "view_target"
+}
+// entity 10
+{
+"classname" "target_position"
+"origin" "128 256 24"
+"targetname" "view_target"
+}

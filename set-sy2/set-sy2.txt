@@ -1,0 +1,10 @@
+SYMPHONY LEVEL! (part 2)
+Part two of this level set.\\
+sy2
+shot-sy2/30.jpg
+
+map-sy2/26.sol
+map-sy2/27.sol
+map-sy2/28.sol
+map-sy2/29.sol
+map-sy2/30.sol

@@ -1,0 +1,511 @@
+
+// entity 0
+{
+"classname" "worldspawn"
+"back" "map-back/ocean.sol"
+"grad" "back/ocean.png"
+"time" "6000"
+"song" "bgm/track2.ogg"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+// brush 0
+{
+( 128 128 1208 ) ( 128 -128 1208 ) ( -128 128 1208 ) mtrl/turf-orange 0 0 0 0.5 0.5 0 0 0
+( 128 128 1208 ) ( -128 128 1208 ) ( 128 128 440 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( 384 128 1208 ) ( 384 128 440 ) ( 384 -128 1208 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -960 -504 1184 ) ( -704 -504 1184 ) ( -960 -248 1184 ) mtrl/turf-grey-dark 128 16 0 0.5 0.5 0 0 0
+( -128 -128 440 ) ( -128 -128 1208 ) ( 128 -128 440 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -128 -128 440 ) ( -128 128 440 ) ( -128 -128 1208 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+}
+// brush 1
+{
+( 384 128 1208 ) ( 384 -128 1208 ) ( 128 128 1208 ) mtrl/arrow-light 128 128 0 1 1 0 0 0
+( 384 128 1208 ) ( 128 128 1208 ) ( 384 128 1184 ) mtrl/turf-grey-dark 128 85.333984375 0 1 0.09375 0 0 0
+( 384 128 1208 ) ( 384 128 1184 ) ( 384 -128 1208 ) mtrl/turf-grey-dark 128 85.333984375 0 1 0.09375 0 0 0
+( 128 -128 1184 ) ( 384 -128 1184 ) ( 128 128 1184 ) mtrl/turf-grey-dark 128 128 0 1 1 0 0 0
+( 128 -128 1184 ) ( 128 -128 1208 ) ( 384 -128 1184 ) mtrl/turf-grey-dark 128 85.333984375 0 1 0.09375 0 0 0
+( 128 -128 1184 ) ( 128 128 1184 ) ( 128 -128 1208 ) mtrl/arrow-light 128 85.333984375 0 1 0.09375 0 0 0
+}
+// brush 2
+{
+( 384 384 1040 ) ( 384 128 1040 ) ( 128 384 1040 ) mtrl/turf-orange 0 0 0 0.5 0.5 0 0 0
+( 384 384 1040 ) ( 128 384 1040 ) ( 384 384 1032 ) mtrl/turf-grey-dark 0 112 0 0.5 0.5 0 0 0
+( 640 376 1040 ) ( 640 376 1032 ) ( 640 120 1040 ) mtrl/turf-grey-dark 16 112 0 0.5 0.5 0 0 0
+( 136 128 1016 ) ( 392 128 1016 ) ( 136 384 1016 ) mtrl/turf-grey-dark 240 0 0 0.5 0.5 0 0 0
+( 128 128 1032 ) ( 128 128 1040 ) ( 384 128 1032 ) mtrl/turf-grey-dark 0 112 0 0.5 0.5 0 0 0
+( 128 128 1032 ) ( 128 384 1032 ) ( 128 128 1040 ) mtrl/turf-grey-dark 0 112 0 0.5 0.5 0 0 0
+}
+// brush 3
+{
+( 384 384 1040 ) ( 384 128 1040 ) ( 128 384 1040 ) mtrl/arrow-light 128 128 180 1 1 0 0 0
+( 384 384 1040 ) ( 128 384 1040 ) ( 384 384 1032 ) mtrl/arrow-light 128 256 180 1 0.03125 0 0 0
+( 384 384 1040 ) ( 384 384 1032 ) ( 384 128 1040 ) mtrl/arrow-light 128 0 180 1 0.03125 0 0 0
+( 128 128 1032 ) ( 384 128 1032 ) ( 128 384 1032 ) mtrl/arrow-light 128 128 180 1 1 0 0 0
+( 128 128 1032 ) ( 128 128 1040 ) ( 384 128 1032 ) mtrl/arrow-light 128 256 180 1 0.03125 0 0 0
+( 128 128 1032 ) ( 128 384 1032 ) ( 128 128 1040 ) mtrl/arrow-light 128 0 180 1 0.03125 0 0 0
+}
+// brush 4
+{
+( 160 128 864 ) ( 160 -128 864 ) ( -96 128 864 ) mtrl/turf-orange 192 0 0 0.5 0.5 0 0 0
+( 168 384 864 ) ( -88 384 864 ) ( 168 384 856 ) mtrl/turf-grey-dark 176 64 0 0.5 0.5 0 0 0
+( 384 120 864 ) ( 384 120 856 ) ( 384 -136 864 ) mtrl/turf-grey-dark 16 64 0 0.5 0.5 0 0 0
+( -96 -128 840 ) ( 160 -128 840 ) ( -96 128 840 ) mtrl/turf-grey-dark 192 0 0 0.5 0.5 0 0 0
+( -96 -128 856 ) ( -96 -128 864 ) ( 160 -128 856 ) mtrl/turf-grey-dark 192 64 0 0.5 0.5 0 0 0
+( 128 -144 856 ) ( 128 112 856 ) ( 128 -144 864 ) mtrl/turf-grey-dark 32 64 0 0.5 0.5 0 0 0
+}
+// brush 5
+{
+( 384 128 864 ) ( 384 -128 864 ) ( 128 128 864 ) mtrl/arrow-light 128 128 90 1 1 0 0 0
+( 384 128 864 ) ( 128 128 864 ) ( 384 128 856 ) mtrl/arrow-light -0 128 90 0.03125 1 0 0 0
+( 384 128 864 ) ( 384 128 856 ) ( 384 -128 864 ) mtrl/arrow-light -0 128 90 0.03125 1 0 0 0
+( 128 -128 856 ) ( 384 -128 856 ) ( 128 128 856 ) mtrl/arrow-light 128 128 90 1 1 0 0 0
+( 128 -128 856 ) ( 128 -128 864 ) ( 384 -128 856 ) mtrl/arrow-light -0 128 90 0.03125 1 0 0 0
+( 128 -128 856 ) ( 128 128 856 ) ( 128 -128 864 ) mtrl/arrow-light -0 128 90 0.03125 1 0 0 0
+}
+// brush 6
+{
+( 128 112 344 ) ( 128 -136 344 ) ( -128 112 344 ) mtrl/turf-orange 0 240 0 0.5 0.5 0 0 0
+( 160 640 344 ) ( -96 640 344 ) ( 160 640 216 ) mtrl/turf-grey-dark 192 48 0 0.5 0.5 0 0 0
+( 128 112 344 ) ( 128 112 216 ) ( 128 -136 344 ) mtrl/turf-grey-dark 16 48 0 0.5 0.5 0 0 0
+( -208 -240 320 ) ( 48 -240 320 ) ( -208 8 320 ) mtrl/turf-grey-dark 160 32 0 0.5 0.5 0 0 0
+( -128 -128 216 ) ( -128 -128 344 ) ( 128 -128 216 ) mtrl/turf-grey-dark 0 48 0 0.5 0.5 0 0 0
+( -128 -136 216 ) ( -128 112 216 ) ( -128 -136 344 ) mtrl/turf-grey-dark 16 48 0 0.5 0.5 0 0 0
+}
+// brush 7
+{
+( 128 640 344 ) ( 128 384 344 ) ( -128 640 344 ) mtrl/arrow-light 128 128 90 1 1 0 0 0
+( 128 640 344 ) ( -128 640 344 ) ( 128 640 320 ) mtrl/arrow-light 170.6665039063 128 90 0.09375 1 0 0 0
+( 128 640 344 ) ( 128 640 320 ) ( 128 384 344 ) mtrl/arrow-light 170.6665039063 128 90 0.09375 1 0 0 0
+( -128 384 320 ) ( 128 384 320 ) ( -128 640 320 ) mtrl/arrow-light 128 128 90 1 1 0 0 0
+( -128 384 320 ) ( -128 384 344 ) ( 128 384 320 ) mtrl/arrow-light 170.6665039063 128 90 0.09375 1 0 0 0
+( -128 384 320 ) ( -128 640 320 ) ( -128 384 344 ) mtrl/arrow-light 170.6665039063 128 90 0.09375 1 0 0 0
+}
+// brush 8
+{
+( -128 640 80 ) ( -128 384 80 ) ( -384 640 80 ) mtrl/turf-orange 0 0 0 0.5 0.5 0 0 0
+( -128 640 80 ) ( -384 640 80 ) ( -128 640 56 ) mtrl/turf-grey-dark 0 240 0 0.5 0.5 0 0 0
+( 128 640 80 ) ( 128 640 56 ) ( 128 384 80 ) mtrl/turf-grey-dark 0 240 0 0.5 0.5 0 0 0
+( -384 384 56 ) ( -128 384 56 ) ( -384 640 56 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -384 384 56 ) ( -384 384 80 ) ( -128 384 56 ) mtrl/turf-grey-dark 0 240 0 0.5 0.5 0 0 0
+( -384 384 56 ) ( -384 640 56 ) ( -384 384 80 ) mtrl/turf-grey-dark 0 240 0 0.5 0.5 0 0 0
+}
+// brush 9
+{
+( 128 640 80 ) ( 128 384 80 ) ( -128 640 80 ) mtrl/arrow-light 127.9999923706 128.0000610352 180 1 1.0000001192 0 0 0
+( 128 640 80 ) ( -128 640 80 ) ( 128 640 56 ) mtrl/arrow-light 128 170.6666259766 180 1 0.09375 0 0 0
+( 128 640 80 ) ( 128 640 56 ) ( 128 384 80 ) mtrl/arrow-light 128.0000610352 170.6666259766 180 0.9999998808 0.09375 0 0 0
+( -128 384 56 ) ( 128 384 56 ) ( -128 640 56 ) mtrl/arrow-light 127.9999923706 128.0000610352 180 1 1.0000001192 0 0 0
+( -128 384 56 ) ( -128 384 80 ) ( 128 384 56 ) mtrl/arrow-light 128 170.6665649414 180 1 0.0937499702 0 0 0
+( -128 384 56 ) ( -128 640 56 ) ( -128 384 80 ) mtrl/arrow-light 128.0000610352 170.6666259766 180 0.9999998808 0.09375 0 0 0
+}
+// brush 10
+{
+( 128 384 -120 ) ( 128 128 -120 ) ( -128 384 -120 ) mtrl/turf-orange 0 0 0 0.5 0.5 0 0 0
+( 128 384 -120 ) ( -128 384 -120 ) ( 128 384 -144 ) mtrl/turf-grey-dark 0 96 0 0.5 0.5 0 0 0
+( 128 352 -120 ) ( 128 352 -144 ) ( 128 96 -120 ) mtrl/turf-grey-dark 64 96 0 0.5 0.5 0 0 0
+( -128 128 -144 ) ( 128 128 -144 ) ( -128 384 -144 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -112 -128 -152 ) ( -112 -128 -128 ) ( 144 -128 -152 ) mtrl/turf-grey-dark 224 80 0 0.5 0.5 0 0 0
+( -128 128 -144 ) ( -128 384 -144 ) ( -128 128 -120 ) mtrl/turf-grey-dark 0 96 0 0.5 0.5 0 0 0
+}
+// brush 11
+{
+( 128 128 -120 ) ( 128 -128 -120 ) ( -128 128 -120 ) mtrl/arrow-light 128 128 180 1 1 0 0 0
+( 128 128 -120 ) ( -128 128 -120 ) ( 128 128 -144 ) mtrl/arrow-light 128 0 180 1 0.09375 0 0 0
+( 128 128 -120 ) ( 128 128 -144 ) ( 128 -128 -120 ) mtrl/arrow-light 128 0 180 1 0.09375 0 0 0
+( -128 -128 -144 ) ( 128 -128 -144 ) ( -128 128 -144 ) mtrl/arrow-light 128 128 180 1 1 0 0 0
+( -128 -128 -144 ) ( -128 -128 -120 ) ( 128 -128 -144 ) mtrl/arrow-light 128 0 180 1 0.09375 0 0 0
+( -128 -128 -144 ) ( -128 128 -144 ) ( -128 -128 -120 ) mtrl/arrow-light 128 0 180 1 0.09375 0 0 0
+}
+// brush 12
+{
+( 128 -136 -312 ) ( 128 -384 -312 ) ( -128 -136 -312 ) mtrl/turf-orange 0 0 0 0.5 0.5 0 0 0
+( 128 -128 -312 ) ( -128 -128 -312 ) ( 128 -128 -336 ) mtrl/turf-grey-dark 0 128 0 0.5 0.5 0 0 0
+( 128 -136 -312 ) ( 128 -136 -336 ) ( 128 -384 -312 ) mtrl/turf-grey-dark 0 128 0 0.5 0.5 0 0 0
+( -128 -384 -336 ) ( 128 -384 -336 ) ( -128 -136 -336 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -96 -640 -336 ) ( -96 -640 -312 ) ( 160 -640 -336 ) mtrl/turf-grey-dark 192 128 0 0.5 0.5 0 0 0
+( -128 -384 -336 ) ( -128 -136 -336 ) ( -128 -384 -312 ) mtrl/turf-grey-dark 0 128 0 0.5 0.5 0 0 0
+}
+// brush 13
+{
+( -96 -384 -312 ) ( -96 -424 -312 ) ( -128 -384 -312 ) mtrl/goal 128 128 0 1 1 0 0 0
+( -96 -384 -312 ) ( -128 -384 -312 ) ( -96 -384 -336 ) mtrl/goal 128 -0 0 1 0.09375 0 0 0
+( 128 -384 -312 ) ( 128 -384 -336 ) ( 128 -424 -312 ) mtrl/goal 128 -0 0 1 0.09375 0 0 0
+( -128 -424 -336 ) ( -96 -424 -336 ) ( -128 -384 -336 ) mtrl/goal 128 128 0 1 1 0 0 0
+( -88 -640 -336 ) ( -88 -640 -312 ) ( -56 -640 -336 ) mtrl/goal 128 -0 0 1 0.09375 0 0 0
+( -128 -424 -336 ) ( -128 -384 -336 ) ( -128 -424 -312 ) mtrl/goal 128 -0 0 1 0.09375 0 0 0
+}
+}
+// entity 1
+{
+"classname" "info_player_start"
+"origin" "0 0 1232"
+"back" "map-back/ocean.sol"
+"grad" "back/ocean.png"
+"time" "6000"
+"song" "bgm/track2.ogg"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}
+// entity 2
+{
+"classname" "light"
+"origin" "448 320 1056"
+"light" "1"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}
+// entity 3
+{
+"classname" "light"
+"origin" "576 320 1056"
+"light" "1"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}
+// entity 4
+{
+"classname" "light"
+"origin" "576 192 1056"
+"light" "1"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}
+// entity 5
+{
+"classname" "light"
+"origin" "448 192 1056"
+"light" "1"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}
+// entity 6
+{
+"classname" "light"
+"origin" "192 192 880"
+"light" "1"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}
+// entity 7
+{
+"classname" "light"
+"origin" "320 192 880"
+"light" "1"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}
+// entity 8
+{
+"classname" "light"
+"origin" "320 320 880"
+"light" "1"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}
+// entity 9
+{
+"classname" "light"
+"origin" "192 320 880"
+"light" "1"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}
+// entity 10
+{
+"classname" "light"
+"origin" "256 0 1016"
+"light" "10"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}
+// entity 11
+{
+"classname" "light"
+"origin" "512 256 1056"
+"light" "5"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}
+// entity 12
+{
+"classname" "light"
+"origin" "256 256 880"
+"light" "5"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}
+// entity 13
+{
+"classname" "light"
+"origin" "0 -256 -176"
+"light" "10"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}
+// entity 14
+{
+"classname" "light"
+"origin" "0 256 -96"
+"light" "5"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}
+// entity 15
+{
+"classname" "light"
+"origin" "64 320 -96"
+"light" "1"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}
+// entity 16
+{
+"classname" "light"
+"origin" "64 192 -96"
+"light" "1"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}
+// entity 17
+{
+"classname" "light"
+"origin" "-64 320 -96"
+"light" "1"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}
+// entity 18
+{
+"classname" "light"
+"origin" "-64 192 -96"
+"light" "1"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}
+// entity 19
+{
+"classname" "light"
+"origin" "-320 576 104"
+"light" "1"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}
+// entity 20
+{
+"classname" "light"
+"origin" "-192 576 104"
+"light" "1"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}
+// entity 21
+{
+"classname" "light"
+"origin" "-192 448 104"
+"light" "1"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}
+// entity 22
+{
+"classname" "light"
+"origin" "-256 512 104"
+"light" "5"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}
+// entity 23
+{
+"classname" "light"
+"origin" "-312 448 104"
+"light" "1"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}
+// entity 24
+{
+"classname" "light"
+"origin" "-64 64 368"
+"light" "1"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}
+// entity 25
+{
+"classname" "light"
+"origin" "0 0 368"
+"light" "5"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}
+// entity 26
+{
+"classname" "light"
+"origin" "64 64 368"
+"light" "1"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}
+// entity 27
+{
+"classname" "light"
+"origin" "64 -64 368"
+"light" "1"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}
+// entity 28
+{
+"classname" "light"
+"origin" "-64 -64 368"
+"light" "1"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}
+// entity 29
+{
+"classname" "light"
+"origin" "0 256 8"
+"light" "10"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}
+// entity 30
+{
+"classname" "info_player_deathmatch"
+"origin" "0 -512 -280"
+"radius" "1.6"
+"time_hs" "350 2000 3000"
+"goal" "25"
+"goal_hs" "2000 3000 4500"
+"coin_hs" "70 40 30"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}
+// entity 31
+{
+"classname" "info_player_intermission"
+"origin" "384 512 1464"
+"shot" "shot-ervin/fall.jpg"
+"message" "The arrow indicates the position of the next platform."
+}

@@ -1,0 +1,976 @@
+
+// entity 0
+{
+"classname" "worldspawn"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+// brush 0
+{
+( 80 64 624 ) ( 80 -64 624 ) ( -128 64 624 ) mtrl/turf-green 0 0 0 0.5 0.5 0 0 0
+( 80 64 624 ) ( -128 64 624 ) ( 80 64 288 ) mtrl/caution 0 0 0 0.5 0.5 0 0 0
+( 192 48 624 ) ( 192 48 288 ) ( 192 -80 624 ) mtrl/caution 0 0 0 2 0.25 0 0 0
+( -248 136 608 ) ( -40 136 608 ) ( -248 264 608 ) mtrl/caution 240 144 0 0.5 0.5 0 0 0
+( -128 -64 288 ) ( -128 -64 624 ) ( 80 -64 288 ) mtrl/caution 0 0 0 0.5 0.5 0 0 0
+( -64 -64 288 ) ( -64 64 288 ) ( -64 -64 624 ) mtrl/caution 0 0 0 0.5 0.5 0 0 0
+}
+// brush 1
+{
+( 192 64 624 ) ( 192 -64 624 ) ( 64 64 624 ) mtrl/arrow-green-light 128 128 -90 0.5000000596 0.5000000596 0 0 0
+( 192 64 624 ) ( 64 64 624 ) ( 192 64 616 ) mtrl/caution 0.03125 128 -90 0.0312499516 0.5000000596 0 0 0
+( 192 64 624 ) ( 192 64 616 ) ( 192 -64 624 ) mtrl/caution 0.03125 127.9999923706 -90 0.0312499516 0.5000000596 0 0 0
+( 64 -56 608 ) ( 192 -56 608 ) ( 64 72 608 ) mtrl/caution 144 128 -90 0.5000000596 0.5000000596 0 0 0
+( 64 -64 616 ) ( 64 -64 624 ) ( 192 -64 616 ) mtrl/caution 0.083984375 128 -90 0.0312498659 0.5000000596 0 0 0
+( 64 -64 616 ) ( 64 64 616 ) ( 64 -64 624 ) mtrl/arrow-green-light 0.03125 127.9999923706 -90 0.0312499516 0.5000000596 0 0 0
+}
+// brush 2
+{
+( 256 128 608 ) ( 256 64 608 ) ( 192 128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 256 128 608 ) ( 192 128 608 ) ( 256 128 592 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 256 128 608 ) ( 256 128 592 ) ( 256 64 608 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 192 64 592 ) ( 256 64 592 ) ( 192 128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 192 64 592 ) ( 192 64 608 ) ( 256 64 592 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 192 64 592 ) ( 192 128 592 ) ( 192 64 608 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+}
+// brush 3
+{
+( 320 192 608 ) ( 320 128 608 ) ( 256 192 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 320 192 608 ) ( 256 192 608 ) ( 320 192 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 320 192 608 ) ( 320 192 592 ) ( 320 128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 256 128 592 ) ( 320 128 592 ) ( 256 192 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 256 128 592 ) ( 256 128 608 ) ( 320 128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 256 128 592 ) ( 256 192 592 ) ( 256 128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 4
+{
+( 384 256 608 ) ( 384 192 608 ) ( 320 256 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 384 256 608 ) ( 320 256 608 ) ( 384 256 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 384 256 608 ) ( 384 256 592 ) ( 384 192 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 320 192 592 ) ( 384 192 592 ) ( 320 256 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 320 192 592 ) ( 320 192 608 ) ( 384 192 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 320 192 592 ) ( 320 256 592 ) ( 320 192 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 5
+{
+( 384 128 608 ) ( 384 64 608 ) ( 320 128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 384 128 608 ) ( 320 128 608 ) ( 384 128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 384 128 608 ) ( 384 128 592 ) ( 384 64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 320 64 592 ) ( 384 64 592 ) ( 320 128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 320 64 592 ) ( 320 64 608 ) ( 384 64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 320 64 592 ) ( 320 128 592 ) ( 320 64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 6
+{
+( 448 192 608 ) ( 448 128 608 ) ( 384 192 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 448 192 608 ) ( 384 192 608 ) ( 448 192 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 448 192 608 ) ( 448 192 592 ) ( 448 128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 384 128 592 ) ( 448 128 592 ) ( 384 192 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 384 128 592 ) ( 384 128 608 ) ( 448 128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 384 128 592 ) ( 384 192 592 ) ( 384 128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 7
+{
+( 320 64 608 ) ( 320 0 608 ) ( 256 64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 320 64 608 ) ( 256 64 608 ) ( 320 64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 320 64 608 ) ( 320 64 592 ) ( 320 0 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 256 0 592 ) ( 320 0 592 ) ( 256 64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 256 0 592 ) ( 256 0 608 ) ( 320 0 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 256 0 592 ) ( 256 64 592 ) ( 256 0 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 8
+{
+( 384 0 608 ) ( 384 -64 608 ) ( 320 0 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 384 0 608 ) ( 320 0 608 ) ( 384 0 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 384 0 608 ) ( 384 0 592 ) ( 384 -64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 320 -64 592 ) ( 384 -64 592 ) ( 320 0 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 320 -64 592 ) ( 320 -64 608 ) ( 384 -64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 320 -64 592 ) ( 320 0 592 ) ( 320 -64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 9
+{
+( 512 128 608 ) ( 512 64 608 ) ( 448 128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 512 128 608 ) ( 448 128 608 ) ( 512 128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 512 128 608 ) ( 512 128 592 ) ( 512 64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 448 64 592 ) ( 512 64 592 ) ( 448 128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 448 64 592 ) ( 448 64 608 ) ( 512 64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 448 64 592 ) ( 448 128 592 ) ( 448 64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 10
+{
+( 256 -64 608 ) ( 256 -128 608 ) ( 192 -64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 256 -64 608 ) ( 192 -64 608 ) ( 256 -64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 256 -64 608 ) ( 256 -64 592 ) ( 256 -128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 192 -128 592 ) ( 256 -128 592 ) ( 192 -64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 192 -128 592 ) ( 192 -128 608 ) ( 256 -128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 192 -128 592 ) ( 192 -64 592 ) ( 192 -128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 11
+{
+( 320 0 608 ) ( 320 -64 608 ) ( 256 0 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 320 0 608 ) ( 256 0 608 ) ( 320 0 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 320 0 608 ) ( 320 0 592 ) ( 320 -64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 256 -64 592 ) ( 320 -64 592 ) ( 256 0 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 256 -64 592 ) ( 256 -64 608 ) ( 320 -64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 256 -64 592 ) ( 256 0 592 ) ( 256 -64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 12
+{
+( 384 64 608 ) ( 384 0 608 ) ( 320 64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 384 64 608 ) ( 320 64 608 ) ( 384 64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 384 64 608 ) ( 384 64 592 ) ( 384 0 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 320 0 592 ) ( 384 0 592 ) ( 320 64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 320 0 592 ) ( 320 0 608 ) ( 384 0 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 320 0 592 ) ( 320 64 592 ) ( 320 0 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 13
+{
+( 320 -128 608 ) ( 320 -192 608 ) ( 256 -128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 320 -128 608 ) ( 256 -128 608 ) ( 320 -128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 320 -128 608 ) ( 320 -128 592 ) ( 320 -192 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 256 -192 592 ) ( 320 -192 592 ) ( 256 -128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 256 -192 592 ) ( 256 -192 608 ) ( 320 -192 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 256 -192 592 ) ( 256 -128 592 ) ( 256 -192 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 14
+{
+( 384 -192 608 ) ( 384 -256 608 ) ( 320 -192 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 384 -192 608 ) ( 320 -192 608 ) ( 384 -192 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 384 -192 608 ) ( 384 -192 592 ) ( 384 -256 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 320 -256 592 ) ( 384 -256 592 ) ( 320 -192 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 320 -256 592 ) ( 320 -256 608 ) ( 384 -256 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 320 -256 592 ) ( 320 -192 592 ) ( 320 -256 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 15
+{
+( 448 -128 608 ) ( 448 -192 608 ) ( 384 -128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 448 -128 608 ) ( 384 -128 608 ) ( 448 -128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 448 -128 608 ) ( 448 -128 592 ) ( 448 -192 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 384 -192 592 ) ( 448 -192 592 ) ( 384 -128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 384 -192 592 ) ( 384 -192 608 ) ( 448 -192 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 384 -192 592 ) ( 384 -128 592 ) ( 384 -192 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 16
+{
+( 512 -64 608 ) ( 512 -128 608 ) ( 448 -64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 512 -64 608 ) ( 448 -64 608 ) ( 512 -64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 512 -64 608 ) ( 512 -64 592 ) ( 512 -128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 448 -128 592 ) ( 512 -128 592 ) ( 448 -64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 448 -128 592 ) ( 448 -128 608 ) ( 512 -128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 448 -128 592 ) ( 448 -64 592 ) ( 448 -128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 17
+{
+( 384 -64 608 ) ( 384 -128 608 ) ( 320 -64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 384 -64 608 ) ( 320 -64 608 ) ( 384 -64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 384 -64 608 ) ( 384 -64 592 ) ( 384 -128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 320 -128 592 ) ( 384 -128 592 ) ( 320 -64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 320 -128 592 ) ( 320 -128 608 ) ( 384 -128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 320 -128 592 ) ( 320 -64 592 ) ( 320 -128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 18
+{
+( 640 64 608 ) ( 640 -64 608 ) ( 512 64 608 ) mtrl/turf-green -0 128 0 0.5 0.5 0 0 0
+( 640 64 608 ) ( 512 64 608 ) ( 640 64 592 ) mtrl/caution -0 0 0 0.5 0.0625 0 0 0
+( 640 48 608 ) ( 640 48 592 ) ( 640 -80 608 ) mtrl/turf-green 128 0 0 0.5 0.0625 0 0 0
+( 512 -64 592 ) ( 640 -64 592 ) ( 512 64 592 ) mtrl/caution -0 128 0 0.5 0.5 0 0 0
+( 512 -64 592 ) ( 512 -64 608 ) ( 640 -64 592 ) mtrl/caution -0 0 0 0.5 0.0625 0 0 0
+( 512 -64 592 ) ( 512 64 592 ) ( 512 -64 608 ) mtrl/caution 128 0 0 0.5 0.0625 0 0 0
+}
+// brush 19
+{
+( 768 64 608 ) ( 768 -64 608 ) ( 640 64 608 ) mtrl/turf-green -0 128 0 0.5 0.5 0 0 0
+( 768 64 608 ) ( 640 64 608 ) ( 768 64 592 ) mtrl/caution -0 0 0 0.5 0.0625 0 0 0
+( 768 64 608 ) ( 768 64 592 ) ( 768 -64 608 ) mtrl/caution 128 0 0 0.5 0.0625 0 0 0
+( 640 -64 592 ) ( 768 -64 592 ) ( 640 64 592 ) mtrl/caution -0 128 0 0.5 0.5 0 0 0
+( 640 -64 592 ) ( 640 -64 608 ) ( 768 -64 592 ) mtrl/caution -0 0 0 0.5 0.0625 0 0 0
+( 640 -64 592 ) ( 640 64 592 ) ( 640 -64 608 ) mtrl/turf-green 128 0 0 0.5 0.0625 0 0 0
+}
+// brush 20
+{
+( 832 128 608 ) ( 832 64 608 ) ( 768 128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 832 128 608 ) ( 768 128 608 ) ( 832 128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 832 128 608 ) ( 832 128 592 ) ( 832 64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 768 64 592 ) ( 832 64 592 ) ( 768 128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 768 64 592 ) ( 768 64 608 ) ( 832 64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 768 64 592 ) ( 768 128 592 ) ( 768 64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 21
+{
+( 832 -64 608 ) ( 832 -128 608 ) ( 768 -64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 832 -64 608 ) ( 768 -64 608 ) ( 832 -64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 832 -64 608 ) ( 832 -64 592 ) ( 832 -128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 768 -128 592 ) ( 832 -128 592 ) ( 768 -64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 768 -128 592 ) ( 768 -128 608 ) ( 832 -128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 768 -128 592 ) ( 768 -64 592 ) ( 768 -128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 22
+{
+( 896 64 608 ) ( 896 0 608 ) ( 832 64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 896 64 608 ) ( 832 64 608 ) ( 896 64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 896 64 608 ) ( 896 64 592 ) ( 896 0 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 832 0 592 ) ( 896 0 592 ) ( 832 64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 832 0 592 ) ( 832 0 608 ) ( 896 0 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 832 0 592 ) ( 832 64 592 ) ( 832 0 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 23
+{
+( 896 0 608 ) ( 896 -64 608 ) ( 832 0 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 896 0 608 ) ( 832 0 608 ) ( 896 0 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 896 0 608 ) ( 896 0 592 ) ( 896 -64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 832 -64 592 ) ( 896 -64 592 ) ( 832 0 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 832 -64 592 ) ( 832 -64 608 ) ( 896 -64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 832 -64 592 ) ( 832 0 592 ) ( 832 -64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 24
+{
+( 960 128 608 ) ( 960 64 608 ) ( 896 128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 960 128 608 ) ( 896 128 608 ) ( 960 128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 960 128 608 ) ( 960 128 592 ) ( 960 64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 896 64 592 ) ( 960 64 592 ) ( 896 128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 896 64 592 ) ( 896 64 608 ) ( 960 64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 896 64 592 ) ( 896 128 592 ) ( 896 64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 25
+{
+( 1024 64 608 ) ( 1024 0 608 ) ( 960 64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1024 64 608 ) ( 960 64 608 ) ( 1024 64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1024 64 608 ) ( 1024 64 592 ) ( 1024 0 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 960 0 592 ) ( 1024 0 592 ) ( 960 64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 960 0 592 ) ( 960 0 608 ) ( 1024 0 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 960 0 592 ) ( 960 64 592 ) ( 960 0 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 26
+{
+( 1024 0 608 ) ( 1024 -64 608 ) ( 960 0 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1024 0 608 ) ( 960 0 608 ) ( 1024 0 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1024 0 608 ) ( 1024 0 592 ) ( 1024 -64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 960 -64 592 ) ( 1024 -64 592 ) ( 960 0 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 960 -64 592 ) ( 960 -64 608 ) ( 1024 -64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 960 -64 592 ) ( 960 0 592 ) ( 960 -64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 27
+{
+( 960 -64 608 ) ( 960 -128 608 ) ( 896 -64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 960 -64 608 ) ( 896 -64 608 ) ( 960 -64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 960 -64 608 ) ( 960 -64 592 ) ( 960 -128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 896 -128 592 ) ( 960 -128 592 ) ( 896 -64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 896 -128 592 ) ( 896 -128 608 ) ( 960 -128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 896 -128 592 ) ( 896 -64 592 ) ( 896 -128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 28
+{
+( 1088 128 608 ) ( 1088 64 608 ) ( 1024 128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1088 128 608 ) ( 1024 128 608 ) ( 1088 128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1088 128 608 ) ( 1088 128 592 ) ( 1088 64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1024 64 592 ) ( 1088 64 592 ) ( 1024 128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1024 64 592 ) ( 1024 64 608 ) ( 1088 64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1024 64 592 ) ( 1024 128 592 ) ( 1024 64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 29
+{
+( 1152 128 608 ) ( 1152 64 608 ) ( 1088 128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1152 128 608 ) ( 1088 128 608 ) ( 1152 128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1152 128 608 ) ( 1152 128 592 ) ( 1152 64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1088 64 592 ) ( 1152 64 592 ) ( 1088 128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1088 64 592 ) ( 1088 64 608 ) ( 1152 64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1088 64 592 ) ( 1088 128 592 ) ( 1088 64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 30
+{
+( 1216 64 608 ) ( 1216 0 608 ) ( 1152 64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1216 64 608 ) ( 1152 64 608 ) ( 1216 64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1216 64 608 ) ( 1216 64 592 ) ( 1216 0 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1152 0 592 ) ( 1216 0 592 ) ( 1152 64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1152 0 592 ) ( 1152 0 608 ) ( 1216 0 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1152 0 592 ) ( 1152 64 592 ) ( 1152 0 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 31
+{
+( 1216 0 608 ) ( 1216 -64 608 ) ( 1152 0 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1216 0 608 ) ( 1152 0 608 ) ( 1216 0 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1216 0 608 ) ( 1216 0 592 ) ( 1216 -64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1152 -64 592 ) ( 1216 -64 592 ) ( 1152 0 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1152 -64 592 ) ( 1152 -64 608 ) ( 1216 -64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1152 -64 592 ) ( 1152 0 592 ) ( 1152 -64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 32
+{
+( 1088 -64 608 ) ( 1088 -128 608 ) ( 1024 -64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1088 -64 608 ) ( 1024 -64 608 ) ( 1088 -64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1088 -64 608 ) ( 1088 -64 592 ) ( 1088 -128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1024 -128 592 ) ( 1088 -128 592 ) ( 1024 -64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1024 -128 592 ) ( 1024 -128 608 ) ( 1088 -128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1024 -128 592 ) ( 1024 -64 592 ) ( 1024 -128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 33
+{
+( 1152 -64 608 ) ( 1152 -128 608 ) ( 1088 -64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1152 -64 608 ) ( 1088 -64 608 ) ( 1152 -64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1152 -64 608 ) ( 1152 -64 592 ) ( 1152 -128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1088 -128 592 ) ( 1152 -128 592 ) ( 1088 -64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1088 -128 592 ) ( 1088 -128 608 ) ( 1152 -128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1088 -128 592 ) ( 1088 -64 592 ) ( 1088 -128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 34
+{
+( 1024 -128 608 ) ( 1024 -192 608 ) ( 960 -128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1024 -128 608 ) ( 960 -128 608 ) ( 1024 -128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1024 -128 608 ) ( 1024 -128 592 ) ( 1024 -192 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 960 -192 592 ) ( 1024 -192 592 ) ( 960 -128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 960 -192 592 ) ( 960 -192 608 ) ( 1024 -192 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 960 -192 592 ) ( 960 -128 592 ) ( 960 -192 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 35
+{
+( 896 -128 608 ) ( 896 -192 608 ) ( 832 -128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 896 -128 608 ) ( 832 -128 608 ) ( 896 -128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 896 -128 608 ) ( 896 -128 592 ) ( 896 -192 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 832 -192 592 ) ( 896 -192 592 ) ( 832 -128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 832 -192 592 ) ( 832 -192 608 ) ( 896 -192 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 832 -192 592 ) ( 832 -128 592 ) ( 832 -192 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 36
+{
+( 896 192 608 ) ( 896 128 608 ) ( 832 192 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 896 192 608 ) ( 832 192 608 ) ( 896 192 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 896 192 608 ) ( 896 192 592 ) ( 896 128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 832 128 592 ) ( 896 128 592 ) ( 832 192 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 832 128 592 ) ( 832 128 608 ) ( 896 128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 832 128 592 ) ( 832 192 592 ) ( 832 128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 37
+{
+( 1024 192 608 ) ( 1024 120 608 ) ( 960 192 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1024 192 608 ) ( 960 192 608 ) ( 1024 192 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1024 192 608 ) ( 1024 192 592 ) ( 1024 120 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 960 120 592 ) ( 1024 120 592 ) ( 960 192 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 960 128 592 ) ( 960 128 608 ) ( 1024 128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 960 120 592 ) ( 960 192 592 ) ( 960 120 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 38
+{
+( 1280 128 608 ) ( 1280 64 608 ) ( 1216 128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1280 128 608 ) ( 1216 128 608 ) ( 1280 128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1280 128 608 ) ( 1280 128 592 ) ( 1280 64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1216 64 592 ) ( 1280 64 592 ) ( 1216 128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1216 64 592 ) ( 1216 64 608 ) ( 1280 64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1216 64 592 ) ( 1216 128 592 ) ( 1216 64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 39
+{
+( 1344 64 608 ) ( 1344 0 608 ) ( 1280 64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1344 64 608 ) ( 1280 64 608 ) ( 1344 64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1344 64 608 ) ( 1344 64 592 ) ( 1344 0 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1280 0 592 ) ( 1344 0 592 ) ( 1280 64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1280 0 592 ) ( 1280 0 608 ) ( 1344 0 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1280 0 592 ) ( 1280 64 592 ) ( 1280 0 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 40
+{
+( 1344 0 608 ) ( 1344 -64 608 ) ( 1280 0 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1344 0 608 ) ( 1280 0 608 ) ( 1344 0 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1344 0 608 ) ( 1344 0 592 ) ( 1344 -64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1280 -64 592 ) ( 1344 -64 592 ) ( 1280 0 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1280 -64 592 ) ( 1280 -64 608 ) ( 1344 -64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1280 -64 592 ) ( 1280 0 592 ) ( 1280 -64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 41
+{
+( 1280 -64 608 ) ( 1280 -128 608 ) ( 1216 -64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1280 -64 608 ) ( 1216 -64 608 ) ( 1280 -64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1280 -64 608 ) ( 1280 -64 592 ) ( 1280 -128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1216 -128 592 ) ( 1280 -128 592 ) ( 1216 -64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1216 -128 592 ) ( 1216 -128 608 ) ( 1280 -128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1216 -128 592 ) ( 1216 -64 592 ) ( 1216 -128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 42
+{
+( 1408 128 608 ) ( 1408 64 608 ) ( 1344 128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1408 128 608 ) ( 1344 128 608 ) ( 1408 128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1408 128 608 ) ( 1408 128 592 ) ( 1408 64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1344 64 592 ) ( 1408 64 592 ) ( 1344 128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1344 64 592 ) ( 1344 64 608 ) ( 1408 64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1344 64 592 ) ( 1344 128 592 ) ( 1344 64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 43
+{
+( 1344 192 608 ) ( 1344 128 608 ) ( 1280 192 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1344 192 608 ) ( 1280 192 608 ) ( 1344 192 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1344 192 608 ) ( 1344 192 592 ) ( 1344 128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1280 128 592 ) ( 1344 128 592 ) ( 1280 192 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1280 128 592 ) ( 1280 128 608 ) ( 1344 128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1280 128 592 ) ( 1280 192 592 ) ( 1280 128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 44
+{
+( 1408 -64 608 ) ( 1408 -128 608 ) ( 1344 -64 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1408 -64 608 ) ( 1344 -64 608 ) ( 1408 -64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1408 -64 608 ) ( 1408 -64 592 ) ( 1408 -128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1344 -128 592 ) ( 1408 -128 592 ) ( 1344 -64 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1344 -128 592 ) ( 1344 -128 608 ) ( 1408 -128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1344 -128 592 ) ( 1344 -64 592 ) ( 1344 -128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 45
+{
+( 1344 -128 608 ) ( 1344 -176 608 ) ( 1280 -128 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1344 -128 608 ) ( 1280 -128 608 ) ( 1344 -128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1344 -128 608 ) ( 1344 -128 592 ) ( 1344 -176 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1280 -176 592 ) ( 1344 -176 592 ) ( 1280 -128 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1280 -192 592 ) ( 1280 -192 608 ) ( 1344 -192 592 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1280 -176 592 ) ( 1280 -128 592 ) ( 1280 -176 608 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 46
+{
+( 1496 64 608 ) ( 1496 -40 608 ) ( 1408 64 608 ) mtrl/wood -0 128 0 0.5 0.5 0 0 0
+( 1496 64 608 ) ( 1408 64 608 ) ( 1496 64 592 ) mtrl/wood -0 0 0 0.5 0.0625 0 0 0
+( 1536 64 608 ) ( 1536 64 592 ) ( 1536 -40 608 ) mtrl/wood 128 0 0 0.5 0.0625 0 0 0
+( 1408 -40 592 ) ( 1496 -40 592 ) ( 1408 64 592 ) mtrl/wood -0 128 0 0.5 0.5 0 0 0
+( 1416 -64 592 ) ( 1416 -64 608 ) ( 1504 -64 592 ) mtrl/wood -0 0 0 0.5 0.0625 0 0 0
+( 1408 -40 592 ) ( 1408 64 592 ) ( 1408 -40 608 ) mtrl/wood 128 0 0 0.5 0.0625 0 0 0
+}
+// brush 47
+{
+( 1664 64 608 ) ( 1664 -64 608 ) ( 1536 64 608 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( 1664 64 608 ) ( 1536 64 608 ) ( 1664 64 592 ) mtrl/wood 0 -0 0 0.5 0.0625 0 0 0
+( 1664 64 608 ) ( 1664 64 592 ) ( 1664 -64 608 ) mtrl/wood 0 -0 0 0.5 0.0625 0 0 0
+( 1536 -64 592 ) ( 1664 -64 592 ) ( 1536 64 592 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( 1536 -64 592 ) ( 1536 -64 608 ) ( 1664 -64 592 ) mtrl/wood 0 -0 0 0.5 0.0625 0 0 0
+( 1536 -64 592 ) ( 1536 64 592 ) ( 1536 -64 608 ) mtrl/wood 0 -0 0 0.5 0.0625 0 0 0
+}
+// brush 48
+{
+( 1664 64 608 ) ( 1664 -64 608 ) ( 1536 64 608 ) mtrl/goal -0 128 0 0.5 0.5 0 0 0
+( 1664 64 608 ) ( 1536 64 608 ) ( 1664 64 592 ) mtrl/goal -0 0 0 0.5 0.0625 0 0 0
+( 1664 64 608 ) ( 1664 64 592 ) ( 1664 -64 608 ) mtrl/goal 128 0 0 0.5 0.0625 0 0 0
+( 1536 -64 592 ) ( 1664 -64 592 ) ( 1536 64 592 ) mtrl/goal -0 128 0 0.5 0.5 0 0 0
+( 1536 -64 592 ) ( 1536 -64 608 ) ( 1664 -64 592 ) mtrl/goal -0 0 0 0.5 0.0625 0 0 0
+( 1536 -64 592 ) ( 1536 64 592 ) ( 1536 -64 608 ) mtrl/goal 128 0 0 0.5 0.0625 0 0 0
+}
+}
+// entity 1
+{
+"classname" "info_player_start"
+"origin" "0 0 648"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 2
+{
+"classname" "info_player_deathmatch"
+"origin" "1600 0 632"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 3
+{
+"classname" "light"
+"origin" "352 224 632"
+"light" "5"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 4
+{
+"classname" "light"
+"origin" "224 96 632"
+"light" "1"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 5
+{
+"classname" "light"
+"origin" "224 -96 632"
+"light" "1"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 6
+{
+"classname" "light"
+"origin" "288 160 632"
+"light" "1"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 7
+{
+"classname" "light"
+"origin" "288 -160 632"
+"light" "1"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 8
+{
+"classname" "light"
+"origin" "352 -224 632"
+"light" "5"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 9
+{
+"classname" "light"
+"origin" "416 -160 632"
+"light" "1"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 10
+{
+"classname" "light"
+"origin" "480 -96 632"
+"light" "1"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 11
+{
+"classname" "light"
+"origin" "288 32 632"
+"light" "1"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 12
+{
+"classname" "light"
+"origin" "288 -32 632"
+"light" "1"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 13
+{
+"classname" "light"
+"origin" "352 96 632"
+"light" "1"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 14
+{
+"classname" "light"
+"origin" "352 -96 632"
+"light" "1"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 15
+{
+"classname" "light"
+"origin" "352 32 632"
+"light" "5"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 16
+{
+"classname" "light"
+"origin" "352 -32 632"
+"light" "5"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 17
+{
+"classname" "light"
+"origin" "416 160 632"
+"light" "1"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 18
+{
+"classname" "light"
+"origin" "480 96 632"
+"light" "1"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 19
+{
+"classname" "light"
+"origin" "864 160 632"
+"light" "5"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 20
+{
+"classname" "light"
+"origin" "992 160 632"
+"light" "5"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 21
+{
+"classname" "light"
+"origin" "864 -160 632"
+"light" "5"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 22
+{
+"classname" "light"
+"origin" "992 -160 632"
+"light" "5"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 23
+{
+"classname" "light"
+"origin" "1088 96 632"
+"light" "10"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 24
+{
+"classname" "light"
+"origin" "1088 -96 632"
+"light" "10"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 25
+{
+"classname" "light"
+"origin" "992 0 632"
+"light" "5"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 26
+{
+"classname" "light"
+"origin" "864 0 632"
+"light" "5"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 27
+{
+"classname" "light"
+"origin" "1184 32 632"
+"light" "5"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 28
+{
+"classname" "light"
+"origin" "1184 -32 632"
+"light" "5"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 29
+{
+"classname" "light"
+"origin" "1312 -160 632"
+"light" "10"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 30
+{
+"classname" "light"
+"origin" "1312 160 632"
+"light" "10"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 31
+{
+"classname" "light"
+"origin" "1312 32 632"
+"light" "5"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 32
+{
+"classname" "light"
+"origin" "1312 -32 632"
+"light" "5"
+"time" "5500"
+"goal" "65"
+"back" "map-back/volcano.sol"
+"grad" "back/volcano.png"
+"time_hs" "1400 1800 2500"
+"goal_hs" "2000 2500 3400"
+"coin_hs" "110 90 80"
+"song" "bgm/track6.ogg"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}
+// entity 33
+{
+"classname" "info_player_intermission"
+"origin" "1432 0 1296"
+"angle" "1.12396"
+"time" "5500"
+"coin_hs" "110 90 80"
+"shot" "shot-ervin/check.jpg"
+"message" "The ball can fall off the map due to a little wrong move."
+}

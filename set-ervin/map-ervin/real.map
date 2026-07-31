@@ -1,0 +1,643 @@
+
+// entity 0
+{
+"classname" "worldspawn"
+"version" "1.1"
+"back" "map-back/city.sol"
+"shot" "shot-ervin/real.jpg"
+"grad" "back/city.png"
+"time" "5500"
+"goal" "50"
+"song" "bgm/track3.ogg"
+"radius" "0.2"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"message" "Balance is the word."
+// brush 0
+{
+( 32 -64 32 ) ( 32 -128 32 ) ( 0 -64 32 ) mtrl/wood-check-glossy 0 0 0 0.5 0.5 0 0 0
+( 32 -64 32 ) ( 0 -64 32 ) ( 32 -64 -24 ) mtrl/wood-glossy 0 112 0 0.5 0.5 0 0 0
+( 32 -64 32 ) ( 32 -64 -24 ) ( 32 -128 32 ) mtrl/wood-glossy 0 112 0 0.5 0.5 0 0 0
+( 0 -120 16 ) ( 32 -120 16 ) ( 0 -56 16 ) mtrl/wood-check-glossy 0 16 0 0.5 0.5 0 0 0
+( 8 -304 -24 ) ( 8 -304 32 ) ( 40 -304 -24 ) mtrl/wood-glossy 112 112 0 0.5 0.5 0 0 0
+( 0 -128 -24 ) ( 0 -64 -24 ) ( 0 -128 32 ) mtrl/wood-glossy 0 112 0 0.5 0.5 0 0 0
+}
+// brush 1
+{
+( 320 -64 32 ) ( 320 -96 32 ) ( 32 -64 32 ) mtrl/wood-check-glossy 0 0 0 0.5 0.5 0 0 0
+( 320 -64 32 ) ( 32 -64 32 ) ( 320 -64 16 ) mtrl/wood-glossy 0 112 0 0.5 0.5 0 0 0
+( 320 -64 32 ) ( 320 -64 16 ) ( 320 -96 32 ) mtrl/wood-check-glossy 0 112 0 0.5 0.5 0 0 0
+( 32 -96 16 ) ( 320 -96 16 ) ( 32 -64 16 ) mtrl/wood-check-glossy 0 0 0 0.5 0.5 0 0 0
+( 32 -96 16 ) ( 32 -96 32 ) ( 320 -96 16 ) mtrl/wood-glossy 0 112 0 0.5 0.5 0 0 0
+( 32 -96 16 ) ( 32 -64 16 ) ( 32 -96 32 ) mtrl/wood-check-glossy 0 112 0 0.5 0.5 0 0 0
+}
+// brush 2
+{
+( 352 -64 32 ) ( 352 -304 32 ) ( 320 -64 32 ) mtrl/wood-check-glossy 0 0 0 0.5 0.5 0 0 0
+( 352 -64 32 ) ( 320 -64 32 ) ( 352 -64 16 ) mtrl/wood-glossy 0 112 0 0.5 0.5 0 0 0
+( 352 -64 32 ) ( 352 -64 16 ) ( 352 -304 32 ) mtrl/wood-check-glossy 0 112 0 0.5 0.5 0 0 0
+( 320 -304 16 ) ( 352 -304 16 ) ( 320 -64 16 ) mtrl/wood-check-glossy 0 0 0 0.5 0.5 0 0 0
+( 320 -304 16 ) ( 320 -304 32 ) ( 352 -304 16 ) mtrl/wood-check-glossy 0 112 0 0.5 0.5 0 0 0
+( 320 -304 16 ) ( 320 -64 16 ) ( 320 -304 32 ) mtrl/wood-glossy 0 112 0 0.5 0.5 0 0 0
+}
+// brush 3
+{
+( 224 -320 64 ) ( 224 -288 64 ) ( 320 -304 32 ) mtrl/wood-check-glossy 0 0 0 0.5 0.5 0 0 0
+( 264 -272 32 ) ( 168 -272 32 ) ( 264 -272 16 ) mtrl/wood-glossy 112 112 0 0.5 0.5 0 0 0
+( 320 -272 32 ) ( 320 -272 16 ) ( 320 -304 32 ) mtrl/wood-check-glossy 0 112 0 0.5 0.5 0 0 0
+( 224 -304 16 ) ( 320 -304 16 ) ( 224 -272 16 ) mtrl/wood-check-glossy 0 0 0 0.5 0.5 0 0 0
+( 224 -304 16 ) ( 224 -304 32 ) ( 320 -304 16 ) mtrl/wood-glossy 0 112 0 0.5 0.5 0 0 0
+( 120 -288 64 ) ( 120 -320 64 ) ( 120 -272 16 ) mtrl/wood-glossy 0 112 0 0.5 0.5 0 0 0
+}
+// brush 4
+{
+( 120 -272 96 ) ( 120 -304 96 ) ( -104 -272 96 ) mtrl/wood-check-glossy 0 0 0 0.5 0.5 0 0 0
+( 120 -272 96 ) ( -104 -272 96 ) ( 120 -272 16 ) mtrl/wood-glossy 0 112 0 0.5 0.5 0 0 0
+( 120 -272 96 ) ( 120 -272 16 ) ( 120 -304 96 ) mtrl/wood-check-glossy 0 112 0 0.5 0.5 0 0 0
+( -104 -312 80 ) ( 120 -312 80 ) ( -104 -280 80 ) mtrl/wood-check-glossy 0 112 0 0.5 0.5 0 0 0
+( -104 -304 16 ) ( -104 -304 96 ) ( 120 -304 16 ) mtrl/wood-glossy 0 112 0 0.5 0.5 0 0 0
+( -104 -304 16 ) ( -104 -272 16 ) ( -104 -304 96 ) mtrl/wood-check-glossy 0 112 0 0.5 0.5 0 0 0
+}
+// brush 5
+{
+( -104 -272 96 ) ( -104 -304 96 ) ( -216 -272 96 ) mtrl/wood-check-glossy 0 0 0 0.5 0.5 0 0 0
+( -104 -272 72 ) ( -216 -272 72 ) ( -104 -272 -80 ) mtrl/wood-glossy 0 48 0 0.5 0.5 0 0 0
+( -104 -272 96 ) ( -104 -272 -56 ) ( -104 -304 96 ) mtrl/wood-glossy 0 96 0 0.5 0.5 0 0 0
+( -304 -256 0 ) ( -304 -288 0 ) ( -120 -296 0 ) mtrl/wood-check-glossy 48 16 0 0.5 0.5 0 0 0
+( -216 -304 -56 ) ( -216 -304 96 ) ( -104 -304 -56 ) mtrl/wood-glossy 0 96 0 0.5 0.5 0 0 0
+( -288 -296 32 ) ( -288 -264 32 ) ( -216 -272 96 ) mtrl/wood-check-glossy 0 112 0 0.5 0.5 0 0 0
+}
+// brush 6
+{
+( -324 -184 0 ) ( -324 -296 0 ) ( -364 -184 0 ) mtrl/wood-check-glossy 72 16 0 0.5 0.5 0 0 0
+( -324 -80 0 ) ( -364 -80 0 ) ( -324 -80 -64 ) mtrl/wood-glossy 72 48 0 0.5 0.5 0 0 0
+( -324 -184 -16 ) ( -324 -184 -80 ) ( -324 -296 -16 ) mtrl/wood-glossy 112 16 0 0.5 0.5 0 0 0
+( -372 -304 -32 ) ( -332 -304 -32 ) ( -372 -192 -32 ) mtrl/wood-check-glossy 88 0 0 0.5 0.5 0 0 0
+( -364 -304 -64 ) ( -364 -304 0 ) ( -324 -304 -64 ) mtrl/wood-glossy 72 48 0 0.5 0.5 0 0 0
+( -356 -296 -64 ) ( -356 -184 -64 ) ( -356 -296 0 ) mtrl/wood-glossy 112 48 0 0.5 0.5 0 0 0
+}
+// brush 7
+{
+( -216 -256 0 ) ( -216 -288 0 ) ( -328 -256 0 ) mtrl/wood-glossy 8 32 0 0.5 0.5 0 0 0
+( -212 -272 0 ) ( -324 -272 0 ) ( -212 -272 -32 ) mtrl/wood-glossy 0 112 0 0.5 0.5 0 0 0
+( -104 -288 4 ) ( -104 -288 -28 ) ( -104 -320 4 ) mtrl/wood-glossy 32 120 0 0.5 0.5 0 0 0
+( -324 -304 -32 ) ( -212 -304 -32 ) ( -324 -272 -32 ) mtrl/wood-glossy 0 0 0 0.5 0.5 0 0 0
+( -312 -304 -24 ) ( -312 -304 8 ) ( -200 -304 -24 ) mtrl/wood-glossy 104 0 0 0.5 0.5 0 0 0
+( -324 -304 -32 ) ( -324 -272 -32 ) ( -324 -304 0 ) mtrl/wood-glossy 0 112 0 0.5 0.5 0 0 0
+}
+// brush 8
+{
+( -400 -80 0 ) ( -400 -112 0 ) ( -584 -80 0 ) mtrl/wood-check-glossy 96 0 0 0.5 0.5 0 0 0
+( -352 -80 8 ) ( -536 -80 8 ) ( -352 -80 -24 ) mtrl/wood-glossy 0 0 0 0.5 0.5 0 0 0
+( -352 -80 8 ) ( -352 -80 -24 ) ( -352 -112 8 ) mtrl/wood-check-glossy 0 0 0 0.5 0.5 0 0 0
+( -536 -120 -32 ) ( -352 -120 -32 ) ( -536 -88 -32 ) mtrl/wood-check-glossy 0 112 0 0.5 0.5 0 0 0
+( -536 -112 -24 ) ( -536 -112 8 ) ( -352 -112 -24 ) mtrl/wood-glossy 0 0 0 0.5 0.5 0 0 0
+( -648 -256 -104 ) ( -648 -224 -104 ) ( -648 -256 -72 ) mtrl/wood-check-glossy 32 96 0 0.5 0.5 0 0 0
+}
+// brush 9
+{
+( -648 -80 0 ) ( -648 -304 0 ) ( -680 -80 0 ) mtrl/wood-check-glossy 0 0 0 0.5 0.5 0 0 0
+( -648 -80 -8 ) ( -680 -80 -8 ) ( -648 -80 -40 ) mtrl/wood-glossy 0 96 0 0.5 0.5 0 0 0
+( -648 -80 -8 ) ( -648 -80 -40 ) ( -648 -304 -8 ) mtrl/wood-glossy 0 96 0 0.5 0.5 0 0 0
+( -680 -296 -32 ) ( -648 -296 -32 ) ( -680 -72 -32 ) mtrl/wood-check-glossy 0 16 0 0.5 0.5 0 0 0
+( -680 -304 -40 ) ( -680 -304 -8 ) ( -648 -304 -40 ) mtrl/wood-glossy 0 96 0 0.5 0.5 0 0 0
+( -680 -304 -40 ) ( -680 -80 -40 ) ( -680 -304 -8 ) mtrl/wood-glossy 0 96 0 0.5 0.5 0 0 0
+}
+// brush 10
+{
+( -352 -256 120 ) ( -352 -288 120 ) ( -648 -304 0 ) mtrl/wood-check-glossy 0 0 0 0.5 0.5 0 0 0
+( -360 -272 0 ) ( -648 -272 0 ) ( -360 -272 -32 ) mtrl/wood-glossy 0 112 0 0.5 0.5 0 0 0
+( -352 -288 120 ) ( -352 -256 120 ) ( -360 -304 -32 ) mtrl/wood-check-glossy 0 112 0 0.5 0.5 0 0 0
+( -648 -304 -32 ) ( -360 -304 -32 ) ( -648 -272 -32 ) mtrl/wood-check-glossy 0 0 0 0.5 0.5 0 0 0
+( -648 -304 -32 ) ( -648 -304 0 ) ( -360 -304 -32 ) mtrl/wood-glossy 0 112 0 0.5 0.5 0 0 0
+( -648 -304 -32 ) ( -648 -272 -32 ) ( -648 -304 0 ) mtrl/wood-check-glossy 0 112 0 0.5 0.5 0 0 0
+}
+// brush 11
+{
+( -344 -276 120 ) ( -344 -316 120 ) ( -352 -276 120 ) mtrl/wood-check-glossy 112 120 0 0.5 0.5 0 0 0
+( -344 -272 128 ) ( -352 -272 128 ) ( -344 -272 -24 ) mtrl/wood-glossy 112 0 0 0.5 0.5 0 0 0
+( -320 -292 120 ) ( -320 -292 -32 ) ( -320 -332 120 ) mtrl/wood-glossy 40 112 0 0.5 0.5 0 0 0
+( -336 -292 96 ) ( -328 -292 96 ) ( -336 -252 96 ) mtrl/wood-check-glossy 80 40 0 0.5 0.5 0 0 0
+( -388 -780 -88 ) ( -388 -780 64 ) ( -380 -780 -88 ) mtrl/wood-glossy 56 0 0 0.5 0.5 0 0 0
+( -352 -364 4 ) ( -352 -324 4 ) ( -352 -364 156 ) mtrl/wood-glossy 104 56 0 0.5 0.5 0 0 0
+}
+// brush 12
+{
+( -284 -780 120 ) ( -284 -884 120 ) ( -388 -780 120 ) mtrl/wood-glossy 0 96 0 0.5 0.5 0 0 0
+( -284 -780 120 ) ( -388 -780 120 ) ( -284 -780 96 ) mtrl/wood-glossy 0 112 0 0.5 0.5 0 0 0
+( -284 -780 120 ) ( -284 -780 96 ) ( -284 -884 120 ) mtrl/wood-glossy 32 112 0 0.5 0.5 0 0 0
+( -388 -884 96 ) ( -284 -884 96 ) ( -388 -780 96 ) mtrl/wood-glossy 0 96 0 0.5 0.5 0 0 0
+( -388 -884 96 ) ( -388 -884 120 ) ( -284 -884 96 ) mtrl/wood-glossy 0 112 0 0.5 0.5 0 0 0
+( -388 -884 96 ) ( -388 -780 96 ) ( -388 -884 120 ) mtrl/wood-glossy 32 112 0 0.5 0.5 0 0 0
+}
+}
+// entity 1
+{
+"classname" "info_player_intermission"
+"origin" "-348 -654 166"
+"target" "targ"
+"radius" "0.2"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
+"time" "5500"
+"version" "1.1"
+"goal" "50"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"shot" "shot-ervin/real.jpg"
+"message" "Balance is the word."
+}
+// entity 2
+{
+"classname" "info_player_start"
+"origin" "16 -288 56"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
+"time" "5500"
+"version" "1.1"
+"goal" "50"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"shot" "shot-ervin/real.jpg"
+"message" "Balance is the word."
+}
+// entity 3
+{
+"classname" "info_player_deathmatch"
+"origin" "-336 -828 144"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
+"time" "5500"
+"version" "1.1"
+"goal" "50"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"shot" "shot-ervin/real.jpg"
+"message" "Balance is the word."
+}
+// entity 4
+{
+"classname" "light"
+"origin" "16 -80 48"
+"light" "1"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
+"time" "5500"
+"version" "1.1"
+"goal" "50"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"shot" "shot-ervin/real.jpg"
+"message" "Balance is the word."
+}
+// entity 5
+{
+"classname" "light"
+"origin" "336 -80 48"
+"light" "1"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
+"time" "5500"
+"version" "1.1"
+"goal" "50"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"shot" "shot-ervin/real.jpg"
+"message" "Balance is the word."
+}
+// entity 6
+{
+"classname" "light"
+"origin" "336 -280 48"
+"light" "1"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
+"time" "5500"
+"version" "1.1"
+"goal" "50"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"shot" "shot-ervin/real.jpg"
+"message" "Balance is the word."
+}
+// entity 7
+{
+"classname" "light"
+"origin" "104 -288 112"
+"light" "5"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
+"time" "5500"
+"version" "1.1"
+"goal" "50"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"shot" "shot-ervin/real.jpg"
+"message" "Balance is the word."
+}
+// entity 8
+{
+"classname" "light"
+"origin" "16 -288 112"
+"light" "5"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
+"time" "5500"
+"version" "1.1"
+"goal" "50"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"shot" "shot-ervin/real.jpg"
+"message" "Balance is the word."
+}
+// entity 9
+{
+"classname" "light"
+"origin" "-72 -288 112"
+"light" "5"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
+"time" "5500"
+"version" "1.1"
+"goal" "50"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"shot" "shot-ervin/real.jpg"
+"message" "Balance is the word."
+}
+// entity 10
+{
+"classname" "light"
+"origin" "16 -240 96"
+"light" "20"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
+"time" "5500"
+"version" "1.1"
+"goal" "50"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"shot" "shot-ervin/real.jpg"
+"message" "Balance is the word."
+}
+// entity 11
+{
+"classname" "light"
+"origin" "-336 -288 24"
+"light" "5"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
+"time" "5500"
+"version" "1.1"
+"goal" "50"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"shot" "shot-ervin/real.jpg"
+"message" "Balance is the word."
+}
+// entity 12
+{
+"classname" "light"
+"origin" "-340 -96 24"
+"light" "1"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
+"time" "5500"
+"version" "1.1"
+"goal" "50"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"shot" "shot-ervin/real.jpg"
+"message" "Balance is the word."
+}
+// entity 13
+{
+"classname" "light"
+"origin" "-664 -96 24"
+"light" "1"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
+"time" "5500"
+"version" "1.1"
+"goal" "50"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"shot" "shot-ervin/real.jpg"
+"message" "Balance is the word."
+}
+// entity 14
+{
+"classname" "light"
+"origin" "-664 -288 24"
+"light" "1"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
+"time" "5500"
+"version" "1.1"
+"goal" "50"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"shot" "shot-ervin/real.jpg"
+"message" "Balance is the word."
+}
+// entity 15
+{
+"classname" "light"
+"origin" "-304 -288 104"
+"light" "20"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
+"time" "5500"
+"version" "1.1"
+"goal" "50"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"shot" "shot-ervin/real.jpg"
+"message" "Balance is the word."
+}
+// entity 16
+{
+"classname" "light"
+"origin" "-336 -336 136"
+"light" "1"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
+"time" "5500"
+"version" "1.1"
+"goal" "50"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"shot" "shot-ervin/real.jpg"
+"message" "Balance is the word."
+}
+// entity 17
+{
+"classname" "light"
+"origin" "-336 -376 136"
+"light" "1"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
+"time" "5500"
+"version" "1.1"
+"goal" "50"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"shot" "shot-ervin/real.jpg"
+"message" "Balance is the word."
+}
+// entity 18
+{
+"classname" "light"
+"origin" "-336 -416 136"
+"light" "1"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
+"time" "5500"
+"version" "1.1"
+"goal" "50"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"shot" "shot-ervin/real.jpg"
+"message" "Balance is the word."
+}
+// entity 19
+{
+"classname" "light"
+"origin" "-336 -456 136"
+"light" "1"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
+"time" "5500"
+"version" "1.1"
+"goal" "50"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"shot" "shot-ervin/real.jpg"
+"message" "Balance is the word."
+}
+// entity 20
+{
+"classname" "light"
+"origin" "-336 -496 136"
+"light" "1"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
+"time" "5500"
+"version" "1.1"
+"goal" "50"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"shot" "shot-ervin/real.jpg"
+"message" "Balance is the word."
+}
+// entity 21
+{
+"classname" "light"
+"origin" "-336 -536 136"
+"light" "1"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
+"time" "5500"
+"version" "1.1"
+"goal" "50"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"shot" "shot-ervin/real.jpg"
+"message" "Balance is the word."
+}
+// entity 22
+{
+"classname" "light"
+"origin" "-336 -576 136"
+"light" "1"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
+"time" "5500"
+"version" "1.1"
+"goal" "50"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"shot" "shot-ervin/real.jpg"
+"message" "Balance is the word."
+}
+// entity 23
+{
+"classname" "light"
+"origin" "-336 -616 136"
+"light" "1"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
+"time" "5500"
+"version" "1.1"
+"goal" "50"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"shot" "shot-ervin/real.jpg"
+"message" "Balance is the word."
+}
+// entity 24
+{
+"classname" "light"
+"origin" "-336 -656 136"
+"light" "1"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
+"time" "5500"
+"version" "1.1"
+"goal" "50"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"shot" "shot-ervin/real.jpg"
+"message" "Balance is the word."
+}
+// entity 25
+{
+"classname" "light"
+"origin" "-336 -696 136"
+"light" "1"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
+"time" "5500"
+"version" "1.1"
+"goal" "50"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"shot" "shot-ervin/real.jpg"
+"message" "Balance is the word."
+}
+// entity 26
+{
+"classname" "light"
+"origin" "-336 -736 136"
+"light" "1"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
+"time" "5500"
+"version" "1.1"
+"goal" "50"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"shot" "shot-ervin/real.jpg"
+"message" "Balance is the word."
+}
+// entity 27
+{
+"classname" "light"
+"origin" "-384 -784 136"
+"light" "10"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
+"time" "5500"
+"version" "1.1"
+"goal" "50"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"shot" "shot-ervin/real.jpg"
+"message" "Balance is the word."
+}
+// entity 28
+{
+"classname" "light"
+"origin" "-288 -784 136"
+"light" "10"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
+"time" "5500"
+"version" "1.1"
+"goal" "50"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"shot" "shot-ervin/real.jpg"
+"message" "Balance is the word."
+}
+// entity 29
+{
+"classname" "light"
+"origin" "-384 -880 136"
+"light" "10"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
+"time" "5500"
+"version" "1.1"
+"goal" "50"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"shot" "shot-ervin/real.jpg"
+"message" "Balance is the word."
+}
+// entity 30
+{
+"classname" "light"
+"origin" "-288 -880 136"
+"light" "10"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"song" "bgm/track3.ogg"
+"time" "5500"
+"version" "1.1"
+"goal" "50"
+"time_hs" "2600 3300 3900"
+"goal_hs" "3000 3800 4700"
+"coin_hs" "85 75 60"
+"shot" "shot-ervin/real.jpg"
+"message" "Balance is the word."
+}

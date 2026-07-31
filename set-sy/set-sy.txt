@@ -1,0 +1,31 @@
+SYMPHONY LEVEL! (part 1)
+A LEVEL SET GENERATED MY CREATED LEVEL\\\(This levelset holds more than 25 levels,\this is why it is dived in two parts.)
+sy
+shot-sy/1.png
+
+map-sy/1.sol
+map-sy/2.sol
+map-sy/3.sol
+map-sy/4.sol
+map-sy/5.sol
+map-sy/6.sol
+map-sy/7.sol
+map-sy/8.sol
+map-sy/9.sol
+map-sy/10.sol
+map-sy/11.sol
+map-sy/12.sol
+map-sy/13.sol
+map-sy/14.sol
+map-sy/15.sol
+map-sy/16.sol
+map-sy/17.sol
+map-sy/18.sol
+map-sy/19.sol
+map-sy/20.sol
+map-sy/21.sol
+map-sy/22.sol
+map-sy/23.sol
+map-sy/24.sol
+map-sy/25.sol
+

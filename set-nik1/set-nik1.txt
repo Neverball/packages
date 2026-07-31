@@ -1,0 +1,30 @@
+Nik's Levels 1
+Difficulty: Easy through Normal\\25 levels set 1 of 5.\Author: Nikita Kuskov (nik)\ \
+5K-1
+shot-nik1/iPhone-MSB3-rotate90.png
+
+map-nik1/upcoins.sol
+map-nik1/gridcheck.sol
+map-nik1/nik-hole.sol
+map-nik1/glassroad2.sol
+map-nik1/coindown.sol
+map-nik1/pirates2.sol
+map-nik1/superspeed.sol
+map-nik1/followthearrows2.sol
+map-nik1/elevator2.sol
+map-nik1/steep2.sol
+map-nik1/easyhole.sol
+map-nik1/rainbow-minidance.sol
+map-nik1/iPhone-MSB3-rotate90.sol
+map-nik1/number.sol
+map-nik1/switch.sol
+map-nik1/inviswalls2.sol
+map-nik1/narrow-colorroad.sol
+map-nik1/rails.sol
+map-nik1/invisible-roads2.sol
+map-nik1/arena2.sol
+map-nik1/easymaze.sol
+map-nik1/drops2.sol
+map-nik1/bowladventure2.sol
+map-nik1/rifts.sol
+map-nik1/turneasy2.sol

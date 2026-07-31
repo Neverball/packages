@@ -1,0 +1,7 @@
+diffuse   0.45 0.45 0.45 1.0
+ambient   0.45 0.45 0.45 1.0
+specular  0.0 0.0 0.0 1.0
+emissive  0.0 0.0 0.0 1.0
+shininess 0.0
+flags     lit decal shadowed transparent
+angle     45.0

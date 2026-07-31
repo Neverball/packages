@@ -1,0 +1,792 @@
+
+// entity 0
+{
+"classname" "worldspawn"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+// brush 0
+{
+( 80 80 128 ) ( 80 -16 128 ) ( -96 80 128 ) mtrl/turf-blue 224 32 0 0.5 0.5 0 0 0
+( 80 80 128 ) ( -96 80 128 ) ( 80 80 112 ) mtrl/turf-blue 224 192 0 0.5 0.5 0 0 0
+( 224 160 96 ) ( 224 160 80 ) ( 224 64 96 ) mtrl/turf-blue 64 128 0 0.5 0.5 0 0 0
+( -96 -16 112 ) ( 80 -16 112 ) ( -96 80 112 ) mtrl/turf-blue 224 32 0 0.5 0.5 0 0 0
+( -96 -16 112 ) ( -96 -16 128 ) ( 80 -16 112 ) mtrl/turf-blue 224 192 0 0.5 0.5 0 0 0
+( -96 -16 112 ) ( -96 80 112 ) ( -96 -16 128 ) mtrl/turf-blue 224 192 0 0.5 0.5 0 0 0
+}
+// brush 1
+{
+( 320 80 112 ) ( 320 -16 112 ) ( 224 80 112 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 320 80 112 ) ( 224 80 112 ) ( 320 80 96 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 384 64 96 ) ( 384 64 80 ) ( 384 -32 96 ) mtrl/turf-blue 32 192 0 0.5 0.5 0 0 0
+( 224 -16 96 ) ( 320 -16 96 ) ( 224 80 96 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 224 -16 96 ) ( 224 -16 112 ) ( 320 -16 96 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 224 -16 96 ) ( 224 80 96 ) ( 224 -16 112 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+}
+// brush 2
+{
+( 464 80 112 ) ( 464 -16 112 ) ( 384 80 112 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 464 80 112 ) ( 384 80 112 ) ( 464 80 96 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 464 80 112 ) ( 464 80 96 ) ( 464 -16 112 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 384 -16 96 ) ( 464 -16 96 ) ( 384 80 96 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 384 -16 96 ) ( 384 -16 112 ) ( 464 -16 96 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 384 -16 96 ) ( 384 80 96 ) ( 384 -16 112 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 3
+{
+( 576 80 96 ) ( 576 -160 96 ) ( 464 80 96 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 576 80 96 ) ( 464 80 96 ) ( 576 80 -32 ) mtrl/turf-blue 0 64 0 0.5 0.5 0 0 0
+( 576 80 96 ) ( 576 80 -32 ) ( 576 -160 96 ) mtrl/turf-blue 0 64 0 0.5 0.5 0 0 0
+( 464 -112 80 ) ( 576 -112 80 ) ( 464 128 80 ) mtrl/turf-blue 0 96 0 0.5 0.5 0 0 0
+( 464 -240 -32 ) ( 464 -240 96 ) ( 576 -240 -32 ) mtrl/turf-blue 0 64 0 0.5 0.5 0 0 0
+( 464 -160 -32 ) ( 464 80 -32 ) ( 464 -160 96 ) mtrl/turf-blue 0 64 0 0.5 0.5 0 0 0
+}
+// brush 4
+{
+( 464 -144 80 ) ( 464 -240 80 ) ( 224 -144 80 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 464 -144 80 ) ( 224 -144 80 ) ( 464 -144 64 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 464 -144 80 ) ( 464 -144 64 ) ( 464 -240 80 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 224 -240 64 ) ( 464 -240 64 ) ( 224 -144 64 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 224 -240 64 ) ( 224 -240 80 ) ( 464 -240 64 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 224 -240 64 ) ( 224 -144 64 ) ( 224 -240 80 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+}
+// brush 5
+{
+( 224 -144 64 ) ( 224 -240 64 ) ( -64 -144 64 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 224 -144 64 ) ( -64 -144 64 ) ( 224 -144 48 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 224 -144 64 ) ( 224 -144 48 ) ( 224 -240 64 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( -64 -240 48 ) ( 224 -240 48 ) ( -64 -144 48 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( -64 -240 48 ) ( -64 -240 64 ) ( 224 -240 48 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( -16 -240 48 ) ( -16 -144 48 ) ( -16 -240 64 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+}
+// brush 6
+{
+( -16 -144 48 ) ( -16 -240 48 ) ( -256 -144 48 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( -16 -144 48 ) ( -256 -144 48 ) ( -16 -144 32 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( -16 -144 48 ) ( -16 -144 32 ) ( -16 -240 48 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( -256 -240 32 ) ( -16 -240 32 ) ( -256 -144 32 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( -256 -240 32 ) ( -256 -240 48 ) ( -16 -240 32 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( -256 -240 32 ) ( -256 -144 32 ) ( -256 -240 48 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+}
+// brush 7
+{
+( -160 64 32 ) ( -160 -144 32 ) ( -256 64 32 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( -160 96 32 ) ( -256 96 32 ) ( -160 96 16 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( -160 64 32 ) ( -160 64 16 ) ( -160 -144 32 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( -256 -144 16 ) ( -160 -144 16 ) ( -256 64 16 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( -256 -144 16 ) ( -256 -144 32 ) ( -160 -144 16 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( -256 -144 16 ) ( -256 64 16 ) ( -256 -144 32 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+}
+// brush 8
+{
+( -160 256 16 ) ( -160 96 16 ) ( -256 256 16 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( -160 336 16 ) ( -256 336 16 ) ( -160 336 0 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( -160 256 16 ) ( -160 256 0 ) ( -160 96 16 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( -256 96 0 ) ( -160 96 0 ) ( -256 256 0 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( -256 96 0 ) ( -256 96 16 ) ( -160 96 0 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( -256 96 0 ) ( -256 256 0 ) ( -256 96 16 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+}
+// brush 9
+{
+( -160 576 0 ) ( -160 336 0 ) ( -256 576 0 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( -160 576 0 ) ( -256 576 0 ) ( -160 576 -16 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( -160 576 0 ) ( -160 576 -16 ) ( -160 336 0 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( -256 336 -16 ) ( -160 336 -16 ) ( -256 576 -16 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( -256 336 -16 ) ( -256 336 0 ) ( -160 336 -16 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( -256 336 -16 ) ( -256 576 -16 ) ( -256 336 0 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+}
+// brush 10
+{
+( 96 576 -16 ) ( 96 480 -16 ) ( -160 576 -16 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 96 576 -16 ) ( -160 576 -16 ) ( 96 576 -32 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 80 576 -16 ) ( 80 576 -32 ) ( 80 480 -16 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( -160 480 -32 ) ( 96 480 -32 ) ( -160 576 -32 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( -160 480 -32 ) ( -160 480 -16 ) ( 96 480 -32 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( -160 480 -32 ) ( -160 576 -32 ) ( -160 480 -16 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+}
+// brush 11
+{
+( 336 576 -32 ) ( 336 480 -32 ) ( 80 576 -32 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 336 576 -32 ) ( 80 576 -32 ) ( 336 576 -48 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 336 576 -32 ) ( 336 576 -48 ) ( 336 480 -32 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 80 480 -48 ) ( 336 480 -48 ) ( 80 576 -48 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 80 480 -48 ) ( 80 480 -32 ) ( 336 480 -48 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 80 480 -48 ) ( 80 576 -48 ) ( 80 480 -32 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+}
+// brush 12
+{
+( 592 576 -48 ) ( 592 480 -48 ) ( 336 576 -48 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 592 576 -48 ) ( 336 576 -48 ) ( 592 576 -64 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 592 576 -48 ) ( 592 576 -64 ) ( 592 480 -48 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 336 480 -64 ) ( 592 480 -64 ) ( 336 576 -64 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 336 480 -64 ) ( 336 480 -48 ) ( 592 480 -64 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 336 480 -64 ) ( 336 576 -64 ) ( 336 480 -48 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+}
+// brush 13
+{
+( 688 576 -64 ) ( 688 480 -64 ) ( 592 576 -64 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 688 576 -64 ) ( 592 576 -64 ) ( 688 576 -80 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 688 576 -64 ) ( 688 576 -80 ) ( 688 480 -64 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 592 480 -80 ) ( 688 480 -80 ) ( 592 576 -80 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 608 336 -80 ) ( 608 336 -64 ) ( 704 336 -80 ) mtrl/turf-blue 224 224 0 0.5 0.5 0 0 0
+( 592 480 -80 ) ( 592 576 -80 ) ( 592 480 -64 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+}
+// brush 14
+{
+( 688 336 -80 ) ( 688 256 -80 ) ( 592 336 -80 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 688 336 -80 ) ( 592 336 -80 ) ( 688 336 -96 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 688 336 -80 ) ( 688 336 -96 ) ( 688 256 -80 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 592 256 -96 ) ( 688 256 -96 ) ( 592 336 -96 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 608 96 -96 ) ( 608 96 -80 ) ( 704 96 -96 ) mtrl/turf-blue 224 224 0 0.5 0.5 0 0 0
+( 592 256 -96 ) ( 592 336 -96 ) ( 592 256 -80 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+}
+// brush 15
+{
+( 896 192 -96 ) ( 896 96 -96 ) ( 688 192 -96 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 896 192 -96 ) ( 688 192 -96 ) ( 896 192 -112 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 928 192 -96 ) ( 928 192 -112 ) ( 928 96 -96 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 688 96 -112 ) ( 896 96 -112 ) ( 688 192 -112 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 688 96 -112 ) ( 688 96 -96 ) ( 896 96 -112 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 688 96 -112 ) ( 688 192 -112 ) ( 688 96 -96 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+}
+// brush 16
+{
+( 1024 352 -112 ) ( 1024 96 -112 ) ( 928 352 -112 ) mtrl/turf-blue 0 192 0 0.5 0.5 0 0 0
+( 1024 336 -112 ) ( 928 336 -112 ) ( 1024 336 -128 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 1024 352 -112 ) ( 1024 352 -128 ) ( 1024 96 -112 ) mtrl/turf-blue 64 224 0 0.5 0.5 0 0 0
+( 928 96 -128 ) ( 1024 96 -128 ) ( 928 352 -128 ) mtrl/turf-blue 0 192 0 0.5 0.5 0 0 0
+( 928 96 -128 ) ( 928 96 -112 ) ( 1024 96 -128 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 928 96 -128 ) ( 928 352 -128 ) ( 928 96 -112 ) mtrl/turf-blue 64 224 0 0.5 0.5 0 0 0
+}
+// brush 17
+{
+( 1152 432 -112 ) ( 1152 336 -112 ) ( 928 432 -112 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1152 432 -112 ) ( 928 432 -112 ) ( 1152 432 -128 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1168 432 -112 ) ( 1168 432 -128 ) ( 1168 336 -112 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 928 336 -128 ) ( 1152 336 -128 ) ( 928 432 -128 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 928 336 -128 ) ( 928 336 -112 ) ( 1152 336 -128 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 928 336 -128 ) ( 928 432 -128 ) ( 928 336 -112 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 18
+{
+( 1424 432 -128 ) ( 1424 336 -128 ) ( 1168 432 -128 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1424 432 -128 ) ( 1168 432 -128 ) ( 1424 432 -144 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 1424 432 -128 ) ( 1424 432 -144 ) ( 1424 336 -128 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 1168 336 -144 ) ( 1424 336 -144 ) ( 1168 432 -144 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1168 336 -144 ) ( 1168 336 -128 ) ( 1424 336 -144 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 1168 336 -144 ) ( 1168 432 -144 ) ( 1168 336 -128 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+}
+// brush 19
+{
+( 1600 432 -144 ) ( 1600 336 -144 ) ( 1424 432 -144 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1600 432 -144 ) ( 1424 432 -144 ) ( 1600 432 -160 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 1664 432 -144 ) ( 1664 432 -160 ) ( 1664 336 -144 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 1424 336 -160 ) ( 1600 336 -160 ) ( 1424 432 -160 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1424 336 -160 ) ( 1424 336 -144 ) ( 1600 336 -160 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 1424 336 -160 ) ( 1424 432 -160 ) ( 1424 336 -144 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+}
+// brush 20
+{
+( 1760 544 -160 ) ( 1760 336 -160 ) ( 1664 544 -160 ) mtrl/turf-blue 64 64 0 0.5 0.5 0 0 0
+( 1760 576 -160 ) ( 1664 576 -160 ) ( 1760 576 -176 ) mtrl/turf-blue 64 192 0 0.5 0.5 0 0 0
+( 1760 544 -160 ) ( 1760 544 -176 ) ( 1760 336 -160 ) mtrl/turf-blue 192 192 0 0.5 0.5 0 0 0
+( 1664 336 -176 ) ( 1760 336 -176 ) ( 1664 544 -176 ) mtrl/turf-blue 64 64 0 0.5 0.5 0 0 0
+( 1664 336 -176 ) ( 1664 336 -160 ) ( 1760 336 -176 ) mtrl/turf-blue 64 192 0 0.5 0.5 0 0 0
+( 1664 336 -176 ) ( 1664 544 -176 ) ( 1664 336 -160 ) mtrl/turf-blue 192 192 0 0.5 0.5 0 0 0
+}
+// brush 21
+{
+( 1760 704 -160 ) ( 1760 576 -160 ) ( 1472 704 -160 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1760 672 -160 ) ( 1472 672 -160 ) ( 1760 672 -176 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1760 704 -160 ) ( 1760 704 -176 ) ( 1760 576 -160 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1472 576 -176 ) ( 1760 576 -176 ) ( 1472 704 -176 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1472 576 -176 ) ( 1472 576 -160 ) ( 1760 576 -176 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1520 576 -176 ) ( 1520 704 -176 ) ( 1520 576 -160 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+}
+// brush 22
+{
+( 1520 672 -176 ) ( 1520 576 -176 ) ( 1280 672 -176 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1520 672 -176 ) ( 1280 672 -176 ) ( 1520 672 -192 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 1520 672 -176 ) ( 1520 672 -192 ) ( 1520 576 -176 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 1280 576 -192 ) ( 1520 576 -192 ) ( 1280 672 -192 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1280 576 -192 ) ( 1280 576 -176 ) ( 1520 576 -192 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 1280 576 -192 ) ( 1280 672 -192 ) ( 1280 576 -176 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+}
+// brush 23
+{
+( 1280 672 -192 ) ( 1280 576 -192 ) ( 1040 672 -192 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1280 672 -192 ) ( 1040 672 -192 ) ( 1280 672 -208 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 1280 672 -192 ) ( 1280 672 -208 ) ( 1280 576 -192 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 1040 576 -208 ) ( 1280 576 -208 ) ( 1040 672 -208 ) mtrl/turf-blue 0 0 0 0.5 0.5 0 0 0
+( 1040 576 -208 ) ( 1040 576 -192 ) ( 1280 576 -208 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+( 1040 576 -208 ) ( 1040 672 -208 ) ( 1040 576 -192 ) mtrl/turf-blue 0 224 0 0.5 0.5 0 0 0
+}
+// brush 24
+{
+( 224 672 -208 ) ( 224 576 -208 ) ( 128 672 -208 ) mtrl/goal 170.6666564941 255.9999542236 0 0.375 0.375 0 0 0
+( 224 672 -208 ) ( 128 672 -208 ) ( 224 672 -224 ) mtrl/turf-orange 170.6666564941 0 0 0.375 0.0625 0 0 0
+( 224 672 -208 ) ( 224 672 -224 ) ( 224 576 -208 ) mtrl/goal 255.9999237061 0 0 0.375 0.0625 0 0 0
+( 128 576 -224 ) ( 224 576 -224 ) ( 128 672 -224 ) mtrl/goal 170.6666564941 255.9999542236 0 0.375 0.375 0 0 0
+( 128 576 -224 ) ( 128 576 -208 ) ( 224 576 -224 ) mtrl/turf-orange 170.6666564941 0 0 0.375 0.0625 0 0 0
+( 128 576 -224 ) ( 128 672 -224 ) ( 128 576 -208 ) mtrl/turf-orange 255.9999237061 0 0 0.375 0.0625 0 0 0
+}
+// brush 25
+{
+( 784 672 -208 ) ( 784 576 -208 ) ( 320 672 -208 ) mtrl/turf-orange 0 0 0 0.5 0.5 0 0 0
+( 784 672 -208 ) ( 320 672 -208 ) ( 784 672 -224 ) mtrl/turf-orange 0 224 0 0.5 0.5 0 0 0
+( 1040 656 -208 ) ( 1040 656 -224 ) ( 1040 560 -208 ) mtrl/turf-orange 32 224 0 0.5 0.5 0 0 0
+( 320 576 -224 ) ( 784 576 -224 ) ( 320 672 -224 ) mtrl/turf-orange 0 0 0 0.5 0.5 0 0 0
+( 320 576 -224 ) ( 320 576 -208 ) ( 784 576 -224 ) mtrl/turf-orange 0 224 0 0.5 0.5 0 0 0
+( 224 576 -208 ) ( 224 672 -224 ) ( 224 672 -208 ) mtrl/goal 255.9999237061 0 0 0.375 0.0625 0 0 0
+}
+}
+// entity 1
+{
+"classname" "info_player_start"
+"origin" "-28 32 148"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 2
+{
+"classname" "light"
+"origin" "-128 32 112"
+"light" "10"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 3
+{
+"classname" "light"
+"origin" "336 32 128"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 4
+{
+"classname" "light"
+"origin" "560 64 112"
+"light" "5"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 5
+{
+"classname" "light"
+"origin" "560 -208 112"
+"light" "5"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 6
+{
+"classname" "light"
+"origin" "336 -192 96"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 7
+{
+"classname" "light"
+"origin" "96 -192 80"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 8
+{
+"classname" "light"
+"origin" "-240 -224 64"
+"light" "5"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 9
+{
+"classname" "light"
+"origin" "-208 -16 48"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 10
+{
+"classname" "light"
+"origin" "-208 224 32"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 11
+{
+"classname" "light"
+"origin" "-240 560 16"
+"light" "5"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 12
+{
+"classname" "light"
+"origin" "-48 528 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 13
+{
+"classname" "light"
+"origin" "192 528 -16"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 14
+{
+"classname" "light"
+"origin" "448 528 -32"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 15
+{
+"classname" "light"
+"origin" "672 560 -48"
+"light" "5"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 16
+{
+"classname" "light"
+"origin" "608 112 -64"
+"light" "5"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 17
+{
+"classname" "light"
+"origin" "800 144 -80"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 18
+{
+"classname" "light"
+"origin" "1008 112 -96"
+"light" "5"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 19
+{
+"classname" "light"
+"origin" "944 416 -96"
+"light" "5"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 20
+{
+"classname" "light"
+"origin" "1280 384 -112"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 21
+{
+"classname" "light"
+"origin" "1536 384 -128"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 22
+{
+"classname" "light"
+"origin" "1744 352 -144"
+"light" "5"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 23
+{
+"classname" "light"
+"origin" "1744 656 -144"
+"light" "5"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 24
+{
+"classname" "light"
+"origin" "1392 624 -160"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 25
+{
+"classname" "light"
+"origin" "1152 624 -176"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 26
+{
+"classname" "light"
+"origin" "320 624 -192"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 27
+{
+"classname" "light"
+"origin" "432 624 -192"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 28
+{
+"classname" "light"
+"origin" "544 624 -192"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 29
+{
+"classname" "light"
+"origin" "640 624 -192"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 30
+{
+"classname" "light"
+"origin" "736 624 -192"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 31
+{
+"classname" "light"
+"origin" "832 624 -192"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 32
+{
+"classname" "light"
+"origin" "928 624 -192"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 33
+{
+"classname" "info_player_deathmatch"
+"origin" "176 624 -176"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"time" "4500"
+"time_hs" "900 1600 2200"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 34
+{
+"classname" "light"
+"origin" "496 608 -80"
+"light" "10"
+"coin_hs" "65 55 40"
+"goal" "35"
+"goal_hs" "1900 2500 3500"
+"shot" "shot-ervin/unnamed.jpg"
+"message" "Make sure that the ball doesn't speed up."
+}
+// entity 35
+{
+"classname" "info_player_intermission"
+"origin" "-608 368 160"
+"shot" "shot-ervin/unnamed.jpg"
+}
