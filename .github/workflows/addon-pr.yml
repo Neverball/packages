@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      actions: write
     steps:
       - uses: actions/checkout@v4
 
@@ -50,4 +51,6 @@ jobs:
           git add set-*/
           git commit -m "Add community addon: ${ADDON_NAME}"
           git push origin main
+
+
 
