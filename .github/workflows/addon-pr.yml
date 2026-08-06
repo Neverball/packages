@@ -1,15 +1,14 @@
-name: Open addon PR
+name: Publish addon submission
 
 on:
   repository_dispatch:
     types: [addon-submission]
 
 jobs:
-  create-pr:
+  publish-addon:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pull-requests: write
     steps:
       - uses: actions/checkout@v4
 
@@ -42,21 +41,13 @@ jobs:
             rm "$zipfile"
           done
 
-      - name: Create branch and open PR
+      - name: Commit and push directly to main
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ADDON_NAME: ${{ github.event.client_payload.addon_name }}
-          ADDON_ID: ${{ github.event.client_payload.addon_id }}
         run: |
-          BRANCH="addon/${ADDON_ID}-${{ github.run_id }}"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
-          git checkout -b "$BRANCH"
           git add set-*/
           git commit -m "Add community addon: ${ADDON_NAME}"
-          git push origin "$BRANCH"
-          gh pr create \
-            --title "Add community addon: ${ADDON_NAME}" \
-            --body "Submitted via the addon tool. Triggered by repository dispatch." \
-            --base main \
-            --head "$BRANCH"
+          git push origin main
+
