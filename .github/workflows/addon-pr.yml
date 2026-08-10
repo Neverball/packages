@@ -53,25 +53,21 @@ jobs:
           git config user.name "github-actions[bot]"
           git add set-*/
 
-          COMMIT_MSG="Add community addon: ${ADDON_NAME}"
-          if [ -n "${SUBMITTER_NAME}" ]; then
-            COMMIT_MSG="${COMMIT_MSG}
+          MSG="Add community addon: ${ADDON_NAME}"
 
-Submitted by: ${SUBMITTER_NAME}"
+          if [ -n "${SUBMITTER_NAME}" ]; then
+            MSG="${MSG}"$'\n\n'"Submitted by: ${SUBMITTER_NAME}"
           fi
 
           if [ -n "${SUBMITTED_AT}" ]; then
-            COMMIT_MSG="${COMMIT_MSG}
-Submitted on: ${SUBMITTED_AT}"
+            MSG="${MSG}"$'\n'"Submitted on: ${SUBMITTED_AT}"
           fi
 
           if [ -n "${SUBMITTER_MESSAGE}" ]; then
-            COMMIT_MSG="${COMMIT_MSG}
-
-${SUBMITTER_MESSAGE}"
+            MSG="${MSG}"$'\n\n'"${SUBMITTER_MESSAGE}"
           fi
 
-          git commit -m "$COMMIT_MSG"
+          git commit -m "$MSG"
           git push origin main
 
 
