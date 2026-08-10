@@ -1,0 +1,79 @@
+
+// entity 0
+{
+"classname" "info_null"
+"origin" "-4.000000 -4.000000 -88.000000"
+"image" "skybox/flood_d"
+"width" "150"
+"height" "150"
+"dist" "75"
+"flag" "0"
+"zrot" "90"
+"xrot" "-90"
+}
+// entity 1
+{
+"classname" "info_null"
+"origin" "4.000000 4.000000 -88.000000"
+"image" "skybox/flood_u"
+"width" "150"
+"height" "150"
+"dist" "75"
+"flag" "0"
+"zrot" "-90"
+"xrot" "90"
+}
+// entity 2
+{
+"classname" "info_null"
+"origin" "0.000000 32.000000 -88.000000"
+"image" "skybox/flood_e"
+"width" "150"
+"height" "150"
+"dist" "75"
+"flag" "0"
+}
+// entity 3
+{
+"classname" "info_null"
+"origin" "32.000000 0.000000 -88.000000"
+"image" "skybox/flood_s"
+"width" "150"
+"height" "150"
+"dist" "75"
+"flag" "0"
+"yrot" "-90"
+}
+// entity 4
+{
+"classname" "info_null"
+"origin" "-32.000000 0.000000 -88.000000"
+"image" "skybox/flood_n"
+"width" "150"
+"height" "150"
+"dist" "75"
+"flag" "0"
+"yrot" "90"
+}
+// entity 5
+{
+"classname" "info_null"
+"origin" "-32.000000 0.000000 -88.000000"
+"image" "skybox/flood_n"
+"width" "150"
+"height" "150"
+"dist" "75"
+"flag" "0"
+"yrot" "90"
+}
+// entity 6
+{
+"classname" "info_null"
+"origin" "0.000000 -32.000000 -88.000000"
+"image" "skybox/flood_w"
+"width" "150"
+"height" "150"
+"dist" "75"
+"flag" "0"
+"yrot" "180"
+}

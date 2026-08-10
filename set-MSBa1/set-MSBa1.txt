@@ -1,0 +1,30 @@
+MSB's Anthology ✾ Ⅰ
+Difficulty: Intermediate through Expert\\Some of my easiest yet entertaining enough levels.\Author: MSB
+MSBa1
+shot-MSBa1/can-fall.jpg
+
+map-MSBa1/can-fall.sol
+map-MSBa1/easy-level.sol
+map-MSBa1/platforms.sol
+map-MSBa1/movetut.sol
+map-MSBa1/RealCoins.sol
+map-MSBa1/cnal.sol
+map-MSBa1/simple-switch.sol
+map-MSBa1/spider.sol
+map-MSBa1/jumps.sol
+map-MSBa1/narrow-invisible.sol
+map-MSBa1/two-switches.sol
+map-MSBa1/lucky.sol
+map-MSBa1/islands2.sol
+map-MSBa1/dumbmaze.sol
+map-MSBa1/glassmaze.sol
+map-MSBa1/shake.sol
+map-MSBa1/upndown.sol
+map-MSBa1/split.sol
+map-MSBa1/path-timing.sol
+map-MSBa1/coin-map.sol
+map-MSBa1/cubex.sol
+map-MSBa1/timer.sol
+map-MSBa1/2ways.sol
+map-MSBa1/directions.sol
+map-MSBa1/holename.sol

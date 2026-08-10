@@ -1,0 +1,30 @@
+MSB's Anthology ✾ Ⅱ
+Difficulty: Hard through Expert\Some challenges of moderate difficulty.\Author: MSB\Co-author: DepresseDreamer\(Remade Bonus Ⅲ)
+MSBa2
+shot-MSBa2/stations.jpg
+
+map-MSBa2/ezplatforms.sol
+map-MSBa2/floor.sol
+map-MSBa2/first.sol
+map-MSBa2/tilted.sol
+map-MSBa2/complexsize.sol
+map-MSBa2/pounces.sol
+map-MSBa2/invisibleligth.sol
+map-MSBa2/tele-bounce.sol
+map-MSBa2/invis-bridges.sol
+map-MSBa2/hole-jumping.sol
+map-MSBa2/goindown.sol
+map-MSBa2/jumping-park.sol
+map-MSBa2/tele-floors.sol
+map-MSBa2/sidemovers.sol
+map-MSBa2/hard.sol
+map-MSBa2/obstacles.sol
+map-MSBa2/movethemap.sol
+map-MSBa2/jumpsnswitches.sol
+map-MSBa2/small.sol
+map-MSBa2/jumpsncoins.sol
+map-MSBa2/stations.sol
+map-MSBa2/thwomp-park.sol
+map-MSBa2/descending-course.sol
+map-MSBa2/theneverball.sol
+map-MSBa2/jump-a-round.sol
