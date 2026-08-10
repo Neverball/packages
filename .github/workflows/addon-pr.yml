@@ -47,6 +47,7 @@ jobs:
           ADDON_NAME: ${{ github.event.client_payload.addon_name }}
           SUBMITTER_NAME: ${{ github.event.client_payload.submitter_name }}
           SUBMITTER_MESSAGE: ${{ github.event.client_payload.submitter_message }}
+          SUBMITTED_AT: ${{ github.event.client_payload.submitted_at }}
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
@@ -57,6 +58,11 @@ jobs:
             COMMIT_MSG="${COMMIT_MSG}
 
 Submitted by: ${SUBMITTER_NAME}"
+          fi
+
+          if [ -n "${SUBMITTED_AT}" ]; then
+            COMMIT_MSG="${COMMIT_MSG}
+Submitted on: ${SUBMITTED_AT}"
           fi
 
           if [ -n "${SUBMITTER_MESSAGE}" ]; then
