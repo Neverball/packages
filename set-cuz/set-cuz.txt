@@ -1,0 +1,7 @@
+Tilt Just 'Cuz
+Difficulty: Medium
+cuz
+shot-cuz/Slopes.png
+0 0 0  0 0 0
+map-cuz/Slopes.sol
+map-cuz/Movingmaze.sol
