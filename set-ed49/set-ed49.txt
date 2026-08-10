@@ -1,0 +1,11 @@
+ED49's Set
+Difficulty: Hard to Harder\\Some good levels for anyone\who wants to play them.\\Author: Connor\
+edfn
+shot-ed49/notsolid.jpg
+
+map-ed49/notsolid.sol
+map-ed49/escalator.sol
+map-ed49/tooeasy.sol
+map-ed49/fault.sol
+map-ed49/risingpyramid.sol
+map-ed49/tub.sol
