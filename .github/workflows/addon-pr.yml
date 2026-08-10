@@ -45,11 +45,27 @@ jobs:
       - name: Commit and push directly to main
         env:
           ADDON_NAME: ${{ github.event.client_payload.addon_name }}
+          SUBMITTER_NAME: ${{ github.event.client_payload.submitter_name }}
+          SUBMITTER_MESSAGE: ${{ github.event.client_payload.submitter_message }}
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
           git add set-*/
-          git commit -m "Add community addon: ${ADDON_NAME}"
+
+          COMMIT_MSG="Add community addon: ${ADDON_NAME}"
+          if [ -n "${SUBMITTER_NAME}" ]; then
+            COMMIT_MSG="${COMMIT_MSG}
+
+Submitted by: ${SUBMITTER_NAME}"
+          fi
+
+          if [ -n "${SUBMITTER_MESSAGE}" ]; then
+            COMMIT_MSG="${COMMIT_MSG}
+
+${SUBMITTER_MESSAGE}"
+          fi
+
+          git commit -m "$COMMIT_MSG"
           git push origin main
 
 
