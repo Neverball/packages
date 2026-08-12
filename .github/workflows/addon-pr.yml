@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
       actions: write
     steps:
       - uses: actions/checkout@v4
@@ -42,33 +43,45 @@ jobs:
             rm "$zipfile"
           done
 
-      - name: Commit and push directly to main
+      - name: Create branch, commit, push, and open Pull Request
         env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ADDON_ID: ${{ github.event.client_payload.addon_id }}
           ADDON_NAME: ${{ github.event.client_payload.addon_name }}
           SUBMITTER_NAME: ${{ github.event.client_payload.submitter_name }}
           SUBMITTER_MESSAGE: ${{ github.event.client_payload.submitter_message }}
           SUBMITTED_AT: ${{ github.event.client_payload.submitted_at }}
         run: |
+          BRANCH_NAME="addon/${ADDON_ID}-${GITHUB_RUN_ID}"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
+
+          git checkout -b "$BRANCH_NAME"
           git add set-*/
 
-          MSG="Add community addon: ${ADDON_NAME}"
+          TITLE="Addon Submission: ${ADDON_NAME}"
 
-          if [ -n "${SUBMITTER_NAME}" ]; then
-            MSG="${MSG}"$'\n\n'"Submitted by: ${SUBMITTER_NAME}"
-          fi
+          BODY="A new addon submission has been received from the Neverball Addon Tool.
 
-          if [ -n "${SUBMITTED_AT}" ]; then
-            MSG="${MSG}"$'\n'"Submitted on: ${SUBMITTED_AT}"
-          fi
+          **Addon Name:** ${ADDON_NAME}
+          **Submitter:** ${SUBMITTER_NAME:-Anonymous}
+          **Submitted At:** ${SUBMITTED_AT}
 
-          if [ -n "${SUBMITTER_MESSAGE}" ]; then
-            MSG="${MSG}"$'\n\n'"${SUBMITTER_MESSAGE}"
-          fi
+          ### Submitter Message
+          ${SUBMITTER_MESSAGE:-(No message provided)}
 
-          git commit -m "$MSG"
-          git push origin main
+          ---
+          *Automated Pull Request created by Neverball Addon Tool.*"
+
+          git commit -m "Add community addon: ${ADDON_NAME}"
+          git push origin "$BRANCH_NAME"
+
+          gh pr create \
+            --title "$TITLE" \
+            --body "$BODY" \
+            --base main \
+            --head "$BRANCH_NAME"
+
 
 
 
