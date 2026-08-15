@@ -1,0 +1,3875 @@
+// Game: Neverball
+// Format: Quake3
+// entity 0
+{
+"classname" "worldspawn"
+"message" "=Ocean (DepresseDreamer Remix)=\Let's go for a swim once again!\(original source: Neverball Misc)"
+"goal" "4"
+"time" "12000"
+"song" "bgm/track1.ogg"
+"shot" "shot-unusual-a/ocean-depdream-remix-v1-0.jpg"
+"grad" "back/land-natural.png"
+"back" "map-back/clouds.sol"
+"author" "DepresseDreamer"
+"coin_hs" "4 4"
+"goal_hs" "2500 9400"
+"time_hs" "350 450 550"
+"version" "2"
+"bonus" "1"
+// brush 0
+{
+( -128 -328 -140 ) ( -128 -104 -140 ) ( -128 -328 -12 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -128 -320 -140 ) ( -128 -320 -12 ) ( 184 -320 -140 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -128 -328 -36 ) ( 184 -328 -36 ) ( -128 -104 -36 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( 184 -104 -12 ) ( 184 -328 -12 ) ( -128 -104 -12 ) mtrl/turf-green-dark 0 0 0 0.5 0.5 0 0 0
+( 117 448 -12 ) ( -195 448 -12 ) ( 117 448 -140 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 640 -104 -12 ) ( 640 -104 -140 ) ( 640 -328 -12 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+}
+// brush 1
+{
+( -128 703 36 ) ( -128 703 -40 ) ( -128 780 36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 335 782 -36 ) ( 334 782 -36 ) ( 335 705 -36 ) mtrl/turf-grey-dark 4 -4 0 0.5 0.5 0 0 0
+( 332 706 36 ) ( 332 783 36 ) ( 333 706 36 ) mtrl/turf-green-check2 2 0 0 0.5 0.5 0 0 0
+( 333 768 -40 ) ( 333 768 36 ) ( 332 768 -40 ) mtrl/turf-grey-dark-alternative 0 0 0 0.5 0.5 0 0 0
+( -128 704 -36 ) ( -128 704 36 ) ( 192 768 36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+}
+// brush 2
+{
+( -128 444 -12 ) ( -128 444 -44 ) ( -128 572 -12 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 499 448 -12 ) ( 627 448 -12 ) ( 499 448 -44 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -13 704 36 ) ( 691 704 36 ) ( 691 448 -12 ) mtrl/turf-green 2 0 0 0.5 0.5 0 0 0
+( 627 575 -36 ) ( 499 575 -36 ) ( 627 447 -36 ) mtrl/turf-grey-dark 2 0 0 0.5 0.5 0 0 0
+( 653 704 34 ) ( -51 704 34 ) ( -51 704 -38 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 640 574 -46 ) ( 640 446 -46 ) ( 640 574 -14 ) mtrl/invisible 4 -4 0 0.5 0.5 0 0 0
+}
+// brush 3
+{
+( 640 719 36 ) ( 640 797 -36 ) ( 640 797 36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 638 706 -36 ) ( 894 450 36 ) ( 894 450 -36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 912 448 36 ) ( 976 448 36 ) ( 976 448 -36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 640 704 -36 ) ( 960 448 -36 ) ( 640 768 -36 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( 640 768 36 ) ( 960 448 36 ) ( 640 704 36 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( 640 768 36 ) ( 960 448 -36 ) ( 960 448 36 ) mtrl/turf-grey-dark-alternative 0 0 0 0.5 0.5 0 0 0
+}
+// brush 4
+{
+( 640 448 -12 ) ( 640 704 -36 ) ( 640 704 36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 640 704 36 ) ( 896 448 36 ) ( 640 448 -12 ) mtrl/turf-green 0 0 0 0.5 0.5 0 0 0
+( 640 448 -12 ) ( 896 448 -36 ) ( 640 704 -36 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( 640 448 -12 ) ( 896 448 36 ) ( 896 448 -36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 640 704 -36 ) ( 896 448 36 ) ( 640 704 36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+}
+// brush 5
+{
+( 192 896 36 ) ( 192 768 36 ) ( 192 768 20 ) mtrl/wood-light-glossy 126 -32 0 0.5 0.5 0 0 0
+( 192 768 36 ) ( 320 768 36 ) ( 320 768 20 ) mtrl/wood-glossy 0 0 0 0.5 0.5 0 0 0
+( 320 768 20 ) ( 320 896 20 ) ( 192 896 20 ) mtrl/wood-glossy 0 0 0 0.5 0.5 0 0 0
+( 192 896 36 ) ( 320 896 36 ) ( 320 768 36 ) mtrl/wood-light-glossy 0 -126 0 0.5 0.5 0 0 0
+( 320 896 20 ) ( 320 896 36 ) ( 192 896 36 ) mtrl/wood-light-glossy 0 -32 0 0.5 0.5 0 0 0
+( 320 768 36 ) ( 320 896 36 ) ( 320 896 20 ) mtrl/wood-light-glossy 0 -32 0 0.5 0.5 0 0 0
+}
+// brush 6
+{
+( 192 768 35 ) ( 192 896 35 ) ( 192 768 43 ) mtrl/invisible 0 0 0 0.5 0.5 134217728 0 0
+( 192 768 35 ) ( 192 768 43 ) ( 320 768 35 ) mtrl/invisible 0 0 0 0.5 0.5 134217728 0 0
+( 192 768 35 ) ( 320 768 35 ) ( 192 896 35 ) mtrl/invisible 0 0 0 0.5 0.5 134217728 0 0
+( 320 896 36 ) ( 320 768 36 ) ( 192 896 36 ) mtrl/goal 128 0 0 0.5 0.5 134217728 0 0
+( 320 896 43 ) ( 192 896 43 ) ( 320 896 35 ) mtrl/invisible 0 0 0 0.5 0.5 134217728 0 0
+( 320 896 43 ) ( 320 896 35 ) ( 320 768 43 ) mtrl/invisible 0 0 0 0.5 0.5 134217728 0 0
+}
+// brush 7
+{
+( -256 -416 -8 ) ( -256 544 -8 ) ( -256 -416 0 ) mtrl/invisible 0 0 0 0.5 0.5 134217728 0 0
+( -224 -448 -8 ) ( -224 -448 0 ) ( -136 -448 -8 ) mtrl/invisible 0 0 0 0.5 0.5 134217728 0 0
+( -224 -416 -8 ) ( -136 -416 -8 ) ( -224 544 -8 ) mtrl/invisible 0 0 0 0.5 0.5 134217728 0 0
+( -136 544 0 ) ( -136 -416 0 ) ( -224 544 0 ) mtrl/wavy-water 0 0 0 0.5 0.5 134217728 0 0
+( -136 576 0 ) ( -224 576 0 ) ( -136 576 -8 ) mtrl/invisible 0 0 0 0.5 0.5 134217728 0 0
+( 768 544 -104 ) ( 768 544 -112 ) ( 768 -416 -104 ) mtrl/invisible 0 0 0 0.5 0.5 134217728 0 0
+}
+// brush 8
+{
+( 640 -179 -12 ) ( 640 -307 -12 ) ( 640 -179 -44 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 896 333 36 ) ( 896 -371 36 ) ( 640 -371 -12 ) mtrl/turf-green 2 0 0 0.5 0.5 0 0 0
+( 766 -320 -46 ) ( 638 -320 -46 ) ( 766 -320 -14 ) mtrl/invisible 4 -4 0 0.5 0.5 0 0 0
+( 767 -307 -36 ) ( 767 -179 -36 ) ( 639 -307 -36 ) mtrl/turf-grey-dark 2 0 0 0.5 0.5 0 0 0
+( 636 448 -12 ) ( 636 448 -44 ) ( 764 448 -12 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 896 -333 34 ) ( 896 371 34 ) ( 896 371 -38 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+}
+// brush 9
+{
+( 896 26 34 ) ( 896 25 34 ) ( 896 26 -42 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 966 -320 -42 ) ( 889 -320 -42 ) ( 966 -320 34 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 974 -15 -36 ) ( 974 -14 -36 ) ( 897 -15 -36 ) mtrl/turf-grey-dark 4 -4 0 0.5 0.5 0 0 0
+( 898 -12 36 ) ( 975 -12 36 ) ( 898 -13 36 ) mtrl/turf-green-check2 0.03 0 0 0.5 0.5 0 0 0
+( 895 448 36 ) ( 895 448 -40 ) ( 972 448 36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 960 -13 -40 ) ( 960 -13 36 ) ( 960 -12 -40 ) mtrl/turf-grey-dark-alternative 0 0 0 0.5 0.5 0 0 0
+}
+// brush 10
+{
+( 640 -592 36 ) ( 640 -656 36 ) ( 640 -656 -36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 898 -318 -36 ) ( 642 -574 36 ) ( 642 -574 -36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 896 -320 -36 ) ( 640 -640 -36 ) ( 960 -320 -36 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( 960 -320 36 ) ( 640 -640 36 ) ( 896 -320 36 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( 911 -320 36 ) ( 989 -320 -36 ) ( 989 -320 36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 960 -320 36 ) ( 640 -640 -36 ) ( 640 -640 36 ) mtrl/turf-grey-dark-alternative 0 0 0 0.5 0.5 0 0 0
+}
+// brush 11
+{
+( 640 -320 -12 ) ( 640 -576 36 ) ( 640 -576 -36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 896 -320 36 ) ( 640 -576 36 ) ( 640 -320 -12 ) mtrl/turf-green 0 0 0 0.5 0.5 0 0 0
+( 640 -320 -12 ) ( 640 -576 -36 ) ( 896 -320 -36 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( 640 -320 -12 ) ( 896 -320 -36 ) ( 896 -320 36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 896 -320 -36 ) ( 640 -576 36 ) ( 896 -320 36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+}
+// brush 12
+{
+( -128 -446 -46 ) ( -128 -318 -46 ) ( -128 -446 -14 ) mtrl/invisible 4 -4 0 0.5 0.5 0 0 0
+( -141 -576 34 ) ( 563 -576 34 ) ( 563 -576 -38 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -115 -447 -36 ) ( 13 -447 -36 ) ( -115 -319 -36 ) mtrl/turf-grey-dark 2 0 0 0.5 0.5 0 0 0
+( 525 -576 36 ) ( -179 -576 36 ) ( -179 -320 -12 ) mtrl/turf-green 2 0 0 0.5 0.5 0 0 0
+( 13 -320 -12 ) ( -115 -320 -12 ) ( 13 -320 -44 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 640 -316 -12 ) ( 640 -316 -44 ) ( 640 -444 -12 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+}
+// brush 13
+{
+( -128 -646 -42 ) ( -128 -569 -42 ) ( -128 -646 34 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 179 -640 -40 ) ( 179 -640 36 ) ( 180 -640 -40 ) mtrl/turf-grey-dark-alternative 0 0 0 0.5 0.5 0 0 0
+( 177 -654 -36 ) ( 178 -654 -36 ) ( 177 -577 -36 ) mtrl/turf-grey-dark 4 -4 0 0.5 0.5 0 0 0
+( 180 -578 36 ) ( 180 -655 36 ) ( 179 -578 36 ) mtrl/turf-green-check2 2 0 0 0.5 0.5 0 0 0
+( 218 -576 34 ) ( 217 -576 34 ) ( 218 -576 -42 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 640 -575 36 ) ( 640 -575 -40 ) ( 640 -652 36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+}
+// brush 14
+{
+( -128 -640 36 ) ( -448 -320 -36 ) ( -448 -320 36 ) mtrl/turf-grey-dark-alternative 0 0 0 0.5 0.5 0 0 0
+( -128 -576 -36 ) ( -448 -320 -36 ) ( -128 -640 -36 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -128 -640 36 ) ( -448 -320 36 ) ( -128 -576 36 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( -400 -320 36 ) ( -464 -320 36 ) ( -464 -320 -36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -126 -578 -36 ) ( -382 -322 36 ) ( -382 -322 -36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -128 -591 36 ) ( -128 -669 -36 ) ( -128 -669 36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+}
+// brush 15
+{
+( -128 -576 -36 ) ( -384 -320 36 ) ( -128 -576 36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -128 -320 -12 ) ( -384 -320 36 ) ( -384 -320 -36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -128 -320 -12 ) ( -384 -320 -36 ) ( -128 -576 -36 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -128 -576 36 ) ( -384 -320 36 ) ( -128 -320 -12 ) mtrl/turf-green 0 0 0 0.5 0.5 0 0 0
+( -128 -320 -12 ) ( -128 -576 -36 ) ( -128 -576 36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+}
+// brush 16
+{
+( -384 461 34 ) ( -384 -243 34 ) ( -384 -243 -38 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -124 -320 -12 ) ( -124 -320 -44 ) ( -252 -320 -12 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -255 435 -36 ) ( -255 307 -36 ) ( -127 435 -36 ) mtrl/turf-grey-dark 2 0 0 0.5 0.5 0 0 0
+( -254 448 -46 ) ( -126 448 -46 ) ( -254 448 -14 ) mtrl/invisible 4 -4 0 0.5 0.5 0 0 0
+( -384 -205 36 ) ( -384 499 36 ) ( -128 499 -12 ) mtrl/turf-green 2 0 0 0.5 0.5 0 0 0
+( -128 307 -12 ) ( -128 435 -12 ) ( -128 307 -44 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+}
+// brush 17
+{
+( -448 141 -40 ) ( -448 141 36 ) ( -448 140 -40 ) mtrl/turf-grey-dark-alternative 0 0 0 0.5 0.5 0 0 0
+( -383 -320 36 ) ( -383 -320 -40 ) ( -460 -320 36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -462 143 -36 ) ( -462 142 -36 ) ( -385 143 -36 ) mtrl/turf-grey-dark 4 -4 0 0.5 0.5 0 0 0
+( -386 140 36 ) ( -463 140 36 ) ( -386 141 36 ) mtrl/turf-green-check2 0.04 0 0 0.5 0.5 0 0 0
+( -454 448 -42 ) ( -377 448 -42 ) ( -454 448 34 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -384 102 34 ) ( -384 103 34 ) ( -384 102 -42 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+}
+// brush 18
+{
+( -448 448 36 ) ( -128 768 -36 ) ( -128 768 36 ) mtrl/turf-grey-dark-alternative 0 0 0 0.5 0.5 0 0 0
+( -399 448 36 ) ( -477 448 -36 ) ( -477 448 36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -384 448 -36 ) ( -128 768 -36 ) ( -448 448 -36 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -448 448 36 ) ( -128 768 36 ) ( -384 448 36 ) mtrl/turf-green-check2 0 0 0 0.5 0.5 0 0 0
+( -386 446 -36 ) ( -130 702 36 ) ( -130 702 -36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -128 720 36 ) ( -128 784 36 ) ( -128 784 -36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+}
+// brush 19
+{
+( -384 448 -36 ) ( -128 704 36 ) ( -384 448 36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -128 448 -12 ) ( -384 448 -36 ) ( -384 448 36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( -128 448 -12 ) ( -128 704 -36 ) ( -384 448 -36 ) mtrl/turf-grey-dark 0 0 0 0.5 0.5 0 0 0
+( -384 448 36 ) ( -128 704 36 ) ( -128 448 -12 ) mtrl/turf-green 0 0 0 0.5 0.5 0 0 0
+( -128 448 -12 ) ( -128 704 36 ) ( -128 704 -36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+}
+// brush 20
+{
+( -128 704 36 ) ( -128 704 -36 ) ( 192 768 -36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 640 704 36 ) ( 640 704 -36 ) ( -128 704 36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 335 782 -36 ) ( 334 782 -36 ) ( 335 705 -36 ) mtrl/turf-grey-dark 4 -4 0 0.5 0.5 0 0 0
+( 332 706 36 ) ( 332 783 36 ) ( 333 706 36 ) mtrl/turf-green-check2 2 0 0 0.5 0.5 0 0 0
+( 333 768 -40 ) ( 333 768 36 ) ( 332 768 -40 ) mtrl/turf-grey-dark-alternative 0 0 0 0.5 0.5 0 0 0
+( 640 704 -36 ) ( 640 704 36 ) ( 320 768 36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+}
+// brush 21
+{
+( 640 704 36 ) ( 640 704 -36 ) ( 320 768 -36 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+( 335 782 -36 ) ( 334 782 -36 ) ( 335 705 -36 ) mtrl/turf-grey-dark 4 -4 0 0.5 0.5 0 0 0
+( 332 706 36 ) ( 332 783 36 ) ( 333 706 36 ) mtrl/turf-green-check2 2 0 0 0.5 0.5 0 0 0
+( 333 768 -40 ) ( 333 768 36 ) ( 332 768 -40 ) mtrl/turf-grey-dark-alternative 0 0 0 0.5 0.5 0 0 0
+( 640 774 -42 ) ( 640 697 -42 ) ( 640 774 34 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
+}
+// brush 22
+{
+( 192 -640 36 ) ( 192 -768 36 ) ( 192 -768 20 ) mtrl/wood-light-glossy -2 -32 0 0.5 0.5 0 0 0
+( 192 -768 36 ) ( 320 -768 36 ) ( 320 -768 20 ) mtrl/wood-light-glossy 0 0 0 0.5 0.5 0 0 0
+( 320 -768 20 ) ( 320 -640 20 ) ( 192 -640 20 ) mtrl/wood-glossy 0 0 0 0.5 0.5 0 0 0
+( 192 -640 36 ) ( 320 -640 36 ) ( 320 -768 36 ) mtrl/wood-light-glossy 0 2 0 0.5 0.5 0 0 0
+( 320 -640 20 ) ( 320 -640 36 ) ( 192 -640 36 ) mtrl/wood-glossy 0 -32 0 0.5 0.5 0 0 0
+( 320 -768 36 ) ( 320 -640 36 ) ( 320 -640 20 ) mtrl/wood-light-glossy 0 -32 0 0.5 0.5 0 0 0
+}
+// brush 23
+{
+( 192 -768 35 ) ( 192 -640 35 ) ( 192 -768 43 ) mtrl/invisible 0 0 0 0.5 0.5 134217728 0 0
+( 192 -768 35 ) ( 192 -768 43 ) ( 320 -768 35 ) mtrl/invisible 0 0 0 0.5 0.5 134217728 0 0
+( 192 -768 35 ) ( 320 -768 35 ) ( 192 -640 35 ) mtrl/invisible 0 0 0 0.5 0.5 134217728 0 0
+( 320 -640 36 ) ( 320 -768 36 ) ( 192 -640 36 ) mtrl/arrow-dark 128 0 0 0.5 0.5 134217728 0 0
+( 320 -640 43 ) ( 192 -640 43 ) ( 320 -640 35 ) mtrl/invisible 0 0 0 0.5 0.5 134217728 0 0
+( 320 -640 43 ) ( 320 -640 35 ) ( 320 -768 43 ) mtrl/invisible 0 0 0 0.5 0.5 134217728 0 0
+}
+// brush 24
+{
+( 288 -640 -20 ) ( 288 -736 -20 ) ( 288 -736 -36 ) mtrl/wood-glossy -2 -16 0 0.5 0.5 0 0 0
+( 288 -736 -20 ) ( 304 -736 -20 ) ( 304 -736 -36 ) mtrl/wood-glossy -64 16 0 0.5 0.5 0 0 0
+( 304 -736 -36 ) ( 304 -640 -36 ) ( 288 -640 -36 ) mtrl/wood-glossy -64 0 0 0.5 0.5 0 0 0
+( 288 -640 -20 ) ( 304 -640 -20 ) ( 304 -736 -20 ) mtrl/wood-glossy -64 2 0 0.5 0.5 0 0 0
+( 304 -640 -36 ) ( 304 -640 -20 ) ( 288 -640 -20 ) mtrl/wood-glossy -64 -16 0 0.5 0.5 0 0 0
+( 304 -736 -20 ) ( 304 -640 -20 ) ( 304 -640 -36 ) mtrl/wood-glossy 0 -16 0 0.5 0.5 0 0 0
+}
+// brush 25
+{
+( 208 -640 -20 ) ( 208 -736 -20 ) ( 208 -736 -36 ) mtrl/wood-glossy -2 -16 0 0.5 0.5 0 0 0
+( 208 -736 -20 ) ( 224 -736 -20 ) ( 224 -736 -36 ) mtrl/wood-glossy 96 16 0 0.5 0.5 0 0 0
+( 224 -736 -36 ) ( 224 -640 -36 ) ( 208 -640 -36 ) mtrl/wood-glossy 96 0 0 0.5 0.5 0 0 0
+( 208 -640 -20 ) ( 224 -640 -20 ) ( 224 -736 -20 ) mtrl/wood-glossy 96 2 0 0.5 0.5 0 0 0
+( 224 -640 -36 ) ( 224 -640 -20 ) ( 208 -640 -20 ) mtrl/wood-glossy 96 -16 0 0.5 0.5 0 0 0
+( 224 -736 -20 ) ( 224 -640 -20 ) ( 224 -640 -36 ) mtrl/wood-glossy 0 -16 0 0.5 0.5 0 0 0
+}
+// brush 26
+{
+( 288 -736 20 ) ( 288 -752 20 ) ( 288 -752 -20 ) mtrl/wood-glossy -2 16 0 0.5 0.5 0 0 0
+( 288 -752 20 ) ( 304 -752 20 ) ( 304 -752 -20 ) mtrl/wood-glossy -64 48 0 0.5 0.5 0 0 0
+( 304 -752 -20 ) ( 304 -736 -20 ) ( 288 -736 -20 ) mtrl/wood-glossy -64 0 0 0.5 0.5 0 0 0
+( 288 -736 20 ) ( 304 -736 20 ) ( 304 -752 20 ) mtrl/wood-glossy -64 2 0 0.5 0.5 0 0 0
+( 304 -736 -20 ) ( 304 -736 20 ) ( 288 -736 20 ) mtrl/wood-glossy -64 16 0 0.5 0.5 0 0 0
+( 304 -752 20 ) ( 304 -736 20 ) ( 304 -736 -20 ) mtrl/wood-glossy 0 16 0 0.5 0.5 0 0 0
+}
+// brush 27
+{
+( 208 -736 20 ) ( 208 -752 20 ) ( 208 -752 -20 ) mtrl/wood-glossy -2 16 0 0.5 0.5 0 0 0
+( 208 -752 20 ) ( 224 -752 20 ) ( 224 -752 -20 ) mtrl/wood-glossy 96 48 0 0.5 0.5 0 0 0
+( 224 -752 -20 ) ( 224 -736 -20 ) ( 208 -736 -20 ) mtrl/wood-glossy 96 0 0 0.5 0.5 0 0 0
+( 208 -736 20 ) ( 224 -736 20 ) ( 224 -752 20 ) mtrl/wood-glossy 96 2 0 0.5 0.5 0 0 0
+( 224 -736 -20 ) ( 224 -736 20 ) ( 208 -736 20 ) mtrl/wood-glossy 96 16 0 0.5 0.5 0 0 0
+( 224 -752 20 ) ( 224 -736 20 ) ( 224 -736 -20 ) mtrl/wood-glossy 0 16 0 0.5 0.5 0 0 0
+}
+// brush 28
+{
+( 288 -720 -4 ) ( 288 -736 -4 ) ( 288 -736 -20 ) mtrl/wood-glossy -2 16 0 0.5 0.5 0 0 0
+( 288 -736 -4 ) ( 304 -736 -4 ) ( 304 -736 -20 ) mtrl/wood-glossy -64 48 0 0.5 0.5 0 0 0
+( 304 -736 -20 ) ( 304 -720 -20 ) ( 288 -720 -20 ) mtrl/wood-glossy -64 0 0 0.5 0.5 0 0 0
+( 288 -720 -4 ) ( 304 -720 -4 ) ( 304 -736 -4 ) mtrl/wood-glossy -64 2 0 0.5 0.5 0 0 0
+( 304 -720 -20 ) ( 304 -720 -4 ) ( 288 -720 -4 ) mtrl/wood-glossy -64 16 0 0.5 0.5 0 0 0
+( 304 -736 -4 ) ( 304 -720 -4 ) ( 304 -720 -20 ) mtrl/wood-glossy 0 16 0 0.5 0.5 0 0 0
+}
+// brush 29
+{
+( 208 -720 -4 ) ( 208 -736 -4 ) ( 208 -736 -20 ) mtrl/wood-glossy -2 16 0 0.5 0.5 0 0 0
+( 208 -736 -4 ) ( 224 -736 -4 ) ( 224 -736 -20 ) mtrl/wood-glossy 96 48 0 0.5 0.5 0 0 0
+( 224 -736 -20 ) ( 224 -720 -20 ) ( 208 -720 -20 ) mtrl/wood-glossy 96 0 0 0.5 0.5 0 0 0
+( 208 -720 -4 ) ( 224 -720 -4 ) ( 224 -736 -4 ) mtrl/wood-glossy 96 2 0 0.5 0.5 0 0 0
+( 224 -720 -20 ) ( 224 -720 -4 ) ( 208 -720 -4 ) mtrl/wood-glossy 96 16 0 0.5 0.5 0 0 0
+( 224 -736 -4 ) ( 224 -720 -4 ) ( 224 -720 -20 ) mtrl/wood-glossy 0 16 0 0.5 0.5 0 0 0
+}
+// brush 30
+{
+( 208 864 -20 ) ( 208 768 -20 ) ( 208 768 -36 ) mtrl/wood-glossy 0 -16 180 0.5 -0.5 0 0 0
+( 208 768 -36 ) ( 208 768 -20 ) ( 224 768 -20 ) mtrl/wood-glossy 64 -16 180 0.5 -0.5 0 0 0
+( 208 864 -36 ) ( 208 768 -36 ) ( 224 768 -36 ) mtrl/wood-glossy 64 0 180 0.5 0.5 0 0 0
+( 224 768 -20 ) ( 208 768 -20 ) ( 208 864 -20 ) mtrl/wood-glossy 64 2 180 0.5 0.5 0 0 0
+( 224 864 -20 ) ( 208 864 -20 ) ( 208 864 -36 ) mtrl/wood-glossy 64 16 180 0.5 -0.5 0 0 0
+( 224 768 -20 ) ( 224 864 -20 ) ( 224 864 -36 ) mtrl/wood-glossy -2 -16 180 0.5 -0.5 0 0 0
+}
+// brush 31
+{
+( 208 864 -4 ) ( 208 848 -4 ) ( 208 848 -20 ) mtrl/wood-glossy 0 16 180 0.5 -0.5 0 0 0
+( 208 848 -20 ) ( 208 848 -4 ) ( 224 848 -4 ) mtrl/wood-glossy 64 16 180 0.5 -0.5 0 0 0
+( 208 864 -20 ) ( 208 848 -20 ) ( 224 848 -20 ) mtrl/wood-glossy 64 0 180 0.5 0.5 0 0 0
+( 224 848 -4 ) ( 208 848 -4 ) ( 208 864 -4 ) mtrl/wood-glossy 64 2 180 0.5 0.5 0 0 0
+( 224 864 -4 ) ( 208 864 -4 ) ( 208 864 -20 ) mtrl/wood-glossy 64 48 180 0.5 -0.5 0 0 0
+( 224 848 -4 ) ( 224 864 -4 ) ( 224 864 -20 ) mtrl/wood-glossy -2 16 180 0.5 -0.5 0 0 0
+}
+// brush 32
+{
+( 208 880 20 ) ( 208 864 20 ) ( 208 864 -20 ) mtrl/wood-glossy 0 16 180 0.5 -0.5 0 0 0
+( 208 864 -20 ) ( 208 864 20 ) ( 224 864 20 ) mtrl/wood-glossy 64 16 180 0.5 -0.5 0 0 0
+( 208 880 -20 ) ( 208 864 -20 ) ( 224 864 -20 ) mtrl/wood-glossy 64 0 180 0.5 0.5 0 0 0
+( 224 864 20 ) ( 208 864 20 ) ( 208 880 20 ) mtrl/wood-glossy 64 2 180 0.5 0.5 0 0 0
+( 224 880 20 ) ( 208 880 20 ) ( 208 880 -20 ) mtrl/wood-glossy 64 48 180 0.5 -0.5 0 0 0
+( 224 864 20 ) ( 224 880 20 ) ( 224 880 -20 ) mtrl/wood-glossy -2 16 180 0.5 -0.5 0 0 0
+}
+// brush 33
+{
+( 288 864 -20 ) ( 288 768 -20 ) ( 288 768 -36 ) mtrl/wood-glossy 0 -16 180 0.5 -0.5 0 0 0
+( 288 768 -36 ) ( 288 768 -20 ) ( 304 768 -20 ) mtrl/wood-glossy 96 -16 180 0.5 -0.5 0 0 0
+( 288 864 -36 ) ( 288 768 -36 ) ( 304 768 -36 ) mtrl/wood-glossy 96 0 180 0.5 0.5 0 0 0
+( 304 768 -20 ) ( 288 768 -20 ) ( 288 864 -20 ) mtrl/wood-glossy 96 2 180 0.5 0.5 0 0 0
+( 304 864 -20 ) ( 288 864 -20 ) ( 288 864 -36 ) mtrl/wood-glossy 96 16 180 0.5 -0.5 0 0 0
+( 304 768 -20 ) ( 304 864 -20 ) ( 304 864 -36 ) mtrl/wood-glossy -2 -16 180 0.5 -0.5 0 0 0
+}
+// brush 34
+{
+( 288 864 -4 ) ( 288 848 -4 ) ( 288 848 -20 ) mtrl/wood-glossy 0 16 180 0.5 -0.5 0 0 0
+( 288 848 -20 ) ( 288 848 -4 ) ( 304 848 -4 ) mtrl/wood-glossy 96 16 180 0.5 -0.5 0 0 0
+( 288 864 -20 ) ( 288 848 -20 ) ( 304 848 -20 ) mtrl/wood-glossy 96 0 180 0.5 0.5 0 0 0
+( 304 848 -4 ) ( 288 848 -4 ) ( 288 864 -4 ) mtrl/wood-glossy 96 2 180 0.5 0.5 0 0 0
+( 304 864 -4 ) ( 288 864 -4 ) ( 288 864 -20 ) mtrl/wood-glossy 96 48 180 0.5 -0.5 0 0 0
+( 304 848 -4 ) ( 304 864 -4 ) ( 304 864 -20 ) mtrl/wood-glossy -2 16 180 0.5 -0.5 0 0 0
+}
+// brush 35
+{
+( 288 880 20 ) ( 288 864 20 ) ( 288 864 -20 ) mtrl/wood-glossy 0 16 180 0.5 -0.5 0 0 0
+( 288 864 -20 ) ( 288 864 20 ) ( 304 864 20 ) mtrl/wood-glossy 96 16 180 0.5 -0.5 0 0 0
+( 288 880 -20 ) ( 288 864 -20 ) ( 304 864 -20 ) mtrl/wood-glossy 96 0 180 0.5 0.5 0 0 0
+( 304 864 20 ) ( 288 864 20 ) ( 288 880 20 ) mtrl/wood-glossy 96 2 180 0.5 0.5 0 0 0
+( 304 880 20 ) ( 288 880 20 ) ( 288 880 -20 ) mtrl/wood-glossy 96 48 180 0.5 -0.5 0 0 0
+( 304 864 20 ) ( 304 880 20 ) ( 304 880 -20 ) mtrl/wood-glossy -2 16 180 0.5 -0.5 0 0 0
+}
+}
+// entity 1
+{
+"classname" "info_player_start"
+"origin" "256 -704 60"
+}
+// entity 2
+{
+"classname" "info_player_deathmatch"
+"origin" "256 832 60"
+}
+// entity 3
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 -304 -16"
+}
+// entity 4
+{
+"classname" "light"
+"light" "0"
+"origin" "-80 -304 -16"
+}
+// entity 5
+{
+"classname" "target_position"
+"targetname" "target_position1"
+"origin" "832 -896 256"
+}
+// entity 6
+{
+"classname" "info_player_intermission"
+"target" "target_position1"
+"origin" "1056 -1248 384"
+}
+// entity 7
+{
+"classname" "light"
+"light" "0"
+"origin" "-48 -304 -16"
+}
+// entity 8
+{
+"classname" "light"
+"light" "0"
+"origin" "-16 -304 -16"
+}
+// entity 9
+{
+"classname" "light"
+"light" "0"
+"origin" "80 -304 -16"
+}
+// entity 10
+{
+"classname" "light"
+"light" "0"
+"origin" "112 -304 -16"
+}
+// entity 11
+{
+"classname" "light"
+"light" "0"
+"origin" "48 -304 -16"
+}
+// entity 12
+{
+"classname" "light"
+"light" "0"
+"origin" "16 -304 -16"
+}
+// entity 13
+{
+"classname" "light"
+"light" "0"
+"origin" "336 -304 -16"
+}
+// entity 14
+{
+"classname" "light"
+"light" "0"
+"origin" "368 -304 -16"
+}
+// entity 15
+{
+"classname" "light"
+"light" "0"
+"origin" "304 -304 -16"
+}
+// entity 16
+{
+"classname" "light"
+"light" "0"
+"origin" "272 -304 -16"
+}
+// entity 17
+{
+"classname" "light"
+"light" "1"
+"origin" "240 -304 -16"
+}
+// entity 18
+{
+"classname" "light"
+"light" "0"
+"origin" "208 -304 -16"
+}
+// entity 19
+{
+"classname" "light"
+"light" "0"
+"origin" "176 -304 -16"
+}
+// entity 20
+{
+"classname" "light"
+"light" "0"
+"origin" "144 -304 -16"
+}
+// entity 21
+{
+"classname" "light"
+"light" "0"
+"origin" "592 -304 -16"
+}
+// entity 22
+{
+"classname" "light"
+"light" "0"
+"origin" "624 -304 -16"
+}
+// entity 23
+{
+"classname" "light"
+"light" "0"
+"origin" "560 -304 -16"
+}
+// entity 24
+{
+"classname" "light"
+"light" "0"
+"origin" "528 -304 -16"
+}
+// entity 25
+{
+"classname" "light"
+"light" "0"
+"origin" "496 -304 -16"
+}
+// entity 26
+{
+"classname" "light"
+"light" "0"
+"origin" "464 -304 -16"
+}
+// entity 27
+{
+"classname" "light"
+"light" "0"
+"origin" "432 -304 -16"
+}
+// entity 28
+{
+"classname" "light"
+"light" "0"
+"origin" "400 -304 -16"
+}
+// entity 29
+{
+"classname" "light"
+"light" "0"
+"origin" "592 -272 -16"
+}
+// entity 30
+{
+"classname" "light"
+"light" "0"
+"origin" "624 -272 -16"
+}
+// entity 31
+{
+"classname" "light"
+"light" "0"
+"origin" "560 -272 -16"
+}
+// entity 32
+{
+"classname" "light"
+"light" "0"
+"origin" "528 -272 -16"
+}
+// entity 33
+{
+"classname" "light"
+"light" "0"
+"origin" "496 -272 -16"
+}
+// entity 34
+{
+"classname" "light"
+"light" "0"
+"origin" "464 -272 -16"
+}
+// entity 35
+{
+"classname" "light"
+"light" "0"
+"origin" "432 -272 -16"
+}
+// entity 36
+{
+"classname" "light"
+"light" "0"
+"origin" "400 -272 -16"
+}
+// entity 37
+{
+"classname" "light"
+"light" "0"
+"origin" "368 -272 -16"
+}
+// entity 38
+{
+"classname" "light"
+"light" "0"
+"origin" "336 -272 -16"
+}
+// entity 39
+{
+"classname" "light"
+"light" "0"
+"origin" "304 -272 -16"
+}
+// entity 40
+{
+"classname" "light"
+"light" "0"
+"origin" "272 -272 -16"
+}
+// entity 41
+{
+"classname" "light"
+"light" "0"
+"origin" "240 -272 -16"
+}
+// entity 42
+{
+"classname" "light"
+"light" "0"
+"origin" "208 -272 -16"
+}
+// entity 43
+{
+"classname" "light"
+"light" "0"
+"origin" "176 -272 -16"
+}
+// entity 44
+{
+"classname" "light"
+"light" "0"
+"origin" "144 -272 -16"
+}
+// entity 45
+{
+"classname" "light"
+"light" "0"
+"origin" "112 -272 -16"
+}
+// entity 46
+{
+"classname" "light"
+"light" "0"
+"origin" "80 -272 -16"
+}
+// entity 47
+{
+"classname" "light"
+"light" "0"
+"origin" "48 -272 -16"
+}
+// entity 48
+{
+"classname" "light"
+"light" "0"
+"origin" "16 -272 -16"
+}
+// entity 49
+{
+"classname" "light"
+"light" "0"
+"origin" "-16 -272 -16"
+}
+// entity 50
+{
+"classname" "light"
+"light" "0"
+"origin" "-48 -272 -16"
+}
+// entity 51
+{
+"classname" "light"
+"light" "0"
+"origin" "-80 -272 -16"
+}
+// entity 52
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 -272 -16"
+}
+// entity 53
+{
+"classname" "light"
+"light" "0"
+"origin" "592 -208 -16"
+}
+// entity 54
+{
+"classname" "light"
+"light" "0"
+"origin" "624 -208 -16"
+}
+// entity 55
+{
+"classname" "light"
+"light" "0"
+"origin" "560 -208 -16"
+}
+// entity 56
+{
+"classname" "light"
+"light" "0"
+"origin" "528 -208 -16"
+}
+// entity 57
+{
+"classname" "light"
+"light" "0"
+"origin" "496 -208 -16"
+}
+// entity 58
+{
+"classname" "light"
+"light" "0"
+"origin" "464 -208 -16"
+}
+// entity 59
+{
+"classname" "light"
+"light" "0"
+"origin" "432 -208 -16"
+}
+// entity 60
+{
+"classname" "light"
+"light" "0"
+"origin" "400 -208 -16"
+}
+// entity 61
+{
+"classname" "light"
+"light" "0"
+"origin" "368 -208 -16"
+}
+// entity 62
+{
+"classname" "light"
+"light" "0"
+"origin" "336 -208 -16"
+}
+// entity 63
+{
+"classname" "light"
+"light" "0"
+"origin" "304 -208 -16"
+}
+// entity 64
+{
+"classname" "light"
+"light" "0"
+"origin" "272 -208 -16"
+}
+// entity 65
+{
+"classname" "light"
+"light" "0"
+"origin" "240 -208 -16"
+}
+// entity 66
+{
+"classname" "light"
+"light" "0"
+"origin" "208 -208 -16"
+}
+// entity 67
+{
+"classname" "light"
+"light" "0"
+"origin" "176 -208 -16"
+}
+// entity 68
+{
+"classname" "light"
+"light" "0"
+"origin" "144 -208 -16"
+}
+// entity 69
+{
+"classname" "light"
+"light" "0"
+"origin" "112 -208 -16"
+}
+// entity 70
+{
+"classname" "light"
+"light" "0"
+"origin" "80 -208 -16"
+}
+// entity 71
+{
+"classname" "light"
+"light" "0"
+"origin" "48 -208 -16"
+}
+// entity 72
+{
+"classname" "light"
+"light" "0"
+"origin" "16 -208 -16"
+}
+// entity 73
+{
+"classname" "light"
+"light" "0"
+"origin" "-16 -208 -16"
+}
+// entity 74
+{
+"classname" "light"
+"light" "0"
+"origin" "-48 -208 -16"
+}
+// entity 75
+{
+"classname" "light"
+"light" "0"
+"origin" "-80 -208 -16"
+}
+// entity 76
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 -208 -16"
+}
+// entity 77
+{
+"classname" "light"
+"light" "0"
+"origin" "624 -240 -16"
+}
+// entity 78
+{
+"classname" "light"
+"light" "0"
+"origin" "592 -240 -16"
+}
+// entity 79
+{
+"classname" "light"
+"light" "0"
+"origin" "560 -240 -16"
+}
+// entity 80
+{
+"classname" "light"
+"light" "0"
+"origin" "528 -240 -16"
+}
+// entity 81
+{
+"classname" "light"
+"light" "0"
+"origin" "496 -240 -16"
+}
+// entity 82
+{
+"classname" "light"
+"light" "0"
+"origin" "464 -240 -16"
+}
+// entity 83
+{
+"classname" "light"
+"light" "0"
+"origin" "432 -240 -16"
+}
+// entity 84
+{
+"classname" "light"
+"light" "0"
+"origin" "400 -240 -16"
+}
+// entity 85
+{
+"classname" "light"
+"light" "0"
+"origin" "368 -240 -16"
+}
+// entity 86
+{
+"classname" "light"
+"light" "0"
+"origin" "336 -240 -16"
+}
+// entity 87
+{
+"classname" "light"
+"light" "0"
+"origin" "304 -240 -16"
+}
+// entity 88
+{
+"classname" "light"
+"light" "0"
+"origin" "272 -240 -16"
+}
+// entity 89
+{
+"classname" "light"
+"light" "0"
+"origin" "240 -240 -16"
+}
+// entity 90
+{
+"classname" "light"
+"light" "0"
+"origin" "208 -240 -16"
+}
+// entity 91
+{
+"classname" "light"
+"light" "0"
+"origin" "176 -240 -16"
+}
+// entity 92
+{
+"classname" "light"
+"light" "0"
+"origin" "144 -240 -16"
+}
+// entity 93
+{
+"classname" "light"
+"light" "0"
+"origin" "112 -240 -16"
+}
+// entity 94
+{
+"classname" "light"
+"light" "0"
+"origin" "48 -240 -16"
+}
+// entity 95
+{
+"classname" "light"
+"light" "0"
+"origin" "80 -240 -16"
+}
+// entity 96
+{
+"classname" "light"
+"light" "0"
+"origin" "16 -240 -16"
+}
+// entity 97
+{
+"classname" "light"
+"light" "0"
+"origin" "-16 -240 -16"
+}
+// entity 98
+{
+"classname" "light"
+"light" "0"
+"origin" "-48 -240 -16"
+}
+// entity 99
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 -240 -16"
+}
+// entity 100
+{
+"classname" "light"
+"light" "0"
+"origin" "-80 -240 -16"
+}
+// entity 101
+{
+"classname" "light"
+"light" "0"
+"origin" "592 -144 -16"
+}
+// entity 102
+{
+"classname" "light"
+"light" "0"
+"origin" "624 -144 -16"
+}
+// entity 103
+{
+"classname" "light"
+"light" "0"
+"origin" "560 -144 -16"
+}
+// entity 104
+{
+"classname" "light"
+"light" "0"
+"origin" "528 -144 -16"
+}
+// entity 105
+{
+"classname" "light"
+"light" "0"
+"origin" "496 -144 -16"
+}
+// entity 106
+{
+"classname" "light"
+"light" "0"
+"origin" "464 -144 -16"
+}
+// entity 107
+{
+"classname" "light"
+"light" "0"
+"origin" "432 -144 -16"
+}
+// entity 108
+{
+"classname" "light"
+"light" "0"
+"origin" "400 -144 -16"
+}
+// entity 109
+{
+"classname" "light"
+"light" "0"
+"origin" "368 -144 -16"
+}
+// entity 110
+{
+"classname" "light"
+"light" "0"
+"origin" "336 -144 -16"
+}
+// entity 111
+{
+"classname" "light"
+"light" "0"
+"origin" "304 -144 -16"
+}
+// entity 112
+{
+"classname" "light"
+"light" "0"
+"origin" "272 -144 -16"
+}
+// entity 113
+{
+"classname" "light"
+"light" "0"
+"origin" "240 -144 -16"
+}
+// entity 114
+{
+"classname" "light"
+"light" "0"
+"origin" "208 -144 -16"
+}
+// entity 115
+{
+"classname" "light"
+"light" "0"
+"origin" "176 -144 -16"
+}
+// entity 116
+{
+"classname" "light"
+"light" "0"
+"origin" "144 -144 -16"
+}
+// entity 117
+{
+"classname" "light"
+"light" "0"
+"origin" "112 -144 -16"
+}
+// entity 118
+{
+"classname" "light"
+"light" "0"
+"origin" "80 -144 -16"
+}
+// entity 119
+{
+"classname" "light"
+"light" "0"
+"origin" "48 -144 -16"
+}
+// entity 120
+{
+"classname" "light"
+"light" "0"
+"origin" "16 -144 -16"
+}
+// entity 121
+{
+"classname" "light"
+"light" "0"
+"origin" "-16 -144 -16"
+}
+// entity 122
+{
+"classname" "light"
+"light" "0"
+"origin" "-48 -144 -16"
+}
+// entity 123
+{
+"classname" "light"
+"light" "0"
+"origin" "-80 -144 -16"
+}
+// entity 124
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 -144 -16"
+}
+// entity 125
+{
+"classname" "light"
+"light" "0"
+"origin" "624 -176 -16"
+}
+// entity 126
+{
+"classname" "light"
+"light" "0"
+"origin" "592 -176 -16"
+}
+// entity 127
+{
+"classname" "light"
+"light" "0"
+"origin" "560 -176 -16"
+}
+// entity 128
+{
+"classname" "light"
+"light" "0"
+"origin" "528 -176 -16"
+}
+// entity 129
+{
+"classname" "light"
+"light" "0"
+"origin" "496 -176 -16"
+}
+// entity 130
+{
+"classname" "light"
+"light" "0"
+"origin" "464 -176 -16"
+}
+// entity 131
+{
+"classname" "light"
+"light" "0"
+"origin" "432 -176 -16"
+}
+// entity 132
+{
+"classname" "light"
+"light" "0"
+"origin" "400 -176 -16"
+}
+// entity 133
+{
+"classname" "light"
+"light" "0"
+"origin" "368 -176 -16"
+}
+// entity 134
+{
+"classname" "light"
+"light" "0"
+"origin" "336 -176 -16"
+}
+// entity 135
+{
+"classname" "light"
+"light" "0"
+"origin" "304 -176 -16"
+}
+// entity 136
+{
+"classname" "light"
+"light" "0"
+"origin" "272 -176 -16"
+}
+// entity 137
+{
+"classname" "light"
+"light" "0"
+"origin" "240 -176 -16"
+}
+// entity 138
+{
+"classname" "light"
+"light" "0"
+"origin" "208 -176 -16"
+}
+// entity 139
+{
+"classname" "light"
+"light" "0"
+"origin" "176 -176 -16"
+}
+// entity 140
+{
+"classname" "light"
+"light" "0"
+"origin" "144 -176 -16"
+}
+// entity 141
+{
+"classname" "light"
+"light" "0"
+"origin" "112 -176 -16"
+}
+// entity 142
+{
+"classname" "light"
+"light" "0"
+"origin" "48 -176 -16"
+}
+// entity 143
+{
+"classname" "light"
+"light" "0"
+"origin" "80 -176 -16"
+}
+// entity 144
+{
+"classname" "light"
+"light" "0"
+"origin" "16 -176 -16"
+}
+// entity 145
+{
+"classname" "light"
+"light" "0"
+"origin" "-16 -176 -16"
+}
+// entity 146
+{
+"classname" "light"
+"light" "0"
+"origin" "-48 -176 -16"
+}
+// entity 147
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 -176 -16"
+}
+// entity 148
+{
+"classname" "light"
+"light" "0"
+"origin" "-80 -176 -16"
+}
+// entity 149
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 -208 -16"
+}
+// entity 150
+{
+"classname" "light"
+"light" "0"
+"origin" "592 -80 -16"
+}
+// entity 151
+{
+"classname" "light"
+"light" "0"
+"origin" "624 -80 -16"
+}
+// entity 152
+{
+"classname" "light"
+"light" "0"
+"origin" "560 -80 -16"
+}
+// entity 153
+{
+"classname" "light"
+"light" "0"
+"origin" "528 -80 -16"
+}
+// entity 154
+{
+"classname" "light"
+"light" "0"
+"origin" "496 -80 -16"
+}
+// entity 155
+{
+"classname" "light"
+"light" "0"
+"origin" "464 -80 -16"
+}
+// entity 156
+{
+"classname" "light"
+"light" "0"
+"origin" "432 -80 -16"
+}
+// entity 157
+{
+"classname" "light"
+"light" "0"
+"origin" "400 -80 -16"
+}
+// entity 158
+{
+"classname" "light"
+"light" "0"
+"origin" "368 -80 -16"
+}
+// entity 159
+{
+"classname" "light"
+"light" "0"
+"origin" "336 -80 -16"
+}
+// entity 160
+{
+"classname" "light"
+"light" "0"
+"origin" "304 -80 -16"
+}
+// entity 161
+{
+"classname" "light"
+"light" "0"
+"origin" "272 -80 -16"
+}
+// entity 162
+{
+"classname" "light"
+"light" "0"
+"origin" "240 -80 -16"
+}
+// entity 163
+{
+"classname" "light"
+"light" "0"
+"origin" "208 -80 -16"
+}
+// entity 164
+{
+"classname" "light"
+"light" "0"
+"origin" "176 -80 -16"
+}
+// entity 165
+{
+"classname" "light"
+"light" "0"
+"origin" "144 -80 -16"
+}
+// entity 166
+{
+"classname" "light"
+"light" "0"
+"origin" "112 -80 -16"
+}
+// entity 167
+{
+"classname" "light"
+"light" "0"
+"origin" "80 -80 -16"
+}
+// entity 168
+{
+"classname" "light"
+"light" "0"
+"origin" "48 -80 -16"
+}
+// entity 169
+{
+"classname" "light"
+"light" "0"
+"origin" "16 -80 -16"
+}
+// entity 170
+{
+"classname" "light"
+"light" "0"
+"origin" "-16 -80 -16"
+}
+// entity 171
+{
+"classname" "light"
+"light" "0"
+"origin" "-48 -80 -16"
+}
+// entity 172
+{
+"classname" "light"
+"light" "0"
+"origin" "-80 -80 -16"
+}
+// entity 173
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 -80 -16"
+}
+// entity 174
+{
+"classname" "light"
+"light" "0"
+"origin" "624 -112 -16"
+}
+// entity 175
+{
+"classname" "light"
+"light" "0"
+"origin" "592 -112 -16"
+}
+// entity 176
+{
+"classname" "light"
+"light" "0"
+"origin" "560 -112 -16"
+}
+// entity 177
+{
+"classname" "light"
+"light" "0"
+"origin" "528 -112 -16"
+}
+// entity 178
+{
+"classname" "light"
+"light" "0"
+"origin" "496 -112 -16"
+}
+// entity 179
+{
+"classname" "light"
+"light" "0"
+"origin" "464 -112 -16"
+}
+// entity 180
+{
+"classname" "light"
+"light" "0"
+"origin" "432 -112 -16"
+}
+// entity 181
+{
+"classname" "light"
+"light" "0"
+"origin" "400 -112 -16"
+}
+// entity 182
+{
+"classname" "light"
+"light" "0"
+"origin" "368 -112 -16"
+}
+// entity 183
+{
+"classname" "light"
+"light" "0"
+"origin" "336 -112 -16"
+}
+// entity 184
+{
+"classname" "light"
+"light" "0"
+"origin" "304 -112 -16"
+}
+// entity 185
+{
+"classname" "light"
+"light" "0"
+"origin" "272 -112 -16"
+}
+// entity 186
+{
+"classname" "light"
+"light" "0"
+"origin" "240 -112 -16"
+}
+// entity 187
+{
+"classname" "light"
+"light" "0"
+"origin" "208 -112 -16"
+}
+// entity 188
+{
+"classname" "light"
+"light" "0"
+"origin" "176 -112 -16"
+}
+// entity 189
+{
+"classname" "light"
+"light" "0"
+"origin" "144 -112 -16"
+}
+// entity 190
+{
+"classname" "light"
+"light" "0"
+"origin" "112 -112 -16"
+}
+// entity 191
+{
+"classname" "light"
+"light" "0"
+"origin" "48 -112 -16"
+}
+// entity 192
+{
+"classname" "light"
+"light" "0"
+"origin" "80 -112 -16"
+}
+// entity 193
+{
+"classname" "light"
+"light" "0"
+"origin" "16 -112 -16"
+}
+// entity 194
+{
+"classname" "light"
+"light" "0"
+"origin" "-16 -112 -16"
+}
+// entity 195
+{
+"classname" "light"
+"light" "0"
+"origin" "-48 -112 -16"
+}
+// entity 196
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 -112 -16"
+}
+// entity 197
+{
+"classname" "light"
+"light" "0"
+"origin" "-80 -112 -16"
+}
+// entity 198
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 -144 -16"
+}
+// entity 199
+{
+"classname" "light"
+"light" "0"
+"origin" "592 -16 -16"
+}
+// entity 200
+{
+"classname" "light"
+"light" "0"
+"origin" "624 -16 -16"
+}
+// entity 201
+{
+"classname" "light"
+"light" "0"
+"origin" "560 -16 -16"
+}
+// entity 202
+{
+"classname" "light"
+"light" "0"
+"origin" "528 -16 -16"
+}
+// entity 203
+{
+"classname" "light"
+"light" "0"
+"origin" "496 -16 -16"
+}
+// entity 204
+{
+"classname" "light"
+"light" "0"
+"origin" "464 -16 -16"
+}
+// entity 205
+{
+"classname" "light"
+"light" "0"
+"origin" "432 -16 -16"
+}
+// entity 206
+{
+"classname" "light"
+"light" "0"
+"origin" "400 -16 -16"
+}
+// entity 207
+{
+"classname" "light"
+"light" "0"
+"origin" "368 -16 -16"
+}
+// entity 208
+{
+"classname" "light"
+"light" "0"
+"origin" "336 -16 -16"
+}
+// entity 209
+{
+"classname" "light"
+"light" "0"
+"origin" "304 -16 -16"
+}
+// entity 210
+{
+"classname" "light"
+"light" "0"
+"origin" "272 -16 -16"
+}
+// entity 211
+{
+"classname" "light"
+"light" "0"
+"origin" "240 -16 -16"
+}
+// entity 212
+{
+"classname" "light"
+"light" "0"
+"origin" "208 -16 -16"
+}
+// entity 213
+{
+"classname" "light"
+"light" "0"
+"origin" "176 -16 -16"
+}
+// entity 214
+{
+"classname" "light"
+"light" "0"
+"origin" "144 -16 -16"
+}
+// entity 215
+{
+"classname" "light"
+"light" "0"
+"origin" "112 -16 -16"
+}
+// entity 216
+{
+"classname" "light"
+"light" "0"
+"origin" "80 -16 -16"
+}
+// entity 217
+{
+"classname" "light"
+"light" "0"
+"origin" "48 -16 -16"
+}
+// entity 218
+{
+"classname" "light"
+"light" "0"
+"origin" "16 -16 -16"
+}
+// entity 219
+{
+"classname" "light"
+"light" "0"
+"origin" "-16 -16 -16"
+}
+// entity 220
+{
+"classname" "light"
+"light" "0"
+"origin" "-48 -16 -16"
+}
+// entity 221
+{
+"classname" "light"
+"light" "0"
+"origin" "-80 -16 -16"
+}
+// entity 222
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 -16 -16"
+}
+// entity 223
+{
+"classname" "light"
+"light" "0"
+"origin" "624 -48 -16"
+}
+// entity 224
+{
+"classname" "light"
+"light" "0"
+"origin" "592 -48 -16"
+}
+// entity 225
+{
+"classname" "light"
+"light" "0"
+"origin" "560 -48 -16"
+}
+// entity 226
+{
+"classname" "light"
+"light" "0"
+"origin" "528 -48 -16"
+}
+// entity 227
+{
+"classname" "light"
+"light" "0"
+"origin" "496 -48 -16"
+}
+// entity 228
+{
+"classname" "light"
+"light" "0"
+"origin" "464 -48 -16"
+}
+// entity 229
+{
+"classname" "light"
+"light" "0"
+"origin" "432 -48 -16"
+}
+// entity 230
+{
+"classname" "light"
+"light" "0"
+"origin" "400 -48 -16"
+}
+// entity 231
+{
+"classname" "light"
+"light" "0"
+"origin" "368 -48 -16"
+}
+// entity 232
+{
+"classname" "light"
+"light" "0"
+"origin" "336 -48 -16"
+}
+// entity 233
+{
+"classname" "light"
+"light" "0"
+"origin" "304 -48 -16"
+}
+// entity 234
+{
+"classname" "light"
+"light" "0"
+"origin" "272 -48 -16"
+}
+// entity 235
+{
+"classname" "light"
+"light" "0"
+"origin" "240 -48 -16"
+}
+// entity 236
+{
+"classname" "light"
+"light" "0"
+"origin" "208 -48 -16"
+}
+// entity 237
+{
+"classname" "light"
+"light" "0"
+"origin" "176 -48 -16"
+}
+// entity 238
+{
+"classname" "light"
+"light" "0"
+"origin" "144 -48 -16"
+}
+// entity 239
+{
+"classname" "light"
+"light" "0"
+"origin" "112 -48 -16"
+}
+// entity 240
+{
+"classname" "light"
+"light" "0"
+"origin" "48 -48 -16"
+}
+// entity 241
+{
+"classname" "light"
+"light" "0"
+"origin" "80 -48 -16"
+}
+// entity 242
+{
+"classname" "light"
+"light" "0"
+"origin" "16 -48 -16"
+}
+// entity 243
+{
+"classname" "light"
+"light" "0"
+"origin" "-16 -48 -16"
+}
+// entity 244
+{
+"classname" "light"
+"light" "0"
+"origin" "-48 -48 -16"
+}
+// entity 245
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 -48 -16"
+}
+// entity 246
+{
+"classname" "light"
+"light" "0"
+"origin" "-80 -48 -16"
+}
+// entity 247
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 -80 -16"
+}
+// entity 248
+{
+"classname" "light"
+"light" "0"
+"origin" "592 48 -16"
+}
+// entity 249
+{
+"classname" "light"
+"light" "0"
+"origin" "624 48 -16"
+}
+// entity 250
+{
+"classname" "light"
+"light" "0"
+"origin" "560 48 -16"
+}
+// entity 251
+{
+"classname" "light"
+"light" "0"
+"origin" "528 48 -16"
+}
+// entity 252
+{
+"classname" "light"
+"light" "0"
+"origin" "496 48 -16"
+}
+// entity 253
+{
+"classname" "light"
+"light" "1"
+"origin" "464 48 -16"
+}
+// entity 254
+{
+"classname" "light"
+"light" "0"
+"origin" "432 48 -16"
+}
+// entity 255
+{
+"classname" "light"
+"light" "0"
+"origin" "400 48 -16"
+}
+// entity 256
+{
+"classname" "light"
+"light" "0"
+"origin" "368 48 -16"
+}
+// entity 257
+{
+"classname" "light"
+"light" "0"
+"origin" "336 48 -16"
+}
+// entity 258
+{
+"classname" "light"
+"light" "0"
+"origin" "304 48 -16"
+}
+// entity 259
+{
+"classname" "light"
+"light" "0"
+"origin" "272 48 -16"
+}
+// entity 260
+{
+"classname" "light"
+"light" "0"
+"origin" "240 48 -16"
+}
+// entity 261
+{
+"classname" "light"
+"light" "0"
+"origin" "208 48 -16"
+}
+// entity 262
+{
+"classname" "light"
+"light" "0"
+"origin" "176 48 -16"
+}
+// entity 263
+{
+"classname" "light"
+"light" "0"
+"origin" "144 48 -16"
+}
+// entity 264
+{
+"classname" "light"
+"light" "0"
+"origin" "112 48 -16"
+}
+// entity 265
+{
+"classname" "light"
+"light" "0"
+"origin" "80 48 -16"
+}
+// entity 266
+{
+"classname" "light"
+"light" "0"
+"origin" "48 48 -16"
+}
+// entity 267
+{
+"classname" "light"
+"light" "0"
+"origin" "16 48 -16"
+}
+// entity 268
+{
+"classname" "light"
+"light" "0"
+"origin" "-16 48 -16"
+}
+// entity 269
+{
+"classname" "light"
+"light" "0"
+"origin" "-48 48 -16"
+}
+// entity 270
+{
+"classname" "light"
+"light" "0"
+"origin" "-80 48 -16"
+}
+// entity 271
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 48 -16"
+}
+// entity 272
+{
+"classname" "light"
+"light" "0"
+"origin" "624 16 -16"
+}
+// entity 273
+{
+"classname" "light"
+"light" "0"
+"origin" "592 16 -16"
+}
+// entity 274
+{
+"classname" "light"
+"light" "0"
+"origin" "560 16 -16"
+}
+// entity 275
+{
+"classname" "light"
+"light" "0"
+"origin" "528 16 -16"
+}
+// entity 276
+{
+"classname" "light"
+"light" "0"
+"origin" "496 16 -16"
+}
+// entity 277
+{
+"classname" "light"
+"light" "0"
+"origin" "464 16 -16"
+}
+// entity 278
+{
+"classname" "light"
+"light" "0"
+"origin" "432 16 -16"
+}
+// entity 279
+{
+"classname" "light"
+"light" "0"
+"origin" "400 16 -16"
+}
+// entity 280
+{
+"classname" "light"
+"light" "0"
+"origin" "368 16 -16"
+}
+// entity 281
+{
+"classname" "light"
+"light" "0"
+"origin" "336 16 -16"
+}
+// entity 282
+{
+"classname" "light"
+"light" "0"
+"origin" "304 16 -16"
+}
+// entity 283
+{
+"classname" "light"
+"light" "0"
+"origin" "272 16 -16"
+}
+// entity 284
+{
+"classname" "light"
+"light" "0"
+"origin" "240 16 -16"
+}
+// entity 285
+{
+"classname" "light"
+"light" "0"
+"origin" "208 16 -16"
+}
+// entity 286
+{
+"classname" "light"
+"light" "0"
+"origin" "176 16 -16"
+}
+// entity 287
+{
+"classname" "light"
+"light" "0"
+"origin" "144 16 -16"
+}
+// entity 288
+{
+"classname" "light"
+"light" "0"
+"origin" "112 16 -16"
+}
+// entity 289
+{
+"classname" "light"
+"light" "0"
+"origin" "48 16 -16"
+}
+// entity 290
+{
+"classname" "light"
+"light" "0"
+"origin" "80 16 -16"
+}
+// entity 291
+{
+"classname" "light"
+"light" "0"
+"origin" "16 16 -16"
+}
+// entity 292
+{
+"classname" "light"
+"light" "0"
+"origin" "-16 16 -16"
+}
+// entity 293
+{
+"classname" "light"
+"light" "0"
+"origin" "-48 16 -16"
+}
+// entity 294
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 16 -16"
+}
+// entity 295
+{
+"classname" "light"
+"light" "0"
+"origin" "-80 16 -16"
+}
+// entity 296
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 -16 -16"
+}
+// entity 297
+{
+"classname" "light"
+"light" "0"
+"origin" "592 112 -16"
+}
+// entity 298
+{
+"classname" "light"
+"light" "0"
+"origin" "624 112 -16"
+}
+// entity 299
+{
+"classname" "light"
+"light" "0"
+"origin" "560 112 -16"
+}
+// entity 300
+{
+"classname" "light"
+"light" "0"
+"origin" "528 112 -16"
+}
+// entity 301
+{
+"classname" "light"
+"light" "0"
+"origin" "496 112 -16"
+}
+// entity 302
+{
+"classname" "light"
+"light" "0"
+"origin" "464 112 -16"
+}
+// entity 303
+{
+"classname" "light"
+"light" "0"
+"origin" "432 112 -16"
+}
+// entity 304
+{
+"classname" "light"
+"light" "0"
+"origin" "400 112 -16"
+}
+// entity 305
+{
+"classname" "light"
+"light" "0"
+"origin" "368 112 -16"
+}
+// entity 306
+{
+"classname" "light"
+"light" "0"
+"origin" "336 112 -16"
+}
+// entity 307
+{
+"classname" "light"
+"light" "0"
+"origin" "304 112 -16"
+}
+// entity 308
+{
+"classname" "light"
+"light" "0"
+"origin" "272 112 -16"
+}
+// entity 309
+{
+"classname" "light"
+"light" "0"
+"origin" "240 112 -16"
+}
+// entity 310
+{
+"classname" "light"
+"light" "0"
+"origin" "208 112 -16"
+}
+// entity 311
+{
+"classname" "light"
+"light" "0"
+"origin" "176 112 -16"
+}
+// entity 312
+{
+"classname" "light"
+"light" "0"
+"origin" "144 112 -16"
+}
+// entity 313
+{
+"classname" "light"
+"light" "0"
+"origin" "112 112 -16"
+}
+// entity 314
+{
+"classname" "light"
+"light" "0"
+"origin" "80 112 -16"
+}
+// entity 315
+{
+"classname" "light"
+"light" "0"
+"origin" "48 112 -16"
+}
+// entity 316
+{
+"classname" "light"
+"light" "0"
+"origin" "16 112 -16"
+}
+// entity 317
+{
+"classname" "light"
+"light" "0"
+"origin" "-16 112 -16"
+}
+// entity 318
+{
+"classname" "light"
+"light" "0"
+"origin" "-48 112 -16"
+}
+// entity 319
+{
+"classname" "light"
+"light" "0"
+"origin" "-80 112 -16"
+}
+// entity 320
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 112 -16"
+}
+// entity 321
+{
+"classname" "light"
+"light" "0"
+"origin" "624 80 -16"
+}
+// entity 322
+{
+"classname" "light"
+"light" "0"
+"origin" "592 80 -16"
+}
+// entity 323
+{
+"classname" "light"
+"light" "0"
+"origin" "560 80 -16"
+}
+// entity 324
+{
+"classname" "light"
+"light" "0"
+"origin" "528 80 -16"
+}
+// entity 325
+{
+"classname" "light"
+"light" "0"
+"origin" "496 80 -16"
+}
+// entity 326
+{
+"classname" "light"
+"light" "0"
+"origin" "464 80 -16"
+}
+// entity 327
+{
+"classname" "light"
+"light" "0"
+"origin" "432 80 -16"
+}
+// entity 328
+{
+"classname" "light"
+"light" "0"
+"origin" "400 80 -16"
+}
+// entity 329
+{
+"classname" "light"
+"light" "0"
+"origin" "368 80 -16"
+}
+// entity 330
+{
+"classname" "light"
+"light" "0"
+"origin" "336 80 -16"
+}
+// entity 331
+{
+"classname" "light"
+"light" "0"
+"origin" "304 80 -16"
+}
+// entity 332
+{
+"classname" "light"
+"light" "0"
+"origin" "272 80 -16"
+}
+// entity 333
+{
+"classname" "light"
+"light" "0"
+"origin" "240 80 -16"
+}
+// entity 334
+{
+"classname" "light"
+"light" "0"
+"origin" "208 80 -16"
+}
+// entity 335
+{
+"classname" "light"
+"light" "0"
+"origin" "176 80 -16"
+}
+// entity 336
+{
+"classname" "light"
+"light" "0"
+"origin" "144 80 -16"
+}
+// entity 337
+{
+"classname" "light"
+"light" "0"
+"origin" "112 80 -16"
+}
+// entity 338
+{
+"classname" "light"
+"light" "0"
+"origin" "48 80 -16"
+}
+// entity 339
+{
+"classname" "light"
+"light" "0"
+"origin" "80 80 -16"
+}
+// entity 340
+{
+"classname" "light"
+"light" "0"
+"origin" "16 80 -16"
+}
+// entity 341
+{
+"classname" "light"
+"light" "0"
+"origin" "-16 80 -16"
+}
+// entity 342
+{
+"classname" "light"
+"light" "0"
+"origin" "-48 80 -16"
+}
+// entity 343
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 80 -16"
+}
+// entity 344
+{
+"classname" "light"
+"light" "0"
+"origin" "-80 80 -16"
+}
+// entity 345
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 48 -16"
+}
+// entity 346
+{
+"classname" "light"
+"light" "0"
+"origin" "592 176 -16"
+}
+// entity 347
+{
+"classname" "light"
+"light" "0"
+"origin" "624 176 -16"
+}
+// entity 348
+{
+"classname" "light"
+"light" "0"
+"origin" "560 176 -16"
+}
+// entity 349
+{
+"classname" "light"
+"light" "0"
+"origin" "528 176 -16"
+}
+// entity 350
+{
+"classname" "light"
+"light" "0"
+"origin" "496 176 -16"
+}
+// entity 351
+{
+"classname" "light"
+"light" "0"
+"origin" "464 176 -16"
+}
+// entity 352
+{
+"classname" "light"
+"light" "0"
+"origin" "432 176 -16"
+}
+// entity 353
+{
+"classname" "light"
+"light" "0"
+"origin" "400 176 -16"
+}
+// entity 354
+{
+"classname" "light"
+"light" "0"
+"origin" "368 176 -16"
+}
+// entity 355
+{
+"classname" "light"
+"light" "0"
+"origin" "336 176 -16"
+}
+// entity 356
+{
+"classname" "light"
+"light" "0"
+"origin" "304 176 -16"
+}
+// entity 357
+{
+"classname" "light"
+"light" "0"
+"origin" "272 176 -16"
+}
+// entity 358
+{
+"classname" "light"
+"light" "0"
+"origin" "240 176 -16"
+}
+// entity 359
+{
+"classname" "light"
+"light" "0"
+"origin" "208 176 -16"
+}
+// entity 360
+{
+"classname" "light"
+"light" "0"
+"origin" "176 176 -16"
+}
+// entity 361
+{
+"classname" "light"
+"light" "0"
+"origin" "144 176 -16"
+}
+// entity 362
+{
+"classname" "light"
+"light" "0"
+"origin" "112 176 -16"
+}
+// entity 363
+{
+"classname" "light"
+"light" "0"
+"origin" "80 176 -16"
+}
+// entity 364
+{
+"classname" "light"
+"light" "0"
+"origin" "48 176 -16"
+}
+// entity 365
+{
+"classname" "light"
+"light" "0"
+"origin" "16 176 -16"
+}
+// entity 366
+{
+"classname" "light"
+"light" "0"
+"origin" "-16 176 -16"
+}
+// entity 367
+{
+"classname" "light"
+"light" "0"
+"origin" "-48 176 -16"
+}
+// entity 368
+{
+"classname" "light"
+"light" "0"
+"origin" "-80 176 -16"
+}
+// entity 369
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 176 -16"
+}
+// entity 370
+{
+"classname" "light"
+"light" "0"
+"origin" "624 144 -16"
+}
+// entity 371
+{
+"classname" "light"
+"light" "0"
+"origin" "592 144 -16"
+}
+// entity 372
+{
+"classname" "light"
+"light" "0"
+"origin" "560 144 -16"
+}
+// entity 373
+{
+"classname" "light"
+"light" "0"
+"origin" "528 144 -16"
+}
+// entity 374
+{
+"classname" "light"
+"light" "0"
+"origin" "496 144 -16"
+}
+// entity 375
+{
+"classname" "light"
+"light" "0"
+"origin" "464 144 -16"
+}
+// entity 376
+{
+"classname" "light"
+"light" "0"
+"origin" "432 144 -16"
+}
+// entity 377
+{
+"classname" "light"
+"light" "0"
+"origin" "400 144 -16"
+}
+// entity 378
+{
+"classname" "light"
+"light" "0"
+"origin" "368 144 -16"
+}
+// entity 379
+{
+"classname" "light"
+"light" "0"
+"origin" "336 144 -16"
+}
+// entity 380
+{
+"classname" "light"
+"light" "0"
+"origin" "304 144 -16"
+}
+// entity 381
+{
+"classname" "light"
+"light" "0"
+"origin" "272 144 -16"
+}
+// entity 382
+{
+"classname" "light"
+"light" "0"
+"origin" "240 144 -16"
+}
+// entity 383
+{
+"classname" "light"
+"light" "0"
+"origin" "208 144 -16"
+}
+// entity 384
+{
+"classname" "light"
+"light" "0"
+"origin" "176 144 -16"
+}
+// entity 385
+{
+"classname" "light"
+"light" "0"
+"origin" "144 144 -16"
+}
+// entity 386
+{
+"classname" "light"
+"light" "0"
+"origin" "112 144 -16"
+}
+// entity 387
+{
+"classname" "light"
+"light" "0"
+"origin" "48 144 -16"
+}
+// entity 388
+{
+"classname" "light"
+"light" "0"
+"origin" "80 144 -16"
+}
+// entity 389
+{
+"classname" "light"
+"light" "0"
+"origin" "16 144 -16"
+}
+// entity 390
+{
+"classname" "light"
+"light" "0"
+"origin" "-16 144 -16"
+}
+// entity 391
+{
+"classname" "light"
+"light" "0"
+"origin" "-48 144 -16"
+}
+// entity 392
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 144 -16"
+}
+// entity 393
+{
+"classname" "light"
+"light" "0"
+"origin" "-80 144 -16"
+}
+// entity 394
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 112 -16"
+}
+// entity 395
+{
+"classname" "light"
+"light" "0"
+"origin" "592 240 -16"
+}
+// entity 396
+{
+"classname" "light"
+"light" "0"
+"origin" "624 240 -16"
+}
+// entity 397
+{
+"classname" "light"
+"light" "0"
+"origin" "560 240 -16"
+}
+// entity 398
+{
+"classname" "light"
+"light" "0"
+"origin" "528 240 -16"
+}
+// entity 399
+{
+"classname" "light"
+"light" "0"
+"origin" "496 240 -16"
+}
+// entity 400
+{
+"classname" "light"
+"light" "0"
+"origin" "464 240 -16"
+}
+// entity 401
+{
+"classname" "light"
+"light" "0"
+"origin" "432 240 -16"
+}
+// entity 402
+{
+"classname" "light"
+"light" "0"
+"origin" "400 240 -16"
+}
+// entity 403
+{
+"classname" "light"
+"light" "0"
+"origin" "368 240 -16"
+}
+// entity 404
+{
+"classname" "light"
+"light" "0"
+"origin" "336 240 -16"
+}
+// entity 405
+{
+"classname" "light"
+"light" "0"
+"origin" "304 240 -16"
+}
+// entity 406
+{
+"classname" "light"
+"light" "0"
+"origin" "272 240 -16"
+}
+// entity 407
+{
+"classname" "light"
+"light" "0"
+"origin" "240 240 -16"
+}
+// entity 408
+{
+"classname" "light"
+"light" "0"
+"origin" "208 240 -16"
+}
+// entity 409
+{
+"classname" "light"
+"light" "0"
+"origin" "176 240 -16"
+}
+// entity 410
+{
+"classname" "light"
+"light" "0"
+"origin" "144 240 -16"
+}
+// entity 411
+{
+"classname" "light"
+"light" "0"
+"origin" "112 240 -16"
+}
+// entity 412
+{
+"classname" "light"
+"light" "0"
+"origin" "80 240 -16"
+}
+// entity 413
+{
+"classname" "light"
+"light" "0"
+"origin" "48 240 -16"
+}
+// entity 414
+{
+"classname" "light"
+"light" "0"
+"origin" "16 240 -16"
+}
+// entity 415
+{
+"classname" "light"
+"light" "0"
+"origin" "-16 240 -16"
+}
+// entity 416
+{
+"classname" "light"
+"light" "0"
+"origin" "-48 240 -16"
+}
+// entity 417
+{
+"classname" "light"
+"light" "0"
+"origin" "-80 240 -16"
+}
+// entity 418
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 240 -16"
+}
+// entity 419
+{
+"classname" "light"
+"light" "0"
+"origin" "624 208 -16"
+}
+// entity 420
+{
+"classname" "light"
+"light" "0"
+"origin" "592 208 -16"
+}
+// entity 421
+{
+"classname" "light"
+"light" "1"
+"origin" "560 208 -16"
+}
+// entity 422
+{
+"classname" "light"
+"light" "0"
+"origin" "528 208 -16"
+}
+// entity 423
+{
+"classname" "light"
+"light" "0"
+"origin" "496 208 -16"
+}
+// entity 424
+{
+"classname" "light"
+"light" "0"
+"origin" "464 208 -16"
+}
+// entity 425
+{
+"classname" "light"
+"light" "0"
+"origin" "432 208 -16"
+}
+// entity 426
+{
+"classname" "light"
+"light" "0"
+"origin" "400 208 -16"
+}
+// entity 427
+{
+"classname" "light"
+"light" "0"
+"origin" "368 208 -16"
+}
+// entity 428
+{
+"classname" "light"
+"light" "0"
+"origin" "336 208 -16"
+}
+// entity 429
+{
+"classname" "light"
+"light" "0"
+"origin" "304 208 -16"
+}
+// entity 430
+{
+"classname" "light"
+"light" "0"
+"origin" "272 208 -16"
+}
+// entity 431
+{
+"classname" "light"
+"light" "0"
+"origin" "240 208 -16"
+}
+// entity 432
+{
+"classname" "light"
+"light" "0"
+"origin" "208 208 -16"
+}
+// entity 433
+{
+"classname" "light"
+"light" "0"
+"origin" "176 208 -16"
+}
+// entity 434
+{
+"classname" "light"
+"light" "0"
+"origin" "144 208 -16"
+}
+// entity 435
+{
+"classname" "light"
+"light" "0"
+"origin" "112 208 -16"
+}
+// entity 436
+{
+"classname" "light"
+"light" "0"
+"origin" "48 208 -16"
+}
+// entity 437
+{
+"classname" "light"
+"light" "0"
+"origin" "80 208 -16"
+}
+// entity 438
+{
+"classname" "light"
+"light" "0"
+"origin" "16 208 -16"
+}
+// entity 439
+{
+"classname" "light"
+"light" "0"
+"origin" "-16 208 -16"
+}
+// entity 440
+{
+"classname" "light"
+"light" "0"
+"origin" "-48 208 -16"
+}
+// entity 441
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 208 -16"
+}
+// entity 442
+{
+"classname" "light"
+"light" "0"
+"origin" "-80 208 -16"
+}
+// entity 443
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 176 -16"
+}
+// entity 444
+{
+"classname" "light"
+"light" "0"
+"origin" "592 304 -16"
+}
+// entity 445
+{
+"classname" "light"
+"light" "0"
+"origin" "624 304 -16"
+}
+// entity 446
+{
+"classname" "light"
+"light" "0"
+"origin" "560 304 -16"
+}
+// entity 447
+{
+"classname" "light"
+"light" "0"
+"origin" "528 304 -16"
+}
+// entity 448
+{
+"classname" "light"
+"light" "0"
+"origin" "496 304 -16"
+}
+// entity 449
+{
+"classname" "light"
+"light" "0"
+"origin" "464 304 -16"
+}
+// entity 450
+{
+"classname" "light"
+"light" "0"
+"origin" "432 304 -16"
+}
+// entity 451
+{
+"classname" "light"
+"light" "0"
+"origin" "400 304 -16"
+}
+// entity 452
+{
+"classname" "light"
+"light" "0"
+"origin" "368 304 -16"
+}
+// entity 453
+{
+"classname" "light"
+"light" "0"
+"origin" "336 304 -16"
+}
+// entity 454
+{
+"classname" "light"
+"light" "0"
+"origin" "304 304 -16"
+}
+// entity 455
+{
+"classname" "light"
+"light" "0"
+"origin" "272 304 -16"
+}
+// entity 456
+{
+"classname" "light"
+"light" "0"
+"origin" "240 304 -16"
+}
+// entity 457
+{
+"classname" "light"
+"light" "0"
+"origin" "208 304 -16"
+}
+// entity 458
+{
+"classname" "light"
+"light" "0"
+"origin" "176 304 -16"
+}
+// entity 459
+{
+"classname" "light"
+"light" "0"
+"origin" "144 304 -16"
+}
+// entity 460
+{
+"classname" "light"
+"light" "0"
+"origin" "112 304 -16"
+}
+// entity 461
+{
+"classname" "light"
+"light" "0"
+"origin" "80 304 -16"
+}
+// entity 462
+{
+"classname" "light"
+"light" "0"
+"origin" "48 304 -16"
+}
+// entity 463
+{
+"classname" "light"
+"light" "0"
+"origin" "16 304 -16"
+}
+// entity 464
+{
+"classname" "light"
+"light" "0"
+"origin" "-16 304 -16"
+}
+// entity 465
+{
+"classname" "light"
+"light" "0"
+"origin" "-48 304 -16"
+}
+// entity 466
+{
+"classname" "light"
+"light" "0"
+"origin" "-80 304 -16"
+}
+// entity 467
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 304 -16"
+}
+// entity 468
+{
+"classname" "light"
+"light" "0"
+"origin" "624 272 -16"
+}
+// entity 469
+{
+"classname" "light"
+"light" "0"
+"origin" "592 272 -16"
+}
+// entity 470
+{
+"classname" "light"
+"light" "0"
+"origin" "560 272 -16"
+}
+// entity 471
+{
+"classname" "light"
+"light" "0"
+"origin" "528 272 -16"
+}
+// entity 472
+{
+"classname" "light"
+"light" "0"
+"origin" "496 272 -16"
+}
+// entity 473
+{
+"classname" "light"
+"light" "0"
+"origin" "464 272 -16"
+}
+// entity 474
+{
+"classname" "light"
+"light" "0"
+"origin" "432 272 -16"
+}
+// entity 475
+{
+"classname" "light"
+"light" "0"
+"origin" "400 272 -16"
+}
+// entity 476
+{
+"classname" "light"
+"light" "0"
+"origin" "368 272 -16"
+}
+// entity 477
+{
+"classname" "light"
+"light" "0"
+"origin" "336 272 -16"
+}
+// entity 478
+{
+"classname" "light"
+"light" "0"
+"origin" "304 272 -16"
+}
+// entity 479
+{
+"classname" "light"
+"light" "0"
+"origin" "272 272 -16"
+}
+// entity 480
+{
+"classname" "light"
+"light" "0"
+"origin" "240 272 -16"
+}
+// entity 481
+{
+"classname" "light"
+"light" "0"
+"origin" "208 272 -16"
+}
+// entity 482
+{
+"classname" "light"
+"light" "0"
+"origin" "176 272 -16"
+}
+// entity 483
+{
+"classname" "light"
+"light" "0"
+"origin" "144 272 -16"
+}
+// entity 484
+{
+"classname" "light"
+"light" "0"
+"origin" "112 272 -16"
+}
+// entity 485
+{
+"classname" "light"
+"light" "0"
+"origin" "48 272 -16"
+}
+// entity 486
+{
+"classname" "light"
+"light" "0"
+"origin" "80 272 -16"
+}
+// entity 487
+{
+"classname" "light"
+"light" "0"
+"origin" "16 272 -16"
+}
+// entity 488
+{
+"classname" "light"
+"light" "0"
+"origin" "-16 272 -16"
+}
+// entity 489
+{
+"classname" "light"
+"light" "0"
+"origin" "-48 272 -16"
+}
+// entity 490
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 272 -16"
+}
+// entity 491
+{
+"classname" "light"
+"light" "0"
+"origin" "-80 272 -16"
+}
+// entity 492
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 240 -16"
+}
+// entity 493
+{
+"classname" "light"
+"light" "0"
+"origin" "592 368 -16"
+}
+// entity 494
+{
+"classname" "light"
+"light" "0"
+"origin" "624 368 -16"
+}
+// entity 495
+{
+"classname" "light"
+"light" "0"
+"origin" "560 368 -16"
+}
+// entity 496
+{
+"classname" "light"
+"light" "0"
+"origin" "528 368 -16"
+}
+// entity 497
+{
+"classname" "light"
+"light" "0"
+"origin" "496 368 -16"
+}
+// entity 498
+{
+"classname" "light"
+"light" "0"
+"origin" "464 368 -16"
+}
+// entity 499
+{
+"classname" "light"
+"light" "0"
+"origin" "432 368 -16"
+}
+// entity 500
+{
+"classname" "light"
+"light" "0"
+"origin" "400 368 -16"
+}
+// entity 501
+{
+"classname" "light"
+"light" "0"
+"origin" "368 368 -16"
+}
+// entity 502
+{
+"classname" "light"
+"light" "0"
+"origin" "336 368 -16"
+}
+// entity 503
+{
+"classname" "light"
+"light" "0"
+"origin" "304 368 -16"
+}
+// entity 504
+{
+"classname" "light"
+"light" "0"
+"origin" "272 368 -16"
+}
+// entity 505
+{
+"classname" "light"
+"light" "0"
+"origin" "240 368 -16"
+}
+// entity 506
+{
+"classname" "light"
+"light" "0"
+"origin" "208 368 -16"
+}
+// entity 507
+{
+"classname" "light"
+"light" "0"
+"origin" "176 368 -16"
+}
+// entity 508
+{
+"classname" "light"
+"light" "1"
+"origin" "144 368 -16"
+}
+// entity 509
+{
+"classname" "light"
+"light" "0"
+"origin" "112 368 -16"
+}
+// entity 510
+{
+"classname" "light"
+"light" "0"
+"origin" "80 368 -16"
+}
+// entity 511
+{
+"classname" "light"
+"light" "0"
+"origin" "48 368 -16"
+}
+// entity 512
+{
+"classname" "light"
+"light" "0"
+"origin" "16 368 -16"
+}
+// entity 513
+{
+"classname" "light"
+"light" "0"
+"origin" "-16 368 -16"
+}
+// entity 514
+{
+"classname" "light"
+"light" "0"
+"origin" "-48 368 -16"
+}
+// entity 515
+{
+"classname" "light"
+"light" "0"
+"origin" "-80 368 -16"
+}
+// entity 516
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 368 -16"
+}
+// entity 517
+{
+"classname" "light"
+"light" "0"
+"origin" "624 336 -16"
+}
+// entity 518
+{
+"classname" "light"
+"light" "0"
+"origin" "592 336 -16"
+}
+// entity 519
+{
+"classname" "light"
+"light" "0"
+"origin" "560 336 -16"
+}
+// entity 520
+{
+"classname" "light"
+"light" "0"
+"origin" "528 336 -16"
+}
+// entity 521
+{
+"classname" "light"
+"light" "0"
+"origin" "496 336 -16"
+}
+// entity 522
+{
+"classname" "light"
+"light" "0"
+"origin" "464 336 -16"
+}
+// entity 523
+{
+"classname" "light"
+"light" "0"
+"origin" "432 336 -16"
+}
+// entity 524
+{
+"classname" "light"
+"light" "0"
+"origin" "400 336 -16"
+}
+// entity 525
+{
+"classname" "light"
+"light" "0"
+"origin" "368 336 -16"
+}
+// entity 526
+{
+"classname" "light"
+"light" "0"
+"origin" "336 336 -16"
+}
+// entity 527
+{
+"classname" "light"
+"light" "0"
+"origin" "304 336 -16"
+}
+// entity 528
+{
+"classname" "light"
+"light" "0"
+"origin" "272 336 -16"
+}
+// entity 529
+{
+"classname" "light"
+"light" "0"
+"origin" "240 336 -16"
+}
+// entity 530
+{
+"classname" "light"
+"light" "0"
+"origin" "208 336 -16"
+}
+// entity 531
+{
+"classname" "light"
+"light" "0"
+"origin" "176 336 -16"
+}
+// entity 532
+{
+"classname" "light"
+"light" "0"
+"origin" "144 336 -16"
+}
+// entity 533
+{
+"classname" "light"
+"light" "0"
+"origin" "112 336 -16"
+}
+// entity 534
+{
+"classname" "light"
+"light" "0"
+"origin" "48 336 -16"
+}
+// entity 535
+{
+"classname" "light"
+"light" "0"
+"origin" "80 336 -16"
+}
+// entity 536
+{
+"classname" "light"
+"light" "0"
+"origin" "16 336 -16"
+}
+// entity 537
+{
+"classname" "light"
+"light" "0"
+"origin" "-16 336 -16"
+}
+// entity 538
+{
+"classname" "light"
+"light" "0"
+"origin" "-48 336 -16"
+}
+// entity 539
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 336 -16"
+}
+// entity 540
+{
+"classname" "light"
+"light" "0"
+"origin" "-80 336 -16"
+}
+// entity 541
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 304 -16"
+}
+// entity 542
+{
+"classname" "light"
+"light" "0"
+"origin" "592 432 -16"
+}
+// entity 543
+{
+"classname" "light"
+"light" "0"
+"origin" "624 432 -16"
+}
+// entity 544
+{
+"classname" "light"
+"light" "0"
+"origin" "560 432 -16"
+}
+// entity 545
+{
+"classname" "light"
+"light" "0"
+"origin" "528 432 -16"
+}
+// entity 546
+{
+"classname" "light"
+"light" "0"
+"origin" "496 432 -16"
+}
+// entity 547
+{
+"classname" "light"
+"light" "0"
+"origin" "464 432 -16"
+}
+// entity 548
+{
+"classname" "light"
+"light" "0"
+"origin" "432 432 -16"
+}
+// entity 549
+{
+"classname" "light"
+"light" "0"
+"origin" "400 432 -16"
+}
+// entity 550
+{
+"classname" "light"
+"light" "0"
+"origin" "368 432 -16"
+}
+// entity 551
+{
+"classname" "light"
+"light" "0"
+"origin" "336 432 -16"
+}
+// entity 552
+{
+"classname" "light"
+"light" "0"
+"origin" "304 432 -16"
+}
+// entity 553
+{
+"classname" "light"
+"light" "0"
+"origin" "272 432 -16"
+}
+// entity 554
+{
+"classname" "light"
+"light" "0"
+"origin" "240 432 -16"
+}
+// entity 555
+{
+"classname" "light"
+"light" "0"
+"origin" "208 432 -16"
+}
+// entity 556
+{
+"classname" "light"
+"light" "0"
+"origin" "176 432 -16"
+}
+// entity 557
+{
+"classname" "light"
+"light" "0"
+"origin" "144 432 -16"
+}
+// entity 558
+{
+"classname" "light"
+"light" "0"
+"origin" "112 432 -16"
+}
+// entity 559
+{
+"classname" "light"
+"light" "0"
+"origin" "80 432 -16"
+}
+// entity 560
+{
+"classname" "light"
+"light" "0"
+"origin" "48 432 -16"
+}
+// entity 561
+{
+"classname" "light"
+"light" "0"
+"origin" "16 432 -16"
+}
+// entity 562
+{
+"classname" "light"
+"light" "0"
+"origin" "-16 432 -16"
+}
+// entity 563
+{
+"classname" "light"
+"light" "0"
+"origin" "-48 432 -16"
+}
+// entity 564
+{
+"classname" "light"
+"light" "0"
+"origin" "-80 432 -16"
+}
+// entity 565
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 432 -16"
+}
+// entity 566
+{
+"classname" "light"
+"light" "0"
+"origin" "624 400 -16"
+}
+// entity 567
+{
+"classname" "light"
+"light" "0"
+"origin" "592 400 -16"
+}
+// entity 568
+{
+"classname" "light"
+"light" "0"
+"origin" "560 400 -16"
+}
+// entity 569
+{
+"classname" "light"
+"light" "0"
+"origin" "528 400 -16"
+}
+// entity 570
+{
+"classname" "light"
+"light" "0"
+"origin" "496 400 -16"
+}
+// entity 571
+{
+"classname" "light"
+"light" "0"
+"origin" "464 400 -16"
+}
+// entity 572
+{
+"classname" "light"
+"light" "0"
+"origin" "432 400 -16"
+}
+// entity 573
+{
+"classname" "light"
+"light" "0"
+"origin" "400 400 -16"
+}
+// entity 574
+{
+"classname" "light"
+"light" "0"
+"origin" "368 400 -16"
+}
+// entity 575
+{
+"classname" "light"
+"light" "0"
+"origin" "336 400 -16"
+}
+// entity 576
+{
+"classname" "light"
+"light" "0"
+"origin" "304 400 -16"
+}
+// entity 577
+{
+"classname" "light"
+"light" "0"
+"origin" "272 400 -16"
+}
+// entity 578
+{
+"classname" "light"
+"light" "0"
+"origin" "240 400 -16"
+}
+// entity 579
+{
+"classname" "light"
+"light" "0"
+"origin" "208 400 -16"
+}
+// entity 580
+{
+"classname" "light"
+"light" "0"
+"origin" "176 400 -16"
+}
+// entity 581
+{
+"classname" "light"
+"light" "0"
+"origin" "144 400 -16"
+}
+// entity 582
+{
+"classname" "light"
+"light" "0"
+"origin" "112 400 -16"
+}
+// entity 583
+{
+"classname" "light"
+"light" "0"
+"origin" "48 400 -16"
+}
+// entity 584
+{
+"classname" "light"
+"light" "0"
+"origin" "80 400 -16"
+}
+// entity 585
+{
+"classname" "light"
+"light" "0"
+"origin" "16 400 -16"
+}
+// entity 586
+{
+"classname" "light"
+"light" "0"
+"origin" "-16 400 -16"
+}
+// entity 587
+{
+"classname" "light"
+"light" "0"
+"origin" "-48 400 -16"
+}
+// entity 588
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 400 -16"
+}
+// entity 589
+{
+"classname" "light"
+"light" "0"
+"origin" "-80 400 -16"
+}
+// entity 590
+{
+"classname" "light"
+"light" "0"
+"origin" "-112 368 -16"
+}
