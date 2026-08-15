@@ -1,0 +1,13 @@
+Unusual Levels (Alpha)
+Difficulty: Insane\\A small set full of experimental stuff.\Author: DepresseDreamer\
+unusual-a
+shot-unusual-a/lilypads-v1-0.jpg
+42400 62100 81500  707 677 647
+map-unusual-a/lilypads-v1-0.sol
+map-unusual-a/coin-maze-v1-0.sol
+map-unusual-a/checkered-floor-v1-0.sol
+map-unusual-a/edge-balance-v1-0.sol
+map-unusual-a/maze-depdream-remix-v1-0.sol
+map-unusual-a/collage-v1-0.sol
+map-unusual-a/ocean-depdream-remix-v1-0.sol
+map-unusual-a/parkour-course-v1-0.sol
