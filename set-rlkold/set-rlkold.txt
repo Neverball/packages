@@ -1,0 +1,30 @@
+Rlk Levels (Neverball 1.0)
+Levels taken from the first full release of Neverball.\\Author: Robert Kooima\\ Ported by: MSB
+rlk
+shot-rlkold/01_easy.jpg
+
+map-rlkold/01_easy.sol
+map-rlkold/02_coin.sol
+map-rlkold/03_slow.sol
+map-rlkold/04_fence.sol
+map-rlkold/05_fall.sol
+map-rlkold/06_move.sol
+map-rlkold/07_waka.sol
+map-rlkold/08_curve.sol
+map-rlkold/09_maze.sol
+map-rlkold/10_spiral.sol
+map-rlkold/11_ramp.sol
+map-rlkold/12_goal.sol
+map-rlkold/13_pyramid.sol
+map-rlkold/14_quads.sol
+map-rlkold/15_frog.sol
+map-rlkold/16_angle.sol 
+map-rlkold/17_spread.sol
+map-rlkold/18_four.sol 
+map-rlkold/19_hump.sol
+map-rlkold/20_movers.sol  
+map-rlkold/21_poke.sol  
+map-rlkold/22_ring.sol  
+map-rlkold/23_tele.sol  
+map-rlkold/24_marble.sol  
+map-rlkold/00_title.sol 
