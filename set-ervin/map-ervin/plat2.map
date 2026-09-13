@@ -1,0 +1,834 @@
+
+// entity 0
+{
+"classname" "worldspawn"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+// brush 0
+{
+( -192 128 8 ) ( -192 -128 8 ) ( -448 128 8 ) mtrl/turf-green 170.6666259766 192 0 0.3000000119 0.400000006 0 0 0
+( -192 384 8 ) ( -448 384 8 ) ( -192 384 0 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( -128 136 8 ) ( -128 136 0 ) ( -128 -120 8 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( -448 -128 -8 ) ( -192 -128 -8 ) ( -448 128 -8 ) mtrl/edge-green-check 170.6666259766 192 0 0.3000000119 0.400000006 0 0 0
+( -448 -128 0 ) ( -448 -128 8 ) ( -192 -128 0 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( -512 -128 0 ) ( -512 128 0 ) ( -512 -128 8 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+}
+// brush 1
+{
+( -192 384 8 ) ( -192 128 8 ) ( -448 384 8 ) mtrl/arrow-green-light 192 128 0 1 1 0 0 0
+( -192 384 8 ) ( -448 384 8 ) ( -192 384 -8 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( -192 384 8 ) ( -192 384 -8 ) ( -192 128 8 ) mtrl/arrow-green-light 128 128 0 1 0.0625 0 0 0
+( -448 128 -8 ) ( -192 128 -8 ) ( -448 384 -8 ) mtrl/arrow-green-light 192 128 0 1 1 0 0 0
+( -448 128 -8 ) ( -448 128 8 ) ( -192 128 -8 ) mtrl/arrow-green-light 192 128 0 1 0.0625 0 0 0
+( -448 128 -8 ) ( -448 384 -8 ) ( -448 128 8 ) mtrl/arrow-green-light 128 128 0 1 0.0625 0 0 0
+}
+// brush 2
+{
+( -128 1024 8 ) ( -128 512 8 ) ( -512 1024 8 ) mtrl/turf-green 170.6666259766 0 0 0.3000000119 0.400000006 0 0 0
+( -128 1024 8 ) ( -512 1024 8 ) ( -128 1024 -8 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( -128 1024 8 ) ( -128 1024 -8 ) ( -128 512 8 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( -512 512 -8 ) ( -128 512 -8 ) ( -512 1024 -8 ) mtrl/edge-green-check 170.6667480469 0 0 0.2999999821 0.400000006 0 0 0
+( -512 512 -8 ) ( -512 512 8 ) ( -128 512 -8 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( -512 512 -8 ) ( -512 1024 -8 ) ( -512 512 8 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+}
+// brush 3
+{
+( -192 768 8 ) ( -192 512 8 ) ( -448 768 8 ) mtrl/arrow-green-light 64.0000152588 255.9999389648 180 1.0000001192 1 0 0 0
+( -192 768 8 ) ( -448 768 8 ) ( -192 768 -8 ) mtrl/arrow-green-light 63.9999694824 128 180 1.0000001192 0.0624999851 0 0 0
+( -192 768 8 ) ( -192 768 -8 ) ( -192 512 8 ) mtrl/arrow-green-light 255.9998779297 128 180 1.0000001192 0.0624999851 0 0 0
+( -448 512 -8 ) ( -192 512 -8 ) ( -448 768 -8 ) mtrl/arrow-green-light 64.0000152588 255.9999389648 180 1.0000001192 1 0 0 0
+( -448 512 -8 ) ( -448 512 8 ) ( -192 512 -8 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( -448 512 -8 ) ( -448 768 -8 ) ( -448 512 8 ) mtrl/arrow-green-light 255.9999389648 128 180 1.0000001192 0.0624999851 0 0 0
+}
+// brush 4
+{
+( -256 1024 8 ) ( -256 896 8 ) ( -384 1024 8 ) mtrl/goal 0 0 0 0.5 0.5 0 0 0
+( -256 1024 8 ) ( -384 1024 8 ) ( -256 1024 -8 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( -256 1024 8 ) ( -256 1024 -8 ) ( -256 896 8 ) mtrl/goal 0 0 0 0.5 0.5 0 0 0
+( -384 896 -8 ) ( -256 896 -8 ) ( -384 1024 -8 ) mtrl/goal 0 0 0 0.5 0.5 0 0 0
+( -384 896 -8 ) ( -384 896 8 ) ( -256 896 -8 ) mtrl/goal 0 0 0 0.5 0.5 0 0 0
+( -384 896 -8 ) ( -384 1024 -8 ) ( -384 896 8 ) mtrl/goal 0 0 0 0.5 0.5 0 0 0
+}
+}
+// entity 1
+{
+"classname" "info_player_start"
+"origin" "-320 0 32"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 2
+{
+"classname" "func_train"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"target" "t1"
+"speed" "2"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+// brush 0
+{
+( -256 440 8 ) ( -256 384 8 ) ( -384 440 8 ) mtrl/turf-grey 0 0 0 0.25 0.25 0 0 0
+( -256 512 8 ) ( -384 512 8 ) ( -256 512 -8 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( -256 440 8 ) ( -256 440 -8 ) ( -256 384 8 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( -384 384 -8 ) ( -256 384 -8 ) ( -384 440 -8 ) mtrl/wood 0 0 0 0.25 0.25 0 0 0
+( -384 384 -8 ) ( -384 384 8 ) ( -256 384 -8 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( -384 384 -8 ) ( -384 440 -8 ) ( -384 384 8 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+}
+}
+// entity 3
+{
+"classname" "path_corner"
+"origin" "-320 448 8"
+"targetname" "t1"
+"target" "t2"
+"speed" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 4
+{
+"classname" "path_corner"
+"origin" "-320 448 1064"
+"targetname" "t2"
+"target" "t1"
+"speed" "4"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"song" "bgm/track3.ogg"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 5
+{
+"classname" "func_train"
+"target" "t3"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+// brush 0
+{
+( -384 512 8 ) ( -384 384 8 ) ( -512 512 8 ) mtrl/turf-orange 0 0 0 0.5 0.5 0 0 0
+( -384 512 8 ) ( -512 512 8 ) ( -384 512 -8 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( -384 512 8 ) ( -384 512 -8 ) ( -384 384 8 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( -512 384 -8 ) ( -384 384 -8 ) ( -512 512 -8 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( -512 384 -8 ) ( -512 384 8 ) ( -384 384 -8 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( -512 384 -8 ) ( -512 512 -8 ) ( -512 384 8 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+}
+}
+// entity 6
+{
+"classname" "func_train"
+"target" "t5"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+// brush 0
+{
+( -128 512 8 ) ( -128 384 8 ) ( -256 512 8 ) mtrl/turf-orange 0 0 0 0.5 0.5 0 0 0
+( -128 512 8 ) ( -256 512 8 ) ( -128 512 -8 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( -128 512 8 ) ( -128 512 -8 ) ( -128 384 8 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( -256 384 -8 ) ( -128 384 -8 ) ( -256 512 -8 ) mtrl/wood 0 0 0 0.5 0.5 0 0 0
+( -256 384 -8 ) ( -256 384 8 ) ( -128 384 -8 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( -256 384 -8 ) ( -256 512 -8 ) ( -256 384 8 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+}
+}
+// entity 7
+{
+"classname" "path_corner"
+"origin" "-448 448 8"
+"targetname" "t3"
+"target" "t4"
+"speed" "1.25"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 8
+{
+"classname" "path_corner"
+"origin" "-448 448 592"
+"targetname" "t4"
+"target" "t3"
+"speed" "5"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 9
+{
+"classname" "path_corner"
+"origin" "-192 448 8"
+"targetname" "t5"
+"target" "t6"
+"speed" "1.25"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 10
+{
+"classname" "path_corner"
+"origin" "-192 448 592"
+"targetname" "t6"
+"target" "t5"
+"speed" "5"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 11
+{
+"classname" "func_train"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+}
+// entity 12
+{
+"classname" "func_train"
+"target" "t1"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+// brush 0
+{
+( -256 512 8 ) ( -256 384 8 ) ( -384 512 8 ) mtrl/thwomp 0 0 0 0.5 0.5 0 0 0
+( -256 512 8 ) ( -384 512 8 ) ( -256 512 -8 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( -256 512 8 ) ( -256 512 -8 ) ( -256 384 8 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( -384 384 -8 ) ( -256 384 -8 ) ( -384 512 -8 ) mtrl/thwomp 0 0 0 0.5 0.5 0 0 0
+( -384 384 -8 ) ( -384 384 8 ) ( -256 384 -8 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+( -384 384 -8 ) ( -384 512 -8 ) ( -384 384 8 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0
+}
+}
+// entity 13
+{
+"classname" "info_player_deathmatch"
+"origin" "-320 960 32"
+"radius" "0.8"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 14
+{
+"classname" "light"
+"origin" "-320 448 2160"
+"light" "10"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 15
+{
+"classname" "light"
+"origin" "-320 448 2192"
+"light" "10"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 16
+{
+"classname" "light"
+"origin" "-320 448 2224"
+"light" "10"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 17
+{
+"classname" "light"
+"origin" "-320 448 1960"
+"light" "5"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 18
+{
+"classname" "light"
+"origin" "-320 448 1928"
+"light" "5"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 19
+{
+"classname" "light"
+"origin" "-320 448 1896"
+"light" "5"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 20
+{
+"classname" "light"
+"origin" "-320 448 1864"
+"light" "5"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 21
+{
+"classname" "light"
+"origin" "-320 448 1832"
+"light" "5"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 22
+{
+"classname" "light"
+"origin" "-320 448 1616"
+"light" "1"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 23
+{
+"classname" "light"
+"origin" "-320 448 1584"
+"light" "1"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 24
+{
+"classname" "light"
+"origin" "-320 448 1552"
+"light" "1"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 25
+{
+"classname" "light"
+"origin" "-320 448 1520"
+"light" "1"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 26
+{
+"classname" "light"
+"origin" "-320 448 1488"
+"light" "1"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 27
+{
+"classname" "light"
+"origin" "-320 448 1456"
+"light" "1"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 28
+{
+"classname" "light"
+"origin" "-320 448 1424"
+"light" "1"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 29
+{
+"classname" "light"
+"origin" "-320 448 1392"
+"light" "1"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 30
+{
+"classname" "light"
+"origin" "-320 448 1360"
+"light" "1"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 31
+{
+"classname" "light"
+"origin" "-320 448 1328"
+"light" "1"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 32
+{
+"classname" "light"
+"origin" "-448 448 784"
+"light" "10"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 33
+{
+"classname" "light"
+"origin" "-448 448 752"
+"light" "10"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 34
+{
+"classname" "light"
+"origin" "-448 448 720"
+"light" "10"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 35
+{
+"classname" "light"
+"origin" "-448 448 640"
+"light" "5"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 36
+{
+"classname" "light"
+"origin" "-448 448 608"
+"light" "5"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 37
+{
+"classname" "light"
+"origin" "-320 448 2256"
+"light" "10"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 38
+{
+"classname" "light"
+"origin" "-192 448 784"
+"light" "10"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 39
+{
+"classname" "light"
+"origin" "-192 448 752"
+"light" "10"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 40
+{
+"classname" "light"
+"origin" "-192 448 720"
+"light" "10"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 41
+{
+"classname" "light"
+"origin" "-192 448 640"
+"light" "5"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 42
+{
+"classname" "light"
+"origin" "-192 448 608"
+"light" "5"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 43
+{
+"classname" "light"
+"origin" "-192 448 576"
+"light" "5"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 44
+{
+"classname" "light"
+"origin" "-192 448 496"
+"light" "1"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 45
+{
+"classname" "light"
+"origin" "-192 448 464"
+"light" "1"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 46
+{
+"classname" "light"
+"origin" "-192 448 432"
+"light" "1"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 47
+{
+"classname" "light"
+"origin" "-192 448 400"
+"light" "1"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 48
+{
+"classname" "light"
+"origin" "-192 448 368"
+"light" "1"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 49
+{
+"classname" "light"
+"origin" "-448 448 576"
+"light" "5"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 50
+{
+"classname" "light"
+"origin" "-448 448 496"
+"light" "1"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 51
+{
+"classname" "light"
+"origin" "-448 448 464"
+"light" "1"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 52
+{
+"classname" "light"
+"origin" "-448 448 432"
+"light" "1"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 53
+{
+"classname" "light"
+"origin" "-448 448 400"
+"light" "1"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 54
+{
+"classname" "light"
+"origin" "-448 448 368"
+"light" "1"
+"goal" "50"
+"time" "6000"
+"time_hs" "1000 1400 1900"
+"goal_hs" "1200 1800 2500"
+"coin_hs" "160 120 80"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 55
+{
+"classname" "info_player_intermission"
+"origin" "-320 -256 400"
+"target" "t7"
+"targetname" "t8"
+"time" "6000"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}
+// entity 56
+{
+"classname" "target_position"
+"origin" "-320 96 88"
+"targetname" "t7"
+"target" "t8"
+"time" "6000"
+"shot" "shot-ervin/plat2.jpg"
+"message" "The Thwomp platform is a very dangerous one."
+}

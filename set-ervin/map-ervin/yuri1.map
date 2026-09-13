@@ -1,0 +1,1907 @@
+
+// entity 0
+{
+"classname" "worldspawn"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+// brush 0
+{
+( 152 128 -24 ) ( 152 0 -24 ) ( -192 128 -24 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 152 128 -24 ) ( -192 128 -24 ) ( 152 128 -32 ) mtrl/turf-shiny 0 192 0 0.5 0.5 0 0 0
+( 384 136 -24 ) ( 384 136 -32 ) ( 384 8 -24 ) mtrl/turf-shiny 240 192 0 0.5 0.5 0 0 0
+( -192 0 -32 ) ( 152 0 -32 ) ( -192 128 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( -192 0 -32 ) ( -192 0 -24 ) ( 152 0 -32 ) mtrl/turf-shiny 0 192 0 0.5 0.5 0 0 0
+( -192 0 -32 ) ( -192 128 -32 ) ( -192 0 -24 ) mtrl/turf-shiny 0 192 0 0.5 0.5 0 0 0
+}
+// brush 1
+{
+( 384 0 -24 ) ( 384 -256 -24 ) ( 256 0 -24 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 384 0 -24 ) ( 256 0 -24 ) ( 384 0 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 384 0 -24 ) ( 384 0 -32 ) ( 384 -256 -24 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 256 -256 -32 ) ( 384 -256 -32 ) ( 256 0 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 256 -256 -32 ) ( 256 -256 -24 ) ( 384 -256 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 256 -256 -32 ) ( 256 0 -32 ) ( 256 -256 -24 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+}
+// brush 2
+{
+( 304 -256 -24 ) ( 304 -384 -24 ) ( -184 -256 -24 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 304 -256 -24 ) ( -184 -256 -24 ) ( 304 -256 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 384 -264 -24 ) ( 384 -264 -32 ) ( 384 -392 -24 ) mtrl/turf-shiny 16 0 0 0.5 0.5 0 0 0
+( -184 -384 -32 ) ( 304 -384 -32 ) ( -184 -256 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( -184 -384 -32 ) ( -184 -384 -24 ) ( 304 -384 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( -192 -384 -32 ) ( -192 -256 -32 ) ( -192 -384 -24 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+}
+// brush 3
+{
+( -64 -384 -24 ) ( -64 -960 -24 ) ( -192 -384 -24 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( -64 -384 -24 ) ( -192 -384 -24 ) ( -64 -384 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( -64 -384 -24 ) ( -64 -384 -32 ) ( -64 -960 -24 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( -192 -960 -32 ) ( -64 -960 -32 ) ( -192 -384 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( -184 -1024 -32 ) ( -184 -1024 -24 ) ( -56 -1024 -32 ) mtrl/turf-shiny 240 0 0 0.5 0.5 0 0 0
+( -192 -960 -32 ) ( -192 -384 -32 ) ( -192 -960 -24 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+}
+// brush 4
+{
+( 256 -1024 -24 ) ( 256 -1152 -24 ) ( -192 -1024 -24 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 256 -1024 -24 ) ( -192 -1024 -24 ) ( 256 -1024 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 256 -1024 -24 ) ( 256 -1024 -32 ) ( 256 -1152 -24 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( -192 -1152 -32 ) ( 256 -1152 -32 ) ( -192 -1024 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( -192 -1152 -32 ) ( -192 -1152 -24 ) ( 256 -1152 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( -192 -1152 -32 ) ( -192 -1024 -32 ) ( -192 -1152 -24 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+}
+// brush 5
+{
+( 256 -1152 -24 ) ( 256 -1344 -24 ) ( 128 -1152 -24 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 256 -1152 -24 ) ( 128 -1152 -24 ) ( 256 -1152 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 256 -1152 -24 ) ( 256 -1152 -32 ) ( 256 -1344 -24 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 128 -1344 -32 ) ( 256 -1344 -32 ) ( 128 -1152 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 128 -1344 -32 ) ( 128 -1344 -24 ) ( 256 -1344 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 128 -1344 -32 ) ( 128 -1152 -32 ) ( 128 -1344 -24 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+}
+// brush 6
+{
+( 560 -256 -24 ) ( 560 -368 -24 ) ( 392 -256 -24 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 560 -256 -24 ) ( 392 -256 -24 ) ( 560 -256 -32 ) mtrl/turf-shiny 0 208 0 0.5 0.5 0 0 0
+( 1664 -272 -24 ) ( 1664 -272 -32 ) ( 1664 -384 -24 ) mtrl/turf-shiny 32 208 0 0.5 0.5 0 0 0
+( 392 -368 -32 ) ( 560 -368 -32 ) ( 392 -256 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 392 -384 -32 ) ( 392 -384 -24 ) ( 560 -384 -32 ) mtrl/turf-shiny 0 208 0 0.5 0.5 0 0 0
+( 384 -368 -32 ) ( 384 -256 -32 ) ( 384 -368 -24 ) mtrl/turf-shiny 0 208 0 0.5 0.5 0 0 0
+}
+// brush 7
+{
+( 1792 -256 -24 ) ( 1792 -584 -24 ) ( 1664 -256 -24 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1792 -256 -24 ) ( 1664 -256 -24 ) ( 1792 -256 -32 ) mtrl/turf-shiny 0 208 0 0.5 0.5 0 0 0
+( 1792 -256 -24 ) ( 1792 -256 -32 ) ( 1792 -584 -24 ) mtrl/turf-shiny 0 208 0 0.5 0.5 0 0 0
+( 1664 -584 -32 ) ( 1792 -584 -32 ) ( 1664 -256 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1712 -1152 -32 ) ( 1712 -1152 -24 ) ( 1840 -1152 -32 ) mtrl/turf-shiny 160 208 0 0.5 0.5 0 0 0
+( 1664 -584 -32 ) ( 1664 -256 -32 ) ( 1664 -584 -24 ) mtrl/turf-shiny 0 208 0 0.5 0.5 0 0 0
+}
+// brush 8
+{
+( 1792 -1152 -24 ) ( 1792 -1296 -24 ) ( 1160 -1152 -24 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1792 -1152 -24 ) ( 1160 -1152 -24 ) ( 1792 -1152 -32 ) mtrl/turf-shiny 0 208 0 0.5 0.5 0 0 0
+( 1792 -1152 -24 ) ( 1792 -1152 -32 ) ( 1792 -1296 -24 ) mtrl/turf-shiny 0 208 0 0.5 0.5 0 0 0
+( 1160 -1296 -32 ) ( 1792 -1296 -32 ) ( 1160 -1152 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1208 -2304 -32 ) ( 1208 -2304 -24 ) ( 1840 -2304 -32 ) mtrl/turf-shiny 160 208 0 0.5 0.5 0 0 0
+( 1152 -1296 -32 ) ( 1152 -1152 -32 ) ( 1152 -1296 -24 ) mtrl/turf-shiny 0 208 0 0.5 0.5 0 0 0
+}
+// brush 9
+{
+( 88 -352 8 ) ( 88 -984 8 ) ( -40 -352 8 ) mtrl/turf-shiny 208 80 0 0.5 0.5 0 0 0
+( 72 -384 -56 ) ( -56 -384 -56 ) ( 72 -384 -64 ) mtrl/turf-shiny 240 144 0 0.5 0.5 0 0 0
+( 64 -392 -56 ) ( 64 -392 -64 ) ( 64 -1024 -56 ) mtrl/turf-shiny 0 144 0 0.5 0.5 0 0 0
+( -56 -968 -32 ) ( 72 -968 -32 ) ( -56 -336 -32 ) mtrl/turf-shiny 240 112 0 0.5 0.5 0 0 0
+( -64 -1024 -64 ) ( -64 -1024 -56 ) ( 64 -1024 -64 ) mtrl/turf-shiny 0 144 0 0.5 0.5 0 0 0
+( -64 -1024 -64 ) ( -64 -392 -64 ) ( -64 -1024 -56 ) mtrl/turf-shiny 0 144 0 0.5 0.5 0 0 0
+}
+// brush 10
+{
+( 1144 -2184 -24 ) ( 1144 -2312 -24 ) ( 824 -2184 -24 ) mtrl/turf-shiny 16 240 0 0.5 0.5 0 0 0
+( 1160 -2176 -24 ) ( 840 -2176 -24 ) ( 1160 -2176 -152 ) mtrl/turf-shiny 240 80 0 0.5 0.5 0 0 0
+( 1152 -2176 96 ) ( 1152 -2176 -32 ) ( 1152 -2304 96 ) mtrl/turf-shiny 0 64 0 0.5 0.5 0 0 0
+( 832 -2304 -32 ) ( 1152 -2304 -32 ) ( 832 -2176 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 832 -2304 -32 ) ( 832 -2304 96 ) ( 1152 -2304 -32 ) mtrl/turf-shiny 0 64 0 0.5 0.5 0 0 0
+( 832 -2304 -32 ) ( 832 -2176 -32 ) ( 832 -2304 96 ) mtrl/turf-shiny 0 64 0 0.5 0.5 0 0 0
+}
+// brush 11
+{
+( 768 -1792 88 ) ( 1024 -1792 88 ) ( 1088 -2176 -24 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1024 -1792 88 ) ( 768 -1792 88 ) ( 1088 -1792 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1088 -1792 -24 ) ( 1088 -1792 -32 ) ( 1088 -2184 -24 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 832 -2184 -32 ) ( 1088 -2184 -32 ) ( 832 -1792 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 832 -2176 -32 ) ( 832 -2176 -24 ) ( 1088 -2176 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 832 -2184 -32 ) ( 832 -1792 -32 ) ( 832 -2184 -24 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+}
+// brush 12
+{
+( 1088 -1408 88 ) ( 1088 -1792 88 ) ( 840 -1408 88 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1088 -1408 88 ) ( 840 -1408 88 ) ( 1088 -1408 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1088 -1408 88 ) ( 1088 -1408 -32 ) ( 1088 -1792 88 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 840 -1792 -32 ) ( 1088 -1792 -32 ) ( 840 -1408 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 840 -1792 -32 ) ( 840 -1792 88 ) ( 1088 -1792 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 832 -1792 -32 ) ( 832 -1408 -32 ) ( 832 -1792 88 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+}
+// brush 13
+{
+( 856 -776 280 ) ( 1112 -776 280 ) ( 1088 -1408 88 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1112 -776 280 ) ( 856 -776 280 ) ( 1088 -1152 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1088 -1152 88 ) ( 1088 -1152 -32 ) ( 1088 -1408 88 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 832 -1408 -32 ) ( 1088 -1408 -32 ) ( 832 -1152 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 832 -1408 -32 ) ( 832 -1408 88 ) ( 1088 -1408 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 832 -1408 -32 ) ( 832 -1152 -32 ) ( 832 -1408 88 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+}
+// brush 14
+{
+( 1088 -512 280 ) ( 1088 -776 280 ) ( 832 -512 280 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1088 -512 280 ) ( 832 -512 280 ) ( 1088 -512 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1088 -512 280 ) ( 1088 -512 -32 ) ( 1088 -776 280 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 832 -776 -32 ) ( 1088 -776 -32 ) ( 832 -512 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 832 -776 -32 ) ( 832 -776 280 ) ( 1088 -776 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 832 -776 -32 ) ( 832 -512 -32 ) ( 832 -776 280 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+}
+// brush 15
+{
+( 1024 -96 32 ) ( 1024 -224 32 ) ( 832 -96 32 ) mtrl/turf-shiny 0 192 0 0.5 0.5 0 0 0
+( 1008 256 32 ) ( 816 256 32 ) ( 1008 256 16 ) mtrl/turf-shiny 32 224 0 0.5 0.5 0 0 0
+( 1024 -96 32 ) ( 1024 -96 16 ) ( 1024 -224 32 ) mtrl/turf-shiny 64 224 0 0.5 0.5 0 0 0
+( 832 -224 16 ) ( 1024 -224 16 ) ( 832 -96 16 ) mtrl/turf-shiny 0 192 0 0.5 0.5 0 0 0
+( 832 -224 16 ) ( 832 -224 32 ) ( 1024 -224 16 ) mtrl/turf-shiny 0 224 0 0.5 0.5 0 0 0
+( 832 -224 16 ) ( 832 -96 16 ) ( 832 -224 32 ) mtrl/turf-shiny 64 224 0 0.5 0.5 0 0 0
+}
+// brush 16
+{
+( 1296 256 32 ) ( 1296 128 32 ) ( 1024 256 32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1296 256 32 ) ( 1024 256 32 ) ( 1296 256 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1600 272 32 ) ( 1600 272 16 ) ( 1600 144 32 ) mtrl/turf-shiny 224 0 0 0.5 0.5 0 0 0
+( 1024 128 16 ) ( 1296 128 16 ) ( 1024 256 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1024 128 16 ) ( 1024 128 32 ) ( 1296 128 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1024 128 16 ) ( 1024 256 16 ) ( 1024 128 32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+}
+// brush 17
+{
+( 1280 512 32 ) ( 1280 256 32 ) ( 1152 512 32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1280 512 32 ) ( 1152 512 32 ) ( 1280 512 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1280 512 32 ) ( 1280 512 16 ) ( 1280 256 32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1152 256 16 ) ( 1280 256 16 ) ( 1152 512 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1152 256 16 ) ( 1152 256 32 ) ( 1280 256 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1152 256 16 ) ( 1152 512 16 ) ( 1152 256 32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+}
+// brush 18
+{
+( 1472 512 32 ) ( 1472 256 32 ) ( 1344 512 32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1472 512 32 ) ( 1344 512 32 ) ( 1472 512 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1472 512 32 ) ( 1472 512 16 ) ( 1472 256 32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1344 256 16 ) ( 1472 256 16 ) ( 1344 512 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1344 256 16 ) ( 1344 256 32 ) ( 1472 256 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1344 256 16 ) ( 1344 512 16 ) ( 1344 256 32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+}
+// brush 19
+{
+( 1472 640 32 ) ( 1472 512 32 ) ( 1152 640 32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1472 640 32 ) ( 1152 640 32 ) ( 1472 640 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1472 640 32 ) ( 1472 640 16 ) ( 1472 512 32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1152 512 16 ) ( 1472 512 16 ) ( 1152 640 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1152 512 16 ) ( 1152 512 32 ) ( 1472 512 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1152 512 16 ) ( 1152 640 16 ) ( 1152 512 32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+}
+// brush 20
+{
+( 1728 640 32 ) ( 1728 128 32 ) ( 1600 640 32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1728 640 32 ) ( 1600 640 32 ) ( 1728 640 16 ) mtrl/turf-shiny 0 224 0 0.5 0.5 0 0 0
+( 1728 640 32 ) ( 1728 640 16 ) ( 1728 128 32 ) mtrl/turf-shiny 0 224 0 0.5 0.5 0 0 0
+( 1600 128 16 ) ( 1728 128 16 ) ( 1600 640 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1600 128 16 ) ( 1600 128 32 ) ( 1728 128 16 ) mtrl/turf-shiny 0 224 0 0.5 0.5 0 0 0
+( 1600 128 16 ) ( 1600 640 16 ) ( 1600 128 32 ) mtrl/turf-shiny 0 224 0 0.5 0.5 0 0 0
+}
+// brush 21
+{
+( 1616 960 128 ) ( 1744 960 128 ) ( 1728 640 32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1744 960 128 ) ( 1616 960 128 ) ( 1728 960 16 ) mtrl/turf-shiny 0 224 0 0.5 0.5 0 0 0
+( 1728 960 32 ) ( 1728 960 16 ) ( 1728 640 32 ) mtrl/turf-shiny 0 224 0 0.5 0.5 0 0 0
+( 1600 640 16 ) ( 1728 640 16 ) ( 1600 960 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1600 640 16 ) ( 1600 640 32 ) ( 1728 640 16 ) mtrl/turf-shiny 0 224 0 0.5 0.5 0 0 0
+( 1600 640 16 ) ( 1600 960 16 ) ( 1600 640 32 ) mtrl/turf-shiny 0 224 0 0.5 0.5 0 0 0
+}
+// brush 22
+{
+( 1984 960 128 ) ( 1984 640 128 ) ( 1728 960 128 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1984 960 128 ) ( 1728 960 128 ) ( 1984 960 16 ) mtrl/turf-shiny 0 224 0 0.5 0.5 0 0 0
+( 1984 960 128 ) ( 1984 960 16 ) ( 1984 640 128 ) mtrl/turf-shiny 0 224 0 0.5 0.5 0 0 0
+( 1728 640 16 ) ( 1984 640 16 ) ( 1728 960 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1744 128 16 ) ( 1744 128 128 ) ( 2000 128 16 ) mtrl/turf-shiny 224 224 0 0.5 0.5 0 0 0
+( 1728 640 16 ) ( 1728 960 16 ) ( 1728 640 128 ) mtrl/turf-shiny 0 224 0 0.5 0.5 0 0 0
+}
+// brush 23
+{
+( 1912 136 128 ) ( 1912 -152 128 ) ( 1784 136 128 ) mtrl/turf-shiny 16 16 0 0.5 0.5 0 0 0
+( 1912 136 128 ) ( 1784 136 128 ) ( 1912 136 16 ) mtrl/turf-shiny 16 224 0 0.5 0.5 0 0 0
+( 1912 136 128 ) ( 1912 136 16 ) ( 1912 -152 128 ) mtrl/turf-shiny 240 224 0 0.5 0.5 0 0 0
+( 1784 -152 16 ) ( 1912 -152 16 ) ( 1784 136 16 ) mtrl/turf-shiny 16 16 0 0.5 0.5 0 0 0
+( 1784 -536 16 ) ( 1784 -536 128 ) ( 1912 -536 16 ) mtrl/turf-shiny 16 224 0 0.5 0.5 0 0 0
+( 1784 -152 16 ) ( 1784 136 16 ) ( 1784 -152 128 ) mtrl/turf-shiny 240 224 0 0.5 0.5 0 0 0
+}
+// brush 24
+{
+( 1880 -536 128 ) ( 1880 -600 128 ) ( 1832 -536 128 ) mtrl/turf-shiny 16 16 0 0.5 0.5 0 0 0
+( 1880 -536 128 ) ( 1832 -536 128 ) ( 1880 -536 16 ) mtrl/turf-shiny 16 224 0 0.5 0.5 0 0 0
+( 1880 -536 128 ) ( 1880 -536 16 ) ( 1880 -600 128 ) mtrl/turf-shiny 240 224 0 0.5 0.5 0 0 0
+( 1832 -600 16 ) ( 1880 -600 16 ) ( 1832 -536 16 ) mtrl/turf-shiny 16 16 0 0.5 0.5 0 0 0
+( 1832 -856 16 ) ( 1832 -856 128 ) ( 1880 -856 16 ) mtrl/turf-shiny 16 224 0 0.5 0.5 0 0 0
+( 1816 -600 16 ) ( 1816 -536 16 ) ( 1816 -600 128 ) mtrl/turf-shiny 240 224 0 0.5 0.5 0 0 0
+}
+// brush 25
+{
+( 0 -1152 -24 ) ( 0 -1344 -24 ) ( -128 -1152 -24 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 0 -1152 -24 ) ( -128 -1152 -24 ) ( 0 -1152 -32 ) mtrl/turf-shiny 0 192 0 0.5 0.5 0 0 0
+( 0 -1152 -24 ) ( 0 -1152 -32 ) ( 0 -1344 -24 ) mtrl/turf-shiny 0 192 0 0.5 0.5 0 0 0
+( -128 -1344 -32 ) ( 0 -1344 -32 ) ( -128 -1152 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( -128 -1344 -32 ) ( -128 -1344 -24 ) ( 0 -1344 -32 ) mtrl/turf-shiny 0 192 0 0.5 0.5 0 0 0
+( -128 -1344 -32 ) ( -128 -1152 -32 ) ( -128 -1344 -24 ) mtrl/turf-shiny 0 192 0 0.5 0.5 0 0 0
+}
+// brush 26
+{
+( 128 -1104 16 ) ( 128 -1296 16 ) ( 0 -1104 16 ) mtrl/turf-shiny 0 96 0 0.5 0.5 0 0 0
+( 128 -1152 -24 ) ( 0 -1152 -24 ) ( 128 -1152 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 128 -1152 -24 ) ( 128 -1152 -32 ) ( 128 -1344 -24 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 0 -1344 -32 ) ( 128 -1344 -32 ) ( 0 -1152 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 0 -1344 -32 ) ( 0 -1344 -24 ) ( 128 -1344 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 0 -1344 -32 ) ( 0 -1152 -32 ) ( 0 -1344 -24 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+}
+// brush 27
+{
+( -120 -1160 16 ) ( -120 -1352 16 ) ( -240 -1160 16 ) mtrl/turf-shiny 240 240 0 0.5 0.5 0 0 0
+( -128 -1152 0 ) ( -248 -1152 0 ) ( -128 -1152 -8 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( -128 -1152 0 ) ( -128 -1152 -8 ) ( -128 -1344 0 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( -248 -1344 -32 ) ( -128 -1344 -32 ) ( -248 -1152 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( -248 -1344 -8 ) ( -248 -1344 0 ) ( -128 -1344 -8 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( -256 -1344 -8 ) ( -256 -1152 -8 ) ( -256 -1344 0 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+}
+// brush 28
+{
+( -192 -1024 -24 ) ( -192 -1152 -24 ) ( -440 -1024 -24 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( -192 -1024 -24 ) ( -440 -1024 -24 ) ( -192 -1024 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( -192 -1024 -24 ) ( -192 -1024 -32 ) ( -192 -1152 -24 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( -440 -1152 -32 ) ( -192 -1152 -32 ) ( -440 -1024 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( -440 -1152 -32 ) ( -440 -1152 -24 ) ( -192 -1152 -32 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( -448 -1160 -32 ) ( -448 -1032 -32 ) ( -448 -1160 -24 ) mtrl/turf-shiny 16 0 0 0.5 0.5 0 0 0
+}
+// brush 29
+{
+( 1728 1344 16 ) ( 1728 960 16 ) ( 1600 1344 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1728 1344 16 ) ( 1600 1344 16 ) ( 1728 1344 8 ) mtrl/turf-shiny 0 32 0 0.5 0.5 0 0 0
+( 1728 1344 16 ) ( 1728 1344 8 ) ( 1728 960 16 ) mtrl/turf-shiny 0 32 0 0.5 0.5 0 0 0
+( 1600 960 8 ) ( 1728 960 8 ) ( 1600 1344 8 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1600 960 8 ) ( 1600 960 16 ) ( 1728 960 8 ) mtrl/turf-shiny 0 32 0 0.5 0.5 0 0 0
+( 1600 960 8 ) ( 1600 1344 8 ) ( 1600 960 16 ) mtrl/turf-shiny 0 32 0 0.5 0.5 0 0 0
+}
+// brush 30
+{
+( 1960 1344 16 ) ( 1960 1216 16 ) ( 1728 1344 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1960 1344 16 ) ( 1728 1344 16 ) ( 1960 1344 8 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1984 1344 16 ) ( 1984 1344 8 ) ( 1984 1216 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1728 1216 8 ) ( 1960 1216 8 ) ( 1728 1344 8 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1728 1216 8 ) ( 1728 1216 16 ) ( 1960 1216 8 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1728 1216 8 ) ( 1728 1344 8 ) ( 1728 1216 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+}
+// brush 31
+{
+( 1728 1656 16 ) ( 1728 1344 16 ) ( 1600 1656 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1728 1664 16 ) ( 1600 1664 16 ) ( 1728 1664 8 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1728 1656 16 ) ( 1728 1656 8 ) ( 1728 1344 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1600 1344 8 ) ( 1728 1344 8 ) ( 1600 1656 8 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1600 1344 8 ) ( 1600 1344 16 ) ( 1728 1344 8 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1600 1344 8 ) ( 1600 1656 8 ) ( 1600 1344 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+}
+// brush 32
+{
+( 1864 1664 56 ) ( 1864 1344 56 ) ( 1736 1664 56 ) mtrl/turf-shiny 240 0 0 0.5 0.5 0 0 0
+( 1856 1664 16 ) ( 1728 1664 16 ) ( 1856 1664 8 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1856 1664 16 ) ( 1856 1664 8 ) ( 1856 1344 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1728 1344 8 ) ( 1856 1344 8 ) ( 1728 1664 8 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1728 1344 8 ) ( 1728 1344 16 ) ( 1856 1344 8 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1728 1344 8 ) ( 1728 1664 8 ) ( 1728 1344 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+}
+// brush 33
+{
+( 1992 1648 16 ) ( 1992 1328 16 ) ( 1864 1648 16 ) mtrl/turf-shiny 0 224 0 0.5 0.5 0 0 0
+( 1992 1664 56 ) ( 1864 1664 56 ) ( 1992 1664 8 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1984 1664 56 ) ( 1984 1664 8 ) ( 1984 1344 56 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1864 1344 8 ) ( 1992 1344 8 ) ( 1864 1664 8 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1864 1344 8 ) ( 1864 1344 56 ) ( 1992 1344 8 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1856 1344 8 ) ( 1856 1664 8 ) ( 1856 1344 56 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+}
+// brush 34
+{
+( 1728 1792 16 ) ( 1728 1664 16 ) ( 1216 1792 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1728 1792 16 ) ( 1216 1792 16 ) ( 1728 1792 8 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1728 1792 16 ) ( 1728 1792 8 ) ( 1728 1664 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1216 1664 8 ) ( 1728 1664 8 ) ( 1216 1792 8 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1216 1664 8 ) ( 1216 1664 16 ) ( 1728 1664 8 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1216 1664 8 ) ( 1216 1792 8 ) ( 1216 1664 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+}
+// brush 35
+{
+( 1344 2048 16 ) ( 1344 1792 16 ) ( 1224 2048 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1344 2048 16 ) ( 1224 2048 16 ) ( 1344 2048 8 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1344 2048 16 ) ( 1344 2048 8 ) ( 1344 1792 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1224 1792 8 ) ( 1344 1792 8 ) ( 1224 2048 8 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1224 1792 8 ) ( 1224 1792 16 ) ( 1344 1792 8 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1216 1792 8 ) ( 1216 2048 8 ) ( 1216 1792 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+}
+// brush 36
+{
+( 1600 2048 16 ) ( 1600 1792 16 ) ( 1472 2048 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1600 2048 16 ) ( 1472 2048 16 ) ( 1600 2048 8 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1600 2048 16 ) ( 1600 2048 8 ) ( 1600 1792 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1472 1792 8 ) ( 1600 1792 8 ) ( 1472 2048 8 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1472 1792 8 ) ( 1472 1792 16 ) ( 1600 1792 8 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1472 1792 8 ) ( 1472 2048 8 ) ( 1472 1792 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+}
+// brush 37
+{
+( 1464 2048 64 ) ( 1464 1792 64 ) ( 1344 2048 64 ) mtrl/turf-shiny 16 0 0 0.5 0.5 0 0 0
+( 1472 2048 16 ) ( 1352 2048 16 ) ( 1472 2048 8 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1472 2048 16 ) ( 1472 2048 8 ) ( 1472 1792 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1352 1792 8 ) ( 1472 1792 8 ) ( 1352 2048 8 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1352 1792 8 ) ( 1352 1792 16 ) ( 1472 1792 8 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 1344 1792 8 ) ( 1344 2048 8 ) ( 1344 1792 16 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+}
+// brush 38
+{
+( 128 0 -8 ) ( 128 -128 -8 ) ( 0 0 -8 ) mtrl/turf-shiny 0 0 0 0.5 0.5 0 0 0
+( 128 0 -8 ) ( 0 0 -8 ) ( 128 0 -16 ) mtrl/turf-shiny 0 192 0 0.5 0.5 0 0 0
+( 128 0 -8 ) ( 128 0 -16 ) ( 128 -128 -8 ) mtrl/turf-shiny 0 192 0 0.5 0.5 0 0 0
+( 8 -120 -32 ) ( 136 -120 -32 ) ( 8 8 -32 ) mtrl/turf-shiny 240 16 0 0.5 0.5 0 0 0
+( 0 -128 -16 ) ( 0 -128 -8 ) ( 128 -128 -16 ) mtrl/turf-shiny 0 192 0 0.5 0.5 0 0 0
+( 0 -128 -16 ) ( 0 0 -16 ) ( 0 -128 -8 ) mtrl/turf-shiny 0 192 0 0.5 0.5 0 0 0
+}
+}
+// entity 1
+{
+"classname" "info_player_start"
+"origin" "-120 64 0"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"angle" "-90"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 2
+{
+"classname" "light"
+"origin" "192 -1280 -8"
+"light" "10"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 3
+{
+"classname" "light"
+"origin" "960 -640 296"
+"light" "10"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 4
+{
+"classname" "light"
+"origin" "1056 -640 304"
+"light" "10"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 5
+{
+"classname" "light"
+"origin" "864 -640 304"
+"light" "10"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 6
+{
+"classname" "light"
+"origin" "960 -560 304"
+"light" "10"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 7
+{
+"classname" "light"
+"origin" "960 -720 304"
+"light" "10"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 8
+{
+"classname" "light"
+"origin" "1312 576 56"
+"light" "5"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 9
+{
+"classname" "light"
+"origin" "1216 640 56"
+"light" "10"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 10
+{
+"classname" "light"
+"origin" "1408 640 56"
+"light" "10"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 11
+{
+"classname" "light"
+"origin" "1472 -1856 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 12
+{
+"classname" "light"
+"origin" "1472 -1792 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 13
+{
+"classname" "light"
+"origin" "1536 -1792 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 14
+{
+"classname" "light"
+"origin" "1536 -1856 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 15
+{
+"classname" "light"
+"origin" "1600 -1856 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 16
+{
+"classname" "light"
+"origin" "1600 -1792 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 17
+{
+"classname" "light"
+"origin" "1472 -1728 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 18
+{
+"classname" "light"
+"origin" "1536 -1728 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 19
+{
+"classname" "light"
+"origin" "1600 -1728 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 20
+{
+"classname" "light"
+"origin" "1408 -1728 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 21
+{
+"classname" "light"
+"origin" "1408 -1792 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 22
+{
+"classname" "light"
+"origin" "1408 -1856 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 23
+{
+"classname" "light"
+"origin" "1344 -1728 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 24
+{
+"classname" "light"
+"origin" "1344 -1792 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 25
+{
+"classname" "light"
+"origin" "1344 -1856 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 26
+{
+"classname" "light"
+"origin" "1344 -1664 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 27
+{
+"classname" "light"
+"origin" "1408 -1664 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 28
+{
+"classname" "light"
+"origin" "1472 -1664 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 29
+{
+"classname" "light"
+"origin" "1536 -1664 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 30
+{
+"classname" "light"
+"origin" "1600 -1664 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 31
+{
+"classname" "light"
+"origin" "1344 -1920 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 32
+{
+"classname" "light"
+"origin" "1408 -1920 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 33
+{
+"classname" "light"
+"origin" "1472 -1920 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 34
+{
+"classname" "light"
+"origin" "1536 -1920 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 35
+{
+"classname" "light"
+"origin" "1600 -1920 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 36
+{
+"classname" "light"
+"origin" "1280 -1664 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 37
+{
+"classname" "light"
+"origin" "1280 -1728 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 38
+{
+"classname" "light"
+"origin" "1280 -1792 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 39
+{
+"classname" "light"
+"origin" "1280 -1856 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 40
+{
+"classname" "light"
+"origin" "1280 -1920 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 41
+{
+"classname" "light"
+"origin" "1280 -1984 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 42
+{
+"classname" "light"
+"origin" "1344 -1984 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 43
+{
+"classname" "light"
+"origin" "1408 -1984 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 44
+{
+"classname" "light"
+"origin" "1472 -1984 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 45
+{
+"classname" "light"
+"origin" "1536 -1984 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 46
+{
+"classname" "light"
+"origin" "1600 -1984 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 47
+{
+"classname" "light"
+"origin" "1664 -1984 0"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"light" "1"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 48
+{
+"classname" "light"
+"origin" "1664 -1920 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 49
+{
+"classname" "light"
+"origin" "1664 -1856 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 50
+{
+"classname" "light"
+"origin" "1664 -1792 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 51
+{
+"classname" "light"
+"origin" "1664 -1728 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 52
+{
+"classname" "light"
+"origin" "1664 -1664 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 53
+{
+"classname" "light"
+"origin" "1280 -2048 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 54
+{
+"classname" "light"
+"origin" "1344 -2048 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 55
+{
+"classname" "light"
+"origin" "1408 -2048 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 56
+{
+"classname" "light"
+"origin" "1472 -2048 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 57
+{
+"classname" "light"
+"origin" "1536 -2048 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 58
+{
+"classname" "light"
+"origin" "1600 -2048 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 59
+{
+"classname" "light"
+"origin" "1664 -2048 0"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 60
+{
+"classname" "light"
+"origin" "1720 960 160"
+"light" "15"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 61
+{
+"classname" "light"
+"origin" "1968 960 160"
+"light" "10"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 62
+{
+"classname" "light"
+"origin" "1904 960 160"
+"light" "5"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 63
+{
+"classname" "light"
+"origin" "1968 896 160"
+"light" "5"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 64
+{
+"classname" "light"
+"origin" "1856 384 160"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 65
+{
+"classname" "light"
+"origin" "1856 320 160"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 66
+{
+"classname" "light"
+"origin" "1856 256 160"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 67
+{
+"classname" "light"
+"origin" "1856 192 160"
+"light" "1"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 68
+{
+"classname" "light"
+"origin" "1856 64 160"
+"light" "5"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 69
+{
+"classname" "light"
+"origin" "1856 0 160"
+"light" "5"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 70
+{
+"classname" "light"
+"origin" "1856 -64 160"
+"light" "5"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 71
+{
+"classname" "light"
+"origin" "1856 -128 160"
+"light" "5"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 72
+{
+"classname" "light"
+"origin" "1856 -192 160"
+"light" "5"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 73
+{
+"classname" "light"
+"origin" "1856 -256 160"
+"light" "5"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 74
+{
+"classname" "light"
+"origin" "1856 -320 160"
+"light" "5"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 75
+{
+"classname" "light"
+"origin" "1856 -384 160"
+"light" "5"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 76
+{
+"classname" "light"
+"origin" "1856 -448 160"
+"light" "5"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 77
+{
+"classname" "light"
+"origin" "1856 -512 160"
+"light" "5"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 78
+{
+"classname" "light"
+"origin" "1856 -592 160"
+"light" "10"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 79
+{
+"classname" "light"
+"origin" "1856 -640 160"
+"light" "10"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 80
+{
+"classname" "light"
+"origin" "1856 -688 160"
+"light" "10"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 81
+{
+"classname" "light"
+"origin" "1856 -736 160"
+"light" "10"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 82
+{
+"classname" "light"
+"origin" "1856 -784 160"
+"light" "10"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 83
+{
+"classname" "light"
+"origin" "1856 -832 160"
+"light" "30"
+"back" "map-back/city.sol"
+"grad" "back/city.png"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"goal" "130"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 84
+{
+"classname" "light"
+"origin" "-64 -1280 -8"
+"light" "20"
+"goal" "130"
+"time" "12000"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"song" "bgm/track3.ogg"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 85
+{
+"classname" "light"
+"origin" "-408 -1088 -8"
+"light" "30"
+"goal" "130"
+"time" "12000"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"song" "bgm/track3.ogg"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 86
+{
+"classname" "light"
+"origin" "1536 1984 32"
+"light" "10"
+"goal" "130"
+"time" "12000"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"song" "bgm/track3.ogg"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 87
+{
+"classname" "light"
+"origin" "1920 1600 24"
+"light" "10"
+"goal" "130"
+"time" "12000"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"song" "bgm/track3.ogg"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 88
+{
+"classname" "target_teleporter"
+"origin" "1408 1984 64"
+"targetname" "a1"
+"goal" "130"
+"time" "12000"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"target" "a1"
+"angle" "-90"
+"song" "bgm/track3.ogg"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 89
+{
+"classname" "info_player_deathmatch"
+"origin" "64 -64 16"
+"goal" "130"
+"time" "12000"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"angle" "-90"
+"song" "bgm/track3.ogg"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 90
+{
+"classname" "target_teleporter"
+"origin" "1280 1984 16"
+"target" "a1"
+"time_hs" "3500 4400 5600"
+"goal_hs" "4500 5700 7000"
+"coin_hs" "350 280 200"
+"goal" "130"
+"angle" "-90"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
+// entity 91
+{
+"classname" "info_player_intermission"
+"origin" "2464 -1464 224"
+"time" "12000"
+"song" "bgm/track3.ogg"
+"grad" "back/city.png"
+"back" "map-back/city.sol"
+"shot" "shot-ervin/yuri1.jpg"
+"message" "Explore the map and take time."
+}
