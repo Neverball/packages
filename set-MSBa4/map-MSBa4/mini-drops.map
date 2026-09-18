@@ -5,12 +5,15 @@
 "back" "map-back/city.sol"
 "grad" "back/city.png"
 "song" "bgm/track3.ogg"
-"author" "Don"
+"author" "MSB"
 "version" "1.0"
 "shot" "shot-MSBa4/mini-drops.jpg"
 "goal" "20"
 "time" "9000"
 "bonus" "1"
+"coin_hs" "39 26"
+"time_hs" "700 1500"
+"goal_hs" "1200 3000"
 // brush 0
 {
 ( 64 64 192 ) ( 64 -64 192 ) ( -64 64 192 ) mtrl/turf-green 0 0 0 0.5 0.5 0 0 0

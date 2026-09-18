@@ -1,15 +1,18 @@
 // entity 0
 {
 "classname" "worldspawn"
-"author" "Don"
+"author" "MSB"
 "version" "1.0"
-"back" "map-back/clouds.sol"
-"grad" "back/land.png"
+"back" "map-back/alien.sol"
+"grad" "back/alien.png"
 "shot" "shot-MSBa4/border.jpg"
-"song" "bgm/track1.ogg"
+"song" "bgm/track5.ogg"
 "time" "12000"
 "goal" "50"
 "message" "Might resemble Neverball Easy,\but this thing ain't easy..."
+"coin_hs" "208 123"
+"goal_hs" "1500 3800"
+"time_hs" "1000 2500"
 // brush 0
 {
 ( 128 640 -16 ) ( 0 640 -16 ) ( 0 512 -16 ) mtrl/invisible 0 -0 0 0.5 0.5 134217728 0 0

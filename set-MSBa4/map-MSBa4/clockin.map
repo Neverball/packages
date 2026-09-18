@@ -5,10 +5,14 @@
 "grad" "back/ocean.png"
 "song" "bgm/track2.ogg"
 "shot" "shot-MSBa4/clockin.jpg"
-"message" "Take your time...\Or maybe not."
+"message" "Take your time...\or maybe not."
 "goal" "25"
 "author" "MSB"
 "time" "2000"
+"version" "1.0"
+"goal_hs" "3000 4000"
+"time_hs" "3000 4000"
+"coin_hs" "48 31"
 // brush 0
 {
 ( -8 0 0 ) ( -8 -8 0 ) ( -136 0 0 ) mtrl/edge-green-check 0 0 0 0.5 0.5 0 0 0

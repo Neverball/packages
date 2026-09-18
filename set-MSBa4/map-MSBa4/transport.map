@@ -5,10 +5,14 @@
 "back" "map-back/clouds.sol"
 "grad" "back/land.png"
 "song" "bgm/track1.ogg"
-"author" "Don"
+"author" "MSB"
 "goal" "0"
 "shot" "shot-MSBa4/transport.jpg"
 "version" "1.1"
+"coin_hs" "0 0"
+"goal_hs" "4200 4200"
+"time_hs" "4200 4200"
+"time" "4300"
 // brush 0
 {
 ( -1216 512 7552 ) ( -1216 448 7552 ) ( -1280 512 7552 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0

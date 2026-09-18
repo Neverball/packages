@@ -8,8 +8,11 @@
 "song" "bgm/track2.ogg"
 "shot" "shot-MSBa2/goindown.jpg"
 "time" "18000"
-"version" "1.1"
-"author" "Don"
+"version" "1.2"
+"author" "MSB"
+"coin_hs" "60 55"
+"goal_hs" "2200 3500"
+"time_hs" "706 2000"
 // brush 0
 {
 ( 192 64 0 ) ( 192 -192 0 ) ( -64 64 0 ) mtrl/turf-green-dark 128 128 0 0.5 0.5 0 0 0

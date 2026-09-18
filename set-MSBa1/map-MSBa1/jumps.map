@@ -2,14 +2,17 @@
 {
 "classname" "worldspawn"
 "message" "Use some space to build up speed,\and jump to the next platform."
-"goal" "8"
-"back" "map-back/ocean.sol"
-"grad" "back/ocean.png"
-"song" "bgm/track2.ogg"
+"goal" "10"
+"back" "map-back/clouds.sol"
+"grad" "back/land.png"
+"song" "bgm/track1.ogg"
 "shot" "shot-MSBa1/jumps.jpg"
-"time" "9000"
-"version" "1.1"
-"author" "DonAlgo"
+"time" "7000"
+"version" "1.2"
+"author" "MSB"
+"coin_hs" "32 25"
+"time_hs" "900 1700"
+"goal_hs" "1100 2100"
 // brush 0
 {
 ( 64 128 0 ) ( 64 -128 0 ) ( -64 128 0 ) mtrl/turf-green-small 0 128 0 0.5 0.5 0 0 0

@@ -1,7 +1,7 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "The level with the most inconveniently shaped ground\is back again!"
+"message" "The level with the most inconveniently shaped ground\is back again."
 "goal" "80"
 "time" "24000"
 "song" "bgm/track2.ogg"
@@ -9,7 +9,10 @@
 "grad" "back/ocean.png"
 "back" "map-back/ocean.sol"
 "version" "1.1"
-"author" "Don"
+"author" "MSB"
+"coin_hs" "296 154"
+"goal_hs" "3000 6000"
+"time_hs" "800 2600"
 // brush 0
 {
 ( -64 -448 -142.375 ) ( -64 -320 -141.375 ) ( -64 -448 -141.375 ) mtrl/invisible 0 0 0 0.5 0.5 134217728 0 0

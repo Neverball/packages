@@ -1,15 +1,18 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "Use the timers to move platforms and make a bridge!"
+"message" "Use the timers to move platforms and make a bridge."
 "back" "map-back/volcano.sol"
 "grad" "back/volcano.png"
 "song" "bgm/track6.ogg"
-"version" "1.0"
+"version" "1.1"
 "author" "MSB"
 "shot" "shot-MSBa1/path-timing.jpg"
 "time" "12000"
 "goal" "30"
+"coin_hs" "72 50"
+"goal_hs" "4000 5000"
+"time_hs" "3000 4000"
 // brush 0
 {
 ( -376 448 32 ) ( -376 176 32 ) ( -384 448 32 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0

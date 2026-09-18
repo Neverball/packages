@@ -5,11 +5,15 @@
 "grad" "back/land.png"
 "shot" "shot-MSBa1/RealCoins.jpg"
 "song" "bgm/track1.ogg"
-"message" "Are this coins...\real or not?"
+"message" "Some of these coins might be deceiving,\not all of them are worth it."
 "goal" "42"
-"author" "Msb"
+"author" "MSB"
 "bonus" "1"
 "time" "9000"
+"coin_hs" "42 42"
+"time_hs" "800 2700"
+"goal_hs" "2800 4000"
+"version" "1.1"
 // brush 0
 {
 ( 704 -24 0 ) ( 576 -24 0 ) ( 704 448 0 ) mtrl/mirror-dark 0 0 0 0.5 0.5 0 0 0

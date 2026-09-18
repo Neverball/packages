@@ -15,7 +15,7 @@
 {
 "classname" "info_null"
 "origin" "4.000000 4.000000 -88.000000"
-"image" "skybox/flood_u"
+"image" "skybox/flood_U"
 "width" "150"
 "height" "150"
 "dist" "75"

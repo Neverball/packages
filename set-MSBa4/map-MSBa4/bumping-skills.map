@@ -7,9 +7,12 @@
 "song" "bgm/track3.ogg"
 "message" "Use your skills to get to the switches."
 "author" "MSB"
-"version" "1"
+"version" "1.0"
 "goal" "15"
 "time" "12000"
+"coin_hs" "30 22"
+"goal_hs" "2000 4000"
+"time_hs" "2000 4000"
 // brush 0
 {
 ( 128 64 0 ) ( 256 64 0 ) ( 128 -64 0 ) mtrl/goal 128 0 90 0.5 0.5 0 0 0

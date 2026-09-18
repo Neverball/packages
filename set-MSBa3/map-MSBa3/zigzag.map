@@ -1,15 +1,18 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "The road moving left and right,\a mere imitation of the thowmp's dance..."
+"message" "The road actively moves from the left to the right,\as a mere imitation of the Thwomps' dance."
 "back" "map-back/volcano.sol"
 "grad" "back/volcano.png"
 "song" "bgm/track6.ogg"
 "shot" "shot-MSBa3/zigzag.jpg"
 "goal" "10"
 "time" "6000"
-"version" "1"
-"author" "Don"
+"version" "1.0"
+"author" "MSB"
+"coin_hs" "26 17"
+"time_hs" "1000 2500"
+"goal_hs" "1500 3000"
 // brush 0
 {
 ( 32 1488 0 ) ( 32 1360 0 ) ( -96 1360 0 ) mtrl/turf-green-check 192 10.0334472656 0 0.5 0.5277917981 0 0 0
@@ -431,7 +434,7 @@
 // entity 14
 {
 "classname" "light"
-"origin" "340.000000 1024.000000 24.000000"
+"origin" "332.000000 1024.000000 24.000000"
 "light" "5"
 }
 // entity 15
@@ -654,20 +657,27 @@
 "classname" "path_corner"
 "targetname" "lr1"
 "target" "lr2"
+"smooth" "0"
+"speed" "0.75"
+"origin" "184.000000 -80.000000 0.000000"
 }
 // entity 21
 {
 "classname" "path_corner"
 "targetname" "lr2"
-"origin" "16.000000 0.000000 0.000000"
+"origin" "200.000000 -80.000000 0.000000"
 "target" "lr3"
+"smooth" "0"
+"speed" "1.5"
 }
 // entity 22
 {
 "classname" "path_corner"
 "targetname" "lr3"
-"origin" "-16.000000 0.000000 0.000000"
+"origin" "168.000000 -80.000000 0.000000"
 "target" "lr2"
+"smooth" "0"
+"speed" "1.5"
 }
 // entity 23
 {
@@ -732,7 +742,7 @@
 // entity 33
 {
 "classname" "light"
-"origin" "156.000000 512.000000 24.000000"
+"origin" "140.000000 512.000000 24.000000"
 "light" "5"
 }
 // entity 34

@@ -1,30 +1,30 @@
 MSB's Anthology ✾ Ⅱ
-Difficulty: Hard through Expert\Some challenges of moderate difficulty.\Author: MSB\Co-author: DepresseDreamer\(Remade Bonus Ⅲ)
+Difficulty: Hard through Expert\\Some challenges of moderate difficulty.\Author: MSB\
 MSBa2
-shot-MSBa2/stations.jpg
-
+shot-MSBa2/ezplatforms.jpg
+100000 120000 180000  1000 500 0
 map-MSBa2/ezplatforms.sol
-map-MSBa2/floor.sol
-map-MSBa2/first.sol
-map-MSBa2/tilted.sol
-map-MSBa2/complexsize.sol
-map-MSBa2/pounces.sol
-map-MSBa2/invisibleligth.sol
-map-MSBa2/tele-bounce.sol
-map-MSBa2/invis-bridges.sol
-map-MSBa2/hole-jumping.sol
-map-MSBa2/goindown.sol
+map-MSBa2/topdown-maze.sol
+map-MSBa2/plankness.sol
+map-MSBa2/mazelift.sol
+map-MSBa2/jumpsncoins.sol 
 map-MSBa2/jumping-park.sol
-map-MSBa2/tele-floors.sol
-map-MSBa2/sidemovers.sol
-map-MSBa2/hard.sol
-map-MSBa2/obstacles.sol
-map-MSBa2/movethemap.sol
+map-MSBa2/goindown.sol
+map-MSBa2/pounces.sol
+map-MSBa2/tilted.sol
+map-MSBa2/jump-a-round.sol 
+map-MSBa2/movingmaze.sol
+map-MSBa2/tele-bounce.sol
+map-MSBa2/timer.sol
+map-MSBa2/islands2.sol
+map-MSBa2/hole-jumping.sol
+map-MSBa2/trustbridges.sol
 map-MSBa2/jumpsnswitches.sol
-map-MSBa2/small.sol
-map-MSBa2/jumpsncoins.sol
-map-MSBa2/stations.sol
-map-MSBa2/thwomp-park.sol
-map-MSBa2/descending-course.sol
+map-MSBa2/decobrushes.sol
+map-MSBa2/easygrid.sol
+map-MSBa2/complexsize.sol
+map-MSBa2/shake.sol
+map-MSBa2/tele-floors.sol
+map-MSBa2/uneasy.sol
 map-MSBa2/theneverball.sol
-map-MSBa2/jump-a-round.sol
+map-MSBa2/circlesandjumpings.sol

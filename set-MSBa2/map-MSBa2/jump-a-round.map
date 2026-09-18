@@ -1,16 +1,19 @@
 // entity 0
 {
 "classname" "worldspawn"
-"back" "map-back/alien.sol"
-"grad" "back/alien.png"
-"song" "bgm/track5.ogg"
+"back" "map-back/ocean.sol"
+"grad" "back/ocean.png"
+"song" "bgm/track2.ogg"
 "goal" "150"
 "time" "21000"
 "message" "Collect at least 150 coins,\using those curves to catch them."
 "shot" "shot-MSBa2/jump-a-round.jpg"
-"version" "1.0"
-"author" "Don"
+"version" "1.1"
+"author" "MSB"
 "bonus" "1"
+"goal_hs" "4500 6000"
+"coin_hs" "278 200"
+"time_hs" "1100 2000"
 // brush 0
 {
 ( -248 256 -264 ) ( -264 231.6917419434 -262.8058166504 ) ( -264 256 -264 ) mtrl/chrome 0 0 0 0.5 0.5 0 0 0

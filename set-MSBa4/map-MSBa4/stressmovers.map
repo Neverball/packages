@@ -6,10 +6,13 @@
 "back" "map-back/city.sol"
 "grad" "back/city.png"
 "song" "bgm/track3.ogg"
-"author" "Don"
+"author" "MSB"
 "version" "1.1"
 "goal" "15"
 "time" "12000"
+"coin_hs" "38 27"
+"time_hs" "800 1800"
+"goal_hs" "3000 6000"
 // brush 0
 {
 ( 0 -256 96 ) ( -64 -256 96 ) ( -64 0 0 ) mtrl/coin-green-small 0 0 0 0.5 0.5 0 0 0

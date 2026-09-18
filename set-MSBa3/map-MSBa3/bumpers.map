@@ -1,15 +1,18 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "A single bump\might be enough to produce\a fall-out."
+"message" "A single bump might be enough\to make you fall out."
 "back" "map-back/jupiter.sol"
 "grad" "back/space.png"
 "song" "bgm/track4.ogg"
 "goal" "15"
 "time" "12000"
-"author" "Don"
+"author" "MSB"
 "version" "1.1"
 "shot" "shot-MSBa3/bumpers.jpg"
+"coin_hs" "106 53"
+"goal_hs" "1000 4000"
+"time_hs" "600 3000"
 // brush 0
 {
 ( 384 568 0 ) ( 384 456 0 ) ( 256 568 0 ) mtrl/turf-shiny 192 0 0 0.5 0.5 0 0 0

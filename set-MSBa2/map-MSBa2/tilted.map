@@ -1,15 +1,17 @@
 // entity 0
 {
 "classname" "worldspawn"
-"back" "map-back/city.sol"
-"grad" "back/city.png"
-"song" "bgm/track3.ogg"
+"back" "map-back/ocean.sol"
+"grad" "back/ocean.png"
+"song" "bgm/track2.ogg"
 "goal" "15"
 "message" "Take care, as the ground is tilted."
 "shot" "shot-MSBa2/tilted.jpg"
 "time" "12000"
-"version" "1.0"
-"author" "Don"
+"version" "1.1"
+"author" "MSB"
+"goal_hs" "700 1500 "
+"time_hs" "1200 2500"
 // brush 0
 {
 ( 56 56 0 ) ( 56 -56 0 ) ( -56 56 0 ) mtrl/turf-purple-check 0 0 0 0.5 0.5 0 0 0
