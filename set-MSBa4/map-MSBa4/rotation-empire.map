@@ -1,7 +1,7 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "Those spinning things will both be of your help\and maybe also not."
+"message" "Those spinning things will help you\and at the same time they might not."
 "back" "map-back/ocean.sol"
 "grad" "back/ocean.png"
 "song" "bgm/track2.ogg"
@@ -10,7 +10,10 @@
 "time" "12000"
 "version" "1.1"
 "bonus" "0"
-"author" "Don"
+"author" "MSB"
+"goal_hs" "4800 6500"
+"time_hs" "4800 6500"
+"coin_hs" "90 50"
 // brush 0
 {
 ( 16 -40 32 ) ( 16 -168 32 ) ( -112 -40 32 ) mtrl/turf-green-check 0 64 0 0.25 0.25 0 0 0

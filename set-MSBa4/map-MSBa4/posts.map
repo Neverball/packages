@@ -4,12 +4,15 @@
 "back" "map-back/volcano.sol"
 "grad" "back/volcano.png"
 "song" "bgm/track6.ogg"
-"author" "Don"
+"author" "MSB"
 "shot" "shot-MSBa4/posts.jpg"
-"message" "Put extra care as you continue through the level."
-"version" "1"
+"message" "Take extra care as you go through the level."
+"version" "1.0"
 "time" "9000"
 "goal" "5"
+"goal_hs" "1500 4000"
+"time_hs" "1500 4000"
+"coin_hs" "33 18"
 // brush 0
 {
 ( -24 184 0 ) ( -24 72 0 ) ( -128 184 0 ) mtrl/turf-green-check 0 0 0 0.5 0.5 0 0 0

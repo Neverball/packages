@@ -4,10 +4,15 @@
 "back" "map-back/ocean.sol"
 "grad" "back/ocean.png"
 "song" "bgm/track2.ogg"
-"message" "Welcome to the jumping park!"
+"message" "Welcome to the jumping park!\Get used to jumping with these ramps,\because you'll see much harder challenges with them."
 "shot" "shot-MSBa2/jumping-park.jpg"
 "goal" "20"
 "time" "18000"
+"goal_hs" "1800 2500"
+"coin_hs" "73 42"
+"time_hs" "1700 2400"
+"author" "MSB"
+"version" "1.0"
 // brush 0
 {
 ( 24 128 0 ) ( 24 8 0 ) ( -104 128 0 ) mtrl/mirror-check 0 0 0 0.5 0.5 0 0 0

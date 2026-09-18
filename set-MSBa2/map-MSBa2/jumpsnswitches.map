@@ -1,7 +1,7 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "Jump using the teleporters,\then you'll unlock the next part..."
+"message" "Jump using the teleporters,\then you'll unlock the next part."
 "goal" "20"
 "time" "9000"
 "song" "bgm/track1.ogg"
@@ -10,6 +10,9 @@
 "back" "map-back/clouds.sol"
 "version" "1.1"
 "author" "MSB"
+"goal_hs" "2500 3400"
+"time_hs" "1700 2200"
+"coin_hs" "32 25"
 // brush 0
 {
 ( -128 -640 0 ) ( 0 -640 0 ) ( -128 -768 0 ) mtrl/turf-green-dark 128 128 90 0.5 0.5 0 0 0

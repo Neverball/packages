@@ -1,15 +1,18 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "There are 4 floors,\find a way to get the goal.\"
+"message" "There are 4 floors,\go through each one to get to the goal.\"
 "goal" "20"
 "time" "9000"
-"song" "bgm/track2.ogg"
+"song" "bgm/track5.ogg"
 "shot" "shot-MSBa2/tele-floors.jpg"
-"grad" "back/ocean.png"
-"back" "map-back/ocean.sol"
+"grad" "back/alien.png"
+"back" "map-back/alien.sol"
 "version" "1.1"
-"author" "Don"
+"author" "MSB"
+"time_hs" "1900 2800"
+"goal_hs" "2800 4500"
+"coin_hs" "32 27"
 // brush 0
 {
 ( 320 328 -576 ) ( 320 200 -576 ) ( -64 320 -576 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0

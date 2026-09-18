@@ -9,7 +9,10 @@
 "shot" "shot-MSBa3/goindown-II.jpg"
 "time" "18000"
 "version" "1.0"
-"author" "Don"
+"author" "MSB"
+"coin_hs" "163 124"
+"goal_hs" "3800 5500"
+"time_hs" "1000 1500"
 // brush 0
 {
 ( 0 192 0 ) ( 0 0 0 ) ( -128 192 0 ) mtrl/turf-green-dark 0 0 0 0.5 0.5 0 0 0

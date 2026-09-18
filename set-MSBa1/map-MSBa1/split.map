@@ -1,15 +1,18 @@
 // entity 0
 {
 "classname" "worldspawn"
-"back" "map-back/volcano.sol"
-"grad" "back/volcano.png"
-"song" "bgm/track6.ogg"
-"message" "The level is split on three parts.\Use the switches to activate the platforms\and move around.\"
+"back" "map-back/jupiter.sol"
+"grad" "back/space.png"
+"song" "bgm/track4.ogg"
+"message" "The level is split in three parts.\Use the switches to activate the platforms\and move around.\"
 "shot" "shot-MSBa1/split.jpg"
 "goal" "10"
 "time" "9000"
-"version" "1.0"
+"version" "1.2"
 "author" "MSB"
+"coin_hs" "48 28"
+"time_hs" "1000 3500"
+"goal_hs" "5000 6500"
 // brush 0
 {
 ( 64 192 0 ) ( 64 64 0 ) ( -64 192 0 ) mtrl/turf-green-small 0 0 0 0.5 0.5 0 0 0
@@ -1994,11 +1997,6 @@
 }
 // entity 54
 {
-"classname" "func_train"
-"target" "t7"
-}
-// entity 55
-{
 "classname" "path_corner"
 "origin" "256.000000 512.000000 36.000000"
 "target" "t10"
@@ -2007,7 +2005,7 @@
 "speed" "1.0"
 "angle" "0.000003"
 }
-// entity 56
+// entity 55
 {
 "classname" "path_corner"
 "origin" "256.000000 512.000000 -52.000000"
@@ -2016,12 +2014,7 @@
 "target" "t11"
 "speed" "3"
 }
-// entity 57
-{
-"classname" "func_train"
-"target" "t7"
-}
-// entity 58
+// entity 56
 {
 "classname" "func_train"
 "target" "t9"
@@ -3238,7 +3231,7 @@
 ( 237.7528686523 625.9984741211 40 ) ( 238.7077026367 624.8350830078 40 ) ( 237.7528686523 625.9984741211 32 ) mtrl/red 30 0 0 0.5 0.5 0 0 0
 }
 }
-// entity 59
+// entity 57
 {
 "classname" "path_corner"
 "origin" "256.000000 384.000000 -36.000000"
@@ -3247,7 +3240,7 @@
 "target" "t6"
 "speed" "6.0"
 }
-// entity 60
+// entity 58
 {
 "classname" "misc_model"
 "origin" "192.000000 -60.000000 -0.000025"
@@ -3255,7 +3248,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 61
+// entity 59
 {
 "classname" "misc_model"
 "origin" "196.000000 60.000000 -0.000020"
@@ -3263,7 +3256,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 62
+// entity 60
 {
 "classname" "misc_model"
 "origin" "128.000000 60.000000 -0.000025"
@@ -3271,7 +3264,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 63
+// entity 61
 {
 "classname" "misc_model"
 "origin" "444.000000 444.000000 -0.000020"
@@ -3279,7 +3272,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 64
+// entity 62
 {
 "classname" "misc_model"
 "origin" "324.000000 444.000000 -0.000030"
@@ -3287,7 +3280,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 65
+// entity 63
 {
 "classname" "misc_model"
 "origin" "384.000000 444.000000 -0.000025"
@@ -3295,7 +3288,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 66
+// entity 64
 {
 "classname" "misc_model"
 "origin" "572.000000 -60.000000 0.000014"
@@ -3303,7 +3296,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 67
+// entity 65
 {
 "classname" "misc_model"
 "origin" "448.000000 -60.000000 0.000003"
@@ -3311,7 +3304,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 68
+// entity 66
 {
 "classname" "misc_model"
 "origin" "572.000000 60.000000 0.000014"
@@ -3319,7 +3312,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 69
+// entity 67
 {
 "classname" "misc_model"
 "origin" "316.000000 60.000000 0.000004"
@@ -3327,7 +3320,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 70
+// entity 68
 {
 "classname" "misc_model"
 "origin" "448.000000 60.000000 0.000003"
@@ -3335,7 +3328,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 71
+// entity 69
 {
 "classname" "misc_model"
 "origin" "572.000000 0.000000 -0.000020"
@@ -3343,7 +3336,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 72
+// entity 70
 {
 "classname" "func_train"
 "target" "t7"
@@ -3357,7 +3350,7 @@
 ( 448 216 -16 ) ( 448 320 -16 ) ( 448 216 0 ) mtrl/invisible 0 0 0 0.5 0.5 0 0 0
 }
 }
-// entity 73
+// entity 71
 {
 "classname" "path_corner"
 "origin" "512.000000 256.000000 -8.000000"
@@ -3366,20 +3359,20 @@
 "speed" "5.0"
 "state" "0"
 }
-// entity 74
+// entity 72
 {
 "classname" "path_corner"
 "origin" "512.000000 512.000000 -8.000000"
 "targetname" "t8"
 }
-// entity 75
+// entity 73
 {
 "classname" "info_camp"
 "origin" "384.000000 384.000000 0.000000"
 "target" "t7"
 "timer" "9999"
 }
-// entity 76
+// entity 74
 {
 "classname" "misc_model"
 "origin" "316.000000 580.000000 0.000014"
@@ -3387,7 +3380,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 77
+// entity 75
 {
 "classname" "misc_model"
 "origin" "68.000000 580.000000 0.000004"
@@ -3395,7 +3388,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 78
+// entity 76
 {
 "classname" "misc_model"
 "origin" "192.000000 580.000000 0.000003"
@@ -3403,7 +3396,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 79
+// entity 77
 {
 "classname" "misc_model"
 "origin" "-60.000000 956.000000 0.000004"
@@ -3411,7 +3404,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 80
+// entity 78
 {
 "classname" "misc_model"
 "origin" "64.000000 956.000000 0.000003"
@@ -3419,7 +3412,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 81
+// entity 79
 {
 "classname" "misc_model"
 "origin" "572.000000 956.000000 0.000014"
@@ -3427,7 +3420,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 82
+// entity 80
 {
 "classname" "misc_model"
 "origin" "320.000000 956.000000 0.000003"
@@ -3435,7 +3428,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 83
+// entity 81
 {
 "classname" "misc_model"
 "origin" "512.000000 956.000000 0.000003"
@@ -3443,7 +3436,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 84
+// entity 82
 {
 "classname" "misc_model"
 "origin" "68.000000 708.000000 0.000014"
@@ -3451,7 +3444,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 85
+// entity 83
 {
 "classname" "misc_model"
 "origin" "-188.000000 708.000000 0.000004"
@@ -3459,7 +3452,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 86
+// entity 84
 {
 "classname" "misc_model"
 "origin" "-64.000000 708.000000 0.000003"
@@ -3467,7 +3460,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 87
+// entity 85
 {
 "classname" "misc_model"
 "origin" "452.000000 836.000000 0.000014"
@@ -3475,7 +3468,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 88
+// entity 86
 {
 "classname" "misc_model"
 "origin" "188.000000 836.000000 0.000004"
@@ -3483,7 +3476,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 89
+// entity 87
 {
 "classname" "misc_model"
 "origin" "320.000000 836.000000 0.000003"
@@ -3491,7 +3484,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 90
+// entity 88
 {
 "classname" "misc_model"
 "origin" "700.000000 708.000000 -0.000020"
@@ -3499,7 +3492,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 91
+// entity 89
 {
 "classname" "misc_model"
 "origin" "572.000000 708.000000 -0.000030"
@@ -3507,7 +3500,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 92
+// entity 90
 {
 "classname" "misc_model"
 "origin" "632.000000 708.000000 -0.000025"
@@ -3515,7 +3508,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 93
+// entity 91
 {
 "classname" "misc_model"
 "origin" "700.000000 708.000000 -0.000020"
@@ -3523,7 +3516,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 94
+// entity 92
 {
 "classname" "misc_model"
 "origin" "572.000000 708.000000 -0.000030"
@@ -3531,7 +3524,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 95
+// entity 93
 {
 "classname" "misc_model"
 "origin" "700.000000 828.000000 -0.000020"
@@ -3539,7 +3532,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 96
+// entity 94
 {
 "classname" "misc_model"
 "origin" "572.000000 828.000000 -0.000030"
@@ -3547,7 +3540,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 97
+// entity 95
 {
 "classname" "misc_model"
 "origin" "632.000000 828.000000 -0.000025"
@@ -3555,7 +3548,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 98
+// entity 96
 {
 "classname" "misc_model"
 "origin" "700.000000 828.000000 -0.000020"
@@ -3563,7 +3556,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 99
+// entity 97
 {
 "classname" "misc_model"
 "origin" "572.000000 828.000000 -0.000030"
@@ -3571,7 +3564,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 100
+// entity 98
 {
 "classname" "misc_model"
 "origin" "316.000000 700.000000 -0.000020"
@@ -3579,7 +3572,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 101
+// entity 99
 {
 "classname" "misc_model"
 "origin" "188.000000 700.000000 -0.000030"
@@ -3587,7 +3580,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 102
+// entity 100
 {
 "classname" "misc_model"
 "origin" "248.000000 700.000000 -0.000025"
@@ -3595,7 +3588,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 103
+// entity 101
 {
 "classname" "misc_model"
 "origin" "316.000000 700.000000 -0.000020"
@@ -3603,7 +3596,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 104
+// entity 102
 {
 "classname" "misc_model"
 "origin" "188.000000 700.000000 -0.000030"
@@ -3611,7 +3604,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 105
+// entity 103
 {
 "classname" "misc_model"
 "origin" "-60.000000 828.000000 -0.000020"
@@ -3619,7 +3612,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 106
+// entity 104
 {
 "classname" "misc_model"
 "origin" "-188.000000 828.000000 -0.000030"
@@ -3627,7 +3620,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 107
+// entity 105
 {
 "classname" "misc_model"
 "origin" "-128.000000 828.000000 -0.000025"
@@ -3635,7 +3628,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 108
+// entity 106
 {
 "classname" "misc_model"
 "origin" "-60.000000 828.000000 -0.000020"
@@ -3643,7 +3636,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 109
+// entity 107
 {
 "classname" "misc_model"
 "origin" "-188.000000 828.000000 -0.000030"
@@ -3651,7 +3644,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 110
+// entity 108
 {
 "classname" "misc_model"
 "origin" "-188.000000 768.000000 0.000014"
@@ -3659,7 +3652,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 111
+// entity 109
 {
 "classname" "misc_model"
 "origin" "-60.000000 888.000000 0.000014"
@@ -3667,7 +3660,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 112
+// entity 110
 {
 "classname" "misc_model"
 "origin" "68.000000 648.000000 0.000014"
@@ -3675,7 +3668,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 113
+// entity 111
 {
 "classname" "misc_model"
 "origin" "188.000000 768.000000 0.000014"
@@ -3683,7 +3676,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 114
+// entity 112
 {
 "classname" "misc_model"
 "origin" "700.000000 768.000000 0.000014"
@@ -3691,7 +3684,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 115
+// entity 113
 {
 "classname" "misc_model"
 "origin" "572.000000 896.000000 0.000014"
@@ -3699,7 +3692,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 116
+// entity 114
 {
 "classname" "misc_model"
 "origin" "452.000000 776.000000 0.000014"
@@ -3707,7 +3700,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 117
+// entity 115
 {
 "classname" "misc_model"
 "origin" "452.000000 708.000000 -0.000030"
@@ -3715,7 +3708,7 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 118
+// entity 116
 {
 "classname" "misc_model"
 "origin" "316.000000 640.000000 0.000014"
@@ -3723,79 +3716,79 @@
 "modelscale" "64.000000"
 "angles" "0.000010 0.000001 90.000000"
 }
-// entity 119
+// entity 117
 {
 "classname" "light"
 "origin" "608.000000 800.000000 24.000000"
 "light" "1"
 }
-// entity 120
+// entity 118
 {
 "classname" "light"
 "origin" "672.000000 736.000000 24.000000"
 "light" "1"
 }
-// entity 121
+// entity 119
 {
 "classname" "light"
 "origin" "608.000000 736.000000 24.000000"
 "light" "1"
 }
-// entity 122
+// entity 120
 {
 "classname" "light"
 "origin" "672.000000 800.000000 24.000000"
 "light" "1"
 }
-// entity 123
+// entity 121
 {
 "classname" "light"
 "origin" "96.000000 672.000000 24.000000"
 "light" "1"
 }
-// entity 124
+// entity 122
 {
 "classname" "light"
 "origin" "160.000000 608.000000 24.000000"
 "light" "1"
 }
-// entity 125
+// entity 123
 {
 "classname" "light"
 "origin" "96.000000 608.000000 24.000000"
 "light" "1"
 }
-// entity 126
+// entity 124
 {
 "classname" "light"
 "origin" "160.000000 672.000000 24.000000"
 "light" "1"
 }
-// entity 127
+// entity 125
 {
 "classname" "light"
 "origin" "-32.000000 928.000000 24.000000"
 "light" "1"
 }
-// entity 128
+// entity 126
 {
 "classname" "light"
 "origin" "32.000000 864.000000 24.000000"
 "light" "1"
 }
-// entity 129
+// entity 127
 {
 "classname" "light"
 "origin" "-32.000000 864.000000 24.000000"
 "light" "1"
 }
-// entity 130
+// entity 128
 {
 "classname" "light"
 "origin" "32.000000 928.000000 24.000000"
 "light" "1"
 }
-// entity 131
+// entity 129
 {
 "classname" "path_corner"
 "origin" "256.000000 512.000000 -52.000000"
@@ -3803,31 +3796,31 @@
 "angle" "0.000003"
 "target" "t9"
 }
-// entity 132
+// entity 130
 {
 "classname" "info_camp"
 "origin" "-128.000000 768.000000 0.000000"
 "target" "t9"
 "timer" "5"
 }
-// entity 133
+// entity 131
 {
 "classname" "info_player_deathmatch"
 "origin" "256.000000 640.000000 24.000000"
 }
-// entity 134
+// entity 132
 {
 "classname" "info_player_intermission"
 "origin" "832.000000 1272.000000 208.000000"
 "target" "cam"
 }
-// entity 135
+// entity 133
 {
 "classname" "target_position"
 "origin" "424.000000 792.000000 88.000000"
 "targetname" "cam"
 }
-// entity 136
+// entity 134
 {
 "classname" "misc_model"
 "origin" "-128.000000 384.000000 -0.000001"
@@ -3836,7 +3829,7 @@
 "angles" "-0.000000 0.000000 90.000000"
 "target" "t1"
 }
-// entity 137
+// entity 135
 {
 "classname" "misc_model"
 "origin" "512.000000 256.000000 -0.000001"

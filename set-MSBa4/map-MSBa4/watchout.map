@@ -1,13 +1,18 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "Watch your step,\obstacles are here."
+"message" "Watch your step.\Look closely, because some\you might find some unexpected obstacles."
 "back" "map-back/volcano.sol"
 "grad" "back/volcano.png"
 "song" "bgm/track6.ogg"
 "goal" "20"
 "shot" "shot-MSBa4/watchout.jpg"
 "time" "15000"
+"author" "MSB"
+"version" "1.0"
+"goal_hs" "4500 6000"
+"time_hs" "4000 5500"
+"coin_hs" "48 33"
 // brush 0
 {
 ( 0 128 0 ) ( 0 -8 0 ) ( -120 128 0 ) mtrl/turf-purple-check 0 0 0 0.5 0.5 0 0 0

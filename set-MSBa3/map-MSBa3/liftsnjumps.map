@@ -9,7 +9,10 @@
 "shot" "shot-MSBa3/liftsnjumps.jpg"
 "time" "9000"
 "version" "1.2"
-"author" "Don"
+"author" "MSB"
+"coin_hs" "42 26"
+"goal_hs" "1200 3000"
+"time_hs" "600 2700"
 // brush 0
 {
 ( 64 -56 0 ) ( 64 -440 0 ) ( -64 -56 0 ) mtrl/edge-green-dark 128 128 0 0.5 0.5 0 0 0

@@ -2,15 +2,17 @@
 {
 "classname" "worldspawn"
 "message" "Every time the floor appears,\it takes 5 seconds for it to dissappear again,\ go fast or else you'll fall-out!"
-"back" "map-back/ocean.sol"
-"grad" "back/ocean.png"
-"song" "bgm/track2.ogg"
+"back" "map-back/jupiter.sol"
+"grad" "back/space.png"
+"song" "bgm/track4.ogg"
 "author" "MSB"
 "version" "1.0"
 "goal" "20"
-"bonus" "1"
 "time" "12000"
 "shot" "shot-MSBa3/disfloor.jpg"
+"time_hs" "1032 2100"
+"goal_hs" "2500 4000"
+"coin_hs" "29 25"
 // brush 0
 {
 ( 0 120 48 ) ( 0 0 48 ) ( -120 120 48 ) mtrl/turf-green-check 0 0 0 0.5 0.5 0 0 0

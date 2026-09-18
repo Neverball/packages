@@ -1,16 +1,19 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "Roll trought this rainbow colored road!"
+"message" "Roll trought this rainbow colored road."
 "back" "map-back/jupiter.sol"
 "grad" "back/space.png"
 "song" "bgm/track4.ogg"
 "goal" "20"
 "version" "2.0"
-"author" "Don"
+"author" "MSB"
 "bonus" "1"
 "time" "18000"
 "shot" "shot-MSBa3/epicroad.jpg"
+"coin_hs" "95 47"
+"goal_hs" "4000 6500"
+"time_hs" "3000 5000"
 // brush 0
 {
 ( -448 184 -112 ) ( -516.75 184 -112 ) ( -512 192 -112 ) mtrl/edge-green-dark 0 0 0 0.5 0.5 0 0 0

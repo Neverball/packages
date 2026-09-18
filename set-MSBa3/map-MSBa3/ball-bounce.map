@@ -2,14 +2,17 @@
 {
 "classname" "worldspawn"
 "author" "MSB"
-"version" "1"
+"version" "1.0"
 "back" "map-back/ocean.sol"
 "grad" "back/ocean.png"
 "shot" "shot-MSBa3/ball-bounce.jpg"
 "song" "bgm/track2.ogg"
 "time" "6000"
 "goal" "75"
-"message" "Bounce around!"
+"message" "Bump into the ramps and bounce around."
+"coin_hs" "318 256"
+"time_hs" "1000 1800"
+"goal_hs" "3600 5800"
 // brush 0
 {
 ( 960 1024 -128 ) ( 960 768 -128 ) ( 928 768 -160 ) mtrl/caution 0 0 0 0.25 0.25 0 0 0

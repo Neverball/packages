@@ -1,15 +1,18 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "Jump and get the coins\to unlock the goal.\In this level, angled acceleration\might be your best friend.\"
+"message" "Use these ramps to collect the coins,\and take care with the multiple holes present."
 "goal" "64"
-"back" "map-back/jupiter.sol"
-"grad" "back/space.png"
-"song" "bgm/track4.ogg"
+"back" "map-back/ocean.sol"
+"grad" "back/ocean.png"
+"song" "bgm/track2.ogg"
 "shot" "shot-MSBa2/pounces.jpg"
 "time" "12000"
 "version" "1.1"
 "author" "MSB"
+"coin_hs" "92 80"
+"goal_hs" "3700 4500"
+"time_hs" "500 1500"
 // brush 0
 {
 ( 128 192 0 ) ( 128 0 0 ) ( 0 192 0 ) mtrl/turf-green-dark 0 0 0 0.5 0.5 0 0 0

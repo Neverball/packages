@@ -1,7 +1,7 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "Take the correct teleporters to\make your way through the level and reach the goal,\but as you progress, it will become harder to\choose the right one."
+"message" "Take the correct teleporters to\make your way through the level\and reach the goal."
 "back" "map-back/alien.sol"
 "grad" "back/alien.png"
 "song" "bgm/track5.ogg"
@@ -10,6 +10,9 @@
 "version" "1.0"
 "author" "MSB"
 "shot" "shot-MSBa1/directions.jpg"
+"coin_hs" "57 40"
+"goal_hs" "4300 6800 "
+"time_hs" "1302 2500"
 // brush 0
 {
 ( 64 64 0 ) ( 64 -64 0 ) ( -64 64 0 ) mtrl/turf-green 0 0 0 0.5 0.5 0 0 0

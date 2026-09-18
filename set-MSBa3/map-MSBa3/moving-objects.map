@@ -4,12 +4,15 @@
 "back" "map-back/city.sol"
 "grad" "back/city.png"
 "song" "bgm/track3.ogg"
-"message" "Go around the level,\and go for the moving objects.\"
 "shot" "shot-MSBa3/moving-objects.jpg"
 "goal" "10"
 "time" "9000"
-"author" "Don"
+"author" "MSB"
 "version" "1.1"
+"message" "Face a relatively small obstacle course\riddled with moving platforms."
+"time_hs" "3900 5000"
+"goal_hs" "4500 6200"
+"coin_hs" "42 26"
 // brush 0
 {
 ( 64 64 -16 ) ( 73.4209899902 64.2312774658 -16 ) ( 64 64 0 ) mtrl/wood-check 0 0 0 0.5 0.5 0 0 0

@@ -1,16 +1,19 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "Bumping into these holes might\help you collect more coins and\reaching the goal."
+"message" "Be smart and use your skills to\bump into these holes\and bounce to the goal."
 "back" "map-back/jupiter.sol"
 "grad" "back/space.png"
 "song" "bgm/track4.ogg"
-"author" "Don"
-"version" "1.0"
+"author" "MSB"
+"version" "1.1"
 "goal" "20"
 "time" "12000"
 "shot" "shot-MSBa2/hole-jumping.jpg"
 "bonus" "1"
+"coin_hs" "135 80"
+"goal_hs" "1400 3000"
+"time_hs" "800 1500"
 // brush 0
 {
 ( 640 -184 64 ) ( 640 -64 64 ) ( 760 -184 64 ) mtrl/turf-orange 0 0 0 0.5 0.5 0 0 0

@@ -1,15 +1,18 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "¡Toca toca la suerte loca!\Wish you good look."
+"message" "¡Toca toca la suerte loca!\Choose the correct teleporter\in order to get to the next section."
 "back" "map-back/jupiter.sol"
 "grad" "back/space.png"
 "song" "bgm/track4.ogg"
 "shot" "shot-MSBa1/lucky.jpg"
 "time" "4000"
-"version" "1"
-"author" "DonAlgo"
+"version" "1.1"
+"author" "MSB"
 "goal" "3"
+"coin_hs" "12 8"
+"goal_hs" "1000 2000"
+"time_hs" "1000 2000"
 // brush 0
 {
 ( -128 -72 0 ) ( -144 -72 8 ) ( -144 584 8 ) mtrl/red-pattern 96 96 -90 0.375 0.375 0 0 0

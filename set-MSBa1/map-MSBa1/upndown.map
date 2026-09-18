@@ -1,16 +1,19 @@
 // entity 0
 {
 "classname" "worldspawn"
-"back" "map-back/volcano.sol"
-"grad" "back/volcano.png"
-"song" "bgm/track6.ogg"
+"back" "map-back/ocean.sol"
+"grad" "back/ocean.png"
+"song" "bgm/track2.ogg"
 "version" "1.0"
-"author" "DonAlgo"
+"author" "MSB"
 "goal" "20"
 "message" "Take advantage of the elevators\to collect the coins."
 "shot" "shot-MSBa1/upndown.jpg"
 "bonus" "0"
 "time" "9000"
+"goal_hs" "2500 4500"
+"coin_hs" "32 28"
+"time_hs" "1480 2500"
 // brush 0
 {
 ( -8 128 0 ) ( -8 16 0 ) ( -120 128 0 ) mtrl/turf-green-dark 0 0 0 0.5 0.5 0 0 0

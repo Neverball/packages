@@ -1,16 +1,19 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "Go up and pull from above and grab coins.\So you can unlock the goal.\"
+"message" "Drop from above and grab some coins\so you can unlock the goal.\"
 "goal" "60"
-"back" "map-back/volcano.sol"
-"grad" "back/volcano.png"
-"song" "bgm/track6.ogg"
+"back" "map-back/jupiter.sol"
+"grad" "back/space.png"
+"song" "bgm/track4.ogg"
 "shot" "shot-MSBa1/coin-map.jpg"
 "time" "12000"
-"version" "1.1"
+"version" "1.2"
 "author" "MSB"
 "bonus" "1"
+"goal_hs" "3600 4300 "
+"time_hs" "607 800"
+"coin_hs" "110 80"
 // brush 0
 {
 ( 200 320 -192 ) ( 200 -64 -192 ) ( 72 320 -192 ) mtrl/edge-green-dark 128 128 0 0.5 0.5 0 0 0

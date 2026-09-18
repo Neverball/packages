@@ -1,13 +1,18 @@
 // entity 0
 {
 "classname" "worldspawn"
-"back" "map-back/clouds.sol"
-"grad" "back/land.png"
+"back" "map-back/ocean.sol"
+"grad" "back/ocean.png"
 "shot" "shot-MSBa1/can-fall.jpg"
-"song" "bgm/track1.ogg"
-"message" "You can fall,\try not to."
+"song" "bgm/track2.ogg"
+"message" "It's easy to fall-out,\try not to."
 "goal" "5"
 "time" "4500"
+"coin_hs" "32 25"
+"time_hs" "600 1500"
+"goal_hs" "1200 2500"
+"author" "MSB"
+"version" "1.0"
 // brush 0
 {
 ( 0 64 0 ) ( -64 64 0 ) ( 0 64 -8 ) mtrl/turf-grey 0 0 0 0.5 0.5 0 0 0
