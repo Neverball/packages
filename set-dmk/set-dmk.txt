@@ -1,0 +1,16 @@
+Dermokers Volume 1
+A set of different kinds of Challenges.\\Difficulty: Not for the faint of heart
+dmk
+shot-dmk/5.jpg
+0 0 0 0 0 0
+map-dmk/1.sol
+map-dmk/2.sol
+map-dmk/3.sol
+map-dmk/4.sol
+map-dmk/5.sol
+map-dmk/6.sol
+map-dmk/7.sol
+map-dmk/8.sol
+map-dmk/9.sol
+map-dmk/10.sol
+map-dmk/12.sol
