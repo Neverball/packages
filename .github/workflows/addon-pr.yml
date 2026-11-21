@@ -52,7 +52,9 @@ jobs:
           SUBMITTER_MESSAGE: ${{ github.event.client_payload.submitter_message }}
           SUBMITTED_AT: ${{ github.event.client_payload.submitted_at }}
         run: |
-          BRANCH_NAME="addon/${ADDON_ID}-${GITHUB_RUN_ID}"
+          SAFE_ADDON_ID=$(printf '%s' "$ADDON_ID" | tr '[:upper:]' '[:lower:]' | sed -E "s/['’]//g; s/[^a-z0-9_-]+/-/g; s/^-+//; s/-+$//")
+          SAFE_ADDON_ID="${SAFE_ADDON_ID:-submission}"
+          BRANCH_NAME="addon/${SAFE_ADDON_ID}-${GITHUB_RUN_ID}"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
 
