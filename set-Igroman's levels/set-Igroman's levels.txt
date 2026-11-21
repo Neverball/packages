@@ -1,0 +1,25 @@
+Igroman's levels
+20 levels. Easy, Normal and hard.\\Author: IGROMAN35\
+IgroMan35
+shot-Igroman's levels/level 16.png
+
+map-Igroman's levels/level.sol
+map-Igroman's levels/level 2.sol
+map-Igroman's levels/level 3.sol
+map-Igroman's levels/level 4.sol
+map-Igroman's levels/4.sol
+map-Igroman's levels/level 5.sol
+map-Igroman's levels/level 6.sol
+map-Igroman's levels/level 7.sol
+map-Igroman's levels/level 8.sol
+map-Igroman's levels/8.sol
+map-Igroman's levels/level 9.sol
+map-Igroman's levels/level 10.sol
+map-Igroman's levels/level 11.sol
+map-Igroman's levels/level 12.sol
+map-Igroman's levels/12.sol
+map-Igroman's levels/level 13.sol
+map-Igroman's levels/level 14.sol
+map-Igroman's levels/level 15.sol
+map-Igroman's levels/level 16.sol
+map-Igroman's levels/16.sol
